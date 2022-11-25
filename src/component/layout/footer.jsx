@@ -6,6 +6,7 @@ const siteTitle = "Site Map";
 const useTitle = "Useful Links";
 const socialTitle = "Social Contact";
 const supportTitle = "Our Support";
+let year = new Date().getFullYear();
 
 
 const siteList = [
@@ -110,7 +111,7 @@ const Footer = () => {
                 <img src="assets/images/shape-img/04.png" alt="fst" className="fst-2" />
             </div>
             
-            <div className="news-letter">
+            {/* <div className="news-letter">
                 <div className="container">
                     <div className="section-wrapper">
                         <div className="news-title">
@@ -126,7 +127,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             
             <footer>
                 <div className="footer-top padding-tb pt-0">
@@ -210,7 +211,7 @@ const Footer = () => {
                 <div className="footer-bottom style-2">
                     <div className="container">
                         <div className="section-wrapper">
-                            <p>&copy; 2022 <Link to="/">Edukon</Link> Designed by <a href="https://themeforest.net/user/CodexCoder" target="_blank">CodexCoder</a> </p>
+                            <p>&copy; {year} <Link to="/">C H A R U S A T</Link> </p>
                         </div>
                     </div>
                 </div>

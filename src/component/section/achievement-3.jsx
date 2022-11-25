@@ -4,24 +4,24 @@ import CountUp from 'react-countup';
 
 const achievementList = [
     {
-        iconName: 'icofont-users-alt-4',
-        count: '12600',
-        desc: 'Students Enrolled',
+        iconName: 'icofont-papers',
+        count: '600',
+        desc: 'Publications',
     },
     {
-        iconName: 'icofont-graduate-alt',
+        iconName: 'icofont-molecule',
+        count: '30',
+        desc: 'Research Labs',
+    },
+    {
+        iconName: 'icofont-businessman',
+        count: '300',
+        desc: 'Entrepreneurs',
+    },
+    {
+        iconName: 'icofont-bill',
         count: '50',
-        desc: 'Certified Trainer',
-    },
-    {
-        iconName: 'icofont-notification',
-        count: '350',
-        desc: 'Professional Courses',
-    },
-    {
-        iconName: 'icofont-clock-time',
-        count: '50',
-        desc: 'Years of Experience',
+        desc: 'Patents',
     },
 ]
 

@@ -1,6 +1,6 @@
 import { Component, Fragment } from "react";
-import Footer from "../component/layout/footer-4";
-import Header from "../component/layout/header-7";
+import Footer from "../component/layout/footer";
+import Header from "../component/layout/header-3";
 import About from "../component/section/about";
 import Achievement from "../component/section/achievement";
 import Banner from "../component/section/banner";
@@ -18,27 +18,35 @@ import BlogTwo from "../component/section/blog-2";
 import Clients from "../component/section/clients";
 import CourseFour from "../component/section/course-4";
 import ClientsThree from "../component/section/clients-3";
+import FeatureTwo from "../component/section/feature-2";
+import Faculties from "../component/section/Faculties";
+import Achievement2 from "../component/section/achievements";
+import Collaboration from "../component/section/collaboration";
 
 const Home = () => {
     return (
         <Fragment>
             <Header />
             <Banner />
-            <AboutTwo />
             <About />
-            <Sponsor />
-            <Feature />
+            <AchievementThree />
+            <FeatureTwo/>
+            <Achievement2/>
+            <Collaboration/>
+            <Faculties/>
             <Event />
+            <Blog />            
+            <Clients />
+            {/* <Feature />
             <Category />
             <Course />
             <CourseFour />
             <Instructor />
-            <Clients />
             <ClientsThree />
             <Student />
-            <Blog />
             <Achievement />
-            <AchievementThree />
+            <AboutTwo /> */}
+            <Sponsor />
             <Footer />
         </Fragment>
     );

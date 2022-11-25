@@ -744,11 +744,6 @@
                         @extend %title-color;
                         @extend %w-100;
                         font-weight: 500;
-                        &.show {
-                            &::before {
-                                display: none;
-                            }
-                        }
                     }
                     .shop-submenu {
                         margin: 0;
@@ -757,13 +752,6 @@
                         @extend %pb-15;
                         @extend %w-100;
                         display: none;
-                        transform: translate(0px, 0px) !important;
-                        position: static !important;
-                        &.show {
-                            display: block;
-                            padding: 10px;
-                            border: none;
-                        }
                         li {
                             padding: 2px 0;
                             border-bottom: none;

@@ -1,7 +1,7 @@
 
 
-const subTitle = "What can you learn";
-const title = "Learning Objectives";
+const subTitle = "Why CHARUSAT";
+const title = "Our Goals";
 
 
 const featureList = [

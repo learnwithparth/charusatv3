@@ -20,17 +20,21 @@ const HeaderThree = () => {
     return (
         <Fragment>
             <header className={`header-section style-3 ${headerFiexd ? "header-fixed fadeInUp" : ""}`}>
-                <div className={`header-top ${socialToggle ? "open" : ""}`}>
+                <div className={`header-top ${socialToggle ? "open" : ""}`} style={{backgroundColor: '#0066b3', color: 'white', fontSize: '15px'}}>
                     <div className="container">
                         <div className="header-top-area">
                             <div className="header-top-contact">
-                                <a href="#" className="lab-btn"><span>For Your Question</span></a>
-                                <a href="tel:+880123456789">+880 123 456 789</a>
-                                <a href="mailto:contact@yourmail.com">contact@yourmail.com</a>
+                                <a href="#" className="lab-btn"><span>Support CHARUSAT</span></a>
+                                <a href="tel:+880123456789">+91-2697-265011/21</a>
+                                <a href="mailto:contact@yourmail.com">info@charusat.ac.in</a>
                             </div>
                             <div className="header-top-reglog">
-                                <Link to="/login" className="login">Login</Link>
-                                <Link to="/signup" className="signup">Register</Link>
+                                <Link to="/login" className="login">Accreditation & Ranking</Link>
+                                <Link to="/signup" className="signup">Alumni</Link>
+                                <Link to="/login" className="login">Careers</Link>
+                                <Link to="/signup" className="signup">Students' Corner</Link>
+                                <Link to="/login" className="login">Exam Result</Link>
+                                <Link to="/signup" className="signup">Pay Fees</Link>
                             </div>
                         </div>
                     </div>
@@ -40,7 +44,7 @@ const HeaderThree = () => {
                         <div className="header-wrapper">
                             <div className="logo-search-acte">
                                 <div className="logo">
-                                    <Link to="/"><img src="assets/images/logo/01.png" alt="logo" /></Link>
+                                    <Link to="/"><img src="assets/images/logo/03.png" alt="logo" /></Link>
                                 </div>
                             </div>
                             <div className="menu-area">

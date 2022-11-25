@@ -15,7 +15,7 @@ import {
 //   import Link from "next/link";
 
 const phoneNumber = "+91-2697-265011/21";
-const address = "Beverley, New York 224 USA";
+const address = "info@charusat.ac.in";
 
 
 let socialList = [

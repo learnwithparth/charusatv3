@@ -2,8 +2,8 @@
 import { Link } from "react-router-dom";
 
 
-const subTitle = "FORM OUR BLOG POSTS";
-const title = "More Articles From Resource Library";
+const subTitle = "FORM OUR RESEARCH";
+const title = "Latest Publications";
 
 
 const blogList = [
@@ -37,6 +37,7 @@ const blogList = [
         btnText: 'Read more',
         commentCount: '6',
     },
+    
 ]
 
 const Blog = () => {

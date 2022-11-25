@@ -1404,7 +1404,6 @@
                 line-height: 36px;
                 top: 100px;
                 z-index: 11;
-                cursor: pointer;
                 border: 2px solid transparent;
                 @extend %text-center;
                 @extend %bg-white;
@@ -2787,12 +2786,10 @@
                 line-height: 60px;
                 font-size: 15px;
                 text-align: center;
-                background: $theme-color;
-                @extend %white-color;
-                top: 50%;
+                background: #F6F6F9;
+                @extend %title-color;
+                bottom: 15px;
                 outline: none;
-                transform: translateY(-50%);
-                z-index: 1;
             }
             .pro-single-prev {
                 right: 0;
@@ -3113,7 +3110,7 @@
 		    					    content: "\ec7a";
 		    					    top: 8px;
 		    					    left: 0;
-                                    color: $theme-color;
+                                    color: $star;
                                     font-family: IcoFont!important;
 			    					@extend %abs;
 			    				}
@@ -3122,9 +3119,6 @@
 			    	}
 			    }
 			}
-            .ratting i {
-                color: $theme-color;
-            }
 		}
 	}
 }

@@ -102,11 +102,11 @@ const SearchPage = () => {
                                                         <div className="post-content">
                                                             <Link to="/blog-single"><h3>{val.title}</h3></Link>
                                                             <div className="meta-post">
-                                                                <ul className="lab-ul">
+                                                                {/* <ul className="lab-ul">
                                                                     {val.metaList.map((val, i) => (
                                                                         <li key={i}><i className={val.iconName}></i>{val.text}</li>
                                                                     ))}
-                                                                </ul>
+                                                                </ul> */}
                                                             </div>
                                                             <Link to="/blog-single" className="lab-btn"><span>{val.btnText} <i className="icofont-external-link"></i></span></Link>
                                                         </div>
@@ -118,7 +118,7 @@ const SearchPage = () => {
                                 </div>
                             </article>
                         </div>
-                        <div className="col-lg-4 col-12">
+                        {/* <div className="col-lg-4 col-12">
                             <aside>
                                 <div className="widget widget-search">
                                     <h4>{searchTitle}</h4>
@@ -129,7 +129,7 @@ const SearchPage = () => {
                                     </form>
                                 </div>
                             </aside>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

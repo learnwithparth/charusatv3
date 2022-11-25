@@ -1,9 +1,12 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 
-const phoneNumber = "+800-123-4567 6587";
-const address = "Beverley, New York 224 USA";
+const phoneNumber = "+91-2697-265011/21";
+const address = " info@charusat.ac.in";
 
 let socialList = [
     {
@@ -44,22 +47,27 @@ const HeaderSeven = () => {
 
     return (
         <header className={`header-section style-7 ${headerFiexd ? "header-fixed fadeInUp" : ""}`}>
-            <div className={`header-top ${socialToggle ? "open" : ""}`} style={{backgroundColor: 'rgb(3, 82, 252)', color: 'white'}}>
+            <div className={`header-top ${socialToggle ? "open" : ""}`} style={{backgroundColor: '#0066b3', color: 'white', fontSize: '15px'}}>
                 <div className="container" >
                     <div className="header-top-area">
                         <ul className="lab-ul left">
                             <li>
-                                <i className="icofont-ui-call"></i> <span>{phoneNumber}</span>
+                            <FontAwesomeIcon icon={faPhone} /><span>{phoneNumber}</span>
                             </li>
                             <li>
-                                <i className="icofont-location-pin"></i> {address}
+                            <FontAwesomeIcon icon={faEnvelope} /> <span> {address}</span>
                             </li>
                         </ul>
-                        <ul className="lab-ul social-icons d-flex align-items-center">
-                            <li><p>Find us on : </p></li>
+                        
+                        <ul className="align-items-center">
+                            {/* <li><p>Find us on : </p></li>
                             {socialList.map((val, i) => (
                                 <li key={i}><a href={val.siteLink}><i className={val.iconName}></i></a></li>
-                            ))}
+                            ))} */}
+                            <li ><a href=''>Accreditation & Ranking</a></li>
+                            <li ><a href=''>Accreditation & Ranking</a></li>
+                            <li ><a href=''>Accreditation & Ranking</a></li>
+                            <li ><a href=''>Accreditation & Ranking</a></li>
                         </ul>
                     </div>
                 </div>

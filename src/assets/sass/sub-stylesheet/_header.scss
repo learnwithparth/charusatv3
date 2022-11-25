@@ -386,9 +386,6 @@
     @include breakpoint(max-lg) {
         display: none;
         background-color: rgba($theme-color, $alpha: .95);
-        &.open {
-            display: block !important;
-        }
     }
 }
 
@@ -725,21 +722,12 @@
                     &:hover {
                         background: rgba($theme-color, $alpha: .60);
                     }
-                    &.show {
-                        &::before {
-                            display: none;
-                        }
-                    }
                 }
     
                 ul {
                     padding-left: 20px;
                     display: none;
-                    position: static !important;
-                    padding: 0;
-                    background: transparent;
-                    transform: translate3d(0px, 0px, 0px) !important;
-                    border: none;
+    
                     li {
                         width: 100%;
     
@@ -993,6 +981,7 @@
     @include transform(scale(.1));
     &.open{
         visibility: visible;
+        cursor: crosshair;
         opacity: 1;
         @include transform(scale(1));
     }
