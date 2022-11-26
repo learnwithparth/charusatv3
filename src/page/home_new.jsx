@@ -22,6 +22,9 @@ import FeatureTwo from "../component/section/feature-2";
 import Faculties from "../component/section/Faculties";
 import Achievement2 from "../component/section/achievements";
 import Collaboration from "../component/section/collaboration";
+import Contact from "../page/contact";
+import Publication from "../component/section/course-6";
+import Initiatives from "../component/section/initiatives";
 
 const Home = () => {
     return (
@@ -31,12 +34,15 @@ const Home = () => {
             <About />
             <AchievementThree />
             <FeatureTwo/>
-            <Achievement2/>
+            <Initiatives/>
+            {/* <Achievement2/> */}
             <Collaboration/>
             <Faculties/>
             <Event />
-            <Blog />            
-            <Clients />
+            <Publication/>
+            {/* <Blog />            
+            <Clients /> */}
+            <ClientsThree />
             {/* <Feature />
             <Category />
             <Course />
@@ -47,6 +53,7 @@ const Home = () => {
             <Achievement />
             <AboutTwo /> */}
             <Sponsor />
+            <Contact/>
             <Footer />
         </Fragment>
     );

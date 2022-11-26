@@ -1,9 +1,9 @@
 
 
 
-const subTitle = "Online education";
-const title = <h2 className="title"><span className="d-lg-block">Learn The</span> Skills You Need <span className="d-lg-block">To Succeed</span></h2>;
-const desc = "Free online courses from the world’s Leading experts. join 18+ million Learners today.";
+const subTitle = "Hub of education";
+const title = <h2 className="title"><span className="d-lg-block">Welcome to the </span> A<sup>+</sup> Grade <span className="d-lg-block">University</span></h2>;
+const desc = "Welcome to the A+ Graded Univeristy.";
 
 
 const catagoryList = [
@@ -63,7 +63,7 @@ const Banner = () => {
                         <div className="col-xxl-5 col-xl-6 col-lg-10">
                             <div className="banner-content">
                                 <h6 className="subtitle text-uppercase fw-medium">{subTitle}</h6>
-                                {/* {title} */}
+                                {title}
                                 {/* <p className="desc">{desc}</p> */}
                                 {/* <form action="/">
                                     <div className="banner-icon">

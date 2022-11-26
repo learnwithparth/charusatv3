@@ -43,8 +43,8 @@ const contactList = [
 const ContactPage = () => {
     return ( 
         <Fragment>
-            <Header />
-            <PageHeader title={'Get In Touch With Us'} curPage={'Contact Us'} />
+            {/* <Header />
+            <PageHeader title={'Get In Touch With Us'} curPage={'Contact Us'} /> */}
             <div className="map-address-section padding-tb section-bg">
                 <div className="container">
                     <div className="section-header text-center">
@@ -125,7 +125,7 @@ const ContactPage = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </Fragment>
     );
 }
