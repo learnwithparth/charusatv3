@@ -79,40 +79,148 @@ const instructorTopList = [
 
 const instructorBottomList = [
     {
-        imgUrl: 'assets/images/instructor/11.jpg',
+        imgUrl: 'assets/images/instructor/AICTE.webp',
         imgAlt: 'instructor rajibraj91 rajibraj',
-        name: 'Mim Jaqno',
-        degi: 'Lead Instructor',
+        name: 'AICTE',
+        
     },
     {
-        imgUrl: 'assets/images/instructor/12.jpg',
+        imgUrl: 'assets/images/instructor/AIMST University.webp',
         imgAlt: 'instructor rajibraj91 rajibraj',
-        name: 'Henri',
-        degi: 'Lead Instructor',
+        name: 'AIMST University',
+        
     },
     {
-        imgUrl: 'assets/images/instructor/13.jpg',
+        imgUrl: 'assets/images/instructor/BHABHA ATOMIC.webp',
         imgAlt: 'instructor rajibraj91 rajibraj',
-        name: 'Bin Tonso',
-        degi: 'Lead Instructor',
+        name: 'BHABHA ATOMIC',
+        
     },
     {
-        imgUrl: 'assets/images/instructor/14.jpg',
+        imgUrl: 'assets/images/instructor/Centre of Envi Education.webp',
         imgAlt: 'instructor rajibraj91 rajibraj',
-        name: 'Selina Gomez',
-        degi: 'Lead Instructor',
+        name: 'Centre of Envi Education',
+        
     },
     {
-        imgUrl: 'assets/images/instructor/15.jpg',
+        imgUrl: 'assets/images/instructor/Defence Research Development.webp',
         imgAlt: 'instructor rajibraj91 rajibraj',
-        name: 'Baluni Chobo',
-        degi: 'Lead Instructor',
+        name: 'Defence Research Development',
+        
     },
     {
-        imgUrl: 'assets/images/instructor/10.jpg',
+        imgUrl: 'assets/images/instructor/Dept of BioTech.webp',
         imgAlt: 'instructor rajibraj91 rajibraj',
-        name: 'Angel Mili',
-        degi: 'Lead Instructor',
+        name: 'Dept of BioTech',
+        
+    },
+    {
+        imgUrl: 'assets/images/instructor/GESIA.webp',
+        imgAlt: 'instructor rajibraj91 rajibraj',
+        name: 'GESIA',
+        
+    },
+    {
+        imgUrl: 'assets/images/instructor/GUJARAT INST OF DISASTER MGMT.webp',
+        imgAlt: 'instructor rajibraj91 rajibraj',
+        name: 'GUJARAT INST OF DISASTER MGMT',
+        
+    },
+    {
+        imgUrl: 'assets/images/instructor/GUJCOST.webp',
+        imgAlt: 'instructor rajibraj91 rajibraj',
+        name: 'GUJCOST',
+        
+    },
+    {
+        imgUrl: 'assets/images/instructor/HARRISBURG.webp',
+        imgAlt: 'instructor rajibraj91 rajibraj',
+        name: 'HARRISBURG University',
+        
+    },
+    {
+        imgUrl: 'assets/images/instructor/INESCTEC.webp',
+        imgAlt: 'instructor rajibraj91 rajibraj',
+        name: 'INESCTEC',
+        
+    },
+    {
+        imgUrl: 'assets/images/instructor/INST OF PLASMA.webp',
+        imgAlt: 'instructor rajibraj91 rajibraj',
+        name: 'INST OF PLASMA',
+        
+    },
+    {
+        imgUrl: 'assets/images/instructor/ISRO.webp',
+        imgAlt: 'instructor rajibraj91 rajibraj',
+        name: 'ISRO',
+        
+    },
+    {
+        imgUrl: 'assets/images/instructor/KIU.webp',
+        imgAlt: 'instructor rajibraj91 rajibraj',
+        name: 'KIU',
+        
+    },
+    {
+        imgUrl: 'assets/images/instructor/L&T PTI.webp',
+        imgAlt: 'instructor rajibraj91 rajibraj',
+        name: 'L&T PTI',
+        
+    },
+    {
+        imgUrl: 'assets/images/instructor/MINISTRY OF SCIENCE AND TECH.webp',
+        imgAlt: 'instructor rajibraj91 rajibraj',
+        name: 'MINISTRY OF SCIENCE AND TECH',
+        
+    },
+    {
+        imgUrl: 'assets/images/instructor/MOTOROLA SOLUTIONS.webp',
+        imgAlt: 'instructor rajibraj91 rajibraj',
+        name: 'MOTOROLA SOLUTIONS',
+        
+    },
+    {
+        imgUrl: 'assets/images/instructor/NRS.webp',
+        imgAlt: 'instructor rajibraj91 rajibraj',
+        name: 'NRS',
+        
+    },
+    {
+        imgUrl: 'assets/images/instructor/RAE.webp',
+        imgAlt: 'instructor rajibraj91 rajibraj',
+        name: 'RAE',
+        
+    },
+    {
+        imgUrl: 'assets/images/instructor/TECHNISCHE UNIVERSITY.webp',
+        imgAlt: 'instructor rajibraj91 rajibraj',
+        name: 'TECHNISCHE UNIVERSITY',
+        
+    },
+    {
+        imgUrl: 'assets/images/instructor/UGC_DAE.webp',
+        imgAlt: 'instructor rajibraj91 rajibraj',
+        name: 'UGC_DAE',
+        
+    },
+    {
+        imgUrl: 'assets/images/instructor/UJC.webp',
+        imgAlt: 'instructor rajibraj91 rajibraj',
+        name: 'UJC',
+        
+    },
+    {
+        imgUrl: 'assets/images/instructor/UNIVERSITY OF EXETER.webp',
+        imgAlt: 'instructor rajibraj91 rajibraj',
+        name: 'UNIVERSITY OF EXETER',
+        
+    },
+    {
+        imgUrl: 'assets/images/instructor/UNIVERSITY OF PRINCE.webp',
+        imgAlt: 'instructor rajibraj91 rajibraj',
+        name: 'UNIVERSITY OF PRINCE',
+        
     },
 ]
 

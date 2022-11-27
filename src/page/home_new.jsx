@@ -3,7 +3,7 @@ import Footer from "../component/layout/footer";
 import Header from "../component/layout/header-3";
 import About from "../component/section/about";
 import Achievement from "../component/section/achievement";
-import Banner from "../component/section/banner";
+import Banner from "../component/section/banner-5";
 import Blog from "../component/section/blog";
 import Category from "../component/section/category";
 import Course from "../component/section/course";
@@ -25,12 +25,14 @@ import Collaboration from "../component/section/collaboration";
 import Contact from "../page/contact";
 import Publication from "../component/section/course-6";
 import Initiatives from "../component/section/initiatives";
+import FromTheDesk from "../component/section/fromTheDesk";
 
 const Home = () => {
     return (
         <Fragment>
             <Header />
             <Banner />
+            <FromTheDesk/>
             <About />
             <AchievementThree />
             <FeatureTwo/>
