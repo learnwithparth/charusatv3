@@ -32,15 +32,20 @@ const Home = () => {
         <Fragment>
             <Header />
             <Banner />
-            <FromTheDesk/>
             <About />
-            <AchievementThree />
-            <FeatureTwo/>
-            <Initiatives/>
-            {/* <Achievement2/> */}
-            <Collaboration/>
+            <FromTheDesk/>
             <Faculties/>
-            <Event />
+            <Initiatives/>
+            <FeatureTwo/>
+            <Collaboration/>
+            <AchievementThree />
+
+            
+            
+            {/* <Achievement2/> */}
+            
+            
+            {/* <Event /> */}
             <Publication/>
             {/* <Blog />            
             <Clients /> */}
