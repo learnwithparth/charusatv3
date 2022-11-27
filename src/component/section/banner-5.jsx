@@ -20,27 +20,39 @@ const BannerFive = () => {
               <div className="banner-content">
                 <h4 className="subtitle">{subTitle}</h4>
                 {title}
-                <p className="desc">{desc}</p>
+                {/* <p className="desc">{desc}</p> */}
                 <Link to="/course" className="lab-btn">
                   <span>
-                    Register for 12<sup>th</sup> Convocation
+                    Register for 12<sup>th</sup> Convocation - Click here
                   </span>
                 </Link>
-                <br />
+                {/* <br />
                 <br />
                 <Link to="/course" className="lab-btn">
                   <span>{btnText}</span>
-                </Link>
+                </Link> */}
               </div>
               <br />
               <br />
-              <Marquee speed="100" gradientWidth="150">
+              <Marquee speed="50" gradientWidth="150">
                 <Link to="/course" className="lab-btn">
-                  <span>{btnText}</span>
+                  <span>Tender for providing Canteen Services to CHARUSAT</span>
                 </Link>
                 ||||
                 <Link to="/course" className="lab-btn">
-                  <span>{btnText}</span>
+                  <span>Registration for 12th Convocation</span>
+                </Link>
+                ||||
+                <Link to="/course" className="lab-btn">
+                  <span>Notice for 12th Convocation</span>
+                </Link>
+                ||||
+                <Link to="/course" className="lab-btn">
+                  <span>PG Admission under DASA Scheme</span>
+                </Link>
+                ||||
+                <Link to="/course" className="lab-btn">
+                  <span>DASA Online Reporting Form</span>
                 </Link>
                 ||||
               </Marquee>
