@@ -107,7 +107,7 @@ const Footer = () => {
     return (
         <div className="news-footer-wrap">
             <div className="fs-shape">
-                <img src="assets/images/shape-img/03.png" alt="fst" className="fst-1" />
+                {/* <img src="assets/images/shape-img/03.png" alt="fst" className="fst-1" /> */}
                 <img src="assets/images/shape-img/04.png" alt="fst" className="fst-2" />
             </div>
             

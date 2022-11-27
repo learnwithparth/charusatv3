@@ -45,7 +45,7 @@ const ContactPage = () => {
         <Fragment>
             {/* <Header />
             <PageHeader title={'Get In Touch With Us'} curPage={'Contact Us'} /> */}
-            <div className="map-address-section padding-tb section-bg">
+            {/* <div className="map-address-section padding-tb section-bg">
                 <div className="container">
                     <div className="section-header text-center">
                         <span className="subtitle">{subTitle}</span>
@@ -74,7 +74,7 @@ const ContactPage = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="contact-section padding-tb">
                 <div className="container">
                     <div className="section-header text-center">

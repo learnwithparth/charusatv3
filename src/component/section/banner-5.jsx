@@ -22,7 +22,9 @@ const BannerFive = () => {
                 {title}
                 <p className="desc">{desc}</p>
                 <Link to="/course" className="lab-btn">
-                  <span>Register for 12<sup>th</sup> Convocation</span>
+                  <span>
+                    Register for 12<sup>th</sup> Convocation
+                  </span>
                 </Link>
                 <br />
                 <br />
@@ -31,9 +33,9 @@ const BannerFive = () => {
                 </Link>
               </div>
               <br />
-                <br />
-              <Marquee speed='100' gradientWidth='150'>
-              <Link to="/course" className="lab-btn">
+              <br />
+              <Marquee speed="100" gradientWidth="150">
+                <Link to="/course" className="lab-btn">
                   <span>{btnText}</span>
                 </Link>
                 ||||

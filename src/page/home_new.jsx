@@ -1,5 +1,5 @@
 import { Component, Fragment } from "react";
-import Footer from "../component/layout/footer";
+import Footer from "../component/layout/footer-3";
 import Header from "../component/layout/header-3";
 import About from "../component/section/about";
 import Achievement from "../component/section/achievement";

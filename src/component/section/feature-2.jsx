@@ -6,15 +6,15 @@ const title = "Our Goals";
 
 const featureList = [
     {
+        iconName: 'icofont-light-bulb',
+        title: 'Improve Skill',
+        desc: 'Proactive enhance rospect resource for next generation convergence dramatical myocardinate.',
+    },{
         iconName: 'icofont-credit-card',
         title: 'Creative Thinking',
         desc: 'Proactive enhance rospect resource for next generation convergence dramatical myocardinate.',
     },
-    {
-        iconName: 'icofont-light-bulb',
-        title: 'Improve Skill',
-        desc: 'Proactive enhance rospect resource for next generation convergence dramatical myocardinate.',
-    },
+    
     {
         iconName: 'icofont-graduate',
         title: 'Self Learning',
@@ -47,7 +47,7 @@ const featureList = [
     },
     {
         iconName: 'icofont-flag',
-        title: 'Be Confedent',
+        title: 'Be confident',
         desc: 'Proactive enhance rospect resource for next generation convergence dramatical myocardinate.',
     },
 ]
@@ -72,7 +72,7 @@ const FeatureTwo = () => {
                                         </div>
                                         <div className="feature-content">
                                             <h5>{val.title}</h5>
-                                            <p>{val.desc}</p>
+                                            {/* <p>{val.desc}</p> */}
                                         </div>
                                     </div>
                                 </div>
