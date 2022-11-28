@@ -10,6 +10,8 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import '././assets/css/icofont.min.css';
 import '././assets/css/animate.css';
 import '././assets/css/style.min.css';
+// For megamenu style App.css is created
+import './App.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

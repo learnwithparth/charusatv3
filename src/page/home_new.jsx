@@ -1,6 +1,7 @@
 import { Component, Fragment } from "react";
 import Footer from "../component/layout/footer-3";
 import Header from "../component/layout/header-3";
+// import Header from "../component/layout/Navigation";
 import About from "../component/section/about";
 import Achievement from "../component/section/achievement";
 import Banner from "../component/section/banner-5";
@@ -39,12 +40,7 @@ const Home = () => {
             <FeatureTwo/>
             <Collaboration/>
             <AchievementThree />
-
-            
-            
             {/* <Achievement2/> */}
-            
-            
             {/* <Event /> */}
             <Publication/>
             {/* <Blog />            
