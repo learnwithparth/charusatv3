@@ -76,7 +76,7 @@ const Header = () => {
                 <div className="container">
                     <div className="header-wrapper">
                         <div className="logo">
-                            <Link to="/"><img src="assets/images/logo/01.png" alt="logo" /></Link>
+                            <Link to="/"><img src="assets/images/logo/02.png" alt="logo" /></Link>
                         </div>
                         <div className="menu-area">
                             <div className="menu">

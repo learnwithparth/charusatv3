@@ -11,8 +11,934 @@ import {
   Col,
   Row,
 } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+const menuList = [
+  {
+    text: "Academics",
+    subMenu: [
+      {
+        text: "Undergraduate Studies",
+        subSubMenu: [
+          {
+            text: "Engineering (B Tech)",
+            link: "#",
+            subSubSubMenu: [],
+          },
+          {
+            text: "Computer Applications (BCA)",
+            link: "#",
+            subSubSubMenu: [],
+          },
+          {
+            text: "Pharmacy (B Pharm)",
+            link: "#",
+            subSubSubMenu: [],
+          },
+          {
+            text: "Business Administration (BBA)",
+            link: "#",
+            subSubSubMenu: [],
+          },
+          {
+            text: "Physiotherapy (BPT)",
+            link: "#",
+            subSubSubMenu: [],
+          },
+          {
+            text: "Optometry (B Optom)",
+            link: "#",
+            subSubSubMenu: [],
+          },
+          {
+            text: "Science",
+            subSubSubMenu: [
+              {
+                text: "Information Technology",
+                link: "#",
+              },
+              {
+                text: "Biology",
+                link: "#",
+              },
+              {
+                text: "Nursing",
+                link: "#",
+              },
+              {
+                text: "Imaging Technology",
+                link: "#",
+              },
+              {
+                text: "Medical Technnology",
+                link: "#",
+              },
+              {
+                text: "Op. Theatre & Anesthesia Tech",
+                link: "#",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        text: "Postgraduate Studies",
+        subSubMenu: [
+          {
+            text: "Engineering (M Tech)",
+            link: "#",
+            subSubSubMenu: [],
+          },
+          {
+            text: "Computer Applications (MCA)",
+            link: "#",
+            subSubSubMenu: [],
+          },
+          {
+            text: "Pharmacy (M Pharm)",
+            link: "#",
+            subSubSubMenu: [],
+          },
+          {
+            text: "Business Administration (MBA)",
+            link: "#",
+            subSubSubMenu: [],
+          },
+          {
+            text: "Physiotherapy (MPT)",
+            link: "#",
+            subSubSubMenu: [],
+          },
+          {
+            text: "Science",
+            subSubSubMenu: [
+              {
+                text: "Advanced Organic Chemistry",
+                link: "#",
+              },
+              {
+                text: "Biochemistry",
+                link: "#",
+              },
+              {
+                text: "Biotechnology",
+                link: "#",
+              },
+              {
+                text: "Microbiology",
+                link: "#",
+              },
+              {
+                text: "Physics",
+                link: "#",
+              },
+              {
+                text: "Nursing",
+                link: "#",
+              },
+              {
+                text: "Medical Laboratory Tech.",
+                link: "#",
+              },
+              {
+                text: "Medical Imaging Tech.",
+                link: "#",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        text: "Doctor of Philosphy",
+        subSubMenu: [],
+      },
+      {
+        text: "Other Programms",
+        subSubMenu: [
+          {
+            text: "Certification Courses",
+            subSubSubMenu: [],
+          },
+          {
+            text: "General Nursing & Midwifery",
+            subSubSubMenu: [],
+          },
+          {
+            text: "Post Graduate Diploma",
+            subSubSubMenu: [
+              { text: "Clinical Hypnosis (PGDCH)", link: "" },
+              { text: "Cyber Security (PGDCS)", link: "" },
+              { text: "Medical Laboratory Tech. (PGDMLT)", link: "" },
+            ],
+          },
+        ],
+      },
+      {
+        text: "Learn Online",
+        subSubMenu: [
+          {
+            text: "CharuVidya",
+            link: "http://117.239.83.200:9000/",
+            subSubSubMenu: [],
+          },
+          {
+            text: "NPTEL",
+            link: "",
+            subSubSubMenu: [],
+          }
+        ],
+      },
+      {
+        text: "Others",
+        subSubMenu: [
+          {
+            text: "Academic Calender",
+            link: "",
+            subSubSubMenu: [],
+          },
+          {
+            text: "Academic Services",
+            link: "",
+            subSubSubMenu: [],
+          },
+          {
+            text: "Career Development and Placements",
+            link: "",
+            subSubSubMenu: [],
+          },
+          {
+            text: "Distinguished Lecture Series",
+            link: "",
+            subSubSubMenu: [],
+          },
+          {
+            text: "Entrepreneurship and Innovations",
+            link: "",
+            subSubSubMenu: [],
+          },
+          {
+            text: "Endowment Chairs",
+            link: "",
+            subSubSubMenu: [],
+          },
+          {
+            text: "Initiatives",
+            link: "",
+            subSubSubMenu: [],
+          },
+          {
+            text: "Knowledge Resource Center",
+            link: "",
+            subSubSubMenu: [],
+          }
+        ],
+      },
+    ],
+  },
+  {
+    text: "Admission",
+    subMenu: [
+      {
+        text: "National",
+        subSubMenu: [
+          {
+            text: "Apply now",
+            link: "#",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Eligibility Criteria",
+            link: "#",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Fees",
+            link: "#",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Contact Us - +918905500500",
+            link: "#",
+            subSubSubMenu: [
+              
+            ],
+          },
+        ],
+      },
+      {
+        text: "International",
+        subSubMenu: [
+          {
+            text: "Apply now",
+            link: "#",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Eligibility Criteria",
+            link: "#",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Fees",
+            link: "#",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Contact Us - +919173701614",
+            link: "#",
+            subSubSubMenu: [
+              
+            ],
+          },
+        ],
+      },
+      {
+        text: "Login",
+        subSubMenu: [
+        ],
+      },
+      {
+        text: "Fellowship",
+        subSubMenu: [
+        ],
+      },
+      {
+        text: "Scholarship",
+        subSubMenu: [
+        ],
+      },
+      {
+        text: "Transportation",
+        subSubMenu: [
+        ],
+      },
+      {
+        text: "FAQ",
+        subSubMenu: [
+        ],
+      },
+    ],
+  },
+  {
+    text: "Campus Life",
+    subMenu: [
+      {
+        text: "Activity & Events",
+        subSubMenu: [
+          {
+            text: "NCC@CHARUSAT",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "NSS@CHARUSAT",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Sports & Gym",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Activities & Events",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Clubs",
+            subSubSubMenu: [
+              
+            ],
+          },
+        ],
+      },
+      {
+        text: "Residencies & Amenities",
+        subSubMenu: [
+          {
+            text: "Girl's Hostel",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Boy's Hostel",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Staff Quarters",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Food",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Transportation",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Recreation",
+            subSubSubMenu: [
+              
+            ],
+          },
+        ],
+      },
+      {
+        text: "Student Helpline",
+        subSubMenu: [
+          {
+            text: "Helpline No.",
+            subSubSubMenu: [
+              
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    text: "Research",
+    subMenu: [
+      {
+        text: "Initiatives",
+        subSubMenu: [
+          {
+            text: "Laboratories",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "CHARUSAT Journal",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "EDIC",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "KRADLE",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "ICC",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "IPR Cell",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Research Facilitation",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "CSRTC",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Ethics Committee",
+            subSubSubMenu: [
+              
+            ],
+          },
+        ],
+      },
+      {
+        text: "Policies",
+        subSubMenu: [
+          {
+            text: "Publications",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Ph. D. Scholars’ Fellowship",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Visitor Student Research Internship",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Undergraduate & Postgraduate Student Fellowship ",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Seed Grant",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Research",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Research Paper Award",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Intellectual Property",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Plagiarism",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Patent, IPR and Royalty Sharing",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Consultancy",
+            subSubSubMenu: [
+              
+            ],
+          },
+        ],
+      },
+      {
+        text: "Outcomes",
+        subSubMenu: [
+          {
+            text: "Publications",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Project Grants",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Patents",
+            subSubSubMenu: [
+              
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    text: "IQAC",
+    subMenu: [
+      {
+        text: "Academic Calendars",
+        subSubMenu: [
+          {
+            text: "2022-23",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "2021-22",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "2020-21",
+            subSubSubMenu: [
+              
+            ],
+          },
+        ],
+      },
+      {
+        text: "Academic & Administrative Audit",
+        subSubMenu: [
+          {
+            text: "Process",
+            subSubSubMenu: [
+              
+            ],
+          },
+        ],
+      },
+      {
+        text: "Meetings",
+        subSubMenu: [
+          {
+            text: "2022-23",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "2021-22",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "2020-21",
+            subSubSubMenu: [
+              
+            ],
+          },
+        ],
+      },
+      {
+        text: "Accreditation & Ranking",
+        subSubMenu: [
+          
+        ],
+      },
+      {
+        text: "Best Practices",
+        subSubMenu: [
+          
+        ],
+      },
+      {
+        text: "Undergraduate Studies",
+        subSubMenu: [
+          {
+            text: "Science",
+            subSubSubMenu: [
+              
+            ],
+          },
+        ],
+      },
+      {
+        text: "Undergraduate Studies",
+        subSubMenu: [
+          {
+            text: "Science",
+            subSubSubMenu: [
+              
+            ],
+          },
+        ],
+      },
+      {
+        text: "Undergraduate Studies",
+        subSubMenu: [
+          {
+            text: "Science",
+            subSubSubMenu: [
+              
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    text: "Know CHARUSAT",
+    subMenu: [
+      {
+        text: "About CAHRUSAT",
+        subSubMenu: [
+          {
+            text: "About University",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Vision",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Mission",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Torchbearers",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "From President's Desk",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "From Provost's Desk",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Convocations",
+            subSubSubMenu: [
+              
+            ],
+          },
+        ],
+      },
+      {
+        text: "Governing Members",
+        subSubMenu: [
+          {
+            text: "Governing Body",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Board of Management",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Deans, Principals & Heads",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "University Officers",
+            subSubSubMenu: [
+              
+            ],
+          },
+        ],
+      },
+      {
+        text: "Centers & Cells",
+        subSubMenu: [
+          {
+            text: "Anti-Ragging Committee",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Equal Opportunity Cell",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Energy Conservation Cell",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Grievance Redressal Cell",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Enterpreneurship Development & Incubation Cell",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "University Industry Interaction Cell",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Womens' Development Cell",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Human Resource Development Center",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "International Students' Cell",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Cell for Prevention of Sexual Harassment",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Internal Quality Assurance Cell",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Rural Education Development Program",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Student Wellness Programme",
+            subSubSubMenu: [
+              
+            ],
+          },
+        ],
+      },
+      {
+        text: "Infrastructure & Resources",
+        subSubMenu: [
+          {
+            text: "Auditoria & Lectures Halls",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Laboratories",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Data Center @ CHARUSAT",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Knowledge Resource Center",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Sports & Gym",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Herbal Garden",
+            subSubSubMenu: [
+              
+            ],
+          },
+        ],
+      },
+      {
+        text: "360 Campus Tour",
+        subSubMenu: [
+          
+        ],
+      },
+      {
+        text: "Reach US",
+        subSubMenu: [
+          {
+            text: "Connect with CHARUSAT",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Staff Directory",
+            subSubSubMenu: [
+              
+            ],
+          },
+        ],
+      },
+      {
+        text: "Others",
+        subSubMenu: [
+          {
+            text: "Give & Support US",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Reports",
+            subSubSubMenu: [
+              
+            ],
+          },
+          {
+            text: "Strategic Plan",
+            subSubSubMenu: [
+              
+            ],
+          },
+        ],
+      },
+    ],
+  },
+];
 
 const HeaderThree = () => {
   const [menuToggle, setMenuToggle] = useState(false);
@@ -29,7 +955,7 @@ const HeaderThree = () => {
   });
 
   return (
-    <Fragment>
+    // <Fragment>
       <header
         className={`header-section style-3 ${
           headerFiexd ? "header-fixed fadeInUp" : ""
@@ -40,7 +966,7 @@ const HeaderThree = () => {
           style={{
             backgroundColor: "#0066b3",
             color: "white",
-            fontSize: "15px",
+            fontSize: "17px",
           }}
         >
           <div className="container">
@@ -75,12 +1001,18 @@ const HeaderThree = () => {
             </div>
           </div>
         </div>
-        {/* For megamenu style App.css is created */}
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-          <Container>
+
+        <Navbar
+          collapseOnSelect
+          expand="lg"
+          bg="light"
+          variant="primary"
+          style={{ fontWeight: "bold" }}
+        >
+          <Container className="menu">
             <Navbar.Brand
               href="#home"
-              style={{ fontColor: "#0066B3 !important" }}
+              
             >
               <div className="logo">
                 <Link to="/">
@@ -89,757 +1021,65 @@ const HeaderThree = () => {
               </div>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            {/* <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav className="me-auto">
+                
+                <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                  <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                  </NavDropdown>
+                </NavDropdown>
+              </Nav>
+            </Navbar.Collapse> */}
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
-                <NavDropdown
-                  className=" align-text-top"
-                  title="Academics"
-                  id="basic-nav-dropdown"
-                >
-                  <Container className="eventsNav pt-0 mt-0">
-                    <Row>
-                      <Col xs="12" md="6" className="text-left">
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"concierge-bell"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Learn Online
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              CharuVidya
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              NPTEL
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-
-                        <Dropdown.Divider />
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"chalkboard-teacher"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Other Programs
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Non Credit Courses
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                            General Nursing & Midwifery (GNM)
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                            Post Graduate Diploma in Clinical Hypnosis (PGDCH)
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Divider className="d-md-none" />
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                            Post Graduate Diploma in Cyber Security (PGDCS)
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Divider className="d-md-none" />
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                            Post Graduate Diploma in Medical <br/> Laboratory Technology (PGDMLT)
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Divider className="d-md-none" />
-                      </Col>
-
-                      <Col xs="12" md="6" className="text-left">
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"building"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Rentals
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Fireside Room
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Roasting Room
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Divider />
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"sun"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Seasonal
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Coldbrew Night
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link text-wrap" role="button">
-                              Campfire Coffee Class
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                      </Col>
-                      
-                    </Row>
-                  </Container>
-                </NavDropdown>
-                <NavDropdown
-                  className=" align-text-top"
-                  title="Admission"
-                  id="basic-nav-dropdown"
-                >
-                  <Container className="eventsNav pt-0 mt-0">
-                    <Row>
-                      <Col xs="12" md="6" className="text-left">
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"concierge-bell"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Catering
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Corporate
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Private
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-
-                        <Dropdown.Divider />
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"chalkboard-teacher"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Classes
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Barista 101
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              History of Coffee
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Intro to Cafe Snobbery
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Divider className="d-md-none" />
-                      </Col>
-
-                      <Col xs="12" md="6" className="text-left">
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"building"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Rentals
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Fireside Room
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Roasting Room
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Divider />
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"sun"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Seasonal
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Coldbrew Night
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link text-wrap" role="button">
-                              Campfire Coffee Class
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                      </Col>
-                    </Row>
-                  </Container>
-                </NavDropdown>
-                <NavDropdown
-                  className=" align-text-top"
-                  title="Campus Life"
-                  id="basic-nav-dropdown"
-                >
-                  <Container className="eventsNav pt-0 mt-0">
-                    <Row>
-                      <Col xs="12" md="6" className="text-left">
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"concierge-bell"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Catering
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Corporate
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Private
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-
-                        <Dropdown.Divider />
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"chalkboard-teacher"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Classes
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Barista 101
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              History of Coffee
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Intro to Cafe Snobbery
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Divider className="d-md-none" />
-                      </Col>
-
-                      <Col xs="12" md="6" className="text-left">
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"building"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Rentals
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Fireside Room
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Roasting Room
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Divider />
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"sun"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Seasonal
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Coldbrew Night
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link text-wrap" role="button">
-                              Campfire Coffee Class
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                      </Col>
-                    </Row>
-                  </Container>
-                </NavDropdown>
-                <NavDropdown
-                  className=" align-text-top"
-                  title="Research"
-                  id="basic-nav-dropdown"
-                >
-                  <Container className="eventsNav pt-0 mt-0">
-                    <Row>
-                      <Col xs="12" md="6" className="text-left">
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"concierge-bell"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Catering
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Corporate
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Private
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-
-                        <Dropdown.Divider />
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"chalkboard-teacher"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Classes
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Barista 101
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              History of Coffee
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Intro to Cafe Snobbery
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Divider className="d-md-none" />
-                      </Col>
-
-                      <Col xs="12" md="6" className="text-left">
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"building"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Rentals
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Fireside Room
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Roasting Room
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Divider />
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"sun"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Seasonal
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Coldbrew Night
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link text-wrap" role="button">
-                              Campfire Coffee Class
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                      </Col>
-                    </Row>
-                  </Container>
-                </NavDropdown>
-                <NavDropdown
-                  className=" align-text-top"
-                  title="IQAC"
-                  id="basic-nav-dropdown"
-                >
-                  <Container className="eventsNav pt-0 mt-0">
-                    <Row>
-                      <Col xs="12" md="6" className="text-left">
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"concierge-bell"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Catering
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Corporate
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Private
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-
-                        <Dropdown.Divider />
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"chalkboard-teacher"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Classes
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Barista 101
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              History of Coffee
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Intro to Cafe Snobbery
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Divider className="d-md-none" />
-                      </Col>
-
-                      <Col xs="12" md="6" className="text-left">
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"building"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Rentals
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Fireside Room
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Roasting Room
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Divider />
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"sun"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Seasonal
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Coldbrew Night
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link text-wrap" role="button">
-                              Campfire Coffee Class
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                      </Col>
-                    </Row>
-                  </Container>
-                </NavDropdown>
-                <NavDropdown
-                  className=" align-text-top"
-                  title="Know CHARUSAT"
-                  id="basic-nav-dropdown"
-                >
-                  <Container className="eventsNav pt-0 mt-0">
-                    <Row>
-                      <Col xs="12" md="6" className="text-left">
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"concierge-bell"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Catering
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Corporate
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Private
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-
-                        <Dropdown.Divider />
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"chalkboard-teacher"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Classes
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Barista 101
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              History of Coffee
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Intro to Cafe Snobbery
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Divider className="d-md-none" />
-                      </Col>
-
-                      <Col xs="12" md="6" className="text-left">
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"building"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Rentals
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Fireside Room
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Roasting Room
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Divider />
-                        <Dropdown.Header>
-                          <FontAwesomeIcon
-                            color="black"
-                            // icon={"sun"}
-                            size="1x"
-                            className="pr-1"
-                          />
-                          {"  "}
-                          Seasonal
-                        </Dropdown.Header>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link" role="button">
-                              Coldbrew Night
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/">
-                            <a className="nav-link text-wrap" role="button">
-                              Campfire Coffee Class
-                            </a>
-                          </Link>
-                        </Dropdown.Item>
-                      </Col>
-                    </Row>
-                  </Container>
-                </NavDropdown>
+                {menuList.map((menu) =>
+                  menu.subMenu.length > 0 ? (
+                    <NavDropdown
+                      className=" align-text-top"
+                      title={menu.text}
+                      id="collasible-nav-dropdown"
+                    >
+                      {menu.subMenu.map((subMenu) =>
+                        subMenu.subSubMenu.length > 0 ? (
+                          <NavDropdown
+                            title={subMenu.text}
+                            id="collasible-nav-dropdown"
+                          >
+                             
+                            {subMenu.subSubMenu.map((subSubMenu) =>
+                              subSubMenu.subSubSubMenu.length > 0 ? (
+                                <NavDropdown
+                                  title={subSubMenu.text}
+                                  id="collasible-nav-dropdown"
+                                >
+                                  {subSubMenu.subSubSubMenu.map(
+                                    (subSubSubMenu) => (
+                                      <Nav.Link href="#action/3.1">
+                                        {subSubSubMenu.text}
+                                      </Nav.Link>
+                                    )
+                                  )}
+                                </NavDropdown>
+                              ) : (
+                                <Nav.Link href="#action/3.1">
+                                  {subSubMenu.text}
+                                </Nav.Link>
+                              )
+                            )}
+                          </NavDropdown>
+                        ) : (
+                          <Nav.Link href="#action/3.1">
+                            {subMenu.text}
+                          </Nav.Link>
+                        )
+                      )}
+                    </NavDropdown>
+                  ) : (
+                    <Nav.Link href="#action1">{menu.text}</Nav.Link>
+                  )
+                )}
               </Nav>
               <Nav>
                 <div
@@ -848,29 +1088,12 @@ const HeaderThree = () => {
                 >
                   <i className="icofont-search"></i>
                 </div>
-                {/* <Nav.Link to="#deets">More deets</Nav.Link>
-                <Nav.Link eventKey={2} href="#memes">
-                  Dank memes
-                </Nav.Link> */}
               </Nav>
             </Navbar.Collapse>
           </Container>
         </Navbar>
       </header>
-
-      <div className={`menu-search-form ${searchTrigger ? "open" : ""}`}>
-        <div
-          className="search-close"
-          onClick={() => setSearchTrigger(!searchTrigger)}
-        ></div>
-        <form>
-          <input type="text" name="search" placeholder="Search here..." />
-          <button type="submit">
-            <i className="icofont-search"></i>
-          </button>
-        </form>
-      </div>
-    </Fragment>
+    // </Fragment>
   );
 };
 

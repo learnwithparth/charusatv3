@@ -87,27 +87,39 @@ const courseList = [
 
 const quickList = [
   {
-    text: "Summer Sessions",
+    text: "Exam Result",
+    link: "https://charusat.edu.in:912/Uniexamresult/",
+  },
+  {
+    text: "Pay Fees",
+    link: "https://charusat.edu.in:912/FeesPaymentApp/",
+  },
+  {
+    text: "Admissions",
     link: "#",
   },
   {
-    text: "Events",
+    text: "Downloads",
     link: "#",
   },
   {
-    text: "Gallery",
+    text: "Careers",
     link: "#",
   },
   {
-    text: "Forums",
+    text: "Donations",
     link: "#",
   },
   {
-    text: "Privacy Policy",
+    text: "The Act & First Statutes",
+    link: "../../../files/statutes.pdf",
+  },
+  {
+    text: "Policies and Procedures - Support Facilities",
     link: "#",
   },
   {
-    text: "Terms of Use",
+    text: "Code of Conduct",
     link: "#",
   },
 ];
@@ -133,119 +145,121 @@ const footerbottomList = [
 
 const FooterThree = () => {
   return (
-    <footer className="style-2">
-      <div className="footer-top dark-view padding-tb">
-        <div className="container">
-          <div className="row g-4 row-cols-xl-4 row-cols-sm-2 row-cols-1 justify-content-center">
-            <div className="col">
-              <div className="footer-item our-address">
-                <div className="footer-inner">
-                  <div className="footer-content">
-                    <div className="title">
-                      <h4>{title}</h4>
-                    </div>
-                    <div className="content">
-                      {/* <p>{desc}</p> */}
-                      <ul className="lab-ul office-address">
-                        {addressList.map((val, i) => (
-                          <li key={i}>
-                            <i className={val.iconName}></i>
-                            {val.text}
-                          </li>
-                        ))}
-                      </ul>
-                      <ul className="lab-ul social-icons">
-                        {socialList.map((val, i) => (
-                          <li key={i}>
-                            <a href={val.siteLink} className={val.className}>
-                              <i className={val.iconName}></i>
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="footer-item">
-                <div className="footer-inner">
-                  <div className="footer-content">
-                    <div className="title">
-                      <h4>{courseTitle}</h4>
-                    </div>
-                    <div className="content">
-                      <ul className="lab-ul">
-                        {courseList.map((val, i) => (
-                          <li key={i}>
-                            <a href={val.link}>{val.text}</a>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="footer-item">
-                <div className="footer-inner">
-                  <div className="footer-content">
-                    <div className="title">
-                      <h4>{quickTitle}</h4>
-                    </div>
-                    <div className="content">
-                      <ul className="lab-ul">
-                        {quickList.map((val, i) => (
-                          <li key={i}>
-                            <a href={val.link}>{val.text}</a>
-                          </li>
-                        ))}
-                      </ul>
+    <>
+      <div className="news-footer-wrap">
+        <div className="fs-shape">
+          <img
+            src="assets/images/shape-img/03.png"
+            alt="fst"
+            className="fst-1"
+          />
+          <img
+            src="assets/images/shape-img/04.png"
+            alt="fst"
+            className="fst-2"
+          />
+        </div>
+        <br />
+        <br />
+        <footer className="style-2">
+          <div className="footer-top dark-view padding-tb">
+            <div className="container">
+              <div className="row g-4 row-cols-xl-3 row-cols-sm-2 row-cols-1 justify-content-center">
+                <div className="col">
+                  <div className="footer-item our-address">
+                    <div className="footer-inner">
+                      <div className="footer-content">
+                        <div className="title">
+                          <h4>{title}</h4>
+                        </div>
+                        <div className="content">
+                          {/* <p>{desc}</p> */}
+                          <ul className="lab-ul office-address">
+                            {addressList.map((val, i) => (
+                              <li key={i}>
+                                <i className={val.iconName}></i>
+                                {val.text}
+                              </li>
+                            ))}
+                          </ul>
+                          <ul className="lab-ul social-icons">
+                            {socialList.map((val, i) => (
+                              <li key={i}>
+                                <a
+                                  href={val.siteLink}
+                                  className={val.className}
+                                >
+                                  <i className={val.iconName}></i>
+                                </a>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="footer-item twitter-post">
-                <div className="footer-inner">
-                  <div className="footer-content">
-                    <div className="title">
-                      <h4>{googleMapTitle}</h4>
-                    </div>
-                    <div className="content">
-                      {/* <ul className="lab-ul"> */}
-                        <GoogleMap />
-                      {/* </ul> */}
-                    </div>
-                  </div>
-                </div>
-              </div>
 
-              
+                <div className="col">
+                  <div className="footer-item">
+                    <div className="footer-inner">
+                      <div className="footer-content">
+                        <div className="title">
+                          <h4>{quickTitle}</h4>
+                        </div>
+                        <div className="content">
+                          <ul className="lab-ul">
+                            {quickList.map((val, i) => (
+                              <li key={i}>
+                                <a href={val.link}>{val.text}</a>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col">
+                  <div className="footer-item twitter-post">
+                    <div className="footer-inner">
+                      <div className="footer-content">
+                        <div className="title">
+                          <h4>{googleMapTitle}</h4>
+                        </div>
+                        <div className="content">
+                          {/* <ul className="lab-ul"> */}
+                          <GoogleMap />
+                          <br />
+                          <br />
+                          {/* </ul> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="footer-bottom">
-        <div className="container">
-          <div className="section-wrapper">
-            <p>
-              &copy; {year} <Link to="/">C H A R U S A T</Link>{" "}
-            </p>
-            <div className="footer-bottom-list">
-              {footerbottomList.map((val, i) => (
-                <a href={val.link} key={i}>
-                  {val.text}
-                </a>
-              ))}
+          <div className="footer-bottom">
+            <div className="container">
+              <div className="section-wrapper">
+                <p>
+                  &copy; {year} <Link to="/">C H A R U S A T</Link>{" "}
+                </p>
+                <div className="footer-bottom-list">
+                  {footerbottomList.map((val, i) => (
+                    <a href={val.link} key={i}>
+                      {val.text}
+                    </a>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+        </footer>
       </div>
-    </footer>
+    </>
   );
 };
 

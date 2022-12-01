@@ -1,403 +1,188 @@
-import React from "react";
-import Accordion from "react-bootstrap/Accordion";
-import { Component, Fragment } from "react";
+import { Component, useState } from "react";
 import { Link } from "react-router-dom";
-import Footer from "../layout/footer";
-import Header from "../layout/header";
-import PageHeader from "../layout/pageheader";
-// import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Rating from "../sidebar/rating";
+
+const title = "Our Institutions";
+
+const CourseData = [
+  {
+    imgUrl: "assets/images/course/3.jpg",
+    imgAlt: "course rajibraj91 rajibraj",
+    cate: "Engineering",
+    title: "C S Patel Institute of Technology",
+    author: "assets/images/course/author/01.jpg",
+    authorName: "William Smith",
+    price: "$199.00",
+    id: 1,
+  },
+  {
+    imgUrl: "assets/images/course/3.jpg",
+    imgAlt: "course rajibraj91 rajibraj",
+    cate: "Engineering",
+    title: "Devang Patel Institute of Advance Technology and Research",
+    author: "assets/images/course/author/01.jpg",
+    authorName: "William Smith",
+    price: "$199.00",
+    id: 2,
+  },
+  {
+    imgUrl: "assets/images/course/17.jpg",
+    imgAlt: "course rajibraj91 rajibraj",
+    cate: "Pharmacy",
+    title: "Ramanbhai Patel College of Pharmacy",
+    author: "assets/images/course/author/02.jpg",
+    authorName: "Angel Mili",
+    price: "$199.00",
+    id: 3,
+  },
+  {
+    imgUrl: "assets/images/course/18.jpg",
+    imgAlt: "course rajibraj91 rajibraj",
+    cate: "Computer Science and Application",
+    title: "Chandaben Mohanbhai Patel Institute of Computer Application",
+    author: "assets/images/course/author/03.jpg",
+    authorName: "Sajahan Sagor",
+    price: "$199.00",
+    id: 4,
+  },
+  {
+    imgUrl: "assets/images/course/19.jpg",
+    imgAlt: "course rajibraj91 rajibraj",
+    cate: "Management Studies",
+    title: "Indukaka Ippcowala Institute of Management",
+    author: "assets/images/course/author/04.jpg",
+    authorName: "Ummi Nishat",
+    price: "$199.00",
+    id: 5,
+  },
+  {
+    imgUrl: "assets/images/course/20.jpg",
+    imgAlt: "course rajibraj91 rajibraj",
+    cate: "Sciences",
+    title: "P. D. Patel Institute of Applied Science",
+    author: "assets/images/course/author/05.jpg",
+    authorName: "Rassel Hossin",
+    price: "$199.00",
+    id: 6,
+  },
+  {
+    imgUrl: "assets/images/course/21.jpg",
+    imgAlt: "course rajibraj91 rajibraj",
+    cate: "Medical Sciences",
+    title: "Manikaka Topawala Institute of Nursing",
+    author: "assets/images/course/author/06.jpg",
+    authorName: "Zinat Zaara",
+    price: "$199.00",
+    id: 7,
+  },
+  {
+    imgUrl: "assets/images/course/22.jpg",
+    imgAlt: "course rajibraj91 rajibraj",
+    cate: "Medical Sciences",
+    title: "Ashok & Rita Patel Institute of Physiotherapy",
+    author: "assets/images/course/author/01.jpg",
+    authorName: "William Smith",
+    price: "$199.00",
+    id: 8,
+  },
+  {
+    imgUrl: "assets/images/course/23.jpg",
+    imgAlt: "course rajibraj91 rajibraj",
+    cate: "Medical Sciences",
+    title: "Bapubhai Desaibhai Patel Institute of Paramedical Sciences",
+    author: "assets/images/course/author/02.jpg",
+    authorName: "Angel Mili",
+    price: "$199.00",
+    id: 9,
+  },
+];
 
 export default function Faculties() {
-  const searchTitle = "Need a new search?";
-  const searchDesc =
-    "If you didn't find what you were looking for, try a new search!";
+  const [items, setItems] = useState(CourseData);
+  const filterItem = (categItem) => {
+    const updateItems = CourseData.filter((curElem) => {
+      return curElem.cate === categItem;
+    });
+    setItems(updateItems);
+  };
 
-  const searchList = [
-    {
-      title: "Interactively Morph High Standards Anding",
-      btnText: "Read More",
-      metaList: [
-        {
-          iconName: "icofont-calendar",
-          text: "April 23,2021",
-        },
-        {
-          iconName: "icofont-ui-user",
-          text: "Begrass Tyson",
-        },
-        {
-          iconName: "icofont-speech-comments",
-          text: "09 Comments",
-        },
-      ],
-    },
-    {
-      title: "Financial Reporting Qoncil What Could More.",
-      btnText: "Read More",
-      metaList: [
-        {
-          iconName: "icofont-calendar",
-          text: "April 23,2021",
-        },
-        {
-          iconName: "icofont-ui-user",
-          text: "Begrass Tyson",
-        },
-        {
-          iconName: "icofont-speech-comments",
-          text: "09 Comments",
-        },
-      ],
-    },
-    {
-      title: "Consulting Reporting Qounc Arei Could More.",
-      btnText: "Read More",
-      metaList: [
-        {
-          iconName: "icofont-calendar",
-          text: "April 23,2021",
-        },
-        {
-          iconName: "icofont-ui-user",
-          text: "Begrass Tyson",
-        },
-        {
-          iconName: "icofont-speech-comments",
-          text: "09 Comments",
-        },
-      ],
-    },
-    {
-      title: "Strategic Social Media and of visual design",
-      btnText: "Read More",
-      metaList: [
-        {
-          iconName: "icofont-calendar",
-          text: "April 23,2021",
-        },
-        {
-          iconName: "icofont-ui-user",
-          text: "Begrass Tyson",
-        },
-        {
-          iconName: "icofont-speech-comments",
-          text: "09 Comments",
-        },
-      ],
-    },
-  ];
   return (
-
-    <div className="blog-section padding-tb section-bg">
-      
-      <div className="container">
-        <div className="section-header text-center">
-          <span className="subtitle">Faculties</span>
-          <h2 className="title">FACULTY OF TECHNOLOGY & ENGINEERING</h2>
-        </div>
-        <div className="row justify-content-center">
-          <div className="col-lg-8 col-12">
-            <article>
-              <div className="section-wrapper">
-                <div className="row row-cols-1 justify-content-center g-4">
-                  
-                    <div className="col" >
-                      <div className="post-item style-2">
-                        <div className="post-inner">
-                          <div className="post-content">
-                            <Link to="/blog-single">
-                              <h3>C S Patel Institute of Technology</h3>
-                            </Link>
-                            
-                            <Link to="/blog-single" className="lab-btn">
-                              <span>
-                                {/* {val.btnText}{" "} */}
-                                <i className="icofont-external-link"></i>
-                              </span>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  
-                </div>
-              </div>
-            </article>
-            <br/>
-            <article>
-              <div className="section-wrapper">
-                <div className="row row-cols-1 justify-content-center g-4">
-                  
-                    <div className="col" >
-                      <div className="post-item style-2">
-                        <div className="post-inner">
-                          <div className="post-content">
-                            <Link to="/blog-single">
-                              <h3>Devang Patel Institute of Advanced Teachnology and Research</h3>
-                            </Link>
-                            
-                            <Link to="/blog-single" className="lab-btn">
-                              <span>
-                                {/* {val.btnText}{" "} */}
-                                <i className="icofont-external-link"></i>
-                              </span>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  
-                </div>
-              </div>
-            </article>
-          </div>
-          
-        </div>
+    <div className="course-section style-3 padding-tb">
+      <div className="course-shape one">
+        <img src="assets/images/shape-img/icon/01.png" alt="education" />
       </div>
-      <br/>
-      <div className="container">
-        <div className="section-header text-center">
-          {/* <span className="subtitle">Faculties</span> */}
-          <h2 className="title">FACULTY OF PHARMACY</h2>
-        </div>
-        <div className="row justify-content-center">
-          <div className="col-lg-8 col-12">
-            <article>
-              <div className="section-wrapper">
-                <div className="row row-cols-1 justify-content-center g-4">
-                  
-                    <div className="col" >
-                      <div className="post-item style-2">
-                        <div className="post-inner">
-                          <div className="post-content">
-                          <Link to="/blog-single">
-                              <h3>Ramanbhai Patel College of Pharmacy</h3>
-                            </Link>
-                            
-                            <Link to="/blog-single" className="lab-btn">
-                              <span>
-                                {/* {val.btnText}{" "} */}
-                                <i className="icofont-external-link"></i>
-                              </span>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  
-                </div>
-              </div>
-            </article>
-          </div>
-          
-        </div>
+      <div className="course-shape two">
+        <img src="assets/images/shape-img/icon/02.png" alt="education" />
       </div>
-      <br/>
       <div className="container">
-        <div className="section-header text-center">
-          {/* <span className="subtitle">Faculties</span> */}
-          <h2 className="title">FACULTY OF COMPUTER SCIENCES AND APPLICATIONS</h2>
-        </div>
-        <div className="row justify-content-center">
-          <div className="col-lg-8 col-12">
-            <article>
-              <div className="section-wrapper">
-                <div className="row row-cols-1 justify-content-center g-4">
-                  
-                    <div className="col" >
-                      <div className="post-item style-2">
-                        <div className="post-inner">
-                          <div className="post-content">
-                          <Link to="/blog-single">
-                              <h3>Chandaben Mohanbhai Patel Institute of Computer Application</h3>
-                            </Link>
-                            
-                            <Link to="/blog-single" className="lab-btn">
-                              <span>
-                                {/* {val.btnText}{" "} */}
-                                <i className="icofont-external-link"></i>
-                              </span>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  
-                </div>
-              </div>
-            </article>
+        <div className="section-header">
+          <h2 className="title">{title}</h2>
+          <div className="course-filter-group">
+            <ul className="lab-ul">
+              <li onClick={() => setItems(CourseData)}>All</li>
+              <li onClick={() => filterItem("Engineering")}>Engineering</li>
+              <li onClick={() => filterItem("Pharmacy")}>Pharmacy</li>
+              <li
+                onClick={() => filterItem("Computer Science and Application")}
+              >
+                Computer Sci and Appl
+              </li>
+              <li onClick={() => filterItem("Management Studies")}>
+                Management Studies
+              </li>
+              <li onClick={() => filterItem("Sciences")}>Sciences</li>
+              <li onClick={() => filterItem("Medical Sciences")}>
+                Medical Sciences
+              </li>
+            </ul>
           </div>
-          
         </div>
-      </div>
-      <br/>
-      <div className="container">
-        <div className="section-header text-center">
-          {/* <span className="subtitle">Faculties</span> */}
-          <h2 className="title">FACULTY OF MANAGEMENT STUDIES</h2>
-        </div>
-        <div className="row justify-content-center">
-          <div className="col-lg-8 col-12">
-            <article>
-              <div className="section-wrapper">
-                <div className="row row-cols-1 justify-content-center g-4">
-                  
-                    <div className="col" >
-                      <div className="post-item style-2">
-                        <div className="post-inner">
-                          <div className="post-content">
-                          <Link to="/blog-single">
-                              <h3>Indukaka Ipcowala Institute of Management</h3>
-                            </Link>
-                            
-                            <Link to="/blog-single" className="lab-btn">
-                              <span>
-                                {/* {val.btnText}{" "} */}
-                                <i className="icofont-external-link"></i>
-                              </span>
-                            </Link>
+        <div className="section-wrapper">
+          <div className="row g-4 justify-content-center row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 course-filter">
+            {items.map((elem) => {
+              const {
+                id,
+                imgUrl,
+                imgAlt,
+                cate,
+                title,
+                author,
+                authorName,
+                price,
+              } = elem;
+              return (
+                <div className="col" key={id}>
+                  <div className="course-item style-4">
+                    <div className="course-inner">
+                      <div className="course-thumb">
+                        <img src={imgUrl} alt={imgAlt} />
+                        <div className="course-category">
+                          <div className="course-cate">
+                            <a href="#">{cate}</a>
                           </div>
+                          {/* <div className="course-reiew">
+                                                        <Rating />
+                                                    </div> */}
                         </div>
                       </div>
+                      <div className="course-content">
+                        <Link to="/course-single">
+                          <h5>{title}</h5>
+                        </Link>
+                        {/* <div className="course-footer">
+                                                    <div className="course-author">
+                                                        <img src={author} alt={imgAlt} />
+                                                        <Link to="/team-single" className="ca-name">{authorName}</Link>
+                                                    </div>
+                                                    <div className="course-price">{price}</div>
+                                                </div> */}
+                      </div>
                     </div>
-                  
+                  </div>
                 </div>
-              </div>
-            </article>
+              );
+            })}
           </div>
-          
-        </div>
-      </div>
-      <br/>
-      <div className="container">
-        <div className="section-header text-center">
-          {/* <span className="subtitle">Faculties</span> */}
-          <h2 className="title">FACULTY OF SCIENCES</h2>
-        </div>
-        <div className="row justify-content-center">
-          <div className="col-lg-8 col-12">
-            <article>
-              <div className="section-wrapper">
-                <div className="row row-cols-1 justify-content-center g-4">
-                  
-                    <div className="col" >
-                      <div className="post-item style-2">
-                        <div className="post-inner">
-                          <div className="post-content">
-                          <Link to="/blog-single">
-                              <h3>P. D. Patel Institute of Applied Science</h3>
-                            </Link>
-                            
-                            <Link to="/blog-single" className="lab-btn">
-                              <span>
-                                {/* {val.btnText}{" "} */}
-                                <i className="icofont-external-link"></i>
-                              </span>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  
-                </div>
-              </div>
-            </article>
-          </div>
-          
-        </div>
-      </div>
-      <br/>
-      <div className="container">
-        <div className="section-header text-center">
-          {/* <span className="subtitle">Faculties</span> */}
-          <br/>
-          <h2 className="title">FACULTY OF MEDICAL SCIENCES</h2>
-        </div>
-        <div className="row justify-content-center">
-          <div className="col-lg-8 col-12">
-            <article>
-              <div className="section-wrapper">
-                <div className="row row-cols-1 justify-content-center g-4">
-                  
-                    <div className="col" >
-                      <div className="post-item style-2">
-                        <div className="post-inner">
-                          <div className="post-content">
-                          <Link to="/blog-single">
-                              <h3>Manikaka Topawala Institute of Nursing</h3>
-                            </Link>
-                            
-                            <Link to="/blog-single" className="lab-btn">
-                              <span>
-                                {/* {val.btnText}{" "} */}
-                                <i className="icofont-external-link"></i>
-                              </span>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  
-                </div>
-              </div>
-            </article>
-            <br/>
-            <article>
-              <div className="section-wrapper">
-                <div className="row row-cols-1 justify-content-center g-4">
-                  
-                    <div className="col" >
-                      <div className="post-item style-2">
-                        <div className="post-inner">
-                          <div className="post-content">
-                          <Link to="/blog-single">
-                              <h3>Ashok & Rita Patel Institute of Physiotherapy</h3>
-                            </Link>
-                            
-                            <Link to="/blog-single" className="lab-btn">
-                              <span>
-                                {/* {val.btnText}{" "} */}
-                                <i className="icofont-external-link"></i>
-                              </span>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  
-                </div>
-              </div>
-            </article>
-            <br/>
-            <article>
-              <div className="section-wrapper">
-                <div className="row row-cols-1 justify-content-center g-4">
-                  
-                    <div className="col" >
-                      <div className="post-item style-2">
-                        <div className="post-inner">
-                          <div className="post-content">
-                          <Link to="/blog-single">
-                              <h3>Bapubhai Desaibhai Patel Institute of Paramedical Sciences</h3>
-                            </Link>
-                            
-                            <Link to="/blog-single" className="lab-btn">
-                              <span>
-                                {/* {val.btnText}{" "} */}
-                                <i className="icofont-external-link"></i>
-                              </span>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  
-                </div>
-              </div>
-            </article>
-          </div>
-          
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-const subTitle = "About Our CHARUSAT";
+const subTitle = "About CHARUSAT";
 const title = "|| अमृतं तु विद्या ||";
 const desc =
   "The Iron Man of India, Sardar Vallabhbhai Patel believed, “Education without character is futile”. CHARUSAT proudly follows this spirit. It also follows founding High Moral Values like Honesty, Integrity, Transparency, Fairness, Equity, and Accountability.";
@@ -61,9 +61,9 @@ const About = () => {
                 <br />
                 <p style={{fontWeight:'bold'}}>{desc2}</p>
               </div>
-              <div className="section-wrapper">
+              {/* <div className="section-wrapper">
                 <ul className="lab-ul">
-                  {/* {aboutList.map((val, i) => (
+                  {aboutList.map((val, i) => (
                                         <li key={i}>
                                             <div className="sr-left">
                                                 <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} />
@@ -73,15 +73,15 @@ const About = () => {
                                                 <p>{val.desc}</p>
                                             </div>
                                         </li>
-                                    ))} */}
+                                    ))}
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
-          <div className="col">
+          <div className="col mb-5">
             <div className="about-left">
-              <div className="about-thumb">
-                <img src="assets/images/about/01.png" alt="about" />
+              <div className="about-thumb mb-5" >
+                <img src="assets/images/about/04.png" alt="about" />
               </div>
             </div>
           </div>
