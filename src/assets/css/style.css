@@ -3223,7 +3223,7 @@ button {
   font-size: 22px;
 }
 .banner-section.style-5 {
-  background-image: url(../images/bg-img/08.jpg);
+  background-image: url(../images/bg-img/08.png);
   background-position: center;
   background-attachment: fixed;
   padding: 260px 0 200px;
@@ -3237,6 +3237,7 @@ button {
   right: 0;
   top: 0;
   background: rgba(255, 223, 64, 0.85);
+  /* background: rgba(0, 102, 179, 0.85); */
 }
 @media (min-width: 768px) {
   .banner-section.style-5::after {
@@ -6550,5 +6551,7 @@ footer.style-2 .footer-top.dark-view * {
     margin-top: 0;
   }
 }
+
+
 
 /*# sourceMappingURL=style.css.map */
