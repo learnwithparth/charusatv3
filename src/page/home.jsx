@@ -15,7 +15,7 @@ import Placement from "../component/section/palcement"
 const Home = () => {
     return (
         <Fragment>
-            <Header />
+            {/* <Header /> */}
             <Banner />
             <About />
             {/* <FromTheDesk/> */}
@@ -43,7 +43,7 @@ const Home = () => {
             <Placement/>
             <Sponsor />
             {/* <Contact/> */}
-            <Footer />
+            {/* <Footer /> */}
         </Fragment>
     );
 }
