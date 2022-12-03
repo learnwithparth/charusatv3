@@ -1,45 +1,87 @@
+/*  Mega Menu CSS - RVP  */
 .nav-link {
-    font-size: 0.95rem;
+  font-size: 0.95rem;
+}
+
+#basic-nav-dropdown {
+  font-size: 0.95rem;
+}
+
+#seeMoreLink {
+  color: #607d8b;
+}
+
+#seeMoreLink:hover {
+  color: black;
+  font-weight: 400;
+}
+
+.dropdown-menu {
+  padding: 1em;
+  height: 60vh;
+  width: 50vw;
+}
+
+.dropdown-item:hover {
+  outline: none;
+  box-shadow: none;
+  background: none;
+}
+.dropdown-item a:hover {
+  color: black;
+}
+
+.dropdown-item {
+  height: 2em;
+  padding-left: 1em;
+}
+
+.dropdown-header {
+  font-weight: 700;
+  padding-left: 0em;
+}
+
+@media only screen and (min-width: 600px) {
+  .eventsNav1 {
+    width: 20em;
+    padding-bottom: 1em;
   }
-  
-  #basic-nav-dropdown {
-    font-size: 0.95rem;
-  }
-  
-  #seeMoreLink {
-    color: #607d8b;
-  }
-  
-  #seeMoreLink:hover {
-    color: black;
-    font-weight: 400;
+}
+
+/* new flex menu starts rvp */
+.flex-container {
+  display: flex;
+
+  /* background-color: DodgerBlue; */
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: 1px solid red;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  word-wrap: break-word;
+  flex-direction: row;
+  border: 1px solid blue;
+  align-items: stretch;
+}
+
+/* for mobile view */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
   }
   .dropdown-menu {
-    padding: 1em;
+    height: 50vh;
+    overflow: scroll;
+    margin-left: 2rem;
+    width: 80vw;
   }
-  
-  .dropdown-item:hover {
-    outline: none;
-    box-shadow: none;
-    background: none;
+  .flex-container > div {
+    width: 50vw;
   }
-  .dropdown-item a:hover {
-    color: black;
-  }
-  
-  .dropdown-item {
-    height: 2em;
-    padding-left: 1em;
-  }
-  
-  .dropdown-header {
-    font-weight: 700;
-    padding-left: 0em;
-  }
-  
-  @media only screen and (min-width: 600px) {
-    .eventsNav {
-      width: 20em;
-      padding-bottom: 1em;
-    }
-  }
+}
+/*  Mega Menu CSS END - RVP  */

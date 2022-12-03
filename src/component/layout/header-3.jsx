@@ -12,6 +12,8 @@ import {
   Row,
 } from "react-bootstrap";
 
+import Navigation from "./Navigation";
+
 const menuList = [
   {
     text: "Academics_Header_3",
@@ -899,6 +901,8 @@ const HeaderThree = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+
+      <Navigation />
     </header>
     // </Fragment>
   );

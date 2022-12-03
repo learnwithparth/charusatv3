@@ -11,12 +11,15 @@ import {
 } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
+import "./Navigation.css";
 
 export default function Navigation() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
       <Container>
-        <Navbar.Brand href="#home" style={{fontColor : '#0066B3 !important'}}>C H A R U S A T</Navbar.Brand>
+        <Navbar.Brand href="#home" style={{ fontColor: "#0066B3 !important" }}>
+          C H A R U S A T
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -24,11 +27,38 @@ export default function Navigation() {
             <Nav.Link href="#pricing">Pricing</Nav.Link>
             <NavDropdown
               className=" align-text-top"
-              title="Events"
+              title="Academics"
               id="basic-nav-dropdown"
             >
-              <Container className="eventsNav pt-0 mt-0">
-                <Row>
+              <Container className="  eventsNav pt-0 mt-0">
+                <div class="flex-container">
+                  <div>
+                    <h3>UG</h3>
+                    <p>Link 1</p>
+
+                    <p>Link 1</p>
+                  </div>
+                  <div>
+                    <h3>PG</h3>
+                    <p>Link 1</p>
+
+                    <p>Link 1</p>
+                  </div>
+                  <div>
+                    <h3>PHD</h3>
+                    <p>Link 1</p>
+
+                    <p>Link 1</p>
+                  </div>
+                  <div>
+                    <h3>PHD</h3>
+                    <p>Link 1</p>
+
+                    <p>Link 1</p>
+                  </div>
+                </div>
+
+                {/* <Row>
                   <Col xs="12" md="6" className="text-left">
                     <Dropdown.Header>
                       <FontAwesomeIcon
@@ -38,19 +68,20 @@ export default function Navigation() {
                         className="pr-1"
                       />
                       {"  "}
-                      Catering
+                      Undergraduate Studies
                     </Dropdown.Header>
                     <Dropdown.Item>
                       <Link href="/">
                         <a className="nav-link" role="button">
-                          Corporate
+                          Bachelor of Science ( Information Technology )
                         </a>
                       </Link>
                     </Dropdown.Item>
                     <Dropdown.Item>
                       <Link href="/">
                         <a className="nav-link" role="button">
-                          Private
+                          Bachelor of Science ( Operation Theatre & Anesthesia
+                          Technology )
                         </a>
                       </Link>
                     </Dropdown.Item>
@@ -64,7 +95,7 @@ export default function Navigation() {
                         className="pr-1"
                       />
                       {"  "}
-                      Classes
+                      Information You May Need !!!
                     </Dropdown.Header>
                     <Dropdown.Item>
                       <Link href="/">
@@ -99,7 +130,7 @@ export default function Navigation() {
                         className="pr-1"
                       />
                       {"  "}
-                      Rentals
+                      Postgraduate Studies
                     </Dropdown.Header>
                     <Dropdown.Item>
                       <Link href="/">
@@ -141,7 +172,7 @@ export default function Navigation() {
                       </Link>
                     </Dropdown.Item>
                   </Col>
-                </Row>
+                </Row> */}
               </Container>
             </NavDropdown>
           </Nav>
