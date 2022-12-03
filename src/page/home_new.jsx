@@ -27,28 +27,28 @@ import Contact from "../page/contact";
 import Publication from "../component/section/course-6";
 import Goals from "../component/section/goals";
 import FromTheDesk from "../component/section/fromTheDesk";
-import Intiatives from "../component/section/initiatives"
+import Intiatives from "../component/section/initiatives";
 
 const Home = () => {
-    return (
-        <Fragment>
-            <Header />
-            <Banner />
-            <About />
-            {/* <FromTheDesk/> */}
-            <Faculties/>
-            <Intiatives/>
-            <Goals/>
-            {/* <FeatureTwo/> */}
-            <Collaboration/>
-            <AchievementThree />
-            {/* <Achievement2/> */}
-            {/* <Event /> */}
-            {/* <Publication/> */}
-            {/* <Blog />            
+  return (
+    <Fragment>
+      <Header />
+      <Banner />
+      <About />
+      {/* <FromTheDesk/> */}
+      <Faculties />
+      <Intiatives />
+      <Goals />
+      {/* <FeatureTwo/> */}
+      <Collaboration />
+      <AchievementThree />
+      {/* <Achievement2/> */}
+      {/* <Event /> */}
+      {/* <Publication/> */}
+      {/* <Blog />            
             <Clients /> */}
-            <ClientsThree />
-            {/* <Feature />
+      <ClientsThree />
+      {/* <Feature />
             <Category />
             <Course />
             <CourseFour />
@@ -57,11 +57,11 @@ const Home = () => {
             <Student />
             <Achievement />
             <AboutTwo /> */}
-            <Sponsor />
-            <Contact/>
-            <Footer />
-        </Fragment>
-    );
-}
- 
+      <Sponsor />
+      <Contact />
+      <Footer />
+    </Fragment>
+  );
+};
+
 export default Home;

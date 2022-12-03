@@ -1,4 +1,5 @@
 /*  Mega Menu CSS - RVP  */
+
 .nav-link {
   font-size: 0.95rem;
 }
@@ -18,8 +19,11 @@
 
 .dropdown-menu {
   padding: 1em;
-  height: 60vh;
-  width: 50vw;
+  /* height: 60vh; */
+  width: 45vw;
+  background-color: white;
+
+  /* outline: 1px solid red; */
 }
 
 .dropdown-item:hover {
@@ -55,18 +59,17 @@
   /* background-color: DodgerBlue; */
   flex-wrap: wrap;
   flex-direction: row;
-  border: 1px solid red;
+
+  width: 100%;
 }
 
 .flex-container > div {
-  background-color: #f1f1f1;
   margin: 10px;
   padding: 20px;
   font-size: 30px;
   word-wrap: break-word;
   flex-direction: row;
-  border: 1px solid blue;
-  align-items: stretch;
+  flex-basis: 22.33%;
 }
 
 /* for mobile view */
@@ -77,11 +80,11 @@
   .dropdown-menu {
     height: 50vh;
     overflow: scroll;
-    margin-left: 2rem;
+    margin-left: 1rem;
     width: 80vw;
   }
   .flex-container > div {
-    width: 50vw;
+    width: 45vw;
   }
 }
 /*  Mega Menu CSS END - RVP  */
