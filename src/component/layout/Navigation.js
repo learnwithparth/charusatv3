@@ -36,25 +36,35 @@ export default function Navigation() {
                 <Container className="eventsNav pt-0 mt-0">
                   <div class="flex-container">
                     <div>
-                      <Dropdown.Header>UG</Dropdown.Header>
+                      <Dropdown.Header>Undergraduate Studies</Dropdown.Header>
+                      <Nav.Link>Link 1</Nav.Link>
+                      <Nav.Link>Link 2</Nav.Link>
+                      <Nav.Link>Link 3</Nav.Link>
+                      <Nav.Link>Link 1</Nav.Link>
+                      <Nav.Link>Link 2</Nav.Link>
+                      <Nav.Link>Link 3</Nav.Link>
+                      <Nav.Link>Link 1</Nav.Link>
+                      <Nav.Link>Link 2</Nav.Link>
+                      <Nav.Link>Link 3</Nav.Link>
+                      <Nav.Link>Link 1</Nav.Link>
+                      <Nav.Link>Link 2</Nav.Link>
+                      <Nav.Link>Link 3</Nav.Link>
+                      <Nav.Link>Link 1 sdfad sdfsf</Nav.Link>
+                    </div>
+                    <div>
+                      <Dropdown.Header>Postgraduate Studies</Dropdown.Header>
                       <Nav.Link>Link 1</Nav.Link>
                       <Nav.Link>Link 2</Nav.Link>
                       <Nav.Link>Link 3</Nav.Link>
                     </div>
                     <div>
-                      <Dropdown.Header>UG</Dropdown.Header>
+                      <Dropdown.Header>Phd</Dropdown.Header>
                       <Nav.Link>Link 1</Nav.Link>
                       <Nav.Link>Link 2</Nav.Link>
                       <Nav.Link>Link 3</Nav.Link>
                     </div>
                     <div>
-                      <Dropdown.Header>UG</Dropdown.Header>
-                      <Nav.Link>Link 1</Nav.Link>
-                      <Nav.Link>Link 2</Nav.Link>
-                      <Nav.Link>Link 3</Nav.Link>
-                    </div>
-                    <div>
-                      <Dropdown.Header>UG</Dropdown.Header>
+                      <Dropdown.Header>Other Links</Dropdown.Header>
                       <Nav.Link>Link 1</Nav.Link>
                       <Nav.Link>Link 2</Nav.Link>
                       <Nav.Link>Link 3</Nav.Link>

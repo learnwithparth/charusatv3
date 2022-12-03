@@ -22,7 +22,7 @@
   /* height: 60vh; */
   width: 45vw;
   background-color: white;
-
+  padding: 0;
   /* outline: 1px solid red; */
 }
 
@@ -64,27 +64,33 @@
 }
 
 .flex-container > div {
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
+  margin: 0.5rem;
+  padding: 0.5rem;
   word-wrap: break-word;
   flex-direction: row;
-  flex-basis: 22.33%;
+  flex-basis: 20%;
+  /* outline: 1px solid red; */
 }
 
 /* for mobile view */
 @media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
+    margin: 0.2rem;
   }
   .dropdown-menu {
     height: 50vh;
-    overflow: scroll;
-    margin-left: 1rem;
+    overflow-y: scroll;
+    overflow-x: auto;
+    /* margin-left: 0.5rem; */
+    margin: 0.3rem;
     width: 80vw;
+    padding: 0;
   }
   .flex-container > div {
     width: 45vw;
+    margin-top: 0rem;
+    /* outline: 1px solid blue; */
   }
 }
 /*  Mega Menu CSS END - RVP  */

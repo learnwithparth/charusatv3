@@ -1,7 +1,5 @@
-
-import {BrowserRouter, Routes, Route } from "react-router-dom";
-import 'swiper/css';
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "swiper/css";
 
 import ScrollToTop from "./component/layout/ScrollToTop";
 import ErrorPage from "./page/404";
@@ -33,18 +31,15 @@ import SignupPage from "./page/signup";
 import TeamPage from "./page/team";
 import TeamSingle from "./page/team-single";
 
-
-
 function App() {
-	return (
-		<BrowserRouter>
-			<ScrollToTop />
-			<Routes>
-			<Route path="/final" element={<Home_Final />} />
-				
-			</Routes>
-		</BrowserRouter>
-	);
+  return (
+    <BrowserRouter>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/final" element={<Home_Final />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
