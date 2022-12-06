@@ -279,146 +279,36 @@ export default function Navigation() {
                 <Container className="  eventsNav pt-0 mt-0">
                   <div class="flex-container">
                     <div>
-                      <Dropdown.Header>UG</Dropdown.Header>
-                      <Nav.Link>Link 1</Nav.Link>
-                      <Nav.Link>Link 2</Nav.Link>
+                      <Dropdown.Header>Initiatives</Dropdown.Header>
+                      <Nav.Link>Laboratories</Nav.Link>
+                      <Nav.Link>CHARUSAT Journal</Nav.Link>
+                      <Nav.Link>
+                        Enterpreneurship Development & Incubation Cell
+                      </Nav.Link>
+                      <Nav.Link>
+                        Dr. K. C. Patel Research and Development Centre (KRADLE)
+                      </Nav.Link>
+                      <Nav.Link>
+                        International Center For Consomology (ICC)
+                      </Nav.Link>
+                      <Nav.Link>IPR Cell</Nav.Link>
+                      <Nav.Link>Research Facilitation</Nav.Link>
+                      <Nav.Link>CHARUSAT Space and Research Center</Nav.Link>
+                      <Nav.Link>Research Ethics Committee</Nav.Link>
+                    </div>
+                    <div>
+                      <Dropdown.Header>Policies</Dropdown.Header>
+                      <Nav.Link>Publication Policy</Nav.Link>
+                      <Nav.Link>Research Paper Award</Nav.Link>
                       <Nav.Link>Link 3</Nav.Link>
                     </div>
                     <div>
-                      <Dropdown.Header>UG</Dropdown.Header>
-                      <Nav.Link>Link 1</Nav.Link>
-                      <Nav.Link>Link 2</Nav.Link>
-                      <Nav.Link>Link 3</Nav.Link>
-                    </div>
-                    <div>
-                      <Dropdown.Header>UG</Dropdown.Header>
-                      <Nav.Link>Link 1</Nav.Link>
-                      <Nav.Link>Link 2</Nav.Link>
-                      <Nav.Link>Link 3</Nav.Link>
-                    </div>
-                    <div>
-                      <Dropdown.Header>UG</Dropdown.Header>
-                      <Nav.Link>Link 1</Nav.Link>
-                      <Nav.Link>Link 2</Nav.Link>
-                      <Nav.Link>Link 3</Nav.Link>
+                      <Dropdown.Header>Outcomes</Dropdown.Header>
+                      <Nav.Link>Publications</Nav.Link>
+                      <Nav.Link>Project Grants</Nav.Link>
+                      <Nav.Link>Patents</Nav.Link>
                     </div>
                   </div>
-
-                  {/* <Row>
-                  <Col xs="12" md="6" className="text-left">
-                    <Dropdown.Header>
-                      <FontAwesomeIcon
-                        color="black"
-                        icon={"concierge-bell"}
-                        size="1x"
-                        className="pr-1"
-                      />
-                      {"  "}
-                      Undergraduate Studies
-                    </Dropdown.Header>
-                    <Dropdown.Item>
-                      <Link href="/">
-                        <a className="nav-link" role="button">
-                          Bachelor of Science ( Information Technology )
-                        </a>
-                      </Link>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <Link href="/">
-                        <a className="nav-link" role="button">
-                          Bachelor of Science ( Operation Theatre & Anesthesia
-                          Technology )
-                        </a>
-                      </Link>
-                    </Dropdown.Item>
-
-                    <Dropdown.Divider />
-                    <Dropdown.Header>
-                      <FontAwesomeIcon
-                        color="black"
-                        icon={"chalkboard-teacher"}
-                        size="1x"
-                        className="pr-1"
-                      />
-                      {"  "}
-                      Information You May Need !!!
-                    </Dropdown.Header>
-                    <Dropdown.Item>
-                      <Link href="/">
-                        <a className="nav-link" role="button">
-                          Barista 101
-                        </a>
-                      </Link>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <Link href="/">
-                        <a className="nav-link" role="button">
-                          History of Coffee
-                        </a>
-                      </Link>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <Link href="/">
-                        <a className="nav-link" role="button">
-                          Intro to Cafe Snobbery
-                        </a>
-                      </Link>
-                    </Dropdown.Item>
-                    <Dropdown.Divider className="d-md-none" />
-                  </Col>
-
-                  <Col xs="12" md="6" className="text-left">
-                    <Dropdown.Header>
-                      <FontAwesomeIcon
-                        color="black"
-                        icon={"building"}
-                        size="1x"
-                        className="pr-1"
-                      />
-                      {"  "}
-                      Postgraduate Studies
-                    </Dropdown.Header>
-                    <Dropdown.Item>
-                      <Link href="/">
-                        <a className="nav-link" role="button">
-                          Fireside Room
-                        </a>
-                      </Link>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <Link href="/">
-                        <a className="nav-link" role="button">
-                          Roasting Room
-                        </a>
-                      </Link>
-                    </Dropdown.Item>
-                    <Dropdown.Divider />
-                    <Dropdown.Header>
-                      <FontAwesomeIcon
-                        color="black"
-                        icon={"sun"}
-                        size="1x"
-                        className="pr-1"
-                      />
-                      {"  "}
-                      Seasonal
-                    </Dropdown.Header>
-                    <Dropdown.Item>
-                      <Link href="/">
-                        <a className="nav-link" role="button">
-                          Coldbrew Night
-                        </a>
-                      </Link>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <Link href="/">
-                        <a className="nav-link text-wrap" role="button">
-                          Campfire Coffee Class
-                        </a>
-                      </Link>
-                    </Dropdown.Item>
-                  </Col>
-                </Row> */}
                 </Container>
               </NavDropdown>
               <NavDropdown
