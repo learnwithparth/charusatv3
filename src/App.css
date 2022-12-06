@@ -2,6 +2,14 @@
 
 .nav-link {
   font-size: 0.95rem;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.3rem;
+  color: black;
+}
+.nav-link:hover {
+  color: chocolate;
+  font-weight: 600;
 }
 
 #basic-nav-dropdown {
@@ -20,7 +28,7 @@
 .dropdown-menu {
   padding: 1em;
   /* height: 60vh; */
-  width: 45vw;
+  /* width: 60vw; */
   background-color: white;
   padding: 0;
   /* outline: 1px solid red; */
@@ -41,8 +49,18 @@
 }
 
 .dropdown-header {
-  font-weight: 700;
+  font-weight: 600;
   padding-left: 0em;
+  padding-bottom: 0.8rem;
+  color: black;
+
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-color: coral;
+  text-decoration-thickness: 0.1rem;
+}
+.dropdown-header:hover {
+  /* do transition here */
 }
 
 @media only screen and (min-width: 600px) {
@@ -57,18 +75,20 @@
   display: flex;
 
   /* background-color: DodgerBlue; */
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: row;
-
-  width: 100%;
+  /* justify-content: space-between; */
+  /* width: 100%; */
 }
 
 .flex-container > div {
   margin: 0.5rem;
-  padding: 0.5rem;
+  padding: 0.8rem;
   word-wrap: break-word;
-  flex-direction: row;
-  flex-basis: 20%;
+  width: 15vw;
+  /* outline: 10px solid red; */
+
+  /* background-color: aquamarine; */
   /* outline: 1px solid red; */
 }
 
