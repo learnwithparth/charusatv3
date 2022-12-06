@@ -4667,6 +4667,7 @@ button {
 
 .count-item .count-inner {
   padding: 5px 30px;
+  align-items: center;
 }
 @media (min-width: 576px) {
   .count-item .count-inner {
