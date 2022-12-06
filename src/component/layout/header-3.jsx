@@ -12,11 +12,9 @@ import {
   Row,
 } from "react-bootstrap";
 
-import Navigation from "./Navigation";
-
 const menuList = [
   {
-    text: "Academics_Header_3",
+    text: "Academics",
     subMenu: [
       {
         text: "Undergraduate Studies",
@@ -186,7 +184,7 @@ const menuList = [
             text: "NPTEL",
             link: "",
             subSubSubMenu: [],
-          },
+          }
         ],
       },
       {
@@ -231,7 +229,7 @@ const menuList = [
             text: "Knowledge Resource Center",
             link: "",
             subSubSubMenu: [],
-          },
+          }
         ],
       },
     ],
@@ -245,22 +243,30 @@ const menuList = [
           {
             text: "Apply now",
             link: "#",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Eligibility Criteria",
             link: "#",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Fees",
             link: "#",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Contact Us - +918905500500",
             link: "#",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
         ],
       },
@@ -270,44 +276,57 @@ const menuList = [
           {
             text: "Apply now",
             link: "#",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Eligibility Criteria",
             link: "#",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Fees",
             link: "#",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Contact Us - +919173701614",
             link: "#",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
         ],
       },
       {
         text: "Login",
-        subSubMenu: [],
+        subSubMenu: [
+        ],
       },
       {
         text: "Fellowship",
-        subSubMenu: [],
+        subSubMenu: [
+        ],
       },
       {
         text: "Scholarship",
-        subSubMenu: [],
+        subSubMenu: [
+        ],
       },
       {
         text: "Transportation",
-        subSubMenu: [],
+        subSubMenu: [
+        ],
       },
       {
         text: "FAQ",
-        subSubMenu: [],
+        subSubMenu: [
+        ],
       },
     ],
   },
@@ -319,23 +338,33 @@ const menuList = [
         subSubMenu: [
           {
             text: "NCC@CHARUSAT",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "NSS@CHARUSAT",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Sports & Gym",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Activities & Events",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Clubs",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
         ],
       },
@@ -344,27 +373,39 @@ const menuList = [
         subSubMenu: [
           {
             text: "Girl's Hostel",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Boy's Hostel",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Staff Quarters",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Food",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Transportation",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Recreation",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
         ],
       },
@@ -373,7 +414,9 @@ const menuList = [
         subSubMenu: [
           {
             text: "Helpline No.",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
         ],
       },
@@ -387,39 +430,57 @@ const menuList = [
         subSubMenu: [
           {
             text: "Laboratories",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "CHARUSAT Journal",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "EDIC",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "KRADLE",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "ICC",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "IPR Cell",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Research Facilitation",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "CSRTC",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Ethics Committee",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
         ],
       },
@@ -428,47 +489,69 @@ const menuList = [
         subSubMenu: [
           {
             text: "Publications",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Ph. D. Scholars’ Fellowship",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Visitor Student Research Internship",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Undergraduate & Postgraduate Student Fellowship ",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Seed Grant",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Research",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Research Paper Award",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Intellectual Property",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Plagiarism",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Patent, IPR and Royalty Sharing",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Consultancy",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
         ],
       },
@@ -477,15 +560,21 @@ const menuList = [
         subSubMenu: [
           {
             text: "Publications",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Project Grants",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Patents",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
         ],
       },
@@ -499,15 +588,21 @@ const menuList = [
         subSubMenu: [
           {
             text: "2022-23",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "2021-22",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "2020-21",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
         ],
       },
@@ -516,7 +611,9 @@ const menuList = [
         subSubMenu: [
           {
             text: "Process",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
         ],
       },
@@ -525,32 +622,44 @@ const menuList = [
         subSubMenu: [
           {
             text: "2022-23",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "2021-22",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "2020-21",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
         ],
       },
       {
         text: "Accreditation & Ranking",
-        subSubMenu: [],
+        subSubMenu: [
+          
+        ],
       },
       {
         text: "Best Practices",
-        subSubMenu: [],
+        subSubMenu: [
+          
+        ],
       },
       {
         text: "Undergraduate Studies",
         subSubMenu: [
           {
             text: "Science",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
         ],
       },
@@ -559,7 +668,9 @@ const menuList = [
         subSubMenu: [
           {
             text: "Science",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
         ],
       },
@@ -568,7 +679,9 @@ const menuList = [
         subSubMenu: [
           {
             text: "Science",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
         ],
       },
@@ -582,31 +695,45 @@ const menuList = [
         subSubMenu: [
           {
             text: "About University",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Vision",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Mission",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Torchbearers",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "From President's Desk",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "From Provost's Desk",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Convocations",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
         ],
       },
@@ -615,19 +742,27 @@ const menuList = [
         subSubMenu: [
           {
             text: "Governing Body",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Board of Management",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Deans, Principals & Heads",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "University Officers",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
         ],
       },
@@ -636,55 +771,81 @@ const menuList = [
         subSubMenu: [
           {
             text: "Anti-Ragging Committee",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Equal Opportunity Cell",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Energy Conservation Cell",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Grievance Redressal Cell",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Enterpreneurship Development & Incubation Cell",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "University Industry Interaction Cell",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Womens' Development Cell",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Human Resource Development Center",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "International Students' Cell",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Cell for Prevention of Sexual Harassment",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Internal Quality Assurance Cell",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Rural Education Development Program",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Student Wellness Programme",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
         ],
       },
@@ -693,44 +854,62 @@ const menuList = [
         subSubMenu: [
           {
             text: "Auditoria & Lectures Halls",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Laboratories",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Data Center @ CHARUSAT",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Knowledge Resource Center",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Sports & Gym",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Herbal Garden",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
         ],
       },
       {
         text: "360 Campus Tour",
-        subSubMenu: [],
+        subSubMenu: [
+          
+        ],
       },
       {
         text: "Reach US",
         subSubMenu: [
           {
             text: "Connect with CHARUSAT",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Staff Directory",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
         ],
       },
@@ -739,15 +918,21 @@ const menuList = [
         subSubMenu: [
           {
             text: "Give & Support US",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Reports",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
           {
             text: "Strategic Plan",
-            subSubSubMenu: [],
+            subSubSubMenu: [
+              
+            ],
           },
         ],
       },
@@ -771,54 +956,144 @@ const HeaderThree = () => {
 
   return (
     // <Fragment>
-    <header
-      className={`header-section style-3 ${
-        headerFiexd ? "header-fixed fadeInUp" : ""
-      }`}
-    >
-      <div
-        className={`header-top ${socialToggle ? "open" : ""}`}
-        style={{
-          backgroundColor: "#0066b3",
-          color: "white",
-          fontSize: "17px",
-        }}
+      <header
+        className={`header-section style-3 ${
+          headerFiexd ? "header-fixed fadeInUp" : ""
+        }`}
       >
-        <div className="container">
-          <div className="header-top-area">
-            <div className="header-top-contact">
-              <a href="#" className="lab-btn">
-                <span>Support CHARUSAT</span>
-              </a>
-              <a href="tel:+880123456789">+91-2697-265011/21</a>
-              <a href="mailto:contact@yourmail.com">info@charusat.ac.in</a>
-            </div>
-            <div className="header-top-reglog">
-              <Link to="/login" className="login">
-                Accreditation & Ranking
-              </Link>
-              <Link to="/signup" className="signup">
-                Alumni
-              </Link>
-              <Link to="/login" className="login">
-                Careers
-              </Link>
-              <Link to="/signup" className="signup">
-                Students' Corner
-              </Link>
-              <Link to="/login" className="login">
-                Exam Result
-              </Link>
-              <Link to="/signup" className="signup">
-                Pay Fees
-              </Link>
+        <div
+          className={`header-top ${socialToggle ? "open" : ""}`}
+          style={{
+            backgroundColor: "#0066b3",
+            color: "white",
+            fontSize: "17px",
+          }}
+        >
+          <div className="container">
+            <div className="header-top-area">
+              <div className="header-top-contact">
+                <a href="#" className="lab-btn">
+                  <span>Support CHARUSAT</span>
+                </a>
+                <a href="tel:+880123456789">+91-2697-265011/21</a>
+                <a href="mailto:contact@yourmail.com">info@charusat.ac.in</a>
+              </div>
+              <div className="header-top-reglog">
+                <Link to="/login" className="login">
+                  Accreditation & Ranking
+                </Link>
+                <Link to="/signup" className="signup">
+                  Alumni
+                </Link>
+                <Link to="/login" className="login">
+                  Careers
+                </Link>
+                <Link to="/signup" className="signup">
+                  Students' Corner
+                </Link>
+                <Link to="/login" className="login">
+                  Exam Result
+                </Link>
+                <Link to="/signup" className="signup">
+                  Pay Fees
+                </Link>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <Navigation />
-    </header>
+        <Navbar
+          collapseOnSelect
+          expand="lg"
+          bg="light"
+          variant="primary"
+          style={{ fontWeight: "bold" }}
+        >
+          <Container className="menu">
+            <Navbar.Brand
+              href="#home"
+              
+            >
+              <div className="logo">
+                <Link to="/">
+                  <img src="assets/images/logo/02.png" alt="logo" />
+                  
+                </Link>
+              </div>
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            {/* <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav className="me-auto">
+                
+                <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                  <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                  </NavDropdown>
+                </NavDropdown>
+              </Nav>
+            </Navbar.Collapse> */}
+            <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav className="me-auto">
+                {menuList.map((menu) =>
+                  menu.subMenu.length > 0 ? (
+                    <NavDropdown
+                      className=" align-text-top"
+                      title={menu.text}
+                      id="collasible-nav-dropdown"
+                    >
+                      {menu.subMenu.map((subMenu) =>
+                        subMenu.subSubMenu.length > 0 ? (
+                          <NavDropdown
+                            title={subMenu.text}
+                            id="collasible-nav-dropdown"
+                          >
+                             
+                            {subMenu.subSubMenu.map((subSubMenu) =>
+                              subSubMenu.subSubSubMenu.length > 0 ? (
+                                <NavDropdown
+                                  title={subSubMenu.text}
+                                  id="collasible-nav-dropdown"
+                                >
+                                  {subSubMenu.subSubSubMenu.map(
+                                    (subSubSubMenu) => (
+                                      <Nav.Link href="#action/3.1">
+                                        {subSubSubMenu.text}
+                                      </Nav.Link>
+                                    )
+                                  )}
+                                </NavDropdown>
+                              ) : (
+                                <Nav.Link href="#action/3.1">
+                                  {subSubMenu.text}
+                                </Nav.Link>
+                              )
+                            )}
+                          </NavDropdown>
+                        ) : (
+                          <Nav.Link href="#action/3.1">
+                            {subMenu.text}
+                          </Nav.Link>
+                        )
+                      )}
+                    </NavDropdown>
+                  ) : (
+                    <Nav.Link href="#action1">{menu.text}</Nav.Link>
+                  )
+                )}
+              </Nav>
+              <Nav>
+                <div
+                  className="search-icon"
+                  onClick={() => setSearchTrigger(!searchTrigger)}
+                >
+                  <i className="icofont-search"></i>
+                </div>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
+      </header>
     // </Fragment>
   );
 };
