@@ -98,9 +98,9 @@ export default function initiatives() {
                       <i className={val.iconName}></i>
                     </div>
                     <div className="count-content">
-                      <h3>
+                      <h4>
                         <span className="count">{val.desc}</span>
-                      </h3>
+                      </h4>
                       {/* <p>{val.desc}</p> */}
                     </div>
                   </div>
@@ -117,9 +117,9 @@ export default function initiatives() {
                       <i className={val.iconName}></i>
                     </div>
                     <div className="count-content">
-                      <h3>
+                      <h4>
                         <span className="count">{val.desc}</span>
-                      </h3>
+                      </h4>
                       {/* <p>{val.desc}</p> */}
                     </div>
                   </div>
