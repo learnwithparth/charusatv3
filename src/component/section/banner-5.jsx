@@ -28,6 +28,9 @@ const BannerFive = () => {
                     Register for 12<sup>th</sup> Convocation - Click here
                   </span>
                 </Link>
+                <br />
+
+                <br />
                 <NewsSlider />
                 {/* <br />
                 <br />
