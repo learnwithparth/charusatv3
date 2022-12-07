@@ -33,6 +33,7 @@ import SignupPage from "./page/signup";
 import TeamPage from "./page/team";
 import TeamSingle from "./page/team-single";
 
+import About_us from "./page/About_us"
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
 			<ScrollToTop />
 			<Routes>
 			<Route path="/final" element={<Home_Final />} />
+			<Route path="/about" element={<About_us />} />
 				
 			</Routes>
 		</BrowserRouter>
