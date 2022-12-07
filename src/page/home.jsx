@@ -1,52 +1,33 @@
-import { Fragment } from "react";
-import Footer from "../component/layout/footer-3";
-import Header from "../component/layout/header-3";
+import { Component, Fragment } from "react";
+import Footer from "../component/layout/footer";
+import Header from "../component/layout/header";
 import About from "../component/section/about";
-import Banner from "../component/section/banner-5";
+import Achievement from "../component/section/achievement";
+import Banner from "../component/section/banner";
+import Blog from "../component/section/blog";
+import Category from "../component/section/category";
+import Course from "../component/section/course";
+import Instructor from "../component/section/instructor";
 import Sponsor from "../component/section/sponsor";
-import AchievementThree from "../component/section/achievement-3";
-import ClientsThree from "../component/section/clients-3";
+import Student from "../component/section/student";
 
-import Collaboration from "../component/section/collaboration";
-import Goals from "../component/section/goals";
-import Intiatives from "../component/section/initiatives";
-import Placement from "../component/section/palcement";
-import Faculties from "../component/section/Faculties";
 
 const Home = () => {
-  return (
-    <Fragment>
-      {/* <Header /> */}
-      <Banner />
-      <About />
-      {/* <FromTheDesk/> */}
-      <Faculties />
-      <Intiatives />
-      <Goals />
-      {/* <FeatureTwo/> */}
-      <Collaboration />
-      <AchievementThree />
-      {/* <Achievement2/> */}
-      {/* <Event /> */}
-      {/* <Publication/> */}
-      {/* <Blog />            
-            <Clients /> */}
-      <ClientsThree />
-      {/* <Feature />
+    return (
+        <Fragment>
+            <Header />
+            <Banner />
+            <Sponsor />
             <Category />
             <Course />
-            <CourseFour />
+            <About />
             <Instructor />
-            <ClientsThree />
             <Student />
+            <Blog />
             <Achievement />
-            <AboutTwo /> */}
-      <Placement />
-      <Sponsor />
-      {/* <Contact/> */}
-      {/* <Footer /> */}
-    </Fragment>
-  );
-};
-
+            <Footer />
+        </Fragment>
+    );
+}
+ 
 export default Home;

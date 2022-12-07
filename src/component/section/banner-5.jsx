@@ -16,7 +16,6 @@ const BannerFive = () => {
       <div className="container">
         <div className="section-wrapper">
           <div className="row">
-          
             <div className="offset-md-6 col-xl-6">
               <div className="banner-content">
                 <h4 className="subtitle">{subTitle}</h4>
