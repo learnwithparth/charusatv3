@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
+import NewsSlider from "../section/NewsSlider";
 
 const subTitle = "C H A R U S A T";
 const title = (
@@ -21,11 +22,16 @@ const BannerFive = () => {
                 <h4 className="subtitle">{subTitle}</h4>
                 {title}
                 {/* <p className="desc">{desc}</p> */}
+
                 <Link to="/course" className="lab-btn">
                   <span>
                     Register for 12<sup>th</sup> Convocation - Click here
                   </span>
                 </Link>
+                <br />
+
+                <br />
+                <NewsSlider />
                 {/* <br />
                 <br />
                 <Link to="/course" className="lab-btn">
@@ -34,7 +40,8 @@ const BannerFive = () => {
               </div>
               <br />
               <br />
-              <Marquee speed="50" gradientWidth="150">
+
+              {/* <Marquee speed="50" gradientWidth="150">
                 <Link to="/course" className="lab-btn">
                   <span>Tender for providing Canteen Services to CHARUSAT</span>
                 </Link>
@@ -55,7 +62,7 @@ const BannerFive = () => {
                   <span>DASA Online Reporting Form</span>
                 </Link>
                 ||||
-              </Marquee>
+              </Marquee> */}
             </div>
           </div>
         </div>
