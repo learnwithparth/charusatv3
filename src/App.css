@@ -1,45 +1,116 @@
+/*  Mega Menu CSS - RVP  */
+
 .nav-link {
-    font-size: 0.95rem;
+  font-size: 0.95rem;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.3rem;
+  color: black;
+}
+.nav-link:hover {
+  color: chocolate;
+  font-weight: 600;
+}
+
+#basic-nav-dropdown {
+  font-size: 0.95rem;
+}
+
+#seeMoreLink {
+  color: #607d8b;
+}
+
+#seeMoreLink:hover {
+  color: black;
+  font-weight: 400;
+}
+
+.dropdown-menu {
+  padding: 1em;
+  /* height: 60vh; */
+  /* width: 60vw; */
+  background-color: white;
+  padding: 0;
+  /* outline: 1px solid red; */
+}
+
+.dropdown-item:hover {
+  outline: none;
+  box-shadow: none;
+  background: none;
+}
+.dropdown-item a:hover {
+  color: black;
+}
+
+.dropdown-item {
+  height: 2em;
+  padding-left: 1em;
+}
+
+.dropdown-header {
+  font-weight: 600;
+  padding-left: 0em;
+  padding-bottom: 0.8rem;
+  color: black;
+
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-color: coral;
+  text-decoration-thickness: 0.1rem;
+}
+.dropdown-header:hover {
+  /* do transition here */
+}
+
+@media only screen and (min-width: 600px) {
+  .eventsNav1 {
+    width: 20em;
+    padding-bottom: 1em;
   }
-  
-  #basic-nav-dropdown {
-    font-size: 0.95rem;
-  }
-  
-  #seeMoreLink {
-    color: #607d8b;
-  }
-  
-  #seeMoreLink:hover {
-    color: black;
-    font-weight: 400;
+}
+
+/* new flex menu starts rvp */
+.flex-container {
+  display: flex;
+
+  /* background-color: DodgerBlue; */
+  flex-wrap: nowrap;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  /* width: 100%; */
+}
+
+.flex-container > div {
+  margin: 0.5rem;
+  padding: 0.8rem;
+  word-wrap: break-word;
+  width: 15vw;
+  /* outline: 10px solid red; */
+
+  /* background-color: aquamarine; */
+  /* outline: 1px solid red; */
+}
+
+/* for mobile view */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+    margin: 0.2rem;
   }
   .dropdown-menu {
-    padding: 1em;
+    height: 50vh;
+    overflow-y: scroll;
+    overflow-x: auto;
+    /* margin-left: 0.5rem; */
+    margin: 0.3rem;
+    width: 80vw;
+    padding: 0;
   }
-  
-  .dropdown-item:hover {
-    outline: none;
-    box-shadow: none;
-    background: none;
+  .flex-container > div {
+    width: 45vw;
+    margin-top: 0rem;
+    /* outline: 1px solid blue; */
   }
-  .dropdown-item a:hover {
-    color: black;
-  }
-  
-  .dropdown-item {
-    height: 2em;
-    padding-left: 1em;
-  }
-  
-  .dropdown-header {
-    font-weight: 700;
-    padding-left: 0em;
-  }
-  
-  @media only screen and (min-width: 600px) {
-    .eventsNav {
-      width: 20em;
-      padding-bottom: 1em;
-    }
-  }
+}
+/*  Mega Menu CSS END - RVP  */
