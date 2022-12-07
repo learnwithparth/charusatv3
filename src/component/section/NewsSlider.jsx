@@ -5,6 +5,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import "../../assets/css/newsSlider.css";
+
 export default class NewsSlider extends Component {
   render() {
     var settings = {
@@ -46,30 +48,30 @@ export default class NewsSlider extends Component {
     return (
       <div>
         <br />
-        {/* <h3>Announcements</h3> */}
+        <h6 className="desc">Announcements</h6>
         <Slider {...settings}>
-          <div className="lab-btn">
+          <div className="slider-item">
             <Link to="/course">
               <span>Tender for providing Canteen Services to CHARUSAT</span>
             </Link>
           </div>
-          <div>
-            <Link to="/course" className="lab-btn">
+          <div className="slider-item">
+            <Link to="/course">
               <span>Registration for 12th Convocation</span>
             </Link>
           </div>
-          <div>
-            <Link to="/course" className="lab-btn">
+          <div className="slider-item">
+            <Link to="/course">
               <span>Notice for 12th Convocation</span>
             </Link>
           </div>
-          <div>
-            <Link to="/course" className="lab-btn">
+          <div className="slider-item">
+            <Link to="/course">
               <span>PG Admission under DASA Scheme</span>
             </Link>
           </div>
-          <div>
-            <Link to="/course" className="lab-btn">
+          <div className="slider-item">
+            <Link to="/course">
               <span>DASA Online Reporting Form</span>
             </Link>
           </div>
