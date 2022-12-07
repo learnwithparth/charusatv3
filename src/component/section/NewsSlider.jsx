@@ -76,6 +76,11 @@ export default class NewsSlider extends Component {
             </Link>
           </div>
         </Slider>
+        <br />
+        <br />
+        <a className="link" href="#">
+          Check All Announcements
+        </a>
       </div>
     );
   }
