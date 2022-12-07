@@ -6189,7 +6189,8 @@ button {
   font-size: 22px;
 }
 .banner-section.style-5 {
-  background-image: url(../images/bg-img/08.jpg);
+  /* background-image: url(../images/bg-img/08.jpg); */
+  background-image: url(../images/bg-img/lab_1.png);
   background-position: center;
   background-attachment: fixed;
   padding: 260px 0 200px;
