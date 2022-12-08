@@ -49,6 +49,8 @@ export default class NewsSlider extends Component {
     return (
       <div style={{ "text-align": "center" }}>
         <br />
+        <br />
+
         <h6>Announcements</h6>
         <Slider {...settings}>
           <div className="slider-item">
@@ -83,7 +85,7 @@ export default class NewsSlider extends Component {
           to="www.google.com"
           style={{ "text-decoration": "underline", "text-align": "center" }}
         >
-          Check All Announcements
+          View All Announcements
         </Link>
       </div>
     );

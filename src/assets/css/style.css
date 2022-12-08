@@ -6212,6 +6212,8 @@ button {
 }
 .banner-section.style-5 .section-wrapper .banner-content {
   z-index: 1;
+  /* border: 1px solid red; */
+  margin-top: -12rem;
 }
 @media (min-width: 576px) {
   .banner-section.style-5 .section-wrapper .banner-content {
