@@ -7,11 +7,16 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
+
 import '././assets/css/icofont.min.css';
 import '././assets/css/animate.css';
 import '././assets/css/style.min.css';
-// For megamenu style App.css is created
-import './App.css';
+
+// For megamenu style megaMenu.css is created
+import "../src/assets/css/megaMenu.css";
+
+import "./App.css";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

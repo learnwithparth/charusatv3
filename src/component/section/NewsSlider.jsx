@@ -46,9 +46,11 @@ export default class NewsSlider extends Component {
       ],
     };
     return (
-      <div>
+      <div style={{ "text-align": "center" }} className="news-all-link">
         <br />
-        <h6 className="desc">Announcements</h6>
+        <br />
+
+        <h6>Announcements</h6>
         <Slider {...settings}>
           <div className="slider-item">
             <Link to="/course">
@@ -78,9 +80,12 @@ export default class NewsSlider extends Component {
         </Slider>
         <br />
         <br />
-        <a className="link" href="#">
-          Check All Announcements
-        </a>
+        <Link
+          to="www.google.com"
+          style={{ "text-decoration": "underline", "text-align": "center" }}
+        >
+          View All Announcements
+        </Link>
       </div>
     );
   }
