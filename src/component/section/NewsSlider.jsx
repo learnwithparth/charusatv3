@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Alert } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
@@ -47,7 +46,7 @@ export default class NewsSlider extends Component {
       ],
     };
     return (
-      <div style={{ "text-align": "center" }}>
+      <div style={{ "text-align": "center" }} className="news-all-link">
         <br />
         <br />
 
