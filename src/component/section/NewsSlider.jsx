@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Alert } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
@@ -46,9 +47,9 @@ export default class NewsSlider extends Component {
       ],
     };
     return (
-      <div>
+      <div style={{ "text-align": "center" }}>
         <br />
-        <h6 className="desc">Announcements</h6>
+        <h6>Announcements</h6>
         <Slider {...settings}>
           <div className="slider-item">
             <Link to="/course">
@@ -78,9 +79,12 @@ export default class NewsSlider extends Component {
         </Slider>
         <br />
         <br />
-        <a className="link" href="#">
+        <Link
+          to="www.google.com"
+          style={{ "text-decoration": "underline", "text-align": "center" }}
+        >
           Check All Announcements
-        </a>
+        </Link>
       </div>
     );
   }

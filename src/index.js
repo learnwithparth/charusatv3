@@ -11,7 +11,9 @@ import "././assets/css/animate.css";
 // import '././assets/css/style.min.css';
 import "././assets/css/style.css";
 
-// For megamenu style App.css is created
+// For megamenu style megaMenu.css is created
+import "../src/assets/css/megaMenu.css";
+
 import "./App.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
