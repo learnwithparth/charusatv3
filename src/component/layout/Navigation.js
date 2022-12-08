@@ -71,12 +71,21 @@ export default function Navigation() {
                       <Nav.Link>Link 1</Nav.Link>
                       <Nav.Link>Link 2</Nav.Link>
                       <Nav.Link>Link 3</Nav.Link>
-                    </div>
-                    <div>
                       <Dropdown.Header>Other Programs</Dropdown.Header>
                       <Nav.Link>Link 1</Nav.Link>
                       <Nav.Link>Link 2</Nav.Link>
                       <Nav.Link>Link 3</Nav.Link>
+                    </div>
+                    <div>
+                      <Dropdown.Header>Online Learning</Dropdown.Header>
+                      <Nav.Link>CharuVidya</Nav.Link>
+                      <Nav.Link>Link 2</Nav.Link>
+                      <Nav.Link>Link 3</Nav.Link>
+                      <Dropdown.Header>Academic Links</Dropdown.Header>
+                      <Nav.Link>Academic Calender</Nav.Link>
+                      <Nav.Link>Academic Services</Nav.Link>
+                      <Nav.Link>Code of Conduct</Nav.Link>
+                      <Nav.Link>Academic Regulations</Nav.Link>
                     </div>
                   </div>
                 </Container>
