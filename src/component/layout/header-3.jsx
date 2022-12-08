@@ -12,7 +12,7 @@ import {
   Row,
 } from "react-bootstrap";
 
-import Navigation from "./Navigation";
+import Navigation from "../section/Navigation"
 
 const HeaderThree = () => {
   const [menuToggle, setMenuToggle] = useState(false);
