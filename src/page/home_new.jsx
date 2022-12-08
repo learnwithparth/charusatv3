@@ -20,7 +20,7 @@ import Clients from "../component/section/clients";
 import CourseFour from "../component/section/course-4";
 import ClientsThree from "../component/section/clients-3";
 import FeatureTwo from "../component/section/feature-2";
-import Faculties from "../component/section/Faculties";
+import Faculties from "../component/section/faculties";
 import Achievement2 from "../component/section/achievements";
 import Collaboration from "../component/section/collaboration";
 import Contact from "../page/contact";
