@@ -36,18 +36,17 @@ export default function Navigation() {
                       <Dropdown.Header>Undergraduate Studies</Dropdown.Header>
                       <Nav.Link>B.Tech</Nav.Link>
                       <Nav.Link>BCA</Nav.Link>
-                      <Nav.Link>B.Sc(IT)</Nav.Link>
-                      <Nav.Link>B.Pharm</Nav.Link>
                       <Nav.Link>BBA</Nav.Link>
-                      <Nav.Link>B.Sc(Biology)</Nav.Link>
-                      <Nav.Link>BPT</Nav.Link>
-                      <Nav.Link>B.Sc(Nursing)</Nav.Link>
-                      <Nav.Link>BPT</Nav.Link>
-                      <Nav.Link>B.Sc(B Optom)</Nav.Link>
-                      <Nav.Link>B.Sc(Imaging Technology)</Nav.Link>
-                      <Nav.Link>B.Sc(Medical Technology)</Nav.Link>
+                      <Nav.Link>Bachelor of Pharmacy (B.Pharm)</Nav.Link>
+                      <Nav.Link>B.Sc (Information Technology)</Nav.Link>
+                      <Nav.Link>B.Sc (Nursing)</Nav.Link>
+                      <Nav.Link>Bachelor of Pysiotherapy (BPT)</Nav.Link>
+                      <Nav.Link>B.Sc (Biology)</Nav.Link>
+                      <Nav.Link>B.Sc (B Optom)</Nav.Link>
+                      <Nav.Link>B.Sc (Imaging Technology)</Nav.Link>
+                      <Nav.Link>B.Sc (Medical Technology)</Nav.Link>
                       <Nav.Link>
-                        B.Sc(Operation Theatre & Anesthesia Technology)
+                        B.Sc (Operation Theatre & Anesthesia Technology)
                       </Nav.Link>
                     </div>
                     <div>
@@ -56,17 +55,16 @@ export default function Navigation() {
                       <Nav.Link>MCA</Nav.Link>
                       <Nav.Link>M.Pharm</Nav.Link>
                       <Nav.Link>MBA</Nav.Link>
-                      <Nav.Link>M.Sc(IT)</Nav.Link>
-
-                      <Nav.Link>M.Sc(Advanced Organic Chemistry)</Nav.Link>
-                      <Nav.Link>M.Sc(Biochemistry)</Nav.Link>
-                      <Nav.Link>M.Sc(Biotechnology)</Nav.Link>
-                      <Nav.Link>M.Sc(Microbiology)</Nav.Link>
-                      <Nav.Link>M.Sc(Physics)</Nav.Link>
-                      <Nav.Link>Master of Physiotherapy(MPT)</Nav.Link>
-                      <Nav.Link>M.Sc(Nursing)</Nav.Link>
-                      <Nav.Link>M.Sc(Medical Lab. Technology)</Nav.Link>
-                      <Nav.Link>M.Sc(Medical Lab. Technology)</Nav.Link>
+                      <Nav.Link>M.Sc (IT)</Nav.Link>
+                      <Nav.Link>M.Sc (Advanced Organic Chemistry)</Nav.Link>
+                      <Nav.Link>M.Sc (Biochemistry)</Nav.Link>
+                      <Nav.Link>M.Sc (Biotechnology)</Nav.Link>
+                      <Nav.Link>M.Sc (Microbiology)</Nav.Link>
+                      <Nav.Link>M.Sc (Physics)</Nav.Link>
+                      <Nav.Link>Master of Physiotherapy (MPT)</Nav.Link>
+                      <Nav.Link>M.Sc (Nursing)</Nav.Link>
+                      <Nav.Link>M.Sc (Medical Lab. Technology)</Nav.Link>
+                      <Nav.Link>M.Sc (Medical Lab. Technology)</Nav.Link>
                     </div>
                     <div>
                       <Dropdown.Header>Phd</Dropdown.Header>

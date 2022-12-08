@@ -29,9 +29,10 @@
   padding: 1em;
   /* height: 60vh; */
   /* width: 60vw; */
-  background-color: white;
+  background-color: #ffffff;
   padding: 0;
   /* outline: 1px solid red; */
+  box-shadow: 4px 2px 20px 3px rgb(0 0 0 / 20%);
 }
 
 .dropdown-item:hover {
