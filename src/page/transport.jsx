@@ -1,6 +1,7 @@
 import { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
 import PageHeader from "../component/layout/pageheader";
+import Contact from "../component/section/contact"
 
 const contactList = [
   {
@@ -124,7 +125,8 @@ const Transport = () => {
                 </div>
               </article>
             </div>
-            <div className="col-lg-4 col-12">
+            <Contact name="Mr Dharmendra Patel" email="dharmendrapatel.adm@charusat.ac.in" phone="+91-9586967008"/>
+            {/* <div className="col-lg-4 col-12">
               <aside>
                 <div className="section-wrapper">
                   <div className="row row-cols-1 justify-content-center g-4">
@@ -146,7 +148,7 @@ const Transport = () => {
                                   ))}
                                 </ul>
                               </div>
-                              {/* <Link to="/blog-single" className="lab-btn"><span>{val.btnText} <i className="icofont-external-link"></i></span></Link> */}
+                              
                             </div>
                           </div>
                         </div>
@@ -155,7 +157,7 @@ const Transport = () => {
                   </div>
                 </div>
               </aside>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
