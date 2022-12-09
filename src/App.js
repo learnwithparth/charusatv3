@@ -15,6 +15,8 @@ import CSRTC from "./page/csrtc";
 import Hostels from "./page/hostels";
 import Admission_Reprentatives from "./page/admission_reprentatives";
 
+import Certification_Courses from "./page/certification_courses";
+
 function App() {
   return (
     <BrowserRouter>
@@ -35,6 +37,10 @@ function App() {
         <Route
           path="/admission_reprentatives"
           element={<Admission_Reprentatives />}
+        />
+        <Route
+          path="/certification_courses"
+          element={<Certification_Courses />}
         />
 
         <Route path="*" element={<ErrorPage />} />
