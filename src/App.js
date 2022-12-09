@@ -12,8 +12,8 @@ import Transport from "./page/transport";
 import IPR from "./page/ipr";
 import Wincell from "./page/wincell";
 import CSRTC from "./page/csrtc";
-
 import Hostels from "./page/hostels";
+import Admission_Reprentatives from "./page/admission_reprentatives";
 
 function App() {
   return (
@@ -32,6 +32,11 @@ function App() {
         <Route path="/wincell" element={<Wincell />} />
         <Route path="/csrtc" element={<CSRTC />} />
         <Route path="/hostels" element={<Hostels />} />
+        <Route
+          path="/admission_reprentatives"
+          element={<Admission_Reprentatives />}
+        />
+
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
