@@ -11,6 +11,7 @@ import Footer from "./component/layout/footer-3";
 import Transport from "./page/transport";
 import IPR from "./page/ipr";
 import Wincell from "./page/wincell";
+import CSRTC from "./page/csrtc";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/transport" element={<Transport />} />
         <Route path="/ipr" element={<IPR />} />
         <Route path="/wincell" element={<Wincell />} />
+        <Route path="/csrtc" element={<CSRTC />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
