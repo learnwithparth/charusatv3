@@ -10,6 +10,7 @@ import Header from "./component/layout/header-3"
 import UndergraduateCourses from "./page/undergraduateCourses";
 import PostgraduateCourses from "./page/postgraduateCourses";
 import Footer from "./component/layout/footer-3"
+import Transport from "./page/transport"
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 			<Route path="/" element={<Home />} />
 			<Route path="/undergraduateCourses" element={<UndergraduateCourses/>}/>
 			<Route path="/postgraduateCourses" element={<PostgraduateCourses/>}/>
+			<Route path="/transport" element={<Transport/>}/>
 			<Route path="*" element={<ErrorPage />} />
 			</Routes>
 			<Footer/>

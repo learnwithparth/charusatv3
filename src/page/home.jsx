@@ -6,7 +6,7 @@ import Banner from "../component/section/banner-5";
 import Sponsor from "../component/section/sponsor";
 import AchievementThree from "../component/section/achievement-3";
 import ClientsThree from "../component/section/clients-3";
-import Faculties from "../component/section/faculties";
+import Faculties from "../component/section/Faculties";
 import Collaboration from "../component/section/collaboration";
 import Goals from "../component/section/goals";
 import Intiatives from "../component/section/initiatives"
