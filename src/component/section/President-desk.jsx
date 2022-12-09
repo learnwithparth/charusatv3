@@ -14,7 +14,7 @@ const desc = ["Take courses on your any device with our app & learn all time wha
 "Take courses on your any device with our app & learn all time what you want. Just download & install & start to learn",
 "Take courses on your any device with our app & learn all time what you want. Just download & install & start to learn"];
 //const text='From Presidents Desk';
-const title = "From the Provost's Desk";
+const title = "From the President's Desk";
 //const subTitle = "About CHARUSAT";
 
 
@@ -26,10 +26,10 @@ const PresidentDesk = () => {
                         <div className="col">
                             <div className="about-left">
                                 <div className="about-thumb">
-                                    <img src="assets/images/about/01.jpg" alt="about" />
+                                    <img src="assets/images/about/03.jpg" alt="about" />
                                 </div>
-                                <h3>Dr. R. V. Upadhayay</h3>
-                                <h4>Provost, CHARUSAT</h4>
+                                <h3>Shri Surendra Patel</h3>
+                                <h4>President, CHARUSAT</h4>
                             </div>
                         </div>
                         <div className="col">

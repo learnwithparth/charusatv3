@@ -10,7 +10,7 @@ const desc = ["The journey at Education Campus – Changa (now CHARUSAT Campus) 
 "After a brief stint as founding Provost, Dr M C Patel continues to render his voluntary services as a Secretary of Kelavani Mandal.",
 ]
 
-const AppSection = () => {
+const ecctocharusat = () => {
     return (
         <div className="app-section padding-tb">
             <div className="container">
@@ -19,11 +19,11 @@ const AppSection = () => {
                     
                 </div>
                 <div className="section-wrapper">
-                    <p>{desc}</p>
+                    <p style={{"text-align":"justify"}}>{desc}</p>
                 </div>
             </div>
         </div>
     );
 }
  
-export default AppSection;
+export default ecctocharusat;

@@ -6,7 +6,6 @@ import PageHeader from "../component/layout/pageheader";
 import Torchbearers from "../component/section/Torchbearers";
 import VisionMission from "../component/section/Vision_Mission";
 import AppSection from "../component/section/ecc-to-charusat";
-import PresidentDesk from "../component/section/President-desk";
 
 
 const subTitle = "About CHARUSAT";
@@ -52,11 +51,11 @@ const AboutPage = () => {
                         <div className="col">
                             <div className="about-left">
                                 <div className="about-thumb">
-                                    <img src="assets/images/about/c1.jpg" alt="about" />
+                                    <img src="assets/images/about/c2.jpg" alt="about" />
                                 </div>
-                                <div className="abs-thumb">
-                                    <img src="assets/images/about/02.jpg" alt="about" />
-                                </div>
+                                {/* <div className="abs-thumb">
+                                    <img src="assets/images/about/c3.jpg" alt="about" />
+                                </div> */}
                                 <div className="about-left-content">
                                     <h3>{year}</h3>
                                     <p>{expareance}</p>
@@ -97,7 +96,6 @@ const AboutPage = () => {
             {/* <Skill />
             <AchievementTwo />
             <Blog />*/}
-            <PresidentDesk />
             <Footer /> 
         </Fragment>
     );
