@@ -13,6 +13,8 @@ import IPR from "./page/ipr";
 import Wincell from "./page/wincell";
 import CSRTC from "./page/csrtc";
 
+import Hostels from "./page/hostels";
+
 function App() {
   return (
     <BrowserRouter>
@@ -29,6 +31,7 @@ function App() {
         <Route path="/ipr" element={<IPR />} />
         <Route path="/wincell" element={<Wincell />} />
         <Route path="/csrtc" element={<CSRTC />} />
+        <Route path="/hostels" element={<Hostels />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
