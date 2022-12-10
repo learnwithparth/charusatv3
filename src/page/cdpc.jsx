@@ -1,9 +1,5 @@
 import { Component, Fragment } from "react";
-import { Link } from "react-router-dom";
-import PageHeader from "../component/layout/pageheader";
 import Contact from "../component/section/contact";
-import InquiryForm from "../files/InquiryForm.pdf";
-import IPRBroucher from "../files/iprBrochuer.jpg"
 
 
 
