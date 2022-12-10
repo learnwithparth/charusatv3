@@ -19,7 +19,7 @@ const Admission_Reprentatives = () => {
                       <div className="post-item style-2">
                         <div className="post-inner">
                           <div className="post-content">
-                            <h3>Non-credit Course & Certification Course</h3>
+                            <h3>Admission Representatives @CHARUSAT</h3>
 
                             <p>
                               Lorem ipsum dolor sit amet, consectetur
