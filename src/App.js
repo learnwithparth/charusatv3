@@ -12,6 +12,7 @@ import PostgraduateCourses from "./page/postgraduateCourses";
 import Footer from "./component/layout/footer-3"
 import Transport from "./page/transport"
 import IPR from "./page/ipr"
+import Ethics from "./page/ethics"
 
 function App() {
 	return (
@@ -25,6 +26,7 @@ function App() {
 			<Route path="/postgraduateCourses" element={<PostgraduateCourses/>}/>
 			<Route path="/transport" element={<Transport/>}/>
 			<Route path="/ipr" element={<IPR/>}/>
+			<Route path="/ethics" element={<Ethics/>}/>
 			<Route path="*" element={<ErrorPage />} />
 			</Routes>
 			<Footer/>
