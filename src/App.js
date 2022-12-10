@@ -27,6 +27,8 @@ function App() {
 			<Route path="/postgraduateCourses" element={<PostgraduateCourses/>}/>
 			<Route path="/transport" element={<Transport/>}/>
 			<Route path="/ipr" element={<IPR/>}/>
+			<Route path="/cdpc" element={<CDPC/>}/>
+			<Route path="/ethics" element={<Ethics/>}/>
 			<Route path="*" element={<ErrorPage />} />
 
 			</Routes>
