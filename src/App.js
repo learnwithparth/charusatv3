@@ -17,7 +17,9 @@ import Admission_Reprentatives from "./page/admission_reprentatives";
 
 import Certification_Courses from "./page/certification_courses";
 import Campus_Map from "./page/campus-map";
-
+import Careers from "./page/careers";
+import Convocations from "./page/convocations";
+import CodeOfConduct from "./page/code-of-conduct";
 function App() {
   return (
     <BrowserRouter>
@@ -44,6 +46,9 @@ function App() {
           element={<Certification_Courses />}
         />
         <Route path="/campus-map" element={<Campus_Map />} />
+        <Route path="/careers" element={<Careers />} />
+        <Route path="/convocations" element={<Convocations />} />
+        <Route path="/code-of-conduct" element={<CodeOfConduct />} />
 
         <Route path="*" element={<ErrorPage />} />
       </Routes>
