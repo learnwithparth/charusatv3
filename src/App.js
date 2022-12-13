@@ -16,6 +16,7 @@ import Hostels from "./page/hostels";
 import Admission_Reprentatives from "./page/admission_reprentatives";
 
 import Certification_Courses from "./page/certification_courses";
+import Campus_Map from "./page/campus-map";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
           path="/certification_courses"
           element={<Certification_Courses />}
         />
+        <Route path="/campus-map" element={<Campus_Map />} />
 
         <Route path="*" element={<ErrorPage />} />
       </Routes>
