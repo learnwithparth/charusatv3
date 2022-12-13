@@ -20,10 +20,42 @@ const Convocations = () => {
                       <div className="post-item style-2">
                         <div className="post-inner">
                           <div className="post-content">
-                            <h3>Careers @CHARUSAT</h3>
+                            <h3>Convocations @CHARUSAT</h3>
                             <hr />
-                            <br />
+
                             <Container>
+                              <Row>
+                                <Col>
+                                  {" "}
+                                  <p>
+                                    Convocation marks the culmination of the
+                                    academic pursuits. Students, thereafter,
+                                    move on to higher studies or look for / join
+                                    jobs of their interest. At CHARUSAT,
+                                    Convocation is organized with all piousness
+                                    and Indian tradition. Importantly, at
+                                    CHARUSAT, all the students are conferred
+                                    upon the Degrees in person in a dignified
+                                    manner. Today, when there is the tradition
+                                    of giving Gold Plated Medals, all the Medals
+                                    conferred by CHARUSAT are real Gold Medals
+                                    with certificates. Students and their
+                                    Parents are provided with hospitality and
+                                    special attention, too. Exceptionally, the
+                                    Convocation at CHARUSAT represents the
+                                    serenity of Indian Culture. The Procession
+                                    is fragranced with the Ganpati Vandana and
+                                    Degree Conferment with Vedic Shlokas in
+                                    addition to the Indian costumes and Deep
+                                    Pragatya to Inaugurate the Convocation.
+                                    Uniquely, dignitaries with substantial
+                                    contribution to the National Development
+                                    have been blessing the Convocations at
+                                    CHARUSAT. So far, 11 Convocations have been
+                                    organized at CHARUSAT. Glimpse are:
+                                  </p>
+                                </Col>
+                              </Row>
                               <Row className="p-2">
                                 <Col>
                                   <h6
