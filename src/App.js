@@ -34,6 +34,7 @@ function App() {
         <Route path="/postgraduateCourses" element={<PostgraduateCourses />} />
         <Route path="/transport" element={<Transport />} />
         <Route path="/ipr" element={<IPR />} />
+        // RVP PAGES START
         <Route path="/wincell" element={<Wincell />} />
         <Route path="/csrtc" element={<CSRTC />} />
         <Route path="/hostels" element={<Hostels />} />
@@ -49,7 +50,12 @@ function App() {
         <Route path="/careers" element={<Careers />} />
         <Route path="/convocations" element={<Convocations />} />
         <Route path="/code-of-conduct" element={<CodeOfConduct />} />
-
+        {/* <Route path="/policies_terms" element={<PoliciesTerms />} /> */}
+        {/* <Route path="/announcements" element={<Announcements />} /> */}
+        {/* <Route path="/library" element={<Library />} /> */}
+        {/* <Route path="/donation" element={<Donation />} /> */}
+        {/* <Route path="/placement" element={<Placement />} /> */}
+        // RVP PAGES END
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
