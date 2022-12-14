@@ -20,6 +20,8 @@ import Campus_Map from "./page/campus-map";
 import Careers from "./page/careers";
 import Convocations from "./page/convocations";
 import CodeOfConduct from "./page/code-of-conduct";
+import PoliciesTerms from "./page/policiesTerms";
+
 function App() {
   return (
     <BrowserRouter>
@@ -50,7 +52,7 @@ function App() {
         <Route path="/careers" element={<Careers />} />
         <Route path="/convocations" element={<Convocations />} />
         <Route path="/code-of-conduct" element={<CodeOfConduct />} />
-        {/* <Route path="/policies_terms" element={<PoliciesTerms />} /> */}
+        <Route path="/policies_terms" element={<PoliciesTerms />} />
         {/* <Route path="/announcements" element={<Announcements />} /> */}
         {/* <Route path="/library" element={<Library />} /> 
         http://preview.themeforest.net/item/edukon-education-and-lms-react-js-template/full_screen_preview/38286924?_ga=2.76967702.264634929.1671012406-1346785869.1667801964
