@@ -22,6 +22,8 @@ import Convocations from "./page/convocations";
 import CodeOfConduct from "./page/code-of-conduct";
 import PoliciesTerms from "./page/policiesTerms";
 import Library from "./page/library";
+import Placement from "./page/placement";
+import Donation from "./page/donation";
 
 function App() {
   return (
@@ -58,8 +60,8 @@ function App() {
 
         {/* <Route path="/announcements" element={<Announcements />} /> */}
         <Route path="/library" element={<Library />} />
-        {/* <Route path="/donation" element={<Donation />} /> */}
-        {/* <Route path="/placement" element={<Placement />} />   */}
+        <Route path="/donation" element={<Donation />} />
+        <Route path="/placement" element={<Placement />} />
 
         <Route path="*" element={<ErrorPage />} />
       </Routes>

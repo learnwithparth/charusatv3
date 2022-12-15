@@ -21,13 +21,6 @@ const Admission_Reprentatives = () => {
                           <div className="post-content">
                             <h3>Admission Representatives @CHARUSAT</h3>
 
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              adipisicing elit. Pariatur quas ratione quae unde
-                              dolores, minus quisquam sunt odit deleniti
-                              distinctio non explicabo tenetur quaerat, maxime
-                              voluptates aperiam iusto architecto perspiciatis.
-                            </p>
                             <br />
 
                             <Container>
