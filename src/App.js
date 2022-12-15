@@ -13,7 +13,8 @@ import Footer from "./component/layout/footer-3"
 import Transport from "./page/transport"
 import IPR from "./page/ipr"
 import CDPC from "./page/cdpc";
-import Ethics from "./page/ethics"
+import Ethics from "./page/ethics";
+import Accreditation from "./page/Accreditation";
 
 function App() {
 	return (
@@ -30,6 +31,7 @@ function App() {
 			<Route path="/cdpc" element={<CDPC/>}/>
 			<Route path="/ethics" element={<Ethics/>}/>
 			<Route path="*" element={<ErrorPage />} />
+			<Route path="/accreditation" element={<Accreditation />} />
 
 			</Routes>
 			<Footer/>
