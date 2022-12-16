@@ -88,7 +88,6 @@ const Placement = () => {
                           <div className="post-content">
                             <h3>CAREER DEVELOPMENT AND PLACEMENT CELL</h3>
                             <hr />
-                            <br />
 
                             <Container fluid>
                               <Row className="p-2">
