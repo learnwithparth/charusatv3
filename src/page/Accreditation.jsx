@@ -46,7 +46,7 @@ const Accreditation = () => {
                                                 <div className="accordion-header" id="accordion01">
                                                     <button className="d-flex flex-wrap justify-content-between" data-bs-toggle="collapse" data-bs-target="#videolist1" aria-expanded="true" aria-controls="videolist1"><span>Accreditation</span> <span></span> </button>
                                                 </div>
-                                                <div id="videolist1" className="accordion-collapse collapse show" aria-labelledby="accordion01" data-bs-parent="#accordionExample">
+                                                <div id="videolist1" className="accordion-collapse collapse" aria-labelledby="accordion01" data-bs-parent="#accordionExample">
                                                     <div className="row">
                                                     <div className="col-lg-6">
                                                     <Cycle2 />
@@ -82,7 +82,7 @@ const Accreditation = () => {
                                                 <div className="accordion-header" id="accordion03">
                                                     <button className="d-flex flex-wrap justify-content-between" data-bs-toggle="collapse" data-bs-target="#videolist3" aria-expanded="true" aria-controls="videolist3"><span>CoE, Government of Gujarat</span> <span></span> </button>
                                                 </div>
-                                                <div id="videolist3" className="accordion-collapse collapse show" aria-labelledby="accordion03" data-bs-parent="#accordionExample">
+                                                <div id="videolist3" className="accordion-collapse collapse" aria-labelledby="accordion03" data-bs-parent="#accordionExample">
                                                     <p>CHARUSAT has applied to Government of Gujarat for the grant of the status of Center of Excellence.</p>
                                                     <a class="lab-btn" href="https://charusat.ac.in/files/iqac/coe/CoEApplicationData.pdf"><span>Application Data</span></a>
                                                     <br/><br/>

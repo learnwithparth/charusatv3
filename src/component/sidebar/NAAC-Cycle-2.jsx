@@ -10,10 +10,6 @@ const title = "NAAC Cycle-2";
 
 const commentList = [
     {
-        imgUrl: 'assets/images/author/02.jpg',
-        imgAlt: 'rajibraj91',
-        name: 'Linsa Faith',
-        date: 'Jun 5, 2022 at 12:41 pm',
         desc: 'Undertaking',
         link: Undertaking,
     },
