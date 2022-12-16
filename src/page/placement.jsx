@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import PageHeader from "../component/layout/pageheader";
 import career1_img from "../assets/images/advertisment_nov_2022.webp";
+import PlacementRecord from "../component/section/placementRecord";
 
 const topRecruiters = [
   {
@@ -14,119 +15,59 @@ const topRecruiters = [
     name: "12 Lacs",
   },
   {
-    imgUrl: "assets/images/instructor/AIMST University.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "AIMST University",
+    imgUrl: "assets/images/recruiters/byju.PNG",
+    imgAlt: "byju",
+    name: "10 Lacs",
   },
   {
-    imgUrl: "assets/images/instructor/BHABHA ATOMIC.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "BHABHA ATOMIC",
+    imgUrl: "assets/images/recruiters/in.PNG",
+    imgAlt: "navy",
+    name: "9 Lacs",
   },
   {
-    imgUrl: "assets/images/instructor/Centre of Envi Education.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "Centre of Envi Education",
+    imgUrl: "assets/images/recruiters/gsfc.PNG",
+    imgAlt: "gsfc",
+    name: "8 Lacs",
   },
   {
-    imgUrl: "assets/images/instructor/Defence Research Development.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "Defence Research Development",
+    imgUrl: "assets/images/recruiters/tcs.PNG",
+    imgAlt: "tcs",
+    name: "7 Lacs",
   },
   {
-    imgUrl: "assets/images/instructor/Dept of BioTech.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "Dept of BioTech",
+    imgUrl: "assets/images/recruiters/samsung.PNG",
+    imgAlt: "samsung",
+    name: "7 Lacs",
   },
   {
-    imgUrl: "assets/images/instructor/GESIA.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "GESIA",
+    imgUrl: "assets/images/recruiters/ops.PNG",
+    imgAlt: "opsHUB",
+    name: "6.5 Lacs",
   },
   {
-    imgUrl: "assets/images/instructor/GUJARAT INST OF DISASTER MGMT.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "GUJARAT INST OF DISASTER MGMT",
+    imgUrl: "assets/images/recruiters/berger.PNG",
+    imgAlt: "berger",
+    name: "6 Lacs",
   },
   {
-    imgUrl: "assets/images/instructor/GUJCOST.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "GUJCOST",
+    imgUrl: "assets/images/recruiters/mg.PNG",
+    imgAlt: "mg",
+    name: "6 Lacs",
   },
   {
-    imgUrl: "assets/images/instructor/HARRISBURG.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "HARRISBURG University",
+    imgUrl: "assets/images/recruiters/evosys.PNG",
+    imgAlt: "evosys",
+    name: "5.5 Lacs",
   },
   {
-    imgUrl: "assets/images/instructor/INESCTEC.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "INESCTEC",
+    imgUrl: "assets/images/recruiters/jeavio.PNG",
+    imgAlt: "jeavio",
+    name: "5.3 Lacs",
   },
   {
-    imgUrl: "assets/images/instructor/INST OF PLASMA.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "INST OF PLASMA",
-  },
-  {
-    imgUrl: "assets/images/instructor/ISRO.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "ISRO",
-  },
-  {
-    imgUrl: "assets/images/instructor/KIU.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "KIU",
-  },
-  {
-    imgUrl: "assets/images/instructor/L&T PTI.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "L&T PTI",
-  },
-  {
-    imgUrl: "assets/images/instructor/MINISTRY OF SCIENCE AND TECH.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "MINISTRY OF SCIENCE AND TECH",
-  },
-  {
-    imgUrl: "assets/images/instructor/MOTOROLA SOLUTIONS.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "MOTOROLA SOLUTIONS",
-  },
-  {
-    imgUrl: "assets/images/instructor/NRS.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "NRS",
-  },
-  {
-    imgUrl: "assets/images/instructor/RAE.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "RAE",
-  },
-  {
-    imgUrl: "assets/images/instructor/TECHNISCHE UNIVERSITY.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "TECHNISCHE UNIVERSITY",
-  },
-  {
-    imgUrl: "assets/images/instructor/UGC_DAE.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "UGC_DAE",
-  },
-  {
-    imgUrl: "assets/images/instructor/UJC.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "UJC",
-  },
-  {
-    imgUrl: "assets/images/instructor/UNIVERSITY OF EXETER.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "UNIVERSITY OF EXETER",
-  },
-  {
-    imgUrl: "assets/images/instructor/UNIVERSITY OF PRINCE.webp",
-    imgAlt: "instructor rajibraj91 rajibraj",
-    name: "UNIVERSITY OF PRINCE",
+    imgUrl: "assets/images/recruiters/crest.PNG",
+    imgAlt: "crestData",
+    name: "5 Lacs",
   },
 ];
 
@@ -148,7 +89,8 @@ const Placement = () => {
                             <h3>CAREER DEVELOPMENT AND PLACEMENT CELL</h3>
                             <hr />
                             <br />
-                            <Container>
+
+                            <Container fluid>
                               <Row className="p-2">
                                 <Col>
                                   <h4>CDPC ACTIVITIES</h4>
@@ -203,6 +145,10 @@ const Placement = () => {
                                 </Col>
                               </Row>
                               <Row>
+                                <Col></Col>
+                              </Row>
+
+                              <Row>
                                 <Col>
                                   <h4>STUDENT'S TESTIMONIAL</h4>
                                 </Col>
@@ -222,7 +168,7 @@ const Placement = () => {
                                   </p>
                                 </Col>
                                 <Col>
-                                  <img src="assets/images/students_placement_testimonial/aditya_pawar_n.png" />
+                                  <img src="assets/images/students_placement_testimonial/karunya_parmanik_n.png" />
                                   <p>
                                     Highly qualified faculty and flexible
                                     curriculum which offers a unique amalgam of
@@ -234,7 +180,7 @@ const Placement = () => {
                                   </p>
                                 </Col>
                                 <Col>
-                                  <img src="assets/images/students_placement_testimonial/aditya_pawar_n.png" />
+                                  <img src="assets/images/students_placement_testimonial/maharshi_bodani_n.png" />
                                   <p>
                                     I am thankful to CSPIT, IT placement team &
                                     Training and Placement Cell for inviting the
@@ -247,8 +193,52 @@ const Placement = () => {
                                   </p>
                                 </Col>
                               </Row>
+                              <Row>
+                                <Col>
+                                  <img src="assets/images/students_placement_testimonial/parth_shah_n.png" />
+                                  <p>
+                                    Truly saying, Department of Information
+                                    technology started aptitude classes which
+                                    were very helpful for someone like me who
+                                    had less knowledge of general aptitude.
+                                    Also, motivational, Dos & Don’ts lectures
+                                    were organized to make sure each student had
+                                    enough confidence for appearing in placement
+                                    & clearing It.
+                                  </p>
+                                </Col>
+                                <Col>
+                                  <img src="assets/images/students_placement_testimonial/jeel_soni_n.png" />
+                                  <p>
+                                    Highly qualified faculty and flexible
+                                    curriculum which offers a unique amalgam of
+                                    technical and humanities courses along with
+                                    the vibrant campus life helped us to become
+                                    socially aware technologists prepared both
+                                    for industrial and research domain and It's
+                                    not only what you learn, it's how you learn.
+                                  </p>
+                                </Col>
+                                <Col>
+                                  <img src="assets/images/students_placement_testimonial/harsh_shah_n.png" />
+                                  <p>
+                                    CHARUSAT has not only impacted me the best
+                                    technical knowledge of my field but has also
+                                    given me many opportunities to bring the
+                                    best out of me as a developer. However, I
+                                    never had self-doubt, as CHARUSAT had
+                                    implanted a strong foundation of technical,
+                                    managerial and leadership skillsets within
+                                    me.
+                                  </p>
+                                </Col>
+                              </Row>
                             </Container>
-
+                            <h4>PLACEMENT STATISTICS</h4>
+                            <div className="d-flex p-2 bd-highlight justify-content-center w-70">
+                              <PlacementRecord />
+                            </div>
+                            <br />
                             <br />
                           </div>
                         </div>
