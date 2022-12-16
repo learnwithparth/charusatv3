@@ -92,7 +92,7 @@ const Placement = () => {
                             <Container fluid>
                               <Row className="p-2">
                                 <Col>
-                                  <h4>CDPC ACTIVITIES</h4>
+                                  <h4>CDPC ACTIVITIES </h4>
                                   <ul>
                                     <li>
                                       One to one guidance to each student to
