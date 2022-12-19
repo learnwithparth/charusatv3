@@ -15,6 +15,7 @@ import IPR from "./page/ipr"
 import CDPC from "./page/cdpc";
 import Ethics from "./page/ethics";
 import Accreditation from "./page/Accreditation";
+import ContactUs from "./page/contact_us";
 
 function App() {
 	return (
@@ -32,6 +33,7 @@ function App() {
 			<Route path="/ethics" element={<Ethics/>}/>
 			<Route path="*" element={<ErrorPage />} />
 			<Route path="/accreditation" element={<Accreditation />} />
+			<Route path="/contactus" element={<ContactUs />}/>
 
 			</Routes>
 			<Footer/>
