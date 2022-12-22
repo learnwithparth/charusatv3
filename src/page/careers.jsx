@@ -32,11 +32,12 @@ const Certification_Courses = () => {
                                     Last Date of Submission: 28 November, 2022
                                   </p>
 
-                                  <Button variant="outline-success">
-                                    <a href="https://charusat.edu.in:912/OnlineJobPortal/">
-                                      Apply Now
-                                    </a>
-                                  </Button>
+                                  <a
+                                    class="lab-btn"
+                                    href="https://charusat.edu.in:912/OnlineJobPortal/"
+                                  >
+                                    Apply Now
+                                  </a>
                                 </Col>
                               </Row>
                             </Container>

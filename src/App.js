@@ -51,17 +51,18 @@ function App() {
           path="/certification_courses"
           element={<Certification_Courses />}
         />
-        <Route path="/campus-map" element={<Campus_Map />} />
-        <Route path="/careers" element={<Careers />} />
+
         <Route path="/convocations" element={<Convocations />} />
 
-        <Route path="/policies_terms" element={<PoliciesTerms />} />
         {/* http://preview.themeforest.net/item/edukon-education-and-lms-react-js-template/full_screen_preview/38286924?_ga=2.76967702.264634929.1671012406-1346785869.1667801964 */}
 
         {/* <Route path="/announcements" element={<Announcements />} /> */}
 
         <Route path="/donation" element={<Donation />} />
 
+        <Route path="/campus-map" element={<Campus_Map />} />
+        <Route path="/careers" element={<Careers />} />
+        <Route path="/policies_terms" element={<PoliciesTerms />} />
         <Route path="/code-of-conduct" element={<CodeOfConduct />} />
         <Route path="/placement" element={<Placement />} />
         <Route path="/library" element={<Library />} />
