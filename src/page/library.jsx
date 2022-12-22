@@ -24,31 +24,41 @@ const Library = () => {
                             <h3>Library Resources</h3>
                             <hr />
                             <br />
-                            <Image src={Lib_1} thumbnail />
-                            <p className="text-center">
-                              <h6>For Knimbus</h6>
-                              <a
-                                href="https://scpit.knimbus.com/user#/home"
-                                className="btn btn-danger"
-                                target="_blank"
-                              >
-                                Click Here
-                              </a>
-                              <br />
-                            </p>
+                            <Container>
+                              <Row>
+                                <Col>
+                                  <Image src={Lib_1} thumbnail />
+                                  <p className="text-center">
+                                    <h6>For Knimbus</h6>
+                                    <Button
+                                      variant="outline-danger"
+                                      href="https://scpit.knimbus.com/user#/home"
+                                      className="btn "
+                                      target="_blank"
+                                    >
+                                      Click Here
+                                    </Button>
+                                    <br />
+                                  </p>
+                                </Col>
+                                <Col>
+                                  <Image src={Lib_1} thumbnail />
+                                  <p className="text-center">
+                                    <h6>For SOUL WEBOPAC by INFLIBNET</h6>
+                                    <Button
+                                      variant="outline-danger"
+                                      href="http://172.16.11.69/WebOPAC/"
+                                      className="btn "
+                                      target="_blank"
+                                    >
+                                      Click Here
+                                    </Button>
+                                    <br />
+                                  </p>
+                                </Col>
+                              </Row>
+                            </Container>
                             <hr />
-                            <Image src={Lib_1} thumbnail />
-                            <p className="text-center">
-                              <h6>For SOUL WEBOPAC by INFLIBNET</h6>
-                              <a
-                                href="http://172.16.11.69/WebOPAC/"
-                                className="btn btn-danger"
-                                target="_blank"
-                              >
-                                Click Here
-                              </a>
-                              <br />
-                            </p>
                           </div>
                         </div>
                       </div>
