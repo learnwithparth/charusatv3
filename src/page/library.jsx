@@ -30,14 +30,14 @@ const Library = () => {
                                   <Image src={Lib_1} thumbnail />
                                   <p className="text-center">
                                     <h6>For Knimbus</h6>
-                                    <Button
-                                      variant="outline-danger"
+
+                                    <a
+                                      class="lab-btn"
                                       href="https://scpit.knimbus.com/user#/home"
-                                      className="btn "
-                                      target="_blank"
                                     >
-                                      Click Here
-                                    </Button>
+                                      <span>Click Here</span>
+                                    </a>
+
                                     <br />
                                   </p>
                                 </Col>
@@ -45,14 +45,14 @@ const Library = () => {
                                   <Image src={Lib_1} thumbnail />
                                   <p className="text-center">
                                     <h6>For SOUL WEBOPAC by INFLIBNET</h6>
-                                    <Button
-                                      variant="outline-danger"
+
+                                    <a
+                                      class="lab-btn"
                                       href="http://172.16.11.69/WebOPAC/"
-                                      className="btn "
-                                      target="_blank"
                                     >
-                                      Click Here
-                                    </Button>
+                                      <span>Click Here</span>
+                                    </a>
+
                                     <br />
                                   </p>
                                 </Col>
