@@ -1,5 +1,5 @@
 import { Component, Fragment } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import PageHeader from "../component/layout/pageheader";
 import Contact from "../component/section/contact";
@@ -24,6 +24,48 @@ const Hostels = () => {
                             <h3>Girls' Hostels</h3>
                             <br />
                             <div>
+                              <h5>Life @ Girls Hostel - CHARUSAT</h5>
+                              <div>
+                                <Image
+                                  src="./assets/images/girls_hostel_life/1.jpg"
+                                  thumbnail
+                                />
+                                <Image
+                                  src="./assets/images/girls_hostel_life/2.jpg"
+                                  thumbnail
+                                />
+                                <Image
+                                  src="./assets/images/girls_hostel_life/3.png"
+                                  thumbnail
+                                />
+                                <Image
+                                  src="./assets/images/girls_hostel_life/4.png"
+                                  thumbnail
+                                />
+                                <Image
+                                  src="./assets/images/girls_hostel_life/5.jpg"
+                                  thumbnail
+                                />
+                                <Image
+                                  src="./assets/images/girls_hostel_life/6.jpg"
+                                  thumbnail
+                                />
+                                <Image
+                                  src="./assets/images/girls_hostel_life/7.jpg"
+                                  thumbnail
+                                />
+                                <Image
+                                  src="./assets/images/girls_hostel_life/8.jpg"
+                                  thumbnail
+                                />
+                                <Image
+                                  src="./assets/images/girls_hostel_life/9.jpg"
+                                  thumbnail
+                                />
+                                <br />
+                              </div>
+                              <br />
+
                               <h5>Capacity</h5>
                               <p>
                                 CHARUSAT campus has 4 Girls’ hostels. These
@@ -77,16 +119,7 @@ const Hostels = () => {
                               Additionally, there are number of Food points to
                               serve the taste of young students.
                             </p>
-                            <h4>Life @Girls Hostel</h4>
-                            <hr />
-                            <p>
-                              Lorem ipsum, dolor sit amet consectetur
-                              adipisicing elit. Nostrum perspiciatis minus,
-                              eveniet placeat exercitationem praesentium
-                              consequatur rem maxime necessitatibus nobis
-                              temporibus quasi voluptatem vero earum cupiditate
-                              error neque deleniti? Tempora?
-                            </p>
+
                             <h4>Boys' Hostel</h4>
                             <hr />
                             <p>
