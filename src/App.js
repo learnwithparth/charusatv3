@@ -40,7 +40,6 @@ function App() {
         <Route path="/transport" element={<Transport />} />
         <Route path="/ipr" element={<IPR />} />
 
-        <Route path="/wincell" element={<Wincell />} />
         <Route path="/csrtc" element={<CSRTC />} />
         <Route path="/hostels" element={<Hostels />} />
         <Route
@@ -52,14 +51,14 @@ function App() {
           element={<Certification_Courses />}
         />
 
-        <Route path="/convocations" element={<Convocations />} />
-
         {/* http://preview.themeforest.net/item/edukon-education-and-lms-react-js-template/full_screen_preview/38286924?_ga=2.76967702.264634929.1671012406-1346785869.1667801964 */}
 
         {/* <Route path="/announcements" element={<Announcements />} /> */}
 
         <Route path="/donation" element={<Donation />} />
 
+        <Route path="/wincell" element={<Wincell />} />
+        <Route path="/convocations" element={<Convocations />} />
         <Route path="/campus-map" element={<Campus_Map />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/policies_terms" element={<PoliciesTerms />} />

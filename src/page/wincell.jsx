@@ -1,5 +1,5 @@
 import { Component, Fragment } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import PageHeader from "../component/layout/pageheader";
 import Contact from "../component/section/contact";
@@ -21,25 +21,26 @@ const Wincell = () => {
                       <div className="post-item style-2">
                         <div className="post-inner">
                           <div className="post-content">
-                            <h3>About Wincell</h3>
+                            <h3>About WINCell</h3>
                             <div className="meta-post">
                               <ul className="lab-ul">
-                                Lorem ipsum, dolor sit amet consectetur
-                                adipisicing elit. Blanditiis beatae corporis
-                                sunt consequuntur rerum accusamus, laborum,
-                                aperiam suscipit repellat perferendis quod
-                                facilis? Et itaque unde labore natus est
-                                molestias fugit.
+                                Specialized Cell designed for centralized IT
+                                Infrastructure management and maintainance.
                               </ul>
                               <br />
                             </div>
                             <h4>IT INFRASTRUCTURE @CHARUSAT</h4>
                             <hr />
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Laudantium ipsam aperiam explicabo quas, vitae
-                            deleniti consequatur quibusdam, iusto nihil
-                            temporibus veritatis asperiores fugit incidunt
-                            perferendis dolore magni perspiciatis unde ab!
+                            WINCell offer Sound, Advance, Secure and Productive
+                            IT Infrastructure. Thanks to WINCell!!
+                            <br />
+                            <br />
+                            <Image
+                              src="./assets/images/wincell_cloud.webp"
+                              alt={"Wincell cloud"}
+                              width="70%"
+                              thumbnail
+                            />
                             <br />
                             <br />
                             <h4>
