@@ -233,12 +233,83 @@ const Placement = () => {
                                 </Col>
                               </Row>
                             </Container>
+                            <br />
                             <h4>PLACEMENT STATISTICS</h4>
                             <div className="d-flex p-2 bd-highlight justify-content-center w-70">
                               <PlacementRecord />
                             </div>
                             <br />
                             <br />
+                            <div className="container">
+                              <div className="section-header text-center">
+                                <h2 className="title">
+                                  <h3>MAJOR RECRUITERS</h3>
+                                </h2>
+                              </div>
+                              <div className="section-wrapper">
+                                <div className="instructor-bottom">
+                                  <div className="instructor-slider overflow-hidden">
+                                    {/* <div className="instructor-navi instructor-slider-next">
+                                      <i className="icofont-rounded-double-right"></i>
+                                    </div>
+                                    <div className="instructor-navi instructor-slider-prev">
+                                      <i className="icofont-rounded-double-left"></i>
+                                    </div> */}
+                                    <Swiper
+                                      spaceBetween={0}
+                                      slidesPerView={2}
+                                      loop={"true"}
+                                      autoplay={{
+                                        delay: 2000,
+                                        disableOnInteraction: false,
+                                      }}
+                                      navigation={{
+                                        prevEl: ".instructor-slider-prev",
+                                        nextEl: ".instructor-slider-next",
+                                      }}
+                                      modules={[Autoplay, Navigation]}
+                                      breakpoints={{
+                                        0: {
+                                          width: 0,
+                                          slidesPerView: 1,
+                                        },
+                                        768: {
+                                          width: 768,
+                                          slidesPerView: 3,
+                                        },
+                                        1200: {
+                                          width: 1200,
+                                          slidesPerView: 5.7,
+                                        },
+                                      }}
+                                    >
+                                      {topRecruiters.map((val, i) => (
+                                        <SwiperSlide key={i}>
+                                          <div className="instructor-item">
+                                            <div className="instructor-inner">
+                                              <div className="instructor-thumb">
+                                                <img
+                                                  src={`${val.imgUrl}`}
+                                                  alt={`${val.imgAlt}`}
+                                                />
+                                              </div>
+                                              <div className="instructor-content">
+                                                <Link to="/team-single">
+                                                  <h5>{val.name}</h5>
+                                                </Link>
+                                                <span className="d-block">
+                                                  {val.degi}
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </SwiperSlide>
+                                      ))}
+                                    </Swiper>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -251,12 +322,12 @@ const Placement = () => {
         </div>
       </div>
 
-      <div>
+      {/* <div>
         <div className="instructor-section style-3 padding-tb section-bg-ash">
           <div className="container">
             <div className="section-header text-center">
               <h2 className="title">
-                <h4>MAJOR RECRUITERS</h4>
+                <h3>MAJOR RECRUITERS</h3>
               </h2>
             </div>
             <div className="section-wrapper">
@@ -322,7 +393,7 @@ const Placement = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </Fragment>
   );
 };

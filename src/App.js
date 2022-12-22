@@ -59,10 +59,11 @@ function App() {
         {/* http://preview.themeforest.net/item/edukon-education-and-lms-react-js-template/full_screen_preview/38286924?_ga=2.76967702.264634929.1671012406-1346785869.1667801964 */}
 
         {/* <Route path="/announcements" element={<Announcements />} /> */}
-        <Route path="/library" element={<Library />} />
-        <Route path="/donation" element={<Donation />} />
-        <Route path="/placement" element={<Placement />} />
 
+        <Route path="/donation" element={<Donation />} />
+
+        <Route path="/placement" element={<Placement />} />
+        <Route path="/library" element={<Library />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
