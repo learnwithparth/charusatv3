@@ -50,9 +50,9 @@ const Certification_Courses = () => {
                                           </div>
                                         </div>
                                         <div className="course-content">
-                                          <Link to="/course-single">
+                                          <a  href="https://asc.charusat.ac.in" target='_blank'>
                                             <h6>Get More Details</h6>
-                                          </Link>
+                                          </a>
                                         </div>
                                       </div>
                                     </div>
