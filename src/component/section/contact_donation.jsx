@@ -33,7 +33,7 @@ export default function contact_donation(props) {
                 <div className="post-inner">
                   <div className="post-content">
                     {/* <Link to="/blog-single"> */}
-                    <h3>Contact Person @ CHARUSAT</h3>
+                    <h3>{props.title}</h3>
                     {/* </Link> */}
                     <div className="meta-post">
                       <ul className="lab-ul">

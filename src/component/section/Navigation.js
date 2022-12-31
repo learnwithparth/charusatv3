@@ -68,19 +68,11 @@ export default function Navigation() {
                     </div>
                     <div>
                       <Dropdown.Header>Phd</Dropdown.Header>
-                      <Nav.Link>Link 1</Nav.Link>
-                      <Nav.Link>Link 2</Nav.Link>
-                      <Nav.Link>Link 3</Nav.Link>
-                      <Dropdown.Header>Other Programs</Dropdown.Header>
-                      <Nav.Link>Link 1</Nav.Link>
-                      <Nav.Link>Link 2</Nav.Link>
-                      <Nav.Link>Link 3</Nav.Link>
-                    </div>
-                    <div>
+                      <Nav.Link href="./assets/files/PhD_Regulations.pdf">
+                        PhD Regulations
+                      </Nav.Link>
                       <Dropdown.Header>Online Learning</Dropdown.Header>
                       <Nav.Link>CharuVidya</Nav.Link>
-                      <Nav.Link>Link 2</Nav.Link>
-                      <Nav.Link>Link 3</Nav.Link>
                       <Dropdown.Header>Academic Links</Dropdown.Header>
                       <Nav.Link>Academic Calender</Nav.Link>
                       <Nav.Link>Academic Services</Nav.Link>
@@ -307,9 +299,7 @@ export default function Navigation() {
                       <Dropdown.Header>Policies</Dropdown.Header>
                       <Nav.Link>Publication Policy</Nav.Link>
                       <Nav.Link>Research Paper Award</Nav.Link>
-                      <Nav.Link>Link 3</Nav.Link>
-                    </div>
-                    <div>
+
                       <Dropdown.Header>Outcomes</Dropdown.Header>
                       <Nav.Link>Publications</Nav.Link>
                       <Nav.Link>Project Grants</Nav.Link>
@@ -318,7 +308,7 @@ export default function Navigation() {
                   </div>
                 </Container>
               </NavDropdown>
-              <NavDropdown
+              {/* <NavDropdown
                 className=" align-text-top"
                 title="IQAC"
                 id="basic-nav-dropdown"
@@ -341,7 +331,8 @@ export default function Navigation() {
                     </div>
                   </div>
                 </Container>
-              </NavDropdown>
+              </NavDropdown> */}
+              <Nav.Link href="https://iqac.charusat.ac.in">IQAC</Nav.Link>
               <NavDropdown
                 className=" align-text-top"
                 title="Know CHARUSAT"

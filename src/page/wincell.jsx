@@ -115,11 +115,18 @@ const Wincell = () => {
                             <ul className="lab-ul">
                               <li>
                                 Mr. Ritesh Bhatt, Head Datacenter and University
-                                Network Engineer
+                                Network Engineer - Ext. No. 5106
                               </li>
-                              <li>Mr. Viral Patel, Lab Technician</li>
-                              <li>Mr. Kamlesh Patel, Lab Technician</li>
-                              <li>Mr. Hardik Patel, Lab Technician</li>
+                              <li>
+                                Mr. Viral Patel, Lab Technician - Ext. No. 5107
+                              </li>
+                              <li>
+                                Mr. Kamlesh Patel, Lab Technician - Ext. No.
+                                5107
+                              </li>
+                              <li>
+                                Mr. Hardik Patel, Lab Technician - Ext. No. 5107
+                              </li>
                             </ul>
                           </div>
                         </div>
@@ -131,6 +138,7 @@ const Wincell = () => {
             </div>
 
             <Contact
+              title="WINCell Contact"
               name="Mr Ritesh Bhatt"
               email="riteshbhatt.win@charusat.ac.in"
               phone="+91-2697-265106"

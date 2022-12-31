@@ -32,11 +32,7 @@ const PoliciesTerms = () => {
                                   <br />
                                   1. Privacy Policy for Online Payment and Terms
                                   &amp; Conditions{" "}
-                                  <i
-                                    className="fa fa-file-pdf-o"
-                                    aria-hidden="true"
-                                    color="red"
-                                  ></i>
+                                  <i className="icofont-file-pdf"></i>
                                 </strong>
                               </a>
                               <br />
@@ -44,11 +40,7 @@ const PoliciesTerms = () => {
                                 <strong>
                                   <br />
                                   2. IT Policy{" "}
-                                  <i
-                                    className="fa fa-file-pdf-o"
-                                    aria-hidden="true"
-                                    color="red"
-                                  ></i>
+                                  <i className="icofont-file-pdf"></i>
                                 </strong>
                               </a>
                               <br />
@@ -56,11 +48,7 @@ const PoliciesTerms = () => {
                                 <strong>
                                   <br />
                                   3. CCTV Policy{" "}
-                                  <i
-                                    className="fa fa-file-pdf-o"
-                                    aria-hidden="true"
-                                    color="red"
-                                  ></i>
+                                  <i className="icofont-file-pdf"></i>
                                 </strong>
                               </a>
                               <br />
@@ -68,11 +56,7 @@ const PoliciesTerms = () => {
                                 <strong>
                                   <br />
                                   4. Staff Quarter Allotment Policy{" "}
-                                  <i
-                                    className="fa fa-file-pdf-o"
-                                    aria-hidden="true"
-                                    color="red"
-                                  ></i>
+                                  <i className="icofont-file-pdf"></i>
                                 </strong>
                               </a>
                               <br />
@@ -80,11 +64,7 @@ const PoliciesTerms = () => {
                                 <strong>
                                   <br />
                                   5. Library Manual{" "}
-                                  <i
-                                    className="fa fa-file-pdf-o"
-                                    aria-hidden="true"
-                                    color="red"
-                                  ></i>
+                                  <i className="icofont-file-pdf"></i>
                                 </strong>
                               </a>
                               <br />
@@ -92,11 +72,7 @@ const PoliciesTerms = () => {
                                 <strong>
                                   <br />
                                   6. Laboratory Code of Conduct{" "}
-                                  <i
-                                    className="fa fa-file-pdf-o"
-                                    aria-hidden="true"
-                                    color="red"
-                                  ></i>
+                                  <i className="icofont-file-pdf"></i>
                                 </strong>
                               </a>
                               <br />
@@ -104,11 +80,7 @@ const PoliciesTerms = () => {
                                 <strong>
                                   <br />
                                   7. Sport Facility Booking Form{" "}
-                                  <i
-                                    className="fa fa-file-pdf-o"
-                                    aria-hidden="true"
-                                    color="red"
-                                  ></i>
+                                  <i className="icofont-file-pdf"></i>
                                 </strong>
                               </a>
                               <br />
@@ -117,11 +89,7 @@ const PoliciesTerms = () => {
                                   <br />
                                   8. IDMC Policy (Infrastructure Development and
                                   Maintenance){" "}
-                                  <i
-                                    className="fa fa-file-pdf-o"
-                                    aria-hidden="true"
-                                    color="red"
-                                  ></i>
+                                  <i className="icofont-file-pdf"></i>
                                 </strong>
                               </a>
                               <br />
@@ -211,11 +179,7 @@ const PoliciesTerms = () => {
                                 <strong>
                                   <br />
                                   9. Catering Service Requirement Form{" "}
-                                  <i
-                                    className="fa fa-file-pdf-o"
-                                    aria-hidden="true"
-                                    color="red"
-                                  ></i>
+                                  <i className="icofont-file-pdf"></i>
                                 </strong>
                               </a>
                               <br />
@@ -224,11 +188,7 @@ const PoliciesTerms = () => {
                                   <br />
                                   10. Terms and Conditions for providing
                                   Catering Service{" "}
-                                  <i
-                                    className="fa fa-file-pdf-o"
-                                    aria-hidden="true"
-                                    color="red"
-                                  ></i>
+                                  <i className="icofont-file-pdf"></i>
                                 </strong>
                               </a>
                               <br />
@@ -236,12 +196,7 @@ const PoliciesTerms = () => {
                                 <strong>
                                   <br />
                                   11. Guest/Visitor Lunch/Dinner Requisition
-                                  Slip{" "}
-                                  <i
-                                    className="fa fa-file-pdf-o"
-                                    aria-hidden="true"
-                                    color="red"
-                                  ></i>
+                                  Slip <i className="icofont-file-pdf"></i>
                                 </strong>
                               </a>
                               <br />
@@ -249,11 +204,7 @@ const PoliciesTerms = () => {
                                 <strong>
                                   <br />
                                   12. Mandap Decoration Service Requirement Form{" "}
-                                  <i
-                                    className="fa fa-file-pdf-o"
-                                    aria-hidden="true"
-                                    color="red"
-                                  ></i>
+                                  <i className="icofont-file-pdf"></i>
                                 </strong>
                               </a>
                               <br />
@@ -262,11 +213,7 @@ const PoliciesTerms = () => {
                                   <br />
                                   13. Terms and Conditions for providing Mandap
                                   Decoration Services{" "}
-                                  <i
-                                    className="fa fa-file-pdf-o"
-                                    aria-hidden="true"
-                                    color="red"
-                                  ></i>
+                                  <i className="icofont-file-pdf"></i>
                                 </strong>
                               </a>
                               <br />
@@ -275,35 +222,25 @@ const PoliciesTerms = () => {
                                   <br />
                                   14. Terms and Conditions for providing
                                   Gardening Services{" "}
-                                  <i
-                                    className="fa fa-file-pdf-o"
-                                    aria-hidden="true"
-                                    color="red"
-                                  ></i>
+                                  <i className="icofont-file-pdf"></i>
                                 </strong>
                               </a>
+                              <br />
                               <a href="https://drive.google.com/file/d/13miZZdM2Xfvs7PSwcDQA866cUEUCgT9J/view?usp=sharing">
                                 <strong>
                                   <br />
                                   15. Terms and Conditions for providing
                                   Furnishing, Coloring and Carpentry Services{" "}
-                                  <i
-                                    className="fa fa-file-pdf-o"
-                                    aria-hidden="true"
-                                    color="red"
-                                  ></i>
+                                  <i className="icofont-file-pdf"></i>
                                 </strong>
                               </a>
+                              <br />
                               <a href="https://drive.google.com/file/d/1dEU-_FOdWcl-53OQr_SkNxjAUt-quJq7/view?usp=sharing">
                                 <strong>
                                   <br />
                                   16. Terms and Conditions for providing Plywood
                                   and Hardware Items{" "}
-                                  <i
-                                    className="fa fa-file-pdf-o"
-                                    aria-hidden="true"
-                                    color="red"
-                                  ></i>
+                                  <i className="icofont-file-pdf"></i>
                                 </strong>
                               </a>
                             </div>

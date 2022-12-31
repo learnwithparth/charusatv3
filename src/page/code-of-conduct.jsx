@@ -29,66 +29,61 @@ const CodeofConduct = () => {
                                       <tr>
                                         <th>#</th>
                                         <th>Particular</th>
-                                        <th>Link</th>
                                       </tr>
                                     </thead>
                                     <tbody>
                                       <tr>
                                         <td>1</td>
-                                        <td>Member of Governing Body </td>
                                         <td>
+                                          Member of Governing Body{" "}
                                           <a
-                                            class="lab-btn"
                                             href="https://charusat.ac.in/documents/pdfs/data_1/Code_Of_Conduct/Code%20of%20Conduct%20for%20the%20members%20for%20GB-BOM.pdf"
                                             target="blank"
                                           >
-                                            {" "}
-                                            Download
-                                          </a>
+                                            <i className="icofont-file-pdf"></i>
+                                          </a>{" "}
                                         </td>
                                       </tr>
 
                                       <tr>
                                         <td>2</td>
-                                        <td> Employees </td>
                                         <td>
+                                          {" "}
+                                          Employees{" "}
                                           <a
-                                            class="lab-btn"
                                             href="https://charusat.ac.in/documents/pdfs/data_1/Code_Of_Conduct/Employee%20Code%20of%20Conduct.pdf"
                                             target="blank"
                                           >
-                                            {" "}
-                                            Download
-                                          </a>
+                                            <i className="icofont-file-pdf"></i>
+                                          </a>{" "}
                                         </td>
                                       </tr>
 
                                       <tr>
                                         <td>3</td>
-                                        <td> Administrator </td>
                                         <td>
+                                          {" "}
+                                          Administrator
                                           <a
-                                            class="lab-btn"
                                             href="https://charusat.ac.in/documents/pdfs/data_1/Code_Of_Conduct/Administrators%20code%20of%20conduct.pdf"
                                             target="blank"
                                           >
                                             {" "}
-                                            Download
+                                            <i className="icofont-file-pdf"></i>
                                           </a>
                                         </td>
                                       </tr>
 
                                       <tr>
                                         <td>4</td>
-                                        <td> Students </td>
                                         <td>
+                                          {" "}
+                                          Students{" "}
                                           <a
-                                            class="lab-btn"
                                             href="https://charusat.ac.in/documents/pdfs/data_1/Code_Of_Conduct/Student%20code%20of%20Conduct.pdf"
                                             target="blank"
                                           >
-                                            {" "}
-                                            Download
+                                            <i className="icofont-file-pdf"></i>
                                           </a>
                                         </td>
                                       </tr>

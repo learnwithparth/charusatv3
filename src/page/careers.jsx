@@ -24,7 +24,10 @@ const Certification_Courses = () => {
                             <Container>
                               <Row className="p-2">
                                 <Col md={8}>
-                                  <img src={career1_img} alt={"career"} />
+                                  <img
+                                    src="./assets/images/advertisment_nov_2022.webp"
+                                    alt={"career"}
+                                  />
                                 </Col>
                                 <Col md={4}>
                                   <h6>Recruitment - Various positions</h6>
@@ -33,7 +36,7 @@ const Certification_Courses = () => {
                                   </p>
 
                                   <a
-                                    class="lab-btn"
+                                    class="lab-btn text-white"
                                     href="https://charusat.edu.in:912/OnlineJobPortal/"
                                   >
                                     Apply Now

@@ -155,8 +155,9 @@ const Hostels = () => {
             </div>
 
             <Contact
-              name="Dr x x ssfsafas sfsdf fdfsdfsdf"
-              email="ssfsafas sfsdf fdfsdfsdf@charusat.ac.in"
+              title="Hostel Contact"
+              name="Rasilaben Patel"
+              email="info@charusat.ac.in"
               phone="+91-2697-2651xx"
             />
           </div>
