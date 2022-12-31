@@ -92,6 +92,9 @@ export default function Navigation() {
                   <div class="flex-container">
                     <div>
                       <Dropdown.Header>For National Students</Dropdown.Header>
+                      <Nav.Link href="https://charusat.nopaperforms.com/">
+                        Admission Enquiry
+                      </Nav.Link>
                       <Nav.Link>Apply Now</Nav.Link>
                       <Nav.Link>Eligibility Criteria</Nav.Link>
                       <Nav.Link>Fees</Nav.Link>
