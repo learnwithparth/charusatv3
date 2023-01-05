@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.60e314f5.css",
-    "main.js": "/static/js/main.136cca84.js",
+    "main.css": "/static/css/main.1ea28424.css",
+    "main.js": "/static/js/main.70dccedf.js",
     "static/js/787.591c1de3.chunk.js": "/static/js/787.591c1de3.chunk.js",
     "static/media/lib-1.jpg": "/static/media/lib-1.bd0944e36360e323ccf3.jpg",
     "static/media/iprBrochuer.jpg": "/static/media/iprBrochuer.e257f7a7b3b0f5530756.jpg",
     "static/media/05.jpg": "/static/media/05.941b541a3b3cc7e83949.jpg",
     "static/media/10.jpg": "/static/media/10.467a67cf8f939a361571.jpg",
-    "static/media/08.jpg": "/static/media/08.dc3eb847cf659df917ff.jpg",
     "static/media/convocation_10.jpg": "/static/media/convocation_10.2e4fbff9a51558595b9c.jpg",
+    "static/media/lab.png": "/static/media/lab.8de81ac6d9c1f0ea4a26.png",
     "static/media/icofont.woff": "/static/media/icofont.dad3accba068281878f1.woff",
     "static/media/icofont.woff2": "/static/media/icofont.9c33516aab48c61e3081.woff2",
     "static/media/14.jpg": "/static/media/14.0174c5c1254af1183846.jpg",
@@ -25,15 +25,16 @@
     "static/media/13.jpg": "/static/media/13.be98fa6c7736f4f7b2d3.jpg",
     "static/media/bg.png": "/static/media/bg.fc9a44ade3da70913cdf.png",
     "static/media/Dr_Bimal_Patel.webp": "/static/media/Dr_Bimal_Patel.47bddb3d2d012e4df028.webp",
-    "static/media/06.jpg": "/static/media/06.c75e516aa2e0da953e88.jpg",
     "static/media/11.jpg": "/static/media/11.e76dd00f0d637e432ca9.jpg",
     "static/media/12.jpg": "/static/media/12.5b5a9afdd0ba0887d0fe.jpg",
     "static/media/01.jpg": "/static/media/01.2ef446bdfc428cbfe22e.jpg",
+    "static/media/08.jpg": "/static/media/08.dc3eb847cf659df917ff.jpg",
     "static/media/aws.png": "/static/media/aws.1a48802e11e906a3db4d.png",
     "static/media/02.jpg": "/static/media/02.54b74e94f104ee6fe254.jpg",
     "static/media/APJ.jpg": "/static/media/APJ.a4706b7fd7b2f5ecfa5a.jpg",
     "static/media/O-P-Kohli.jpg": "/static/media/O-P-Kohli.03a79570cecc562863e8.jpg",
     "static/media/dr_r_a_mashelkar.jpg": "/static/media/dr_r_a_mashelkar.32f0c87d794d37551076.jpg",
+    "static/media/06.jpg": "/static/media/06.c75e516aa2e0da953e88.jpg",
     "static/media/SUN1917.jpg": "/static/media/SUN1917.60c57425084caeb4aaf3.jpg",
     "static/media/05.png": "/static/media/05.12407748cc73fecc71fc.png",
     "static/media/07.png": "/static/media/07.e85ce796ddadd4c2a0cc.png",
@@ -48,12 +49,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.60e314f5.css.map": "/static/css/main.60e314f5.css.map",
-    "main.136cca84.js.map": "/static/js/main.136cca84.js.map",
+    "main.1ea28424.css.map": "/static/css/main.1ea28424.css.map",
+    "main.70dccedf.js.map": "/static/js/main.70dccedf.js.map",
     "787.591c1de3.chunk.js.map": "/static/js/787.591c1de3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60e314f5.css",
-    "static/js/main.136cca84.js"
+    "static/css/main.1ea28424.css",
+    "static/js/main.70dccedf.js"
   ]
 }
