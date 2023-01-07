@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://learnwithparth.github.io/charusatv3/static/css/main.3e2a980e.css",
-    "main.js": "https://learnwithparth.github.io/charusatv3/static/js/main.2c2bcaf5.js",
+    "main.js": "https://learnwithparth.github.io/charusatv3/static/js/main.58505d36.js",
     "static/js/787.7f3d6f8a.chunk.js": "https://learnwithparth.github.io/charusatv3/static/js/787.7f3d6f8a.chunk.js",
     "static/media/lib-1.jpg": "https://learnwithparth.github.io/charusatv3/static/media/lib-1.bd0944e36360e323ccf3.jpg",
     "static/media/iprBrochuer.jpg": "https://learnwithparth.github.io/charusatv3/static/media/iprBrochuer.e257f7a7b3b0f5530756.jpg",
@@ -50,11 +50,11 @@
     "static/media/slick.woff": "https://learnwithparth.github.io/charusatv3/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "https://learnwithparth.github.io/charusatv3/index.html",
     "main.3e2a980e.css.map": "https://learnwithparth.github.io/charusatv3/static/css/main.3e2a980e.css.map",
-    "main.2c2bcaf5.js.map": "https://learnwithparth.github.io/charusatv3/static/js/main.2c2bcaf5.js.map",
+    "main.58505d36.js.map": "https://learnwithparth.github.io/charusatv3/static/js/main.58505d36.js.map",
     "787.7f3d6f8a.chunk.js.map": "https://learnwithparth.github.io/charusatv3/static/js/787.7f3d6f8a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e2a980e.css",
-    "static/js/main.2c2bcaf5.js"
+    "static/js/main.58505d36.js"
   ]
 }
