@@ -27,7 +27,7 @@ import Donation from "./page/donation";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/charusatv3">
       <ScrollToTop />
       <Header />
       <Routes>
