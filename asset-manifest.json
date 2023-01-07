@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/charusatv3/static/css/main.733722c4.css",
-    "main.js": "/charusatv3/static/js/main.d1639551.js",
+    "main.js": "/charusatv3/static/js/main.726ca119.js",
     "static/js/787.7f3d6f8a.chunk.js": "/charusatv3/static/js/787.7f3d6f8a.chunk.js",
     "static/media/lib-1.jpg": "/charusatv3/static/media/lib-1.bd0944e36360e323ccf3.jpg",
     "static/media/iprBrochuer.jpg": "/charusatv3/static/media/iprBrochuer.e257f7a7b3b0f5530756.jpg",
@@ -50,11 +50,11 @@
     "static/media/slick.woff": "/charusatv3/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/charusatv3/index.html",
     "main.733722c4.css.map": "/charusatv3/static/css/main.733722c4.css.map",
-    "main.d1639551.js.map": "/charusatv3/static/js/main.d1639551.js.map",
+    "main.726ca119.js.map": "/charusatv3/static/js/main.726ca119.js.map",
     "787.7f3d6f8a.chunk.js.map": "/charusatv3/static/js/787.7f3d6f8a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.733722c4.css",
-    "static/js/main.d1639551.js"
+    "static/js/main.726ca119.js"
   ]
 }
