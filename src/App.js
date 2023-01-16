@@ -61,8 +61,10 @@ import IPR from "./page/ipr"
 import CDPC from "./page/cdpc";
 import Ethics from "./page/ethics";
 import Accreditation from "./page/Accreditation";
-import WellnessProgram from "./page/wellnessProgram";
 
+import SDI from "./page/SDI";
+
+import WellnessProgram from "./page/wellnessProgram";
 
 
 function App() {
@@ -111,10 +113,8 @@ function App() {
         <Route exact path="/library" element={<Library />} />
         <Route path="*" element={<ErrorPage />} />
         
-        	<Route path="/final" element={<Home_Final />} />
+      <Route path="/final" element={<Home_Final />} />
 			<Route path="/about" element={<About_us />} />
-				
-
 			<Route path="/" element={<Home />} />
 			<Route path="/undergraduateCourses" element={<UndergraduateCourses/>}/>
 			<Route path="/postgraduateCourses" element={<PostgraduateCourses/>}/>
@@ -123,13 +123,15 @@ function App() {
 			<Route path="/cdpc" element={<CDPC/>}/>
 			<Route path="/ethics" element={<Ethics/>}/>
 			<Route path="*" element={<ErrorPage />} />
-
+			<Route path="/accreditation" element={<Accreditation />} />
+			<Route path="/sdi" element={<SDI />} />
 			<Route path="/AboutUs" element={<AboutUs/>}/>
 			<Route path="/ProvostDesk" element={<ProvostDesk/>}/>
 			<Route path="/PresidentDesk" element={<PresidentDesk/>}/>
 			<Route path="/people" element={<People/>}/>
       <Route path="/accreditation" element={<Accreditation />} />
 			<Route path="/wellness_Program" element={<WellnessProgram />} />
+
 
 			</Routes>
 			<Footer/>
