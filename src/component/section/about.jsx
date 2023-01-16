@@ -1,7 +1,8 @@
-const subTitle = "About CHARUSAT";
+const subTitle = "About CHARUSAT - || अमृतं तु विद्या ||";
 const title = "|| अमृतं तु विद्या ||";
-const desc =
-  "The Iron Man of India, Sardar Vallabhbhai Patel believed, “Education without character is futile”. CHARUSAT proudly follows this spirit. It also follows founding High Moral Values like Honesty, Integrity, Transparency, Fairness, Equity, and Accountability.";
+const desc = "CHARUSAT offers various programs, viz., UG, PG, Doctoral, Post-Doctoral, Diploma, Value-added and Executive Development Programs under the tutelage of 9 Institutes, 6 Faculties, and various Centers / Cells."
+//  An employee strength of 600, student strength of more than 8000 and a Capital Outlay of INR 150 Crores are the scalar dimensions of CHARUSAT. The programs are offered in the allied disciplines of Technology & Engineering, Pharmacy, Computer Applications, Management Studies, Applied Sciences, Nursing, Physiotherapy, and other Paramedical Sciences."
+  // "The Iron Man of India, Sardar Vallabhbhai Patel believed, “Education without character is futile”. CHARUSAT proudly follows this spirit. It also follows founding High Moral Values like Honesty, Integrity, Transparency, Fairness, Equity, and Accountability.";
 
 const desc2 =
   "CHARUSAT offers various programs, viz., UG, PG, Doctoral, Post-Doctoral, Diploma, Value-added and Executive Development Programs under the tutelage of 9 Institutes, 6 Faculties, and various Centers / Cells. An employee strength of 600, student strength of more than 8000 and a Capital Outlay of INR 150 Crores are the scalar dimensions of CHARUSAT. The programs are offered in the allied disciplines of Technology & Engineering, Pharmacy, Computer Applications, Management Studies, Applied Sciences, Nursing, Physiotherapy, and other Paramedical Sciences.";
@@ -47,21 +48,19 @@ const About = () => {
           <div className="col">
             <div className="about-right padding-tb">
               <div className="section-header">
-                <span className="subtitle">{subTitle}</span>
+                <span className="subtitle" style={{fontWeight:'bold'}}>{subTitle}</span>
                 
-                <br />
-                <br />
-                <h2 className="title">{title}</h2>
+              
+                {/* <h2 className="title">{title}</h2> */}
                 
-                <br />
-                <br />
-                <p style={{fontWeight:'bold'}}>{desc}</p>
+              
+                {/* <p >{desc}</p> */}
                 
+                {/* <br />
                 <br />
-                <br />
-                <p style={{fontWeight:'bold'}}>{desc2}</p>
+                <p style={{fontWeight:'bold'}}>{desc2}</p> */}
               </div>
-              {/* <div className="section-wrapper">
+              <div className="section-wrapper">
                 <ul className="lab-ul">
                   {aboutList.map((val, i) => (
                                         <li key={i}>
@@ -69,13 +68,13 @@ const About = () => {
                                                 <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} />
                                             </div>
                                             <div className="sr-right">
-                                                <h5>{val.title}</h5>
-                                                <p>{val.desc}</p>
+                                                <h5>{val.desc}</h5>
+                                                {/* <p>{val.desc}</p> */}
                                             </div>
                                         </li>
                                     ))}
                 </ul>
-              </div> */}
+              </div>
             </div>
           </div>
           <div className="col mb-5">

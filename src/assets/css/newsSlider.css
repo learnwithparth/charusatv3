@@ -1,0 +1,25 @@
+.slick-slider {
+  text-align: center;
+}
+
+.slick-slider a:hover,
+.news-all-link a:hover {
+  text-decoration: underline;
+  font-weight: 700;
+  color: #f16126;
+  cursor: pointer;
+  transition: all 10ms;
+}
+.slider-item {
+  background: transparent;
+  color: #f16126;
+  padding: 14px 30px;
+}
+
+.slick-arrow {
+  color: #f16126;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #f16126;
+}
