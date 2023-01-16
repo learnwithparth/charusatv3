@@ -61,6 +61,9 @@ import IPR from "./page/ipr"
 import CDPC from "./page/cdpc";
 import Ethics from "./page/ethics";
 import Accreditation from "./page/Accreditation";
+
+import ResearchPage from "./page/research";
+
 import ContactUs from "./page/contact_us";
 
 import SDI from "./page/SDI";
@@ -125,6 +128,9 @@ function App() {
 			<Route path="/ethics" element={<Ethics/>}/>
 			<Route path="*" element={<ErrorPage />} />
 			<Route path="/accreditation" element={<Accreditation />} />
+
+			<Route path="/research" element={<ResearchPage />} />
+
 			<Route path="/contactus" element={<ContactUs />}/>
 			<Route path="/sdi" element={<SDI />} />
 			<Route path="/AboutUs" element={<AboutUs/>}/>
@@ -133,6 +139,7 @@ function App() {
 			<Route path="/people" element={<People/>}/>
       <Route path="/accreditation" element={<Accreditation />} />
 			<Route path="/wellness_Program" element={<WellnessProgram />} />
+
 
 			</Routes>
 			<Footer/>
