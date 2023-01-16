@@ -3455,7 +3455,8 @@ html {
 body {
   background: #fff;
   color: #555555;
-  font-family: "Barlow", sans-serif;
+  /*font-family: "Barlow", sans-serif; */
+  font-family: "Poppins", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -6196,9 +6197,7 @@ button {
 
   background-position: center;
   background-attachment: fixed;
-  padding: 260px 0 200px; 
-  
-  
+  padding: 260px 0 200px;
 }
 @media (min-width: 992px) {
   .banner-section.style-5 {
