@@ -47,6 +47,14 @@ import About_us from "./page/About_us"
 import Header from "./component/layout/header-3"
 import UndergraduateCourses from "./page/undergraduateCourses";
 import PostgraduateCourses from "./page/postgraduateCourses";
+
+import Footer from "./component/layout/footer-3";
+import Transport from "./page/transport";
+import AboutUs from "./page/About_us";
+import ProvostDesk from "./page/Provost-desk";
+import PresidentDesk from "./page/President-desk";
+import People from "./page/People";
+
 import Footer from "./component/layout/footer-3"
 import Transport from "./page/transport"
 import IPR from "./page/ipr"
@@ -54,6 +62,7 @@ import CDPC from "./page/cdpc";
 import Ethics from "./page/ethics";
 import Accreditation from "./page/Accreditation";
 import WellnessProgram from "./page/wellnessProgram";
+
 
 
 function App() {
@@ -114,19 +123,19 @@ function App() {
 			<Route path="/cdpc" element={<CDPC/>}/>
 			<Route path="/ethics" element={<Ethics/>}/>
 			<Route path="*" element={<ErrorPage />} />
-			<Route path="/accreditation" element={<Accreditation />} />
+
+			<Route path="/AboutUs" element={<AboutUs/>}/>
+			<Route path="/ProvostDesk" element={<ProvostDesk/>}/>
+			<Route path="/PresidentDesk" element={<PresidentDesk/>}/>
+			<Route path="/people" element={<People/>}/>
+      <Route path="/accreditation" element={<Accreditation />} />
 			<Route path="/wellness_Program" element={<WellnessProgram />} />
 
-
-      </Routes>
-      <Footer />
-    </BrowserRouter>
-  );
-
-
-
-
-
+			</Routes>
+			<Footer/>
+		</BrowserRouter>
+	);
+}
 
 
 export default App;

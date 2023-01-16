@@ -1,11 +1,19 @@
 import { Fragment } from "react";
+
+
 import Footer from "../component/layout/footer";
 import Header from "../component/layout/header";
 import PageHeader from "../component/layout/pageheader";
+
 //import Instructor from "../component/section/instructor";
 import Torchbearers from "../component/section/Torchbearers";
 import VisionMission from "../component/section/Vision_Mission";
 import AppSection from "../component/section/ecc-to-charusat";
+
+import PresidentDesk from "./President-desk";
+import ProvostDesk from "./Provost-desk";
+
+
 
 
 const subTitle = "About CHARUSAT";
@@ -43,8 +51,13 @@ const AboutPage = () => {
     return ( 
         
         <Fragment>
+
+            
+            {/* <PageHeader title={'About CHARUSAT'} curPage={'About_us'} /> */}
+
             <Header />
             <PageHeader title={'About CHARUSAT'} curPage={'About_us'} />
+
             <div className="about-section style-3 padding-tb section-bg">
                 <div className="container">
                     <div className="row justify-content-center row-cols-xl-2 row-cols-1 align-items-center">
@@ -93,12 +106,22 @@ const AboutPage = () => {
             <VisionMission/>
             <Torchbearers />
             <AppSection />
+
+            
+            {/* <Skill />
+            <AchievementTwo />
+            <Blog />*/}
+            <PresidentDesk />
+            <ProvostDesk />
+            
+
             {/* <Skill />
             <AchievementTwo />
             <Blog />*/}
             <Footer /> 
+
         </Fragment>
-    );
+
 }
 
 export default AboutPage;
