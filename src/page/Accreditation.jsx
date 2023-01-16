@@ -56,17 +56,16 @@ const Accreditation = () => {
                                                     <button className="d-flex flex-wrap justify-content-between" data-bs-toggle="collapse" data-bs-target="#videolist1" aria-expanded="true" aria-controls="videolist1" ><span>Accreditation</span> <span><i class="icofont-square-down"></i></span> </button>
                                                 </div>
                                                 <div id="videolist1" className="accordion-collapse collapse" aria-labelledby="accordion01" data-bs-parent="#accordionExample">
-                                                   <div className="row">
-                                                        <div className="col-lg-6">
+
+                                                    <div className="row">
+                                                      <div className="col-lg-6">
                                                         <Cycle2 />
-                                                        
-                                                        </div>
-                                                        
-                                                        <div className="col-lg-6">
+                                                      </div>
+                                                    
+                                                      <div className="col-lg-6">
                                                         <Cycle1 />
-                                                        </div>
-                                                    </div>
-                                                <br/>
+                                                      </div>
+                                                  <br/>
                                                 </div>
                                                 
                                             </div>
