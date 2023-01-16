@@ -25,7 +25,7 @@ import PoliciesTerms from "./page/policiesTerms";
 import Library from "./page/library";
 import Placement from "./page/placement";
 import Donation from "./page/donation";
-
+/*
 import HomeTwo from "./page/home-2";
 import HomeThree from "./page/home-3";
 import HomeFour from "./page/home-4";
@@ -41,23 +41,22 @@ import ShopDetails from "./page/shop-single";
 import SignupPage from "./page/signup";
 import TeamPage from "./page/team";
 import TeamSingle from "./page/team-single";
+*/
+import Home_Final from "./page/home";
+import About_us from "./page/About_us";
 
-import About_us from "./page/About_us"
+// import UndergraduateCourses from "./page/undergraduateCourses";
+// import PostgraduateCourses from "./page/postgraduateCourses";
 
-import Header from "./component/layout/header-3"
-import UndergraduateCourses from "./page/undergraduateCourses";
-import PostgraduateCourses from "./page/postgraduateCourses";
-
-import Footer from "./component/layout/footer-3";
-import Transport from "./page/transport";
+// import Footer from "./component/layout/footer-3";
+// import Transport from "./page/transport";
 import AboutUs from "./page/About_us";
 import ProvostDesk from "./page/Provost-desk";
 import PresidentDesk from "./page/President-desk";
 import People from "./page/People";
 
-import Footer from "./component/layout/footer-3"
-import Transport from "./page/transport"
-import IPR from "./page/ipr"
+// import Footer from "./component/layout/footer-3";
+
 import CDPC from "./page/cdpc";
 import Ethics from "./page/ethics";
 import Accreditation from "./page/Accreditation";
@@ -70,33 +69,38 @@ import SDI from "./page/SDI";
 
 import WellnessProgram from "./page/wellnessProgram";
 
-
 function App() {
   // const basename = document.querySelector('base')?.getAttribute('href') ?? '/'    ;
 
   return (
-
     <BrowserRouter basename="/charusatv3">
       <ScrollToTop />
       <Header />
       <Routes>
-      <Route exact path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
 
-        <Route exact
+        <Route
+          exact
           path="/undergraduateCourses"
           element={<UndergraduateCourses />}
         />
-        <Route exact path="/postgraduateCourses" element={<PostgraduateCourses />} />
+        <Route
+          exact
+          path="/postgraduateCourses"
+          element={<PostgraduateCourses />}
+        />
         <Route exact path="/transport" element={<Transport />} />
-        <Route  exact path="/ipr" element={<IPR />} />
+        <Route exact path="/ipr" element={<IPR />} />
 
         <Route exact path="/csrtc" element={<CSRTC />} />
         <Route exact path="/hostels" element={<Hostels />} />
-        <Route exact
+        <Route
+          exact
           path="/admission_reprentatives"
           element={<Admission_Reprentatives />}
         />
-        <Route exact
+        <Route
+          exact
           path="/certification_courses"
           element={<Certification_Courses />}
         />
@@ -105,7 +109,7 @@ function App() {
 
         {/* <Route path="/announcements" element={<Announcements />} /> */}
 
-        <Route  exact path="/donation" element={<Donation />} />
+        <Route exact path="/donation" element={<Donation />} />
 
         <Route exact path="/wincell" element={<Wincell />} />
         <Route exact path="/convocations" element={<Convocations />} />
@@ -116,36 +120,36 @@ function App() {
         <Route exact path="/placement" element={<Placement />} />
         <Route exact path="/library" element={<Library />} />
         <Route path="*" element={<ErrorPage />} />
-        
-      <Route path="/final" element={<Home_Final />} />
-			<Route path="/about" element={<About_us />} />
-			<Route path="/" element={<Home />} />
-			<Route path="/undergraduateCourses" element={<UndergraduateCourses/>}/>
-			<Route path="/postgraduateCourses" element={<PostgraduateCourses/>}/>
-			<Route path="/transport" element={<Transport/>}/>
-			<Route path="/ipr" element={<IPR/>}/>
-			<Route path="/cdpc" element={<CDPC/>}/>
-			<Route path="/ethics" element={<Ethics/>}/>
-			<Route path="*" element={<ErrorPage />} />
-			<Route path="/accreditation" element={<Accreditation />} />
 
-			<Route path="/research" element={<ResearchPage />} />
+        <Route path="/final" element={<Home_Final />} />
+        <Route path="/about" element={<About_us />} />
+        <Route path="/" element={<Home />} />
+        <Route
+          path="/undergraduateCourses"
+          element={<UndergraduateCourses />}
+        />
+        <Route path="/postgraduateCourses" element={<PostgraduateCourses />} />
+        <Route path="/transport" element={<Transport />} />
+        <Route path="/ipr" element={<IPR />} />
+        <Route path="/cdpc" element={<CDPC />} />
+        <Route path="/ethics" element={<Ethics />} />
+        <Route path="*" element={<ErrorPage />} />
+        <Route path="/accreditation" element={<Accreditation />} />
 
-			<Route path="/contactus" element={<ContactUs />}/>
-			<Route path="/sdi" element={<SDI />} />
-			<Route path="/AboutUs" element={<AboutUs/>}/>
-			<Route path="/ProvostDesk" element={<ProvostDesk/>}/>
-			<Route path="/PresidentDesk" element={<PresidentDesk/>}/>
-			<Route path="/people" element={<People/>}/>
-      <Route path="/accreditation" element={<Accreditation />} />
-			<Route path="/wellness_Program" element={<WellnessProgram />} />
+        <Route path="/research" element={<ResearchPage />} />
 
-
-			</Routes>
-			<Footer/>
-		</BrowserRouter>
-	);
+        <Route path="/contactus" element={<ContactUs />} />
+        <Route path="/sdi" element={<SDI />} />
+        <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="/ProvostDesk" element={<ProvostDesk />} />
+        <Route path="/PresidentDesk" element={<PresidentDesk />} />
+        <Route path="/people" element={<People />} />
+        <Route path="/accreditation" element={<Accreditation />} />
+        <Route path="/wellness_Program" element={<WellnessProgram />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
+  );
 }
-
 
 export default App;

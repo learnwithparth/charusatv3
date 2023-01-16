@@ -361,8 +361,6 @@ export default function Navigation() {
                       <Nav.Link>Board of Management</Nav.Link>
                       <Nav.Link>Deans, Principals & Heads</Nav.Link>
                       <Nav.Link>University Officers</Nav.Link>
-                    </div>
-                    <div>
                       <Dropdown.Header>Contact Us</Dropdown.Header>
                       <Nav.Link>Contact University</Nav.Link>
                       <Nav.Link>Google Map</Nav.Link>
