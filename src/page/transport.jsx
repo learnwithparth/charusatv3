@@ -3,26 +3,7 @@ import { Link } from "react-router-dom";
 import PageHeader from "../component/layout/pageheader";
 import Contact from "../component/section/contact"
 
-const contactList = [
-  {
-    title: "Contact Person @ CHARUSAT",
-    btnText: "Operators' Detail",
-    metaList: [
-      {
-        iconName: "icofont-ui-user",
-        text: "Mr Dharmendra Patel",
-      },
-      {
-        iconName: "icofont-email",
-        text: "dharmendrapatel.adm@charusat.ac.in",
-      },
-      {
-        iconName: "icofont-phone",
-        text: "+91-9586967008",
-      },
-    ],
-  },
-];
+
 
 const transporterList = [
   {

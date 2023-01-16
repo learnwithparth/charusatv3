@@ -6,11 +6,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import "../../assets/css/newsSlider.css";
+import { Nav } from "react-bootstrap";
 
 export default class NewsSlider extends Component {
   render() {
     var settings = {
       dots: true,
+      arrows: false,
       infinite: true,
       speed: 200,
       autoplay: true,
@@ -46,11 +48,17 @@ export default class NewsSlider extends Component {
       ],
     };
     return (
-      <div style={{ "text-align": "center" }} className="news-all-link">
+      <div
+        style={{
+          "text-align": "center",
+          backgroundColor: "#FEFBF6",
+          border: "1px solid red",
+          borderRadius: "10px",
+        }}
+        className="news-all-link "
+      >
         <br />
         <br />
-
-        <h6>Announcements</h6>
         <Slider {...settings}>
           <div className="slider-item">
             <Link to="/course">
@@ -80,12 +88,18 @@ export default class NewsSlider extends Component {
         </Slider>
         <br />
         <br />
-        <Link
-          to="www.google.com"
-          style={{ "text-decoration": "underline", "text-align": "center" }}
+
+        <Nav.Link
+          href="www.google.com"
+          style={{
+            "text-decoration": "underline",
+            "text-align": "right",
+            fontSize: "1.2rem",
+            padding: "1rem",
+          }}
         >
-          View All Announcements
-        </Link>
+          View All <i className="icofont-long-arrow-right"></i>
+        </Nav.Link>
       </div>
     );
   }
