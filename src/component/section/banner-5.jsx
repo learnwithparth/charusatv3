@@ -18,7 +18,7 @@ const BannerFive = () => {
         <div className="section-wrapper">
           <div className="row">
             <div className="offset-md-6 col-xl-6">
-              <div className="banner-content">
+              <div className="banner-content m-0">
                 <h4 className="subtitle">{subTitle}</h4>
                 {title}
                 {/* <p className="desc">{desc}</p> */}
@@ -31,7 +31,8 @@ const BannerFive = () => {
                 <br />
 
                 <br />
-                <NewsSlider />
+                <br />
+                {/* <NewsSlider /> */}
                 {/* <br />
                 <br />
                 <Link to="/course" className="lab-btn">
@@ -41,7 +42,7 @@ const BannerFive = () => {
               <br />
               <br />
 
-              {/* <Marquee speed="50" gradientWidth="150">
+              <Marquee speed="50" gradientWidth="150">
                 <Link to="/course" className="lab-btn">
                   <span>Tender for providing Canteen Services to CHARUSAT</span>
                 </Link>
@@ -62,7 +63,7 @@ const BannerFive = () => {
                   <span>DASA Online Reporting Form</span>
                 </Link>
                 ||||
-              </Marquee> */}
+              </Marquee>
             </div>
           </div>
         </div>

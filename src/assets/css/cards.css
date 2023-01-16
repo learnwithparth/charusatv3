@@ -1,0 +1,10 @@
+.card:hover {
+  background-color: #f16126;
+}
+.card:hover p {
+  color: #ffffff;
+}
+
+.card:hover h6 {
+  color: #ffffff;
+}
