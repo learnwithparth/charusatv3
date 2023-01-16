@@ -1,4 +1,4 @@
-import { Component, Fragment } from "react";
+import { Fragment } from "react";
 import Contact from "../component/section/contact";
 
 
@@ -180,9 +180,9 @@ const CDPC = () => {
             </div>
             
             <Contact
-                name="Dr. Ashwin Makwana"
-                email="ashwinmakwana.ce@charusat.ac.in"
-                phone="+91-2697-265131"
+                name="Dr. Ashwin Makwana, Head, CDPC || Mr. Divyang Purohit, TPO, CDPC"
+                email="ashwinmakwana.ce@charusat.ac.in || divyangpurohit.tnp@charusat.ac.in"
+                phone="+91-2697-265213 / 265214"
             />
               
             
