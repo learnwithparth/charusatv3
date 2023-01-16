@@ -38,11 +38,11 @@ export default function contact(props) {
                       <ul className="lab-ul">
                         <li>
                           <i className="icofont-ui-user"></i>
-                          {props.name}
+                          {props.name}<br/>
                         </li>
                         <li>
                           <i className="icofont-email"></i>
-                          {props.email}
+                          {props.email}<br/>
                         </li>
                         <li>
                           <i className="icofont-phone"></i>
