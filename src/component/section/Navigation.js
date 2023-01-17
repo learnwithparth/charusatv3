@@ -72,7 +72,18 @@ export default function Navigation() {
                         PhD Regulations
                       </Nav.Link>
                       <Dropdown.Header>Online Learning</Dropdown.Header>
-                      <Nav.Link>CharuVidya</Nav.Link>
+                      <Nav.Link
+                        href="https://charuvidya.charusat.ac.in"
+                        target="_blank"
+                      >
+                        CharuVidya
+                      </Nav.Link>
+                      <Nav.Link
+                        href="http://172.16.11.116/LocalGuru/"
+                        target="_blank"
+                      >
+                        NPTL Guru
+                      </Nav.Link>
                       <Dropdown.Header>Academic Links</Dropdown.Header>
                       <Nav.Link>Academic Calender</Nav.Link>
                       <Nav.Link>Academic Services</Nav.Link>
