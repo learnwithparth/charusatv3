@@ -2,8 +2,6 @@ import {
   Nav,
   Navbar,
   Container,
-  Button,
-  Image,
   Dropdown,
   NavDropdown,
   Col,
