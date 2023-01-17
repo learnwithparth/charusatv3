@@ -40,15 +40,12 @@ const HeaderThree = () => {
         style={{
           backgroundColor: "#0066b3",
           color: "white",
-          fontSize: "17px",
+          fontSize: "0.9rem",
         }}
       >
         <div className="container">
           <div className="header-top-area">
             <div className="header-top-contact">
-              <a href="#" className="lab-btn">
-                <span>Support CHARUSAT</span>
-              </a>
               <a href="tel:+880123456789">+91-2697-265011/21</a>
               <a href="mailto:contact@yourmail.com">info@charusat.ac.in</a>
             </div>
@@ -78,6 +75,9 @@ const HeaderThree = () => {
               <Link to="/signup" className="signup">
                 Pay Fees
               </Link>
+              <a href="#">
+                <span>Support CHARUSAT</span>
+              </a>
             </div>
           </div>
         </div>
