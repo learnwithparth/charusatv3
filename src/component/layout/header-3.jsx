@@ -12,7 +12,7 @@ import {
   Row,
 } from "react-bootstrap";
 
-import Navigation from "../section/Navigation"
+import Navigation from "../section/Navigation";
 
 const HeaderThree = () => {
   const [menuToggle, setMenuToggle] = useState(false);
@@ -56,9 +56,16 @@ const HeaderThree = () => {
               <Link to="/login" className="login">
                 Accreditation & Ranking
               </Link>
-              <Link to="/signup" className="signup">
+
+              <a
+                href="https://charusatalumni.org"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
                 Alumni
-              </Link>
+              </a>
+
               <Link to="/login" className="login">
                 Careers
               </Link>

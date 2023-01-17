@@ -139,7 +139,7 @@ const footerbottomList = [
   },
   {
     text: "Alumni",
-    link: "#",
+    link: "https://charusatalumni.org/",
   },
 ];
 
@@ -249,7 +249,7 @@ const FooterThree = () => {
                 </p>
                 <div className="footer-bottom-list">
                   {footerbottomList.map((val, i) => (
-                    <a href={val.link} key={i}>
+                    <a href={val.link} key={i} target="_blank" rel="noreferrer">
                       {val.text}
                     </a>
                   ))}
