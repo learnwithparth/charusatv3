@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
-import NewsSlider from "../section/NewsSlider";
+// import NewsSlider from "../section/NewsSlider";
 
 const subTitle = "C H A R U S A T";
 const title = (
   <h2 className="title">
-    NAAC A<sup>+</sup> <span>University</span>
+    NAAC A+ <span>University</span>
   </h2>
 );
 const desc = "Current Happening";
