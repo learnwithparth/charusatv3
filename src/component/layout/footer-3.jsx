@@ -84,7 +84,6 @@ const socialList = [
 //     link: "#",
 //   },
 // ];
-
 const quickList = [
   {
     text: "Exam Result",
