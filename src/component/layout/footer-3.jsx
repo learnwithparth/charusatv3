@@ -54,36 +54,36 @@ const socialList = [
   // },
 ];
 
-const courseList = [
-  {
-    text: "All Courses",
-    link: "#",
-  },
-  {
-    text: "Forms and Admision materials",
-    link: "#",
-  },
-  {
-    text: "Professional Courses",
-    link: "#",
-  },
-  {
-    text: "Course Outline",
-    link: "#",
-  },
-  {
-    text: "Policy",
-    link: "#",
-  },
-  {
-    text: "FAQs",
-    link: "#",
-  },
-  {
-    text: "Online Course",
-    link: "#",
-  },
-];
+// const courseList = [
+//   {
+//     text: "All Courses",
+//     link: "#",
+//   },
+//   {
+//     text: "Forms and Admision materials",
+//     link: "#",
+//   },
+//   {
+//     text: "Professional Courses",
+//     link: "#",
+//   },
+//   {
+//     text: "Course Outline",
+//     link: "#",
+//   },
+//   {
+//     text: "Policy",
+//     link: "#",
+//   },
+//   {
+//     text: "FAQs",
+//     link: "#",
+//   },
+//   {
+//     text: "Online Course",
+//     link: "#",
+//   },
+// ];
 
 const quickList = [
   {
@@ -96,15 +96,15 @@ const quickList = [
   },
   {
     text: "Admissions",
-    link: "#",
+    link: "https://charusat.ac.in/admission/",
   },
   {
     text: "Downloads",
-    link: "#",
+    link: "https://charusat.ac.in/Downloads/",
   },
   {
     text: "Careers",
-    link: "#",
+    link: "/careers",
   },
   {
     text: "Donations",
