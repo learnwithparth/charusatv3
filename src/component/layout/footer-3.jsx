@@ -104,11 +104,11 @@ const quickList = [
   },
   {
     text: "Careers",
-    link: "/careers",
+    link: "./careers",
   },
   {
     text: "Donations",
-    link: "#",
+    link: "./donation",
   },
   {
     text: "The Act & First Statutes",
@@ -116,27 +116,15 @@ const quickList = [
   },
   {
     text: "Policies and Procedures - Support Facilities",
-    link: "#",
+    link: "./policiesTerms",
   },
   {
     text: "Code of Conduct",
-    link: "#",
+    link: "./code-of-conduct",
   },
 ];
 
 const footerbottomList = [
-  {
-    text: "Faculty",
-    link: "#",
-  },
-  {
-    text: "Staff",
-    link: "#",
-  },
-  {
-    text: "Students",
-    link: "#",
-  },
   {
     text: "Alumni",
     link: "https://charusatalumni.org/",
