@@ -29,7 +29,6 @@ const BannerFive = () => {
                   </span>
                 </Link>
                 <br />
-
                 <br />
                 <br />
                 {/* <NewsSlider /> */}
