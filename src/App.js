@@ -44,30 +44,23 @@ import TeamSingle from "./page/team-single";
 */
 import Home_Final from "./page/home";
 import About_us from "./page/About_us";
-
 // import UndergraduateCourses from "./page/undergraduateCourses";
 // import PostgraduateCourses from "./page/postgraduateCourses";
-
 // import Footer from "./component/layout/footer-3";
 // import Transport from "./page/transport";
 import AboutUs from "./page/About_us";
 import ProvostDesk from "./page/Provost-desk";
 import PresidentDesk from "./page/President-desk";
 import People from "./page/People";
-
 // import Footer from "./component/layout/footer-3";
-
 import CDPC from "./page/cdpc";
 import Ethics from "./page/ethics";
 import Accreditation from "./page/Accreditation";
-
 import ResearchPage from "./page/research";
-
 import ContactUs from "./page/contact_us";
-
 import SDI from "./page/SDI";
-
 import WellnessProgram from "./page/wellnessProgram";
+import Course from "./page/course-single";
 
 function App() {
   // const basename = document.querySelector('base')?.getAttribute('href') ?? '/'    ;
@@ -127,6 +120,10 @@ function App() {
         <Route
           path="/undergraduateCourses"
           element={<UndergraduateCourses />}
+        />
+        <Route
+          path="/course-single"
+          element={<Course />}
         />
         <Route path="/postgraduateCourses" element={<PostgraduateCourses />} />
         <Route path="/transport" element={<Transport />} />
