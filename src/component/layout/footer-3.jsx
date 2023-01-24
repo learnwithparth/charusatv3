@@ -2,12 +2,11 @@ import { Link } from "react-router-dom";
 import GoogleMap from "../sidebar/googlemap";
 
 const title = "Contact Details";
-const desc =
-  "Eduaid theme number one world class university in the world There are student are studing always in this university for all time.";
-const courseTitle = "Courses";
+//const desc =  "Eduaid theme number one world class university in the world There are student are studing always in this university for all time.";
+// const courseTitle = "Courses";
 const quickTitle = "Quick Links";
 const googleMapTitle = "Locate us on Map";
-const tweetTitle = "Recent Tweets";
+// const tweetTitle = "Recent Tweets";
 const year = new Date().getFullYear();
 
 const addressList = [
@@ -106,6 +105,10 @@ const quickList = [
     link: "./careers",
   },
   {
+    text: "Alumni Portal",
+    link: "https://charusatalumni.org/",
+  },
+  {
     text: "Donations",
     link: "./donation",
   },
@@ -125,8 +128,8 @@ const quickList = [
 
 const footerbottomList = [
   {
-    text: "Alumni",
-    link: "https://charusatalumni.org/",
+    text: "Last Updated:",
+    link: "#",
   },
 ];
 
@@ -198,7 +201,9 @@ const FooterThree = () => {
                           <ul className="lab-ul">
                             {quickList.map((val, i) => (
                               <li key={i}>
-                                <a href={val.link}>{val.text}</a>
+                                <a href={val.link} target="_blank">
+                                  {val.text}
+                                </a>
                               </li>
                             ))}
                           </ul>
