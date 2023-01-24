@@ -54,10 +54,14 @@ const About = () => {
                 <h2 className="title">
                   {subTitle}&nbsp;
                   {"   "}
-                  <span className="subtitle" style={{ fontWeight: "bold" }}>
-                    {title}
-                  </span>
                 </h2>
+                <br />
+                <span
+                  className="subtitle"
+                  style={{ fontWeight: "400", fontSize: "0.9rem" }}
+                >
+                  {title}
+                </span>
 
                 {/* <h2 className="title">{title}</h2> */}
 
