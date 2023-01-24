@@ -22,7 +22,7 @@ export default function Navigation() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Container fluid>
-            <Nav className="ms-auto">
+            <Nav className="float-end">
               <NavDropdown
                 className=" align-text-top"
                 title="Academics"
@@ -253,7 +253,7 @@ export default function Navigation() {
                 title="Campus Life"
                 id="basic-nav-dropdown"
               >
-                <Container className="  eventsNav pt-0 mt-0">
+                <Container className="  eventsNav pt-0 mt-0 dropdown-menu-end">
                   <div class="flex-container">
                     <div>
                       <Dropdown.Header>Events & Activities</Dropdown.Header>
@@ -275,8 +275,6 @@ export default function Navigation() {
                     <div>
                       <Dropdown.Header>Student Helplines</Dropdown.Header>
                       <Nav.Link>Helpline Contact</Nav.Link>
-                      <Nav.Link>Link 2</Nav.Link>
-                      <Nav.Link>Link 3</Nav.Link>
                     </div>
                   </div>
                 </Container>
