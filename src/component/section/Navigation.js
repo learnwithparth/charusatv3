@@ -22,7 +22,7 @@ export default function Navigation() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Container fluid>
-            <Nav className="float-end">
+            <Nav className="mx-auto">
               <NavDropdown
                 className=" align-text-top"
                 title="Academics"
@@ -493,14 +493,10 @@ export default function Navigation() {
                 </Row> */}
                 </Container>
               </NavDropdown>
+              <Nav.Link href="#">Career</Nav.Link>
+              <Nav.Link href="#">Student Corner</Nav.Link>
             </Nav>
           </Container>
-          {/* <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
-          </Nav> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

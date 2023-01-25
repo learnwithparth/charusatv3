@@ -1,7 +1,7 @@
 /*  Mega Menu CSS - RVP  */
 
 .nav-link {
-  font-size: 0.8rem;
+  /* font-size: 0.8rem; */
   margin: 0;
   padding: 0;
   padding-bottom: 0.3rem;
@@ -35,8 +35,8 @@
 
   padding: 0 !important;
 
-  right: 0;
-  left: auto !important;
+  /* right: 0;
+  left: auto !important; */
 
   /* outline: 1px solid red; */
   box-shadow: 4px 2px 20px 3px rgb(0 0 0 / 20%);
@@ -128,4 +128,5 @@
     /* outline: 1px solid blue; */
   }
 }
+
 /*  Mega Menu CSS END - RVP  */
