@@ -3457,7 +3457,7 @@ body {
   color: #555555;
   /*font-family: "Barlow", sans-serif; */
   font-family: "Poppins", sans-serif;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   line-height: 1.5;
 }
 
@@ -10767,3 +10767,10 @@ footer.style-2 .footer-top.dark-view * {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* customizations section start
+
+*/
+.footer-content .content {
+  font-size: 0.75rem;
+}
