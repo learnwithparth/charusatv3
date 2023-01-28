@@ -10774,12 +10774,7 @@ footer.style-2 .footer-top.dark-view * {
 
 .banner-section.style-4 .banner-content {
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    19deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(0, 196, 54, 1) 0%,
-    rgba(231, 231, 231, 1) 66%
-  );
+  background: linear-gradient(19deg, #cf9fb7, rgba(231, 231, 231, 1) 66%);
 
   padding: 2rem;
   max-width: 50vw;
