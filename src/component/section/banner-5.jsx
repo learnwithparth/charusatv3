@@ -18,19 +18,19 @@ const BannerFive = () => {
       <div className="container">
         <div className="section-wrapper">
           <div className="row">
-            <div className="offset-md-6 col-xl-6">
-              <div className="banner-content m-0">
+            <div className=" col">
+              <div className="banner-content ">
                 <h4 className="subtitle">{subTitle}</h4>
                 {title}
                 {/* <p className="desc">{desc}</p> */}
-                <Link to="/course" className="lab-btn">
+                {/* <Link to="/course" className="lab-btn">
                   <span>
                     Register for 12<sup>th</sup> Convocation - Click here
                   </span>
                 </Link>
                 <br />
                 <br />
-                <br />
+                <br /> */}
                 {/* <NewsSlider /> */}
                 {/* <br />
                 <br />
@@ -53,9 +53,10 @@ const BannerFive = () => {
                   <Link to="/course">
                     <span>Notice for 12th Convocation</span>
                   </Link>
+                  <span>&#x2731;</span>
                 </Marquee>
                 <br />
-                <Button href="#" variant="outline-danger" size="sm">
+                <Button href="#" variant="danger" size="sm">
                   View All <i className="icofont-long-arrow-right"></i>
                 </Button>{" "}
               </div>

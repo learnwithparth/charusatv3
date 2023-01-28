@@ -219,7 +219,10 @@ const FooterThree = () => {
                         <div className="title">
                           <h4>{googleMapTitle}</h4>
                         </div>
-                        <div className="content">
+                        <div
+                          className="content"
+                          style={{ width: "50px !important;" }}
+                        >
                           {/* <ul className="lab-ul"> */}
                           <GoogleMap />
                           <br />

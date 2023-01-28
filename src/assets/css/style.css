@@ -6095,9 +6095,11 @@ button {
   padding: 18px 40px;
 }
 .banner-section.style-4 {
-  /* background-image: url(../../assets/images/bg-img/06.jpg); */
-  background-image: url(../../assets/images/bg-img/lab.png);
+  /* background-image: url(../../assets/images/bg-img/lab.png); */
+  background-image: url(../../assets/images/bg-img/charusat_from_top.jpg);
+  /* background-image: url(../../assets/images/bg-img/14.jpg); */
   background-attachment: fixed;
+  background-size: cover;
   z-index: 1;
   padding-bottom: 100px;
 }
@@ -10768,9 +10770,52 @@ footer.style-2 .footer-top.dark-view * {
 
 /*# sourceMappingURL=style.css.map */
 
-/* customizations section start
+/* customizations section start */
 
-*/
+.banner-section.style-4 .banner-content {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    19deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 196, 54, 1) 0%,
+    rgba(231, 231, 231, 1) 66%
+  );
+
+  padding: 2rem;
+  max-width: 50vw;
+  /* max-height: 35vh; */
+
+  opacity: 0.7;
+}
+
+.banner-section.style-4 {
+  padding-top: 65vh;
+  padding-bottom: 2vh;
+  max-width: 100vw;
+}
 .footer-content .content {
   font-size: 0.75rem;
+}
+
+.map-area .maps {
+  height: 25vh;
+  width: 15vw;
+}
+
+.marquee a span {
+  padding: 0 0.3rem;
+  color: #dd4b39;
+}
+.marquee a:hover {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.banner-section.style-4 .banner-content h2 span {
+  color: #e94c89;
+  font-weight: 900;
+}
+
+.banner-section .section-wrapper .banner-content .title {
+  font-size: 2vw;
 }
