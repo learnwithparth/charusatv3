@@ -54,8 +54,8 @@ const AboutPage = () => {
     <Fragment>
       {/* <PageHeader title={'About CHARUSAT'} curPage={'About_us'} /> */}
 
-      <Header />
-      <PageHeader title={"About CHARUSAT"} curPage={"About_us"} />
+      {/* <Header /> */}
+      {/* <PageHeader title={"About CHARUSAT"} curPage={"About_us"} /> */}
 
       <div className="about-section style-3 padding-tb section-bg">
         <div className="container">
