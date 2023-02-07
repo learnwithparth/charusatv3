@@ -136,8 +136,8 @@ const footerbottomList = [
 const FooterThree = () => {
   return (
     <>
-      <div className="news-footer-wrap">
-        <div className="fs-shape">
+      <div className="news-footer-wrap grdnt-bg-custom">
+        {/* <div className="fs-shape">
           <img
             src="assets/images/shape-img/03.png"
             alt="fst"
@@ -148,11 +148,11 @@ const FooterThree = () => {
             alt="fst"
             className="fst-2"
           />
-        </div>
+        </div> */}
         <br />
         <br />
-        <footer className="style-2">
-          <div className="footer-top dark-view padding-tb">
+        <footer className="style-2 ">
+          <div className="footer-top dark-view padding-tb  grdnt-bg-custom">
             <div className="container">
               <div className="row g-4 row-cols-xl-3 row-cols-sm-2 row-cols-1 justify-content-center">
                 <div className="col">
