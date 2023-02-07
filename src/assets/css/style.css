@@ -10836,7 +10836,7 @@ footer.style-2 .footer-top.dark-view * {
     #642b73 100%
   );
   margin: 1px;
-  padding: 6px 2px;
+  padding: 10px 10px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
@@ -10845,7 +10845,7 @@ footer.style-2 .footer-top.dark-view * {
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
   /* display: block; */
-  width: 6vw !important;
+  /* width: 10vw !important; */
 }
 
 .btn-custom-1:hover {
