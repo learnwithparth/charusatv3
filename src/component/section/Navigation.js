@@ -20,7 +20,7 @@ export default function Navigation() {
       <Container>
         <Navbar.Brand href="#home">
           <div className="logo">
-            <Nav.Link href="./home">
+            <Nav.Link href="./">
               <img src="assets/images/logo/02.png" alt="logo" />
             </Nav.Link>
           </div>
