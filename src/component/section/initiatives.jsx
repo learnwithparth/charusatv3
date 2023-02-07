@@ -6,61 +6,62 @@ const subTitle = "Why are we unique?";
 const title = "Initiatives";
 
 const eventSliderList = [
-  {
-    imgUrl: "assets/images/event/1.jpg",
-    imgAlt: "event rajibraj91 rajibraj",
-    title: "CHARUSAT Space Research and Technology Center",
-    btnText: "Read More",
-  },
-  {
-    imgUrl: "assets/images/event/2.jpg",
-    imgAlt: "event rajibraj91 rajibraj",
-    title: "Dr. K. C. Patel Research & Development Center",
-    btnText: "Read More",
-  },
-  {
-    imgUrl: "assets/images/event/05.jpg",
-    imgAlt: "event rajibraj91 rajibraj",
-    title: "CHARUSAT Rural Education Development Program",
-    btnText: "Read More",
-  },
-  {
-    imgUrl: "assets/images/event/05.jpg",
-    imgAlt: "event rajibraj91 rajibraj",
-    title: "International Cosmology Center (ICC)",
-    btnText: "Read More",
-  },
-  {
-    imgUrl: "assets/images/event/05.jpg",
-    imgAlt: "event rajibraj91 rajibraj",
-    title: "SDG Handprint Action Lab",
-    btnText: "Read More",
-  },
-  {
-    imgUrl: "assets/images/event/05.jpg",
-    imgAlt: "event rajibraj91 rajibraj",
-    title: "Pri. B. I. Patel Human Resource Development Center",
-    btnText: "Read More",
-  },
-  {
-    imgUrl: "assets/images/event/05.jpg",
-    imgAlt: "event rajibraj91 rajibraj",
-    title: "Entrepreneurship Development and Incubation Cell",
-    btnText: "Read More",
-  },
-  {
-    imgUrl: "assets/images/event/05.jpg",
-    imgAlt: "event rajibraj91 rajibraj",
-    title: "University Industry Interaction Cell",
-    btnText: "Read More",
-  },
-  {
-    imgUrl: "assets/images/event/05.jpg",
-    imgAlt: "event rajibraj91 rajibraj",
-    title: "NABL & Testing Facilities",
-    btnText: "Read More",
-  },
-];
+    {
+        imgUrl: 'assets/images/initiative/SPACE RESEARCH CELL.jpg',
+        imgAlt: 'CSRTC image',
+        title: 'CHARUSAT Space Research and Technology Center',
+        btnText: 'Read More',
+    },
+    {
+        imgUrl: 'assets/images/event/2.jpg',
+        imgAlt: 'KRADLE image',
+        title: 'Dr. K. C. Patel Research & Development Center',
+        btnText: 'Read More',
+    },
+    {
+        imgUrl: 'assets/images/initiative/RURAL EDUCATION.jpg',
+        imgAlt: 'CREDP image',
+        title: 'CHARUSAT Rural Education Development Program',
+        btnText: 'Read More',
+    },
+    {
+        imgUrl: 'assets/images/initiative/ICC.jpg',
+        imgAlt: 'ICC image',
+        title: 'International Cosmology Center (ICC)',
+        btnText: 'Read More',
+    },
+    {
+        imgUrl: 'assets/images/initiative/SDG HANDPRINT ACTION LAB.png',
+        imgAlt: 'SDG Lab image',
+        title: 'SDG Handprint Action Lab',
+        btnText: 'Read More',
+    },
+    {
+        imgUrl: 'assets/images/initiative/HRDC.png',
+        imgAlt: 'HRDC image',
+        title: 'Pri. B. I. Patel Human Resource Development Center',
+        btnText: 'Read More',
+    },
+    {
+        imgUrl: 'assets/images/initiative/EDIC.jpg',
+        imgAlt: 'EDIC image',
+        title: 'Entrepreneurship Development and Incubation Cell',
+        btnText: 'Read More',
+    },
+    {
+        imgUrl: 'assets/images/initiative/IIC_2.jpg',
+        imgAlt: 'UIIC image',
+        title: 'University Industry Interaction Cell',
+        btnText: 'Read More',
+    },
+    {
+        imgUrl: 'assets/images/initiative/NABL & TESTING LAB.jpg',
+        imgAlt: 'NABL Lab image',
+        title: 'NABL & Testing Facilities',
+        btnText: 'Read More',
+    },
+    
+]
 
 export default function initiatives() {
   return (
