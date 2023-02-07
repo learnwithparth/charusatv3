@@ -1,20 +1,18 @@
 /*  Mega Menu CSS - RVP  */
 
 .nav-link {
-  font-size: 0.95rem;
+  /* font-size: 0.8rem; */
   margin: 0;
   padding: 0;
   padding-bottom: 0.3rem;
   color: black;
+  font-size: 0.9rem;
 }
+/*
 .nav-link:hover {
-  /* color: chocolate;
-  font-weight: 600; */
-}
-
-#basic-nav-dropdown {
-  font-size: 0.95rem;
-}
+  color: chocolate;
+  font-weight: 600; 
+} */
 
 #seeMoreLink {
   color: #607d8b;
@@ -27,13 +25,24 @@
 
 .dropdown-menu {
   padding: 1em;
+
   /* height: 60vh; */
   /* width: 60vw; */
   background-color: #ffffff;
-  padding: 0;
+
+  padding: 0 !important;
+
+  /* right: 0;
+  left: auto !important; */
+
   /* outline: 1px solid red; */
   box-shadow: 4px 2px 20px 3px rgb(0 0 0 / 20%);
+  transition: all 1s ease;
+  font-size: 0.8rem;
 }
+/* .dropdown-menu .show {
+  
+} */
 
 .dropdown-item:hover {
   outline: none;
@@ -60,16 +69,18 @@
   text-decoration-color: coral;
   text-decoration-thickness: 0.1rem;
 }
+/*
 .dropdown-header:hover {
-  /* do transition here */
-}
+  /* do transition here 
+  
+} */
 
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
   .eventsNav1 {
     width: 20em;
     padding-bottom: 1em;
   }
-}
+} */
 
 /* new flex menu starts rvp */
 .flex-container {
@@ -94,6 +105,7 @@
 }
 
 /* for mobile view */
+
 @media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
@@ -114,4 +126,5 @@
     /* outline: 1px solid blue; */
   }
 }
+
 /*  Mega Menu CSS END - RVP  */

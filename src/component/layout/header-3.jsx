@@ -1,5 +1,5 @@
 import { Fragment, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   Nav,
   Navbar,
@@ -40,7 +40,7 @@ const HeaderThree = () => {
         style={{
           backgroundColor: "#0066b3",
           color: "white",
-          fontSize: "0.9rem",
+          fontSize: "0.8rem",
         }}
       >
         <div className="container">

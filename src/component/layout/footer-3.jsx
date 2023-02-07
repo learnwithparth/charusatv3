@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom";
 import GoogleMap from "../sidebar/googlemap";
 
-const title = "Contact Details";
-const desc =
-  "Eduaid theme number one world class university in the world There are student are studing always in this university for all time.";
-const courseTitle = "Courses";
+const title = "Contact Information";
+//const desc =  "Eduaid theme numb  er one world class university in the world There are student are studing always in this university for all time.";
+// const courseTitle = "Courses";
 const quickTitle = "Quick Links";
 const googleMapTitle = "Locate us on Map";
-const tweetTitle = "Recent Tweets";
+// const tweetTitle = "Recent Tweets";
 const year = new Date().getFullYear();
 
 const addressList = [
@@ -106,6 +105,10 @@ const quickList = [
     link: "./careers",
   },
   {
+    text: "Alumni Portal",
+    link: "https://charusatalumni.org/",
+  },
+  {
     text: "Donations",
     link: "./donation",
   },
@@ -125,8 +128,8 @@ const quickList = [
 
 const footerbottomList = [
   {
-    text: "Alumni",
-    link: "https://charusatalumni.org/",
+    text: "Last Updated:",
+    link: "#",
   },
 ];
 
@@ -153,7 +156,7 @@ const FooterThree = () => {
             <div className="container">
               <div className="row g-4 row-cols-xl-3 row-cols-sm-2 row-cols-1 justify-content-center">
                 <div className="col">
-                  <div className="footer-item our-address">
+                  <div className="footer-item our-address w-75">
                     <div className="footer-inner">
                       <div className="footer-content">
                         <div className="title">
@@ -198,7 +201,9 @@ const FooterThree = () => {
                           <ul className="lab-ul">
                             {quickList.map((val, i) => (
                               <li key={i}>
-                                <a href={val.link}>{val.text}</a>
+                                <a href={val.link} target="_blank">
+                                  {val.text}
+                                </a>
                               </li>
                             ))}
                           </ul>
@@ -214,7 +219,10 @@ const FooterThree = () => {
                         <div className="title">
                           <h4>{googleMapTitle}</h4>
                         </div>
-                        <div className="content">
+                        <div
+                          className="content"
+                          style={{ width: "50px !important;" }}
+                        >
                           {/* <ul className="lab-ul"> */}
                           <GoogleMap />
                           <br />

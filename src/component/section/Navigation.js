@@ -10,11 +10,17 @@ import {
 
 export default function Navigation() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      bg="light"
+      variant="light"
+      style={{ padding: "0" }}
+    >
       <Container>
         <Navbar.Brand href="#home">
           <div className="logo">
-            <Nav.Link>
+            <Nav.Link href="./home">
               <img src="assets/images/logo/02.png" alt="logo" />
             </Nav.Link>
           </div>
@@ -22,7 +28,7 @@ export default function Navigation() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Container fluid>
-            <Nav className="ms-auto">
+            <Nav className="mx-auto">
               <NavDropdown
                 className=" align-text-top"
                 title="Academics"
@@ -253,7 +259,7 @@ export default function Navigation() {
                 title="Campus Life"
                 id="basic-nav-dropdown"
               >
-                <Container className="  eventsNav pt-0 mt-0">
+                <Container className="  eventsNav pt-0 mt-0 dropdown-menu-end">
                   <div class="flex-container">
                     <div>
                       <Dropdown.Header>Events & Activities</Dropdown.Header>
@@ -275,8 +281,6 @@ export default function Navigation() {
                     <div>
                       <Dropdown.Header>Student Helplines</Dropdown.Header>
                       <Nav.Link>Helpline Contact</Nav.Link>
-                      <Nav.Link>Link 2</Nav.Link>
-                      <Nav.Link>Link 3</Nav.Link>
                     </div>
                   </div>
                 </Container>
@@ -344,7 +348,7 @@ export default function Navigation() {
                   </div>
                 </Container>
               </NavDropdown> */}
-              <Nav.Link href="https://iqac.charusat.ac.in">IQAC</Nav.Link>
+
               <NavDropdown
                 className=" align-text-top"
                 title="Know CHARUSAT"
@@ -495,14 +499,11 @@ export default function Navigation() {
                 </Row> */}
                 </Container>
               </NavDropdown>
+              <Nav.Link href="#">Careers</Nav.Link>
+              <Nav.Link href="#">Student Corner</Nav.Link>
+              <Nav.Link href="https://iqac.charusat.ac.in">IQAC</Nav.Link>
             </Nav>
           </Container>
-          {/* <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
-          </Nav> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>
