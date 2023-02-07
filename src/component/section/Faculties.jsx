@@ -86,7 +86,7 @@ const CourseData = [
     id: 8,
   },
   {
-    imgUrl: "assets/images/course/author/02.jpg",
+    imgUrl: "assets/images/institute/ARIP.jpg",
     imgAlt: "BDIPS image",
     cate: "Medical Sciences",
     title: "Bapubhai Desaibhai Patel Institute of Paramedical Sciences",
