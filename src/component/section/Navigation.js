@@ -20,7 +20,7 @@ export default function Navigation() {
       <Container>
         <Navbar.Brand href="#home">
           <div className="logo">
-            <Nav.Link>
+            <Nav.Link href="./home">
               <img src="assets/images/logo/02.png" alt="logo" />
             </Nav.Link>
           </div>
@@ -499,13 +499,9 @@ export default function Navigation() {
                 </Row> */}
                 </Container>
               </NavDropdown>
-              <Nav.Link href="#">Career</Nav.Link>
+              <Nav.Link href="#">Careers</Nav.Link>
               <Nav.Link href="#">Student Corner</Nav.Link>
               <Nav.Link href="https://iqac.charusat.ac.in">IQAC</Nav.Link>
-              <Nav.Link href="https://iqac.charusat.ac.in">NIRF</Nav.Link>
-              <Nav.Link href="https://iqac.charusat.ac.in">
-                Accreditation & Ranking
-              </Nav.Link>
             </Nav>
           </Container>
         </Navbar.Collapse>

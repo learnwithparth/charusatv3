@@ -61,6 +61,7 @@ import ContactUs from "./page/contact_us";
 import SDI from "./page/SDI";
 import WellnessProgram from "./page/wellnessProgram";
 import Course from "./page/course-single";
+import Announcements from "./page/announcements";
 
 function App() {
   // const basename = document.querySelector('base')?.getAttribute('href') ?? '/'    ;
@@ -121,10 +122,7 @@ function App() {
           path="/undergraduateCourses"
           element={<UndergraduateCourses />}
         />
-        <Route
-          path="/course-single"
-          element={<Course />}
-        />
+        <Route path="/course-single" element={<Course />} />
         <Route path="/postgraduateCourses" element={<PostgraduateCourses />} />
         <Route path="/transport" element={<Transport />} />
         <Route path="/ipr" element={<IPR />} />
@@ -143,6 +141,8 @@ function App() {
         <Route path="/people" element={<People />} />
         <Route path="/accreditation" element={<Accreditation />} />
         <Route path="/wellness_Program" element={<WellnessProgram />} />
+
+        <Route path="/announcements" element={<Announcements />} />
       </Routes>
       <Footer />
     </BrowserRouter>

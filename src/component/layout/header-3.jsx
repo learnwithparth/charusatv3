@@ -40,7 +40,7 @@ const HeaderThree = () => {
         style={{
           backgroundColor: "#0066b3",
           color: "white",
-          fontSize: "0.75rem",
+          fontSize: "0.8rem",
         }}
       >
         <div className="container">

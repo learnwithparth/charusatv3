@@ -58,7 +58,7 @@ const About = () => {
                 <br />
                 <span
                   className="subtitle"
-                  style={{ fontWeight: "400", fontSize: "0.9rem" }}
+                  style={{ fontWeight: "700", fontSize: "1rem" }}
                 >
                   {title}
                 </span>

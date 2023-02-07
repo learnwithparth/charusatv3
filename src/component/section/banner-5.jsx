@@ -20,7 +20,7 @@ const BannerFive = () => {
           <div className="row">
             <div className=" col">
               <div className="banner-content ">
-                <h4 className="subtitle">{subTitle}</h4>
+                {/* <h4 className="subtitle">{subTitle}</h4> */}
                 {title}
                 {/* <p className="desc">{desc}</p> */}
                 {/* <Link to="/course" className="lab-btn">
@@ -56,8 +56,13 @@ const BannerFive = () => {
                   <span>&#x2731;</span>
                 </Marquee>
                 <br />
-                <Button href="#" variant="danger" size="sm">
-                  View All <i className="icofont-long-arrow-right"></i>
+                <Button
+                  href="./announcements"
+                  className="btn-custom-1"
+                  size="sm"
+                >
+                  View All{" "}
+                  <i className=" btn-custom-1 icofont-long-arrow-right"></i>
                 </Button>{" "}
               </div>
               <br />

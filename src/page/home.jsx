@@ -41,7 +41,7 @@ const Home = () => {
             <Achievement />
             <AboutTwo /> */}
       {/* <Placement/> */}
-      <Sponsor />
+      {/* <Sponsor /> */}
       {/* <Contact/> */}
       {/* <Footer /> */}
     </Fragment>
