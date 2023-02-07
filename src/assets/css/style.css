@@ -10827,3 +10827,29 @@ footer.style-2 .footer-top.dark-view * {
   font-size: 1rem !important;
   font-weight: 700 !important;
 }
+
+.btn-custom-1 {
+  background-image: linear-gradient(
+    to right,
+    #642b73 0%,
+    #c6426e 51%,
+    #642b73 100%
+  );
+  margin: 1px;
+  padding: 6px 2px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  /* display: block; */
+  width: 6vw !important;
+}
+
+.btn-custom-1:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}

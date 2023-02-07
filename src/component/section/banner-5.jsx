@@ -61,8 +61,7 @@ const BannerFive = () => {
                   className="btn-custom-1"
                   size="sm"
                 >
-                  View All{" "}
-                  <i className=" btn-custom-1 icofont-long-arrow-right"></i>
+                  View All <i className="  icofont-long-arrow-right"></i>
                 </Button>{" "}
               </div>
               <br />
