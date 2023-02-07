@@ -6,8 +6,8 @@ const title = "Our Institutions";
 
 const CourseData = [
   {
-    imgUrl: "assets/images/course/3.jpg",
-    imgAlt: "course rajibraj91 rajibraj",
+    imgUrl: "assets/images/institute/CSPIT.jpg",
+    imgAlt: "CSPIT image",
     cate: "Engineering",
     title: "C S Patel Institute of Technology",
     author: "assets/images/course/author/01.jpg",
@@ -16,8 +16,8 @@ const CourseData = [
     id: 1,
   },
   {
-    imgUrl: "assets/images/course/3.jpg",
-    imgAlt: "course rajibraj91 rajibraj",
+    imgUrl: "assets/images/institute/DEPSTAR.jpg",
+    imgAlt: "Depstar image",
     cate: "Engineering",
     title: "Devang Patel Institute of Advance Technology and Research",
     author: "assets/images/course/author/01.jpg",
@@ -26,8 +26,8 @@ const CourseData = [
     id: 2,
   },
   {
-    imgUrl: "assets/images/course/17.jpg",
-    imgAlt: "course rajibraj91 rajibraj",
+    imgUrl: "assets/images/institute/RPCP.jpg",
+    imgAlt: "RPCP image",
     cate: "Pharmacy",
     title: "Ramanbhai Patel College of Pharmacy",
     author: "assets/images/course/author/02.jpg",
@@ -36,8 +36,8 @@ const CourseData = [
     id: 3,
   },
   {
-    imgUrl: "assets/images/course/18.jpg",
-    imgAlt: "course rajibraj91 rajibraj",
+    imgUrl: "assets/images/institute/CMPICA.jpg",
+    imgAlt: "CMPICA image",
     cate: "Computer Science and Application",
     title: "Chandaben Mohanbhai Patel Institute of Computer Application",
     author: "assets/images/course/author/03.jpg",
@@ -46,8 +46,8 @@ const CourseData = [
     id: 4,
   },
   {
-    imgUrl: "assets/images/course/19.jpg",
-    imgAlt: "course rajibraj91 rajibraj",
+    imgUrl: "assets/images/institute/I2IM.jpg",
+    imgAlt: "I2IM image",
     cate: "Management Studies",
     title: "Indukaka Ippcowala Institute of Management",
     author: "assets/images/course/author/04.jpg",
@@ -56,8 +56,8 @@ const CourseData = [
     id: 5,
   },
   {
-    imgUrl: "assets/images/course/20.jpg",
-    imgAlt: "course rajibraj91 rajibraj",
+    imgUrl: "assets/images/institute/PDPIAS.jpg",
+    imgAlt: "PDPIAS image",
     cate: "Sciences",
     title: "P. D. Patel Institute of Applied Science",
     author: "assets/images/course/author/05.jpg",
@@ -66,8 +66,8 @@ const CourseData = [
     id: 6,
   },
   {
-    imgUrl: "assets/images/course/21.jpg",
-    imgAlt: "course rajibraj91 rajibraj",
+    imgUrl: "assets/images/institute/MTIN.jpg",
+    imgAlt: "MTIN image",
     cate: "Medical Sciences",
     title: "Manikaka Topawala Institute of Nursing",
     author: "assets/images/course/author/06.jpg",
@@ -76,8 +76,8 @@ const CourseData = [
     id: 7,
   },
   {
-    imgUrl: "assets/images/course/22.jpg",
-    imgAlt: "course rajibraj91 rajibraj",
+    imgUrl: "assets/images/institute/ARIP.jpg",
+    imgAlt: "ARIP image",
     cate: "Medical Sciences",
     title: "Ashok & Rita Patel Institute of Physiotherapy",
     author: "assets/images/course/author/01.jpg",
@@ -86,8 +86,8 @@ const CourseData = [
     id: 8,
   },
   {
-    imgUrl: "assets/images/course/23.jpg",
-    imgAlt: "course rajibraj91 rajibraj",
+    imgUrl: "assets/images/course/author/02.jpg",
+    imgAlt: "BDIPS image",
     cate: "Medical Sciences",
     title: "Bapubhai Desaibhai Patel Institute of Paramedical Sciences",
     author: "assets/images/course/author/02.jpg",
