@@ -13,8 +13,9 @@
   font-weight: 600; 
 } */
 
-#basic-nav-dropdown {
-  font-size: 0.95rem;
+#basic-nav-dropdown,
+.nav-link {
+  font-size: 0.8rem !important;
 }
 
 #seeMoreLink {
@@ -41,6 +42,7 @@
   /* outline: 1px solid red; */
   box-shadow: 4px 2px 20px 3px rgb(0 0 0 / 20%);
   transition: all 1s ease;
+  font-size: 0.8rem;
 }
 /* .dropdown-menu .show {
   
@@ -65,7 +67,7 @@
   padding-left: 0em;
   padding-bottom: 0.8rem;
   color: black;
-
+  font-size: 0.75rem;
   text-decoration: underline;
   text-underline-offset: 0.5rem;
   text-decoration-color: coral;

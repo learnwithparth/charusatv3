@@ -10,7 +10,13 @@ import {
 
 export default function Navigation() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      bg="light"
+      variant="light"
+      style={{ padding: "0" }}
+    >
       <Container>
         <Navbar.Brand href="#home">
           <div className="logo">
@@ -342,7 +348,7 @@ export default function Navigation() {
                   </div>
                 </Container>
               </NavDropdown> */}
-              <Nav.Link href="https://iqac.charusat.ac.in">IQAC</Nav.Link>
+
               <NavDropdown
                 className=" align-text-top"
                 title="Know CHARUSAT"
@@ -495,6 +501,11 @@ export default function Navigation() {
               </NavDropdown>
               <Nav.Link href="#">Career</Nav.Link>
               <Nav.Link href="#">Student Corner</Nav.Link>
+              <Nav.Link href="https://iqac.charusat.ac.in">IQAC</Nav.Link>
+              <Nav.Link href="https://iqac.charusat.ac.in">NIRF</Nav.Link>
+              <Nav.Link href="https://iqac.charusat.ac.in">
+                Accreditation & Ranking
+              </Nav.Link>
             </Nav>
           </Container>
         </Navbar.Collapse>
