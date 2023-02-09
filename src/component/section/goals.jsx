@@ -67,7 +67,9 @@ export default function initiatives() {
       <div className="container">
         <div className="section-header text-center">
           <span className="subtitle">Why to Choose CHARUSAT</span>
-          <h2 className="title">Our Goals</h2>
+          <h2 className="title" style={{ color: "white" }}>
+            Our Goals
+          </h2>
         </div>
         <div className="about-items">
           <div className="about-item">
