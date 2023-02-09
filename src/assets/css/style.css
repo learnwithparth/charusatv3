@@ -10788,7 +10788,7 @@ footer.style-2 .footer-top.dark-view * {
   background: rgb(2, 0, 36);
   background: linear-gradient(19deg, #cf9fb7, rgba(231, 231, 231, 1) 66%);
 
-  padding: 2rem;
+  padding: 3rem;
   max-width: 50vw;
   /* max-height: 35vh; */
 
@@ -10796,7 +10796,7 @@ footer.style-2 .footer-top.dark-view * {
 }
 
 .banner-section.style-4 {
-  padding-top: 65vh;
+  padding-top: 60vh;
   padding-bottom: 2vh;
   max-width: 100vw;
 }
@@ -10819,7 +10819,7 @@ footer.style-2 .footer-top.dark-view * {
 }
 
 .banner-section.style-4 .banner-content h2 span {
-  color: #e94c89;
+  color: #c6426e;
   font-weight: 900;
 }
 
@@ -10957,4 +10957,7 @@ span {
 .event-section.style-2 .section-wrapper .event-navi-item:hover {
   background-color: #c6426e;
   color: white;
+}
+.client-degi {
+  color: #000 !important;
 }
