@@ -20,8 +20,8 @@ export default function Navigation() {
       <Container>
         <Navbar.Brand href="#home">
           <div className="logo">
-            <Nav.Link href="./">
-              <img src="assets/images/logo/02.png" alt="logo" />
+            <Nav.Link to="./">
+              <img src="assets/images/logo/CHARUSAT_RGTD_LOGO.jpg" alt="logo" />
             </Nav.Link>
           </div>
         </Navbar.Brand>
