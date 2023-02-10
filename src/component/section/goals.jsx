@@ -66,7 +66,7 @@ export default function initiatives() {
     <section className="about-section style-4 padding-tb">
       <div className="container">
         <div className="section-header text-center">
-          <span className="subtitle">Why to Choose CHARUSAT</span>
+          <span className="subtitle yellow-color">Why to Choose CHARUSAT</span>
           <h2 className="title" style={{ color: "white" }}>
             Our Goals
           </h2>

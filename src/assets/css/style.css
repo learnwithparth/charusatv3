@@ -10908,10 +10908,12 @@ footer.style-2 .footer-top.dark-view * {
   background-image: linear-gradient(
     to right,
     #642b73 0%,
-    #c6426e 51%,
+    #c6426e 50%,
     #642b73 100%
   ) !important;
   color: white;
+  height: 6rem;
+  padding: 5px;
 }
 
 .clients-slider-nav:hover,
