@@ -21,7 +21,11 @@ export default function Navigation() {
         <Navbar.Brand href="#home">
           <div className="logo">
             <Nav.Link href="./">
-              <img src="assets/images/logo/02.png" alt="logo" />
+              <img
+                src="assets/images/logo/05.png"
+                alt="logo"
+                style={{ height: "50px" }}
+              />
             </Nav.Link>
           </div>
         </Navbar.Brand>

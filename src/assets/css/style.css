@@ -4302,7 +4302,13 @@ button {
   padding: 5px 15px;
   left: 0;
   bottom: 0;
-  background: rgba(255, 223, 64, 0.85);
+  /* background: rgba(255, 223, 64, 0.85); */
+  background-image: linear-gradient(
+    to right,
+    #642b73 0%,
+    #c6426e 51%,
+    #642b73 100%
+  );
 }
 .course-item.style-4 .course-inner .course-thumb .course-category .course-cate {
   margin-right: 10px;
@@ -6210,8 +6216,14 @@ button {
 .banner-section.style-5::after {
   right: 0;
   top: 0;
-  background: rgba(255, 223, 64, 0.85);
+  /* background: rgba(255, 223, 64, 0.85); */
   /* background: rgba(0, 102, 179, 0.85); */
+  background-image: linear-gradient(
+    to right,
+    #642b73 0%,
+    #c6426e 51%,
+    #642b73 100%
+  );
 }
 @media (min-width: 768px) {
   .banner-section.style-5::after {
@@ -10776,7 +10788,7 @@ footer.style-2 .footer-top.dark-view * {
   background: rgb(2, 0, 36);
   background: linear-gradient(19deg, #cf9fb7, rgba(231, 231, 231, 1) 66%);
 
-  padding: 2rem;
+  padding: 3rem;
   max-width: 50vw;
   /* max-height: 35vh; */
 
@@ -10784,7 +10796,7 @@ footer.style-2 .footer-top.dark-view * {
 }
 
 .banner-section.style-4 {
-  padding-top: 65vh;
+  padding-top: 60vh;
   padding-bottom: 2vh;
   max-width: 100vw;
 }
@@ -10807,7 +10819,7 @@ footer.style-2 .footer-top.dark-view * {
 }
 
 .banner-section.style-4 .banner-content h2 span {
-  color: #e94c89;
+  color: #c6426e;
   font-weight: 900;
 }
 
@@ -10817,7 +10829,6 @@ footer.style-2 .footer-top.dark-view * {
 .btn-custom-1 {
   background-image: linear-gradient(
     90deg,
-    #ff5dcc,
     #ff4ca2,
     #ff4878,
     #ff514f,
@@ -10841,7 +10852,7 @@ footer.style-2 .footer-top.dark-view * {
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;
+  color: #fff9f1 !important;
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
   /* display: block; */
@@ -10850,7 +10861,7 @@ footer.style-2 .footer-top.dark-view * {
 
 .btn-custom-1:hover {
   background-position: right center; /* change the direction of the change here */
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
 }
 .icofont-long-arrow-right {
@@ -10863,4 +10874,92 @@ footer.style-2 .footer-top.dark-view * {
     #c6426e 51%,
     #642b73 100%
   ) !important;
+}
+
+.course-cate a {
+  color: white !important;
+}
+
+.course-item.style-4 .course-inner:hover .course-content a h5 {
+  /* color: linear-gradient(to right, #642b73 0%, 51%, #642b73 100%) !important; */
+  color: #c6426e !important;
+}
+
+.course-section.style-3 .section-header .course-filter-group ul li.active,
+.course-section.style-3 .section-header .course-filter-group ul li:hover {
+  /* background-image: linear-gradient(
+    to right,
+    #642b73 0%,
+    #c6426e 51%,
+    #642b73 100%
+  ) !important; */
+  background: #c6426e;
+  color: white !important;
+}
+
+.event-item.style-2 .event-inner .event-content .lab-btn {
+  background-color: #c6426e;
+}
+.event-item.style-2 .event-inner .event-content .lab-btn span {
+  color: white !important;
+}
+
+.event-item.style-2 .event-inner .event-content h5 {
+  background-image: linear-gradient(
+    to right,
+    #642b73 0%,
+    #c6426e 50%,
+    #642b73 100%
+  ) !important;
+  color: white;
+  height: 6rem;
+  padding: 5px;
+}
+
+.clients-slider-nav:hover,
+.instructor-section.style-3
+  .section-wrapper
+  .instructor-bottom
+  .instructor-slider
+  .instructor-navi:hover {
+  background-color: #c6426e !important;
+  color: white !important;
+}
+.achievement-section.style-3,
+.about-section.style-4 {
+  background-image: linear-gradient(
+    to right,
+    #642b73 0%,
+    #c6426e 51%,
+    #642b73 100%
+  ) !important;
+}
+/* .about-section h2.title {
+  color: white;
+} */
+.achievement-section.style-3 .count-content .count h2,
+span {
+  color: white;
+}
+.count-item .count-inner .count-content p {
+  color: white !important;
+}
+
+.about-section.style-4
+  .about-item
+  .counter-part
+  .count-item
+  .count-inner
+  .count-content
+  span.count {
+  font-weight: 500;
+  color: white;
+}
+
+.event-section.style-2 .section-wrapper .event-navi-item:hover {
+  background-color: #c6426e;
+  color: white;
+}
+.client-degi {
+  color: #000 !important;
 }
