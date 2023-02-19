@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/charusatv3/static/css/main.6bab5931.css",
-    "main.js": "/charusatv3/static/js/main.6011d3c9.js",
+    "main.css": "/charusatv3/static/css/main.be6b7240.css",
+    "main.js": "/charusatv3/static/js/main.dd86db79.js",
     "static/js/787.7f3d6f8a.chunk.js": "/charusatv3/static/js/787.7f3d6f8a.chunk.js",
     "static/media/5.1.3_2016-17_ATT_R1.pdf": "/charusatv3/static/media/5.1.3_2016-17_ATT_R1.a16bb17c9c910dc33f2e.pdf",
     "static/media/5.1.3_2018-19_ATT_R1.pdf": "/charusatv3/static/media/5.1.3_2018-19_ATT_R1.11a6be1b59e42793b877.pdf",
@@ -102,12 +102,12 @@
     "static/media/06.png": "/charusatv3/static/media/06.d03eba66d2b72967c14a.png",
     "static/media/10.png": "/charusatv3/static/media/10.ebccadec0233195b127b.png",
     "index.html": "/charusatv3/index.html",
-    "main.6bab5931.css.map": "/charusatv3/static/css/main.6bab5931.css.map",
-    "main.6011d3c9.js.map": "/charusatv3/static/js/main.6011d3c9.js.map",
+    "main.be6b7240.css.map": "/charusatv3/static/css/main.be6b7240.css.map",
+    "main.dd86db79.js.map": "/charusatv3/static/js/main.dd86db79.js.map",
     "787.7f3d6f8a.chunk.js.map": "/charusatv3/static/js/787.7f3d6f8a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bab5931.css",
-    "static/js/main.6011d3c9.js"
+    "static/css/main.be6b7240.css",
+    "static/js/main.dd86db79.js"
   ]
 }
