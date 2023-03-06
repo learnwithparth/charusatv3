@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import Footer from "../component/layout/footer-3";
 import Header from "../component/layout/header-3";
 import About from "../component/section/about";
+import NewsFrontPage from "../component/section/newsFrontPage";
 import Banner from "../component/section/banner-5";
 import Sponsor from "../component/section/sponsor";
 import AchievementThree from "../component/section/achievement-3";
@@ -19,11 +20,11 @@ const Home = () => {
       {/* <Header /> */}
       <Banner />
       <About />
+      <NewsFrontPage />
       <Messages />
       <Faculties />
       <Intiatives />
       <Goals />
-      {/* <FeatureTwo/> */}
       <Collaboration />
       <AchievementThree />
       {/* <Achievement2/> */}
