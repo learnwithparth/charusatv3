@@ -9,6 +9,7 @@ import ClientsThree from "../component/section/clients-3";
 import Faculties from "../component/section/Faculties";
 import Collaboration from "../component/section/collaboration";
 import Goals from "../component/section/goals";
+import Messages from "../component/section/messages";
 import Intiatives from "../component/section/initiatives";
 import Placement from "../component/section/palcement";
 
@@ -18,7 +19,7 @@ const Home = () => {
       {/* <Header /> */}
       <Banner />
       <About />
-      {/* <FromTheDesk/> */}
+      <Messages />
       <Faculties />
       <Intiatives />
       <Goals />
