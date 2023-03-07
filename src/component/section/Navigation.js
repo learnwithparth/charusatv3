@@ -42,37 +42,73 @@ export default function Navigation() {
                   <div class="flex-container">
                     <div>
                       <Dropdown.Header>Undergraduate Studies</Dropdown.Header>
-                      <Nav.Link>B.Tech</Nav.Link>
-                      <Nav.Link>BCA</Nav.Link>
-                      <Nav.Link>BBA</Nav.Link>
-                      <Nav.Link>Bachelor of Pharmacy (B.Pharm)</Nav.Link>
-                      <Nav.Link>B.Sc (Information Technology)</Nav.Link>
-                      <Nav.Link>B.Sc (Nursing)</Nav.Link>
-                      <Nav.Link>Bachelor of Pysiotherapy (BPT)</Nav.Link>
-                      <Nav.Link>B.Sc (Biology)</Nav.Link>
-                      <Nav.Link>B.Sc (B Optom)</Nav.Link>
-                      <Nav.Link>B.Sc (Imaging Technology)</Nav.Link>
-                      <Nav.Link>B.Sc (Medical Technology)</Nav.Link>
-                      <Nav.Link>
+                      <Nav.Link href="./undergraduateCourses">B.Tech</Nav.Link>
+                      <Nav.Link href="./undergraduateCourses">BCA</Nav.Link>
+                      <Nav.Link href="./undergraduateCourses">BBA</Nav.Link>
+                      <Nav.Link href="./undergraduateCourses">
+                        Bachelor of Pharmacy (B.Pharm)
+                      </Nav.Link>
+                      <Nav.Link href="./undergraduateCourses">
+                        B.Sc (Information Technology)
+                      </Nav.Link>
+                      <Nav.Link href="./undergraduateCourses">
+                        B.Sc (Nursing)
+                      </Nav.Link>
+                      <Nav.Link href="./undergraduateCourses">
+                        Bachelor of Pysiotherapy (BPT)
+                      </Nav.Link>
+                      <Nav.Link href="./undergraduateCourses">
+                        B.Sc (Biology)
+                      </Nav.Link>
+                      <Nav.Link href="./undergraduateCourses">
+                        B.Sc (B Optom)
+                      </Nav.Link>
+                      <Nav.Link href="./undergraduateCourses">
+                        B.Sc (Imaging Technology)
+                      </Nav.Link>
+                      <Nav.Link href="./undergraduateCourses">
+                        B.Sc (Medical Technology)
+                      </Nav.Link>
+                      <Nav.Link href="./undergraduateCourses">
                         B.Sc (Operation Theatre & Anesthesia Technology)
                       </Nav.Link>
                     </div>
                     <div>
                       <Dropdown.Header>Postgraduate Studies</Dropdown.Header>
-                      <Nav.Link>M.Tech</Nav.Link>
-                      <Nav.Link>MCA</Nav.Link>
-                      <Nav.Link>M.Pharm</Nav.Link>
-                      <Nav.Link>MBA</Nav.Link>
-                      <Nav.Link>M.Sc (IT)</Nav.Link>
-                      <Nav.Link>M.Sc (Advanced Organic Chemistry)</Nav.Link>
-                      <Nav.Link>M.Sc (Biochemistry)</Nav.Link>
-                      <Nav.Link>M.Sc (Biotechnology)</Nav.Link>
-                      <Nav.Link>M.Sc (Microbiology)</Nav.Link>
-                      <Nav.Link>M.Sc (Physics)</Nav.Link>
-                      <Nav.Link>Master of Physiotherapy (MPT)</Nav.Link>
-                      <Nav.Link>M.Sc (Nursing)</Nav.Link>
-                      <Nav.Link>M.Sc (Medical Lab. Technology)</Nav.Link>
-                      <Nav.Link>M.Sc (Medical Lab. Technology)</Nav.Link>
+                      <Nav.Link href="./postgraduateCourses">M.Tech</Nav.Link>
+                      <Nav.Link href="./postgraduateCourses">MCA</Nav.Link>
+                      <Nav.Link href="./postgraduateCourses">M.Pharm</Nav.Link>
+                      <Nav.Link href="./postgraduateCourses">MBA</Nav.Link>
+                      <Nav.Link href="./postgraduateCourses">
+                        M.Sc (IT)
+                      </Nav.Link>
+                      <Nav.Link href="./postgraduateCourses">
+                        M.Sc (Advanced Organic Chemistry)
+                      </Nav.Link>
+                      <Nav.Link href="./postgraduateCourses">
+                        M.Sc (Biochemistry)
+                      </Nav.Link>
+                      <Nav.Link href="./postgraduateCourses">
+                        M.Sc (Biotechnology)
+                      </Nav.Link>
+                      <Nav.Link href="./postgraduateCourses">
+                        M.Sc (Microbiology)
+                      </Nav.Link>
+                      <Nav.Link href="./postgraduateCourses">
+                        M.Sc (Physics)
+                      </Nav.Link>
+                      <Nav.Link href="./postgraduateCourses">
+                        Master of Physiotherapy (MPT)
+                      </Nav.Link>
+                      <Nav.Link href="./postgraduateCourses">
+                        M.Sc (Nursing)
+                      </Nav.Link>
+                      <Nav.Link href="./postgraduateCourses">
+                        M.Sc (Medical Lab. Technology)
+                      </Nav.Link>
+                      <Nav.Link href="./postgraduateCourses">
+                        M.Sc (Medical Lab. Technology)
+                      </Nav.Link>
                     </div>
                     <div>
                       <Dropdown.Header>Phd</Dropdown.Header>
@@ -90,12 +126,12 @@ export default function Navigation() {
                         href="http://172.16.11.116/LocalGuru/"
                         target="_blank"
                       >
-                        NPTL Guru
+                        NPTEL Guru
                       </Nav.Link>
                       <Dropdown.Header>Academic Links</Dropdown.Header>
-                      <Nav.Link>Academic Calender</Nav.Link>
-                      <Nav.Link>Academic Services</Nav.Link>
-                      <Nav.Link>Code of Conduct</Nav.Link>
+                      <Nav.Link>Academic Calender --X</Nav.Link>
+                      <Nav.Link>Academic Services --X</Nav.Link>
+                      {/* <Nav.Link>Code of Conduct</Nav.Link> */}
                       <Nav.Link>Academic Regulations</Nav.Link>
                     </div>
                   </div>
@@ -114,24 +150,64 @@ export default function Navigation() {
                       <Nav.Link href="https://charusat.nopaperforms.com/">
                         Admission Enquiry
                       </Nav.Link>
-                      <Nav.Link>Apply Now</Nav.Link>
-                      <Nav.Link>Eligibility Criteria</Nav.Link>
-                      <Nav.Link>Fees</Nav.Link>
+                      <Nav.Link
+                        href="https://charusat.nopaperforms.com/"
+                        target="_blank"
+                      >
+                        Apply Now
+                      </Nav.Link>
+                      <Nav.Link
+                        href="https://charusat.ac.in/admission/doc/AdmissionsEligibility.pdf"
+                        target="_blank"
+                      >
+                        Eligibility Criteria
+                      </Nav.Link>
+                      <Nav.Link
+                        href="https://charusat.ac.in/files/CHARUSAT%20Admission%20FAQ%2004-06-2022.pdf"
+                        target="_blank"
+                      >
+                        Fees
+                      </Nav.Link>
                       <Nav.Link>+91 8905500500</Nav.Link>
                     </div>
                     <div>
                       <Dropdown.Header>
                         For International Students
                       </Dropdown.Header>
-                      <Nav.Link>Apply Now</Nav.Link>
-                      <Nav.Link>Eligibility Criteria</Nav.Link>
-                      <Nav.Link>Fees</Nav.Link>
+                      <Nav.Link
+                        href="https://charusat.nopaperforms.com/"
+                        target="_blank"
+                      >
+                        Apply Now
+                      </Nav.Link>
+                      <Nav.Link
+                        href="https://charusat.ac.in/international/Eligibility_criteria.pdf "
+                        target="_blank"
+                      >
+                        Eligibility Criteria
+                      </Nav.Link>
+                      <Nav.Link
+                        href="https://charusat.ac.in/international/International_Fee.pdf"
+                        target="_blank"
+                      >
+                        Fees
+                      </Nav.Link>
                       <Nav.Link>+91 9173701614</Nav.Link>
                     </div>
                     <div>
                       <Dropdown.Header> Admission Information</Dropdown.Header>
-                      <Nav.Link>Contact Admission Cell</Nav.Link>
-                      <Nav.Link>Admission Portal Login</Nav.Link>
+                      <Nav.Link
+                        href="https://charusat.ac.in/admission/"
+                        target="_blank"
+                      >
+                        Contact Admission Cell
+                      </Nav.Link>
+                      <Nav.Link
+                        href="https://charusat.ac.in/admission/"
+                        target="_blank"
+                      >
+                        Admission Portal Login
+                      </Nav.Link>
                       <Nav.Link>Fellowship</Nav.Link>
                       <Nav.Link>Scholarships</Nav.Link>
                       <Nav.Link>Transportation</Nav.Link>
