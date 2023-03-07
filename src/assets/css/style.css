@@ -4312,6 +4312,7 @@ button {
 }
 .course-item.style-4 .course-inner .course-thumb .course-category .course-cate {
   margin-right: 10px;
+  /* height: 50px; /* customized height */
 }
 @media (max-width: 991px) {
   .course-item.style-4
@@ -10783,7 +10784,13 @@ footer.style-2 .footer-top.dark-view * {
 /*# sourceMappingURL=style.css.map */
 
 /* customizations section start */
+.course-item.style-4 .course-inner .course-content {
+  height: 100px;
+}
 
+.course-item.style-4 .course-inner .course-thumb .course-category .course-cate {
+  height: 50px; /* customized height */
+}
 .banner-section.style-4 .banner-content {
   background: rgb(2, 0, 36);
   background: linear-gradient(19deg, #cf9fb7, rgba(231, 231, 231, 1) 66%);
