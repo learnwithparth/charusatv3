@@ -10832,7 +10832,8 @@ footer.style-2 .footer-top.dark-view * {
 }
 
 .banner-section.style-4 .banner-content h2 span {
-  color: #c6426e;
+  /* color: #c6426e; */
+  color: #ff4ca2;
   font-weight: 900;
 }
 

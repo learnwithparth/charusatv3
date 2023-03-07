@@ -118,7 +118,7 @@ const quickList = [
   },
   {
     text: "Policies and Procedures - Support Facilities",
-    link: "./policiesTerms",
+    link: "./policies_terms",
   },
   {
     text: "Code of Conduct",
@@ -201,9 +201,7 @@ const FooterThree = () => {
                           <ul className="lab-ul">
                             {quickList.map((val, i) => (
                               <li key={i}>
-                                <a href={val.link} target="_blank">
-                                  {val.text}
-                                </a>
+                                <a href={val.link}>{val.text}</a>
                               </li>
                             ))}
                           </ul>
@@ -242,13 +240,13 @@ const FooterThree = () => {
                 <p>
                   &copy; {year} <Link to="/">C H A R U S A T</Link>{" "}
                 </p>
-                <div className="footer-bottom-list">
+                {/* <div className="footer-bottom-list">
                   {footerbottomList.map((val, i) => (
                     <a href={val.link} key={i} target="_blank" rel="noreferrer">
                       {val.text}
                     </a>
                   ))}
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
