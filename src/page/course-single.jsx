@@ -96,11 +96,11 @@ const Transport = () => {
               
                ))}
             </div>
-            <Contact
+            {/* <Contact
                 name="Dr Swayamprakash Patel"
                 email="swayamprakash.patel@charusat.ac.in"
                 phone="+91-1234567890"
-              />
+              /> */}
           </div>
         </div>
       </div>
