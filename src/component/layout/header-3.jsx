@@ -52,7 +52,7 @@ const HeaderThree = () => {
               <a href="mailto:contact@yourmail.com">info@charusat.ac.in</a>
             </div>
             <div className="header-top-reglog">
-              <Link to="/login" className="login">
+              <Link to="/accreditation" className="login">
                 Accreditation & Ranking
               </Link>
 
@@ -65,21 +65,29 @@ const HeaderThree = () => {
                 Alumni
               </a>
 
-              <Link to="/login" className="login">
+              <Link to="/career" className="login">
                 Careers
               </Link>
-              <Link to="/signup" className="signup">
+              {/* <Link to="/signup" className="signup">
                 Students' Corner
-              </Link>
-              <Link to="/login" className="login">
+              </Link> */}
+              <a
+                href="https://charusat.edu.in:912/UniExamResult/"
+                className="login"
+                target="_blank"
+              >
                 Exam Result
-              </Link>
-              <Link to="/signup" className="signup">
-                Pay Fees
-              </Link>
-              <a href="#">
-                <span>Support CHARUSAT</span>
               </a>
+              <a
+                href="https://charusat.edu.in:912/FeesPaymentApp/"
+                className="signup"
+                target="_blank"
+              >
+                Pay Fees
+              </a>
+              <Link to="/donation">
+                <span>Support CHARUSAT</span>
+              </Link>
             </div>
           </div>
         </div>
