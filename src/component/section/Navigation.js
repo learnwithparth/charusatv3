@@ -407,13 +407,15 @@ export default function Navigation() {
                     </div>
                     <div>
                       <Dropdown.Header>Policies</Dropdown.Header>
-                      <Nav.Link href="">Publication Policy</Nav.Link>
-                      <Nav.Link>Research Paper Award --x</Nav.Link>
+                      <Nav.Link href="./research">Publication Policy</Nav.Link>
+                      <Nav.Link href="./research">
+                        Research Paper Award{" "}
+                      </Nav.Link>
 
                       <Dropdown.Header>Outcomes</Dropdown.Header>
-                      <Nav.Link>Publications</Nav.Link>
-                      <Nav.Link>Project Grants</Nav.Link>
-                      <Nav.Link>Patents</Nav.Link>
+                      <Nav.Link>Publications --x</Nav.Link>
+                      <Nav.Link>Project Grants --x</Nav.Link>
+                      <Nav.Link>Patents --x</Nav.Link>
                     </div>
                   </div>
                 </Container>
@@ -600,8 +602,8 @@ export default function Navigation() {
                 </Row> */}
                 </Container>
               </NavDropdown>
-              <Nav.Link href="#">Careers</Nav.Link>
-              <Nav.Link href="#">Student Corner</Nav.Link>
+              <Nav.Link href="./careers">Careers</Nav.Link>
+              <Nav.Link href="#">Student Corner--x</Nav.Link>
               <Nav.Link href="https://iqac.charusat.ac.in">IQAC</Nav.Link>
             </Nav>
           </Container>
