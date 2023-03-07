@@ -64,7 +64,7 @@ export default function messages() {
                   {provost_desc}
                 </p>
                 <br />
-                <a href="#" style={{ color: "yellow" }}>
+                <a href="./ProvostDesk" style={{ color: "yellow" }}>
                   {" "}
                   Read More >>
                 </a>
