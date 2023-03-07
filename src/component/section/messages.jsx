@@ -39,7 +39,7 @@ export default function messages() {
                 <h2 className="subtitle yellow-color ">{title}</h2>
                 <p style={{ textAlign: "justify", color: "white" }}>{desc}</p>
                 <br />
-                <a href="#" style={{ color: "yellow" }}>
+                <a href="./PresidentDesk" style={{ color: "yellow" }}>
                   {" "}
                   Read More >>
                 </a>
