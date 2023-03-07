@@ -4310,11 +4310,11 @@ button {
     #642b73 100%
   ); */
   background: rgb(179, 0, 75);
-  background: linear-gradient(
+  /* background: linear-gradient(
     90deg,
     rgba(179, 0, 75, 0.87718837535014) 0%,
     rgba(196, 3, 49, 0.9444152661064426) 70%
-  );
+  ); */
 }
 .course-item.style-4 .course-inner .course-thumb .course-category .course-cate {
   margin-right: 10px;
@@ -10926,11 +10926,7 @@ footer.style-2 .footer-top.dark-view * {
   ) !important; */
 
   background: rgb(179, 0, 75);
-  background: linear-gradient(
-    90deg,
-    rgba(179, 0, 75, 0.87718837535014) 0%,
-    rgba(196, 3, 49, 0.9444152661064426) 70%
-  );
+
   color: white;
   height: 6rem;
   padding: 5px;
