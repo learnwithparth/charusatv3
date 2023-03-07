@@ -197,7 +197,7 @@ export default function Navigation() {
                     <div>
                       <Dropdown.Header> Admission Information</Dropdown.Header>
                       <Nav.Link
-                        href="https://charusat.ac.in/admission/"
+                        href="./admission_reprentatives"
                         target="_blank"
                       >
                         Contact Admission Cell
@@ -208,11 +208,11 @@ export default function Navigation() {
                       >
                         Admission Portal Login
                       </Nav.Link>
-                      <Nav.Link>Fellowship</Nav.Link>
-                      <Nav.Link>Scholarships</Nav.Link>
-                      <Nav.Link>Transportation</Nav.Link>
-                      <Nav.Link>Hostels</Nav.Link>
-                      <Nav.Link>FAQ</Nav.Link>
+                      <Nav.Link>Fellowship --x</Nav.Link>
+                      <Nav.Link>Scholarships --x</Nav.Link>
+                      <Nav.Link href="./transport">Transportation </Nav.Link>
+                      <Nav.Link href="./hostels">Hostels</Nav.Link>
+                      <Nav.Link>FAQ --x</Nav.Link>
                     </div>
                   </div>
 
@@ -351,16 +351,16 @@ export default function Navigation() {
                     </div>
                     <div>
                       <Dropdown.Header>Amenities</Dropdown.Header>
-                      <Nav.Link>Girl's Hostle</Nav.Link>
-                      <Nav.Link>Boy's Hostle</Nav.Link>
-                      <Nav.Link>Staff Quaters</Nav.Link>
-                      <Nav.Link>Canteen & Food</Nav.Link>
-                      <Nav.Link>Transportation</Nav.Link>
-                      <Nav.Link>Recreation</Nav.Link>
+                      <Nav.Link href="./hostels">Girl's Hostle</Nav.Link>
+                      <Nav.Link href="./hostels">Boy's Hostle</Nav.Link>
+                      <Nav.Link>Staff Quaters --x</Nav.Link>
+                      <Nav.Link>Canteen & Food --x</Nav.Link>
+                      {/* <Nav.Link>Transportation</Nav.Link> */}
+                      <Nav.Link>Recreation --x</Nav.Link>
                     </div>
                     <div>
                       <Dropdown.Header>Student Helplines</Dropdown.Header>
-                      <Nav.Link>Helpline Contact</Nav.Link>
+                      <Nav.Link>Helpline Contact --x</Nav.Link>
                     </div>
                   </div>
                 </Container>
@@ -375,26 +375,40 @@ export default function Navigation() {
                   <div class="flex-container">
                     <div>
                       <Dropdown.Header>Initiatives</Dropdown.Header>
-                      <Nav.Link>Laboratories</Nav.Link>
-                      <Nav.Link>CHARUSAT Journal</Nav.Link>
-                      <Nav.Link>
-                        Enterpreneurship Development & Incubation Cell
+                      <Nav.Link href="./">Laboratories --x</Nav.Link>
+                      <Nav.Link
+                        href="https://charusat.ac.in/charusatjournal/"
+                        target="_blank"
+                      >
+                        CHARUSAT Journal
                       </Nav.Link>
-                      <Nav.Link>
+                      <Nav.Link href="./">
+                        Enterpreneurship Development & Incubation Cell --x
+                      </Nav.Link>
+                      <Nav.Link
+                        href="https://kradle.charusat.ac.in/"
+                        target="_blank"
+                      >
                         Dr. K. C. Patel Research and Development Centre (KRADLE)
                       </Nav.Link>
-                      <Nav.Link>
-                        International Center For Consomology (ICC)
+                      <Nav.Link href="#" target="_blank">
+                        International Center For Consomology (ICC) --x
                       </Nav.Link>
-                      <Nav.Link>IPR Cell</Nav.Link>
-                      <Nav.Link>Research Facilitation</Nav.Link>
-                      <Nav.Link>CHARUSAT Space and Research Center</Nav.Link>
-                      <Nav.Link>Research Ethics Committee</Nav.Link>
+                      <Nav.Link href="./ipr">IPR Cell</Nav.Link>
+                      <Nav.Link href="./research">
+                        Research Facilitation
+                      </Nav.Link>
+                      <Nav.Link href="">
+                        CHARUSAT Space and Research Center --x
+                      </Nav.Link>
+                      <Nav.Link href="./ethics">
+                        Research Ethics Committee
+                      </Nav.Link>
                     </div>
                     <div>
                       <Dropdown.Header>Policies</Dropdown.Header>
-                      <Nav.Link>Publication Policy</Nav.Link>
-                      <Nav.Link>Research Paper Award</Nav.Link>
+                      <Nav.Link href="">Publication Policy</Nav.Link>
+                      <Nav.Link>Research Paper Award --x</Nav.Link>
 
                       <Dropdown.Header>Outcomes</Dropdown.Header>
                       <Nav.Link>Publications</Nav.Link>
@@ -438,27 +452,34 @@ export default function Navigation() {
                   <div class="flex-container">
                     <div>
                       <Dropdown.Header>About University</Dropdown.Header>
-                      <Nav.Link>About University</Nav.Link>
-                      <Nav.Link>Journy of CHARUSAT</Nav.Link>
-                      <Nav.Link>Vision</Nav.Link>
-                      <Nav.Link>Mission</Nav.Link>
-                      <Nav.Link>Journy of CHARUSAT</Nav.Link>
-                      <Nav.Link>President's Message</Nav.Link>
-                      <Nav.Link>Provost's Message</Nav.Link>
-                      <Nav.Link>Student Reviews</Nav.Link>
-                      <Nav.Link>Convocations</Nav.Link>
+                      <Nav.Link href="./about">About University</Nav.Link>
+                      <Nav.Link href="./about">Journy of CHARUSAT</Nav.Link>
+                      <Nav.Link href="./about">Vision</Nav.Link>
+                      <Nav.Link href="./about">Mission</Nav.Link>
+                      <Nav.Link href="./PresidentDesk">
+                        President's Message
+                      </Nav.Link>
+                      <Nav.Link href="./PresidentDesk">
+                        Provost's Message
+                      </Nav.Link>
+                      <Nav.Link>Student Reviews --x</Nav.Link>
+                      <Nav.Link href="./convocations">Convocations</Nav.Link>
                     </div>
                     <div>
                       <Dropdown.Header>Governing Members</Dropdown.Header>
-                      <Nav.Link>Governing Body</Nav.Link>
-                      <Nav.Link>Board of Management</Nav.Link>
-                      <Nav.Link>Deans, Principals & Heads</Nav.Link>
-                      <Nav.Link>University Officers</Nav.Link>
+                      <Nav.Link href="./people">Governing Body</Nav.Link>
+                      <Nav.Link href="./people">Board of Management</Nav.Link>
+                      <Nav.Link href="./people">
+                        Deans, Principals & Heads
+                      </Nav.Link>
+                      <Nav.Link href="./people">University Officers</Nav.Link>
                       <Dropdown.Header>Contact Us</Dropdown.Header>
-                      <Nav.Link>Contact University</Nav.Link>
-                      <Nav.Link>Google Map</Nav.Link>
-                      <Nav.Link>Virtual Campus Tour</Nav.Link>
-                      <Nav.Link>Help and Support Team</Nav.Link>
+                      <Nav.Link href="./contact_us">
+                        Contact University
+                      </Nav.Link>
+                      <Nav.Link href="./campus-map">Campus Map</Nav.Link>
+                      <Nav.Link href="./">Virtual Campus Tour --x</Nav.Link>
+                      <Nav.Link>Help and Support Team --x</Nav.Link>
                     </div>
                   </div>
 
