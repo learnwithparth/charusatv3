@@ -62,7 +62,7 @@ import SDI from "./page/SDI";
 import WellnessProgram from "./page/wellnessProgram";
 import Course from "./page/course-single";
 import Announcements from "./page/announcements";
-
+import ComingSoon from "./page/ComingSoon";
 function App() {
   // const basename = document.querySelector('base')?.getAttribute('href') ?? '/'    ;
 
@@ -143,6 +143,7 @@ function App() {
         <Route path="/wellness_Program" element={<WellnessProgram />} />
 
         <Route path="/announcements" element={<Announcements />} />
+        <Route path="/comingsoon" element={<ComingSoon />} />
       </Routes>
       <Footer />
     </BrowserRouter>

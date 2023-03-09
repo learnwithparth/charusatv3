@@ -603,7 +603,7 @@ export default function Navigation() {
                 </Container>
               </NavDropdown>
               <Nav.Link href="./careers">Careers</Nav.Link>
-              <Nav.Link href="#">Student Corner--x</Nav.Link>
+              <Nav.Link href="./ComingSoon">Student Corner</Nav.Link>
               <Nav.Link href="https://iqac.charusat.ac.in">IQAC</Nav.Link>
             </Nav>
           </Container>
