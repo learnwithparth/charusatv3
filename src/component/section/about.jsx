@@ -44,24 +44,25 @@ const aboutList = [
 const About = () => {
   return (
     <div className="about-section ">
+      <br />
+      <br />
       <div className="container">
+        <p
+          className="text-center subtitle "
+          style={{ fontSize: "1rem", color: "#f16126" }}
+        >
+          {title}
+        </p>
+        <h2 className="title text-center">
+          {subTitle}&nbsp;
+          {"   "}
+        </h2>
+
         <div className="row justify-content-center row-cols-xl-2 row-cols-1 align-items-end flex-row-reverse">
           <div className="col">
-            <div className="about-right padding-tb">
+            <div className="about-right ">
               <div className="section-header">
                 {/* <span className="subtitle" style={{fontWeight:'bold'}}>{subTitle}</span> */}
-
-                <h2 className="title">
-                  {subTitle}&nbsp;
-                  {"   "}
-                </h2>
-                <br />
-                <span
-                  className="subtitle"
-                  style={{ fontWeight: "700", fontSize: "1rem" }}
-                >
-                  {title}
-                </span>
 
                 {/* <h2 className="title">{title}</h2> */}
 
@@ -88,15 +89,17 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="col mb-5">
+          <div className="col">
             <div className="about-left">
-              <div className="about-thumb mb-5">
+              <div className="about-thumb">
                 <img src="assets/images/about/04.png" alt="about" />
               </div>
             </div>
           </div>
         </div>
       </div>
+      <br />
+      <br />
     </div>
   );
 };

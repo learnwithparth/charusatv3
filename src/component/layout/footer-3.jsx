@@ -152,7 +152,7 @@ const FooterThree = () => {
         <br />
         <br />
         <footer className="style-2 ">
-          <div className="footer-top dark-view padding-tb  grdnt-bg-custom">
+          <div className="footer-top  padding-tb ">
             <div className="container">
               <div className="row g-4 row-cols-xl-3 row-cols-sm-2 row-cols-1 justify-content-center">
                 <div className="col">
@@ -160,14 +160,17 @@ const FooterThree = () => {
                     <div className="footer-inner">
                       <div className="footer-content">
                         <div className="title">
-                          <h4>{title}</h4>
+                          <h4 style={{ color: "#fff" }}>{title}</h4>
                         </div>
                         <div className="content">
                           {/* <p>{desc}</p> */}
-                          <ul className="lab-ul office-address">
+                          <ul className="lab-ul office-address ">
                             {addressList.map((val, i) => (
-                              <li key={i}>
-                                <i className={val.iconName}></i>
+                              <li key={i} style={{ color: "#fff" }}>
+                                <i
+                                  className={val.iconName}
+                                  style={{ color: "#fff" }}
+                                ></i>
                                 {val.text}
                               </li>
                             ))}
@@ -195,13 +198,15 @@ const FooterThree = () => {
                     <div className="footer-inner">
                       <div className="footer-content">
                         <div className="title">
-                          <h4>{quickTitle}</h4>
+                          <h4 style={{ color: "#fff" }}>{quickTitle}</h4>
                         </div>
                         <div className="content">
                           <ul className="lab-ul">
                             {quickList.map((val, i) => (
                               <li key={i}>
-                                <a href={val.link}>{val.text}</a>
+                                <a href={val.link} style={{ color: "#fff" }}>
+                                  {val.text}
+                                </a>
                               </li>
                             ))}
                           </ul>
@@ -215,7 +220,7 @@ const FooterThree = () => {
                     <div className="footer-inner">
                       <div className="footer-content">
                         <div className="title">
-                          <h4>{googleMapTitle}</h4>
+                          <h4 style={{ color: "#fff" }}>{googleMapTitle}</h4>
                         </div>
                         <div
                           className="content"

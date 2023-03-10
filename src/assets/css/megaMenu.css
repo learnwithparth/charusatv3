@@ -66,8 +66,9 @@
 
   text-decoration: underline;
   text-underline-offset: 0.5rem;
+  text-decoration-color: rgb(0, 102, 179);
   /* text-decoration-color: coral; */
-  text-decoration-color: rgb(198, 66, 110);
+  /* text-decoration-color: rgb(198, 66, 110); */
   /* text-decoration-color: linear-gradient(
     to right,
     rgb(100, 43, 115) 0%,

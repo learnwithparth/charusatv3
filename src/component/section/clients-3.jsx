@@ -47,7 +47,7 @@ const ClientsThree = () => {
         <div className="section-header text-center">
           <span className="subtitle ">{subTitle}</span>
           <h2 className="title">{title}</h2>
-          <h2 className="abs-title">{absTitle}</h2>
+          {/* <h2 className="abs-title">{absTitle}</h2> */}
         </div>
         <div className="section-wrapper">
           <div className="clients-slider2 overflow-hidden">

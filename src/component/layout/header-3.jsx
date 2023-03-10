@@ -38,9 +38,9 @@ const HeaderThree = () => {
       <div
         className={`header-top ${socialToggle ? "open" : ""}`}
         style={{
-          // backgroundColor: "#0066b3",
-          backgroundImage:
-            "linear-gradient(to right,#642b73 0%,#c6426e 51%,#642b73 100%)",
+          backgroundColor: "#0066b3",
+          // backgroundImage:
+          //  "linear-gradient(to right,#642b73 0%,#c6426e 51%,#642b73 100%)",
           color: "white",
           fontSize: "0.8rem",
         }}

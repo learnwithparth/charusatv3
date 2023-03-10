@@ -115,8 +115,8 @@ export default function Faculties() {
         <img src="assets/images/shape-img/icon/02.png" alt="education" />
       </div>
       <div className="container">
+        <h2 className="title text-center">{title}</h2>
         <div className="section-header">
-          <h2 className="title">{title}</h2>
           <div className="course-filter-group">
             <ul className="lab-ul">
               <li onClick={() => setItems(CourseData)}>All</li>

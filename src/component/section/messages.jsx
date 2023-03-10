@@ -27,7 +27,7 @@ export default function messages() {
                 <img src="assets/images/about/President_sir.png" alt="about" />
               </div>
               <h6 className="subtitle yellow-color mt-1">
-                Shri Surendra Patel
+                Shri Surendrabhai Patel
               </h6>
               <h6 className="subtitle yellow-color">President, CHARUSAT</h6>
             </div>
