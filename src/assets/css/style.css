@@ -6112,9 +6112,14 @@ button {
 .banner-section.style-4 {
   /* background-image: url(../../assets/images/bg-img/lab.png); */
   background-image: url(../../assets/images/bg-img/charusat_from_top.jpg);
+  /* background-image: url(https://charusat.ac.in/images/home/charusat2.webp); */
+
+  /* background-image: url(http://172.16.102.120:9090/images/achievements_recognition/7.webp); */
   /* background-image: url(../../assets/images/bg-img/14.jpg); */
   background-attachment: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: 0px 90px; */
   z-index: 1;
   padding-bottom: 10px;
   height: 90vh;
@@ -11029,4 +11034,11 @@ span {
   > div.banner-content.m-0
   > h2 {
   color: #f16126;
+}
+
+.bg-blue {
+  background-color: #0066b3 !important;
+}
+.bg-orange {
+  background-color: #f16126;
 }
