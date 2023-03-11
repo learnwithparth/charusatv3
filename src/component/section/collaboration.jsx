@@ -5,7 +5,7 @@ import { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const subTitle = "Why Choose Us";
-const title = "Our Collaborations";
+const title = " Collaborations";
 
 const instructorTopList = [
   {

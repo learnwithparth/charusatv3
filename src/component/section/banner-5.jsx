@@ -13,7 +13,7 @@ const slides = [
 
 const content = [
   {
-    title: "Accreditated with 'A+' Grade by NAAC",
+    title: "NAAC 'A+' University ",
     description: "",
     button: "Apply Now",
     image: "http://172.16.102.120:9090/upload/images/home/s7.webp",
@@ -21,7 +21,7 @@ const content = [
     userProfile: "https://i.imgur.com/JSW6mEk.png",
   },
   {
-    title: "LABORATORIES",
+    title: "Laboratories",
     description:
       "Highly equipped and advanced labs for practical learning and in-depth research",
     button: "Apply Now",
@@ -52,7 +52,7 @@ const btnText = "View Lincon’s Courses";
 const BannerFive = () => {
   return (
     <section className="d-block clearfix">
-      <Slider className="slider-wrapper ">
+      <Slider className="slider-wrapper">
         {content.map((item, index) => (
           <div
             key={index}
@@ -62,7 +62,7 @@ const BannerFive = () => {
             }}
           >
             <div className="inner">
-              <h1>{item.title}</h1>
+              <span className="h1 animated-text-front-page">{item.title}</span>
               <p>{item.description}</p>
               <button>{item.button}</button>
             </div>

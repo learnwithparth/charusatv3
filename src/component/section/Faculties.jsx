@@ -2,7 +2,7 @@ import { Component, useState } from "react";
 import { Link } from "react-router-dom";
 import Rating from "../sidebar/rating";
 
-const title = "Our Institutions";
+const title = "Institutions";
 
 const CourseData = [
   {
