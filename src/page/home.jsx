@@ -13,6 +13,8 @@ import Goals from "../component/section/goals";
 import Messages from "../component/section/messages";
 import Intiatives from "../component/section/initiatives";
 import Placement from "../component/section/palcement";
+import Event from "../component/section/event";
+import Instructor from "../component/section/instructor";
 
 const Home = () => {
   return (
@@ -20,11 +22,13 @@ const Home = () => {
       {/* <Header /> */}
       <Banner />
       <About />
+      <Event />
       <NewsFrontPage />
       <Messages />
       <Faculties />
       <Intiatives />
       <Goals />
+      <Instructor />
       <Collaboration />
       <AchievementThree />
       {/* <Achievement2/> */}
