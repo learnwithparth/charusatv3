@@ -17,6 +17,7 @@
     "mdbreact": "^5.2.0",
     "next": "^13.0.5",
     "react": "^18.1.0",
+    "react-animated-slider": "^2.0.0",
     "react-bootstrap": "^2.6.0",
     "react-chartjs-2": "^5.0.1",
     "react-countup": "^6.2.0",
