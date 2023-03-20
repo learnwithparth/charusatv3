@@ -9,13 +9,20 @@ import {
 } from "react-bootstrap";
 
 export default function Navigation() {
+  const navStyles = {
+    fontSize: "16px",
+    padding: 0,
+    fontWeight: 500,
+    "-webkit-box-shadow": "0px 1px 4px rgb(0 0 0 / 10%)",
+  };
+
   return (
     <Navbar
       collapseOnSelect
       expand="lg"
       bg="light"
       variant="light"
-      style={{ padding: "0" }}
+      style={navStyles}
     >
       <Container>
         <Navbar.Brand href="#home">
@@ -32,7 +39,7 @@ export default function Navigation() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Container fluid>
-            <Nav className="mx-auto">
+            <Nav className="mx-auto custom-hover">
               <NavDropdown
                 className=" align-text-top"
                 title="Academics"
@@ -603,7 +610,7 @@ export default function Navigation() {
                 </Container>
               </NavDropdown>
               <Nav.Link href="./careers">Careers</Nav.Link>
-              <Nav.Link href="./ComingSoon">Student Corner</Nav.Link>
+              {/* <Nav.Link href="./ComingSoon">Student Corner</Nav.Link> */}
               <Nav.Link href="https://iqac.charusat.ac.in">IQAC</Nav.Link>
             </Nav>
           </Container>

@@ -5,6 +5,7 @@ import Marquee from "react-fast-marquee";
 import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
 import "../../assets/css/slider-animations.css";
+import "../../assets/css/slider-banner.css";
 
 const slides = [
   { title: "First item", description: "Lorem ipsum" },
@@ -14,7 +15,7 @@ const slides = [
 const content = [
   {
     title: "NAAC 'A+' University ",
-    description: "",
+    description: "Take a tour",
     button: "Apply Now",
     image: "http://172.16.102.120:9090/upload/images/home/s7.webp",
     user: "Luan Gjokaj",
@@ -52,7 +53,7 @@ const btnText = "View Lincon’s Courses";
 const BannerFive = () => {
   return (
     <section className="d-block clearfix">
-      <Slider className="slider-wrapper">
+      <Slider className="slider-wrapper" autoplay="4000">
         {content.map((item, index) => (
           <div
             key={index}
@@ -62,9 +63,13 @@ const BannerFive = () => {
             }}
           >
             <div className="inner">
-              <span className="h1 animated-text-front-page">{item.title}</span>
-              <p>{item.description}</p>
-              <button>{item.button}</button>
+              <div className="h1 main-text-slider animated-text-front-page">
+                {item.title}
+              </div>
+              <br /> <br /> <br /> <br />
+              <br />
+              <div className="subTitle-slider">{item.description}</div>
+              {/* <button>{item.button}</button> */}
             </div>
             <section>
               <img src={item.userProfile} alt={item.user} />

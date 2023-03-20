@@ -11042,3 +11042,8 @@ span {
 .bg-orange {
   background-color: #f16126;
 }
+
+#responsive-navbar-nav > div > custom-hover:hover {
+  color: " #3db166 !important";
+  
+}

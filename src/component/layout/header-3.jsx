@@ -64,6 +64,7 @@ const HeaderThree = () => {
                 {" "}
                 Alumni
               </a>
+              <a href="./ComingSoon">Student Corner</a>
 
               {/* <Link to="/careers" className="login">
                 Careers
