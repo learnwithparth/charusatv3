@@ -74,7 +74,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/final" element={<Home />} />
-        {/* <Route
+        <Route
           exact
           path="/undergraduateCourses"
           element={<UndergraduateCourses />}
@@ -112,9 +112,8 @@ function App() {
         <Route exact path="/library" element={<Library />} />
         <Route path="*" element={<ErrorPage />} />
 
-        
         <Route path="/about" element={<About_us />} />
-        
+
         <Route
           path="/undergraduateCourses"
           element={<UndergraduateCourses />}
@@ -139,7 +138,7 @@ function App() {
         <Route path="/accreditation" element={<Accreditation />} />
         <Route path="/wellness_Program" element={<WellnessProgram />} />
 
-        <Route path="/announcements" element={<Announcements />} /> */}
+        <Route path="/announcements" element={<Announcements />} />
         <Route path="*" element={<ComingSoon />} />
 
         {/* http://preview.themeforest.net/item/edukon-education-and-lms-react-js-template/full_screen_preview/38286924?_ga=2.76967702.264634929.1671012406-1346785869.1667801964 */}
