@@ -5,7 +5,7 @@ const desc = "";
 const eventListOne = [
   {
     imgUrl: "assets/images/event/01.jpg",
-    imgAlt: "event rajibraj91 rajibraj",
+    imgAlt: "upcomming event",
     Date: "13",
     MonthYear: "Nav 2021",
     title: "The Way of Higher Education & Its Difficulties",
@@ -72,7 +72,7 @@ const Event = () => {
                           </div>
                         </div>
                         <div className="event-content-info">
-                          <a href="#">
+                          <a href="./upcoming-events">
                             <h3>{val.title}</h3>
                           </a>
                           <ul className="lab-ul">
@@ -104,7 +104,7 @@ const Event = () => {
                           </div>
                         </div>
                         <div className="event-content-info">
-                          <a href="#">
+                          <a href="./upcoming-events">
                             <h5>{val.title}</h5>
                           </a>
                           <ul className="lab-ul">
