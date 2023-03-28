@@ -85,12 +85,11 @@ function App() {
         <Route path="/course-single" element={<Course />} />
         <Route exact path="/transport" element={<Transport />} />
         <Route exact path="/donation" element={<Donation />} />
+        <Route exact path="/ipr" element={<IPR />} />
+        <Route exact path="/csrtc" element={<CSRTC />} />
 
         {/*  ------  */}
 
-        <Route exact path="/ipr" element={<IPR />} />
-
-        <Route exact path="/csrtc" element={<CSRTC />} />
         <Route exact path="/hostels" element={<Hostels />} />
         <Route
           exact
