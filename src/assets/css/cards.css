@@ -1,5 +1,20 @@
-.card:hover {
-  background-color: #f16126;
+.card {
+  /* background-color: rgb(0, 102, 179) !important; */
+
+  background-color: #192f59 !important;
+  border-radius: 0 !important;
+}
+.card h6,
+p {
+  color: #fff;
+}
+.bg-green {
+  color: #3db166 !important;
+  font-weight: 600;
+}
+/* .card:hover {
+  
+  background-color: rgb(0, 102, 179);
 }
 .card:hover p {
   color: #ffffff;
@@ -7,4 +22,4 @@
 
 .card:hover h6 {
   color: #ffffff;
-}
+} */

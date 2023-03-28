@@ -87,25 +87,22 @@ function App() {
         <Route exact path="/donation" element={<Donation />} />
         <Route exact path="/ipr" element={<IPR />} />
         <Route exact path="/csrtc" element={<CSRTC />} />
-
-        {/*  ------  */}
-
         <Route exact path="/hostels" element={<Hostels />} />
         <Route
-          exact
           path="/admission_reprentatives"
           element={<Admission_Reprentatives />}
         />
         <Route
-          exact
           path="/certification_courses"
           element={<Certification_Courses />}
         />
-
         <Route exact path="/wincell" element={<Wincell />} />
         <Route exact path="/convocations" element={<Convocations />} />
         <Route exact path="/campus-map" element={<Campus_Map />} />
         <Route exact path="/careers" element={<Careers />} />
+
+        {/*  ------  */}
+
         <Route exact path="/policies_terms" element={<PoliciesTerms />} />
         <Route exact path="/code-of-conduct" element={<CodeOfConduct />} />
         <Route exact path="/placement" element={<Placement />} />
