@@ -83,9 +83,11 @@ function App() {
 
         <Route path="/postgraduateCourses" element={<PostgraduateCourses />} />
         <Route path="/course-single" element={<Course />} />
+        <Route exact path="/transport" element={<Transport />} />
+        <Route exact path="/donation" element={<Donation />} />
+
         {/*  ------  */}
 
-        <Route exact path="/transport" element={<Transport />} />
         <Route exact path="/ipr" element={<IPR />} />
 
         <Route exact path="/csrtc" element={<CSRTC />} />
@@ -100,8 +102,6 @@ function App() {
           path="/certification_courses"
           element={<Certification_Courses />}
         />
-
-        <Route exact path="/donation" element={<Donation />} />
 
         <Route exact path="/wincell" element={<Wincell />} />
         <Route exact path="/convocations" element={<Convocations />} />
@@ -120,7 +120,6 @@ function App() {
           element={<UndergraduateCourses />}
         />
 
-        <Route path="/transport" element={<Transport />} />
         <Route path="/ipr" element={<IPR />} />
         <Route path="/cdpc" element={<CDPC />} />
         <Route path="/ethics" element={<Ethics />} />
