@@ -1,9 +1,7 @@
 import { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
 import PageHeader from "../component/layout/pageheader";
-import Contact from "../component/section/contact"
-
-
+import Contact from "../component/section/contact";
 
 const transporterList = [
   {
@@ -86,7 +84,7 @@ const Transport = () => {
                       <div className="post-item style-2">
                         <div className="post-inner">
                           <div className="post-content">
-                            <h3>Transport @ CAHRUSAT</h3>
+                            <h3>Transportation Facilities</h3>
                             <div className="meta-post">
                               <ul className="lab-ul">
                                 CHARUSAT has entered into contracts for
@@ -106,7 +104,11 @@ const Transport = () => {
                 </div>
               </article>
             </div>
-            <Contact name="Mr Dharmendra Patel" email="dharmendrapatel.adm@charusat.ac.in" phone="+91-9586967008"/>
+            <Contact
+              name="Mr Dharmendra Patel"
+              email="dharmendrapatel.adm@charusat.ac.in"
+              phone="+91-9586967008"
+            />
             {/* <div className="col-lg-4 col-12">
               <aside>
                 <div className="section-wrapper">
@@ -140,38 +142,44 @@ const Transport = () => {
               </aside>
             </div> */}
           </div>
-        </div>
-      </div>
-
-      <div className="shop-cart padding-tb">
-        <div className="container">
-          <div className="section-wrapper">
-            <div className="cart-top">
-              <table>
-                <thead>
-                  <tr>
-                    <th className="cat-product">Sr No.</th>
-                    <th className="cat-product">Route</th>
-                    <th className="cat-price">Transporters' Name</th>
-                    <th className="cat-toprice">Contact Person</th>
-                    <th className="cat-edit">Contact No.</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {transporterList.map((val, i) => (
-                    <tr key={i}>
-                      <td className="product-item cat-product">
-                        {val.srNo}
-                      </td>
-                      <td className="cat-product">{val.route}</td>
-                      <td className="cat-price">{val.transporterName}</td>
-                      <td className="cat-toprice">{val.contactPerson}</td>
-                      <td className="cat-edit">{val.contactNo}</td>
-                      
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+          <div className="row justify-content-center">
+            <div className="col">
+              <div className="shop-cart padding-tb">
+                <div className="container">
+                  <div className="section-wrapper">
+                    <div className="cart-top">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th className="cat-product">Sr No.</th>
+                            <th className="cat-product">Route</th>
+                            <th className="cat-price">Transporters' Name</th>
+                            <th className="cat-toprice">Contact Person</th>
+                            <th className="cat-edit">Contact No.</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {transporterList.map((val, i) => (
+                            <tr key={i}>
+                              <td className="product-item cat-product">
+                                {val.srNo}
+                              </td>
+                              <td className="cat-product">{val.route}</td>
+                              <td className="cat-price">
+                                {val.transporterName}
+                              </td>
+                              <td className="cat-toprice">
+                                {val.contactPerson}
+                              </td>
+                              <td className="cat-edit">{val.contactNo}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

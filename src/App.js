@@ -42,6 +42,7 @@ import SignupPage from "./page/signup";
 import TeamPage from "./page/team";
 import TeamSingle from "./page/team-single";
 */
+
 import Home_Final from "./page/home";
 import About_us from "./page/About_us";
 // import UndergraduateCourses from "./page/undergraduateCourses";
@@ -76,15 +77,14 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/final" element={<Home />} />
         <Route
-          exact
           path="/undergraduateCourses"
           element={<UndergraduateCourses />}
         />
-        <Route
-          exact
-          path="/postgraduateCourses"
-          element={<PostgraduateCourses />}
-        />
+
+        <Route path="/postgraduateCourses" element={<PostgraduateCourses />} />
+        <Route path="/course-single" element={<Course />} />
+        {/*  ------  */}
+
         <Route exact path="/transport" element={<Transport />} />
         <Route exact path="/ipr" element={<IPR />} />
 
@@ -119,8 +119,7 @@ function App() {
           path="/undergraduateCourses"
           element={<UndergraduateCourses />}
         />
-        <Route path="/course-single" element={<Course />} />
-        <Route path="/postgraduateCourses" element={<PostgraduateCourses />} />
+
         <Route path="/transport" element={<Transport />} />
         <Route path="/ipr" element={<IPR />} />
         <Route path="/cdpc" element={<CDPC />} />
