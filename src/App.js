@@ -76,10 +76,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route
-          path="/undergraduateCourses"
+          path="/undergraduate-courses"
           element={<UndergraduateCourses />}
         />
-        <Route path="/postgraduateCourses" element={<PostgraduateCourses />} />
+        <Route path="/postgraduate-courses" element={<PostgraduateCourses />} />
         <Route path="/course-single" element={<Course />} />
         <Route path="/transport" element={<Transport />} />
         <Route path="/donation" element={<Donation />} />
@@ -87,11 +87,11 @@ function App() {
         <Route path="/csrtc" element={<CSRTC />} />
         <Route path="/hostels" element={<Hostels />} />
         <Route
-          path="/admission_reprentatives"
+          path="/admission-reprentatives"
           element={<Admission_Reprentatives />}
         />
         <Route
-          path="/certification_courses"
+          path="/certification-courses"
           element={<Certification_Courses />}
         />
         <Route path="/wincell" element={<Wincell />} />
