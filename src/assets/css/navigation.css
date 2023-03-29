@@ -162,3 +162,55 @@
 .show {
   display: block;
 }
+
+.mobile-menu-btn {
+  background: transparent;
+  border: none;
+  display: none;
+}
+
+.mobile-menu-items {
+  display: none;
+}
+
+@media screen and (max-width: 1340px) {
+  .nav {
+    padding: 0 1rem;
+  }
+  .charusat {
+    margin-left: 1rem !important;
+  }
+}
+
+.navbar {
+  display: none !important;
+}
+
+@media screen and (max-width: 1111px) {
+  .charusat {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .charusat {
+    font-size: 28px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    margin: 1rem 0;
+    display: block;
+  }
+
+  .navbar {
+    display: block !important;
+  }
+}
