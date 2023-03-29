@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import GoogleMap from "../sidebar/googlemap";
 
-const title = "Contact Information";
+const title = "Contact";
 //const desc =  "Eduaid theme numb  er one world class university in the world There are student are studing always in this university for all time.";
 // const courseTitle = "Courses";
 const quickTitle = "Quick Links";
-const googleMapTitle = "Locate us on Map";
+const googleMapTitle = "Map";
 // const tweetTitle = "Recent Tweets";
 const year = new Date().getFullYear();
 

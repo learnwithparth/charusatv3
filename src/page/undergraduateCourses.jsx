@@ -1,17 +1,16 @@
-import React from 'react'
+import React from "react";
 
 import { Component, useState } from "react";
 import { Link } from "react-router-dom";
 
-
-const title = "Our Institutions";
+const title = "Institutions ";
 
 const CourseData = [
   {
     imgUrl: "assets/images/course/3.jpg",
     imgAlt: "course rajibraj91 rajibraj",
     cate: "Engineering",
-    title: "C S Patel Institute of Technology",
+    title: "Chandubhai S Patel Institute of Technology (CSPIT)",
     author: "assets/images/course/author/01.jpg",
     authorName: "William Smith",
     price: "$199.00",
@@ -21,7 +20,8 @@ const CourseData = [
     imgUrl: "assets/images/course/3.jpg",
     imgAlt: "course rajibraj91 rajibraj",
     cate: "Engineering",
-    title: "Devang Patel Institute of Advance Technology and Research",
+    title:
+      "Devang Patel Institute of Advance Technology and Research (DEPSTAR)",
     author: "assets/images/course/author/01.jpg",
     authorName: "William Smith",
     price: "$199.00",
@@ -31,7 +31,7 @@ const CourseData = [
     imgUrl: "assets/images/course/17.jpg",
     imgAlt: "course rajibraj91 rajibraj",
     cate: "Pharmacy",
-    title: "Ramanbhai Patel College of Pharmacy",
+    title: "Ramanbhai Patel College of Pharmacy (RPCP)",
     author: "assets/images/course/author/02.jpg",
     authorName: "Angel Mili",
     price: "$199.00",
@@ -41,7 +41,8 @@ const CourseData = [
     imgUrl: "assets/images/course/18.jpg",
     imgAlt: "course rajibraj91 rajibraj",
     cate: "Computer Science and Application",
-    title: "Chandaben Mohanbhai Patel Institute of Computer Application",
+    title:
+      "Chandaben Mohanbhai Patel Institute of Computer Application (CMPICA)",
     author: "assets/images/course/author/03.jpg",
     authorName: "Sajahan Sagor",
     price: "$199.00",
@@ -51,7 +52,7 @@ const CourseData = [
     imgUrl: "assets/images/course/19.jpg",
     imgAlt: "course rajibraj91 rajibraj",
     cate: "Management Studies",
-    title: "Indukaka Ippcowala Institute of Management",
+    title: "Indukaka Ippcowala Institute of Management (I2IM)",
     author: "assets/images/course/author/04.jpg",
     authorName: "Ummi Nishat",
     price: "$199.00",
@@ -61,7 +62,7 @@ const CourseData = [
     imgUrl: "assets/images/course/20.jpg",
     imgAlt: "course rajibraj91 rajibraj",
     cate: "Sciences",
-    title: "P. D. Patel Institute of Applied Science",
+    title: "P. D. Patel Institute of Applied Science (PDPIAS)",
     author: "assets/images/course/author/05.jpg",
     authorName: "Rassel Hossin",
     price: "$199.00",
@@ -71,7 +72,7 @@ const CourseData = [
     imgUrl: "assets/images/course/21.jpg",
     imgAlt: "course rajibraj91 rajibraj",
     cate: "Medical Sciences",
-    title: "Manikaka Topawala Institute of Nursing",
+    title: "Manikaka Topawala Institute of Nursing (MTIN)",
     author: "assets/images/course/author/06.jpg",
     authorName: "Zinat Zaara",
     price: "$199.00",
@@ -81,7 +82,7 @@ const CourseData = [
     imgUrl: "assets/images/course/22.jpg",
     imgAlt: "course rajibraj91 rajibraj",
     cate: "Medical Sciences",
-    title: "Ashok & Rita Patel Institute of Physiotherapy",
+    title: "Ashok & Rita Patel Institute of Physiotherapy (ARIP)",
     author: "assets/images/course/author/01.jpg",
     authorName: "William Smith",
     price: "$199.00",
@@ -91,7 +92,8 @@ const CourseData = [
     imgUrl: "assets/images/course/23.jpg",
     imgAlt: "course rajibraj91 rajibraj",
     cate: "Medical Sciences",
-    title: "Bapubhai Desaibhai Patel Institute of Paramedical Sciences",
+    title:
+      "Bapubhai Desaibhai Patel Institute of Paramedical Sciences (BDPIPS)",
     author: "assets/images/course/author/02.jpg",
     authorName: "Angel Mili",
     price: "$199.00",
@@ -169,7 +171,7 @@ export default function UndergraduateCourses() {
                       </div>
                       <div className="course-content">
                         <Link to="/course-single">
-                          <h5>{title}</h5>
+                          <h6>{title}</h6>
                         </Link>
                         {/* <div className="course-footer">
                                                     <div className="course-author">

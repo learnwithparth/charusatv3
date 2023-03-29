@@ -52,15 +52,16 @@ export default function contact_donation(props) {
                       </ul>
                     </div>
                     <br />
-                    <Link
-                      to="assets/files/BankAccountDetailsforDonors.pdf"
-                      className="btn btn-primary"
+                    <a
+                      href="./assets/files/BankAccountDetailsforDonors.pdf"
+                      className="lab-btn"
+                      target="_blank"
                     >
                       <span>
                         Get Bank Details{" "}
                         <i className="icofont-external-link"></i>
                       </span>
-                    </Link>
+                    </a>
                     <br />
                     <br />
                     <Link to="/#" className="lab-btn">

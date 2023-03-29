@@ -1042,9 +1042,7 @@ const Donation = () => {
                             </div>
 
                             <br />
-                            <h4>
-                              Some of the Donation Avenues - CHARUSAT University
-                            </h4>
+                            <h4>Donation Avenues - CHARUSAT University</h4>
                             <Table striped bordered hover>
                               <thead>
                                 <tr>

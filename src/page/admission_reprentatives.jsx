@@ -68,11 +68,12 @@ const Admission_Reprentatives = () => {
                                   <div className="card p-2">
                                     <h6>
                                       Chandubhai S. Patel Institute Of
-                                      <br />
                                       Technology
                                     </h6>
                                     <p>Computer Engineering</p>
-                                    <p>Mrs Mayuri Popat, Assistant Professor</p>
+                                    <div className="p-2 bg-green">
+                                      Mrs Mayuri Popat, Assistant Professor
+                                    </div>
                                     <p>
                                       <i className="icofont-email"></i>{" "}
                                       admission_cspit_ce@charusat.ac.in

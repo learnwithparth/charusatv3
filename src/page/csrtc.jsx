@@ -25,14 +25,14 @@ const CSRTC = () => {
                               Charusat Space Research and Technology Center
                               (CSRTC)
                             </h3>
-                            <div className="meta-post">
-                              <p>
-                                To initiate and foster research in Space
-                                Technology, Charusat Space Research and
-                                Technology Center (CSRTC) has been established
-                                on 15th June 2013.
-                              </p>
-                            </div>
+
+                            <p>
+                              To initiate and foster research in Space
+                              Technology, Charusat Space Research and Technology
+                              Center (CSRTC) has been established on 15th June
+                              2013.
+                            </p>
+
                             <h4>Objecctives of CSRTC</h4>
                             <hr />
                             <ul>

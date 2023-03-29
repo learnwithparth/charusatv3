@@ -42,6 +42,7 @@ import SignupPage from "./page/signup";
 import TeamPage from "./page/team";
 import TeamSingle from "./page/team-single";
 */
+
 import Home_Final from "./page/home";
 import About_us from "./page/About_us";
 // import UndergraduateCourses from "./page/undergraduateCourses";
@@ -62,6 +63,7 @@ import SDI from "./page/SDI";
 import WellnessProgram from "./page/wellnessProgram";
 import Course from "./page/course-single";
 import Announcements from "./page/announcements";
+import UpcomingEvents from "./page/upcoming-events";
 import ComingSoon from "./page/ComingSoon";
 function App() {
   // const basename = document.querySelector('base')?.getAttribute('href') ?? '/'    ;
@@ -71,79 +73,62 @@ function App() {
       <ScrollToTop />
       <Header />
       <Routes>
-        <Route exact path="/" element={<Home />} />
         <Route path="/" element={<Home />} />
-        <Route path="/final" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route
-          exact
-          path="/undergraduateCourses"
+          path="/undergraduate-courses"
           element={<UndergraduateCourses />}
         />
+        <Route path="/postgraduate-courses" element={<PostgraduateCourses />} />
+        <Route path="/course-single" element={<Course />} />
+        <Route path="/transport" element={<Transport />} />
+        <Route path="/donation" element={<Donation />} />
+        <Route path="/ipr" element={<IPR />} />
+        <Route path="/csrtc" element={<CSRTC />} />
+        <Route path="/hostels" element={<Hostels />} />
         <Route
-          exact
-          path="/postgraduateCourses"
-          element={<PostgraduateCourses />}
-        />
-        <Route exact path="/transport" element={<Transport />} />
-        <Route exact path="/ipr" element={<IPR />} />
-
-        <Route exact path="/csrtc" element={<CSRTC />} />
-        <Route exact path="/hostels" element={<Hostels />} />
-        <Route
-          exact
-          path="/admission_reprentatives"
+          path="/admission-reprentatives"
           element={<Admission_Reprentatives />}
         />
         <Route
-          exact
-          path="/certification_courses"
+          path="/certification-courses"
           element={<Certification_Courses />}
         />
-
-        <Route exact path="/donation" element={<Donation />} />
-
-        <Route exact path="/wincell" element={<Wincell />} />
-        <Route exact path="/convocations" element={<Convocations />} />
-        <Route exact path="/campus-map" element={<Campus_Map />} />
-        <Route exact path="/careers" element={<Careers />} />
-        <Route exact path="/policies_terms" element={<PoliciesTerms />} />
-        <Route exact path="/code-of-conduct" element={<CodeOfConduct />} />
-        <Route exact path="/placement" element={<Placement />} />
-        <Route exact path="/library" element={<Library />} />
-        <Route path="*" element={<ErrorPage />} />
-
+        <Route path="/wincell" element={<Wincell />} />
+        <Route path="/convocations" element={<Convocations />} />
+        <Route path="/campus-map" element={<Campus_Map />} />
+        <Route path="/careers" element={<Careers />} />
+        <Route path="/policies_terms" element={<PoliciesTerms />} />
+        <Route path="/code-of-conduct" element={<CodeOfConduct />} />
+        <Route path="/placement" element={<Placement />} />
+        <Route path="/library" element={<Library />} />
         <Route path="/about" element={<About_us />} />
+        <Route path="/about-us" element={<AboutUs />} />
 
-        <Route
-          path="/undergraduateCourses"
-          element={<UndergraduateCourses />}
-        />
-        <Route path="/course-single" element={<Course />} />
-        <Route path="/postgraduateCourses" element={<PostgraduateCourses />} />
-        <Route path="/transport" element={<Transport />} />
-        <Route path="/ipr" element={<IPR />} />
+        <Route path="/ipr-facilitation" element={<IPR />} />
         <Route path="/cdpc" element={<CDPC />} />
         <Route path="/ethics" element={<Ethics />} />
-        <Route path="*" element={<ErrorPage />} />
-        <Route path="/accreditation" element={<Accreditation />} />
 
         <Route path="/research" element={<ResearchPage />} />
-
-        <Route path="/contactus" element={<ContactUs />} />
-        <Route path="/sdi" element={<SDI />} />
-        <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/student-development-Initiatives" element={<SDI />} />
         <Route path="/ProvostDesk" element={<ProvostDesk />} />
         <Route path="/PresidentDesk" element={<PresidentDesk />} />
         <Route path="/people" element={<People />} />
-        <Route path="/accreditation" element={<Accreditation />} />
-        <Route path="/wellness_Program" element={<WellnessProgram />} />
-
+        <Route path="/accreditation-and-ranking" element={<Accreditation />} />
         <Route path="/announcements" element={<Announcements />} />
-        <Route path="*" element={<ComingSoon />} />
+        <Route path="/student-wellness-program" element={<WellnessProgram />} />
+        <Route path="/upcoming-events" element={<UpcomingEvents />} />
+        <Route path="/coming-soon" element={<ComingSoon />} />
+        <Route path="/error" element={<ErrorPage />} />
+        <Route path="*" element={<Home />} />
+
+        {/*  ------  */}
 
         {/* http://preview.themeforest.net/item/edukon-education-and-lms-react-js-template/full_screen_preview/38286924?_ga=2.76967702.264634929.1671012406-1346785869.1667801964 */}
 
         {/* <Route path="/announcements" element={<Announcements />} /> */}
+        {/* <Route path="/accreditation" element={<Accreditation />} /> */}
       </Routes>
       <Footer />
     </BrowserRouter>

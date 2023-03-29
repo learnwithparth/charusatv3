@@ -75,12 +75,12 @@ const BannerFive = () => {
               <div className="subTitle-slider">{item.description}</div>
               <button>{item.button}</button>
             </div>
-            <section>
+            {/* <section>
               <img src={item.userProfile} alt={item.user} />
               <span>
                 Posted by <strong>{item.user}</strong>
               </span>
-            </section>
+            </section> */}
           </div>
         ))}
       </Slider> */}

@@ -25,6 +25,7 @@ const Certification_Courses = () => {
                               <Row className="p-2">
                                 <Col md={8}>
                                   <img
+                                    className="fluid"
                                     src="./assets/images/advertisment_nov_2022.webp"
                                     alt={"career"}
                                   />
@@ -35,8 +36,12 @@ const Certification_Courses = () => {
                                     Last Date of Submission: 28 November, 2022
                                   </p>
 
+                                  <a class="lab-btn text-white mt-2" href="#">
+                                    Qualification & Criteria
+                                  </a>
+
                                   <a
-                                    class="lab-btn text-white"
+                                    class="lab-btn text-white mt-2"
                                     href="https://charusat.edu.in:912/OnlineJobPortal/"
                                   >
                                     Apply Now

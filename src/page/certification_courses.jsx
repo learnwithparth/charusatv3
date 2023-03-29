@@ -41,16 +41,20 @@ const Certification_Courses = () => {
                                             src={aws_img}
                                             alt={"AWS Student Club (ASC)"}
                                           />
-                                          <div className="course-category">
-                                            <div className="course-cate">
-                                              <a href="#">
-                                                AWS Student Club (ASC)
-                                              </a>
-                                            </div>
-                                          </div>
                                         </div>
+
                                         <div className="course-content">
-                                          <a  href="https://asc.charusat.ac.in" target='_blank'>
+                                          <a
+                                            href="https://asc.charusat.ac.in"
+                                            target="_blank"
+                                          >
+                                            {/* <div className="course-category">
+                                              <div className="course-cate">
+                                                <a href="#">
+                                                  AWS Student Club (ASC)
+                                                </a>
+                                              </div>
+                                            </div> */}
                                             <h6>Get More Details</h6>
                                           </a>
                                         </div>
