@@ -177,7 +177,7 @@ button {
 
 button:hover {
   color: #ffffff;
-  background: #f16126;
+  /* background: #f16126; */
   -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
 }
@@ -279,8 +279,8 @@ button:hover {
   box-sizing: border-box;
   position: absolute;
   width: 100%;
-  top: 50%;
-  left: 50%;
+  top: 56%;
+  left: 60%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
@@ -347,6 +347,13 @@ button:hover {
   color: #ffffff;
   font-size: 14px;
   display: block;
+}
+
+.swiper-button-next {
+  color: #fff !important;
+}
+.swiper-button-prev {
+  color: #fff !important;
 }
 
 @media (max-height: 500px) {
