@@ -1,6 +1,8 @@
 import { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
+const title = "Recruiters";
+
 const sponsorList = [
   {
     imgUrl: "assets/images/recruiters/adani.png",
@@ -36,6 +38,9 @@ const Sponsor = () => {
   return (
     <div className="sponsor-section ">
       <div className="container">
+        <div className="section-header text-center">
+          <h2 className="title">{title}</h2>
+        </div>
         <div className="section-wrapper">
           <div className="sponsor-slider">
             <Swiper

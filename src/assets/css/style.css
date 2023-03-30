@@ -1898,8 +1898,8 @@ footer.style-2
 .or,
 .clients-slider-nav:hover,
 .course-navi {
-  /* background: #f16126; */
-  background: rgb(0, 102, 179);
+  background: #f16126;
+  /* background: rgb(0, 102, 179); */
 }
 
 .news-letter .section-wrapper .news-form form .nf-list input[type="submit"],
@@ -1938,8 +1938,8 @@ footer.style-2
 .post-item.qute-post .post-inner .post-thumb,
 .course-navi:hover,
 .course-navi.active {
-  /* background: #26c976; */
-  background: rgb(0, 102, 179);
+  background: #26c976;
+  /* background: rgb(0, 102, 179); */
 }
 
 .widget.widget-search .search-wrapper button,

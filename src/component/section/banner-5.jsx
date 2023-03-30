@@ -7,7 +7,14 @@ import "react-animated-slider/build/horizontal.css";
 import "../../assets/css/slider-animations.css";
 import "../../assets/css/slider-banner.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import {
+  Navigation,
+  Autoplay,
+  Pagination,
+  EffectFade,
+  Scrollbar,
+  A11y,
+} from "swiper";
 
 import "swiper/swiper-bundle.min.css";
 
@@ -26,18 +33,26 @@ const content = [
     userProfile: "https://i.imgur.com/JSW6mEk.png",
   },
   {
+    title: "Green Campus",
+    description: "Creating a Sustainable and Eco-Friendly Campus Environment",
+    button: "Apply Now",
+    image: "assets/images/home/s9.png",
+    user: "Bruno Vizovskyy",
+    userProfile: "https://i.imgur.com/4KeKvtH.png",
+  },
+  {
     title: "Laboratories",
     description:
       "Highly equipped and advanced labs for practical learning and in-depth research",
     button: "Apply Now",
-    image: "assets/images/home/s8.webp",
+    image: "assets/images/home/lab.webp",
     user: "Erich Behrens",
     userProfile: "https://i.imgur.com/0Clfnu7.png",
   },
   {
-    title: "Hostels",
+    title: "Campus Life",
     description:
-      "Our hostels give out the vibes of comfort and contentment, just like home",
+      "At CHARUSAT, campus life feels just like home - comfortable and content.",
     button: "Apply Now",
     image: "assets/images/home/s3.webp",
     user: "Bruno Vizovskyy",
@@ -84,12 +99,22 @@ const BannerFive = () => {
           </div>
         ))}
       </Slider> */}
-      <Swiper slidesPerView={1} modules={[Navigation]} navigation>
+      <Swiper
+        slidesPerView={1}
+        navigation
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        modules={[Autoplay, Pagination, Navigation, EffectFade]}
+        effect={"fade"}
+        spaceBetween={30}
+      >
         {content.map((item, index) => (
           <SwiperSlide
             className="slider-content"
             style={{
-              height: "800px",
+              height: "850px",
               width: "100%",
               // background: `url('${item.image}') no-repeat center center`,
             }}
