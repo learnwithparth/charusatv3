@@ -80,7 +80,7 @@ const BannerFive = () => {
               <span>
                 Posted by <strong>{item.user}</strong>
               </span>
-            </section> */}
+            </section> }
           </div>
         ))}
       </Slider> */}
