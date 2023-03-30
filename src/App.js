@@ -80,7 +80,7 @@ function App() {
           element={<UndergraduateCourses />}
         />
         <Route path="/postgraduate-courses" element={<PostgraduateCourses />} />
-        <Route path="/course-single" element={<Course />} />
+        <Route path="/course-details" element={<Course />} />
         <Route path="/transport" element={<Transport />} />
         <Route path="/donation" element={<Donation />} />
         <Route path="/ipr" element={<IPR />} />
