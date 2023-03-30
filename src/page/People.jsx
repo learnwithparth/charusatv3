@@ -1,7 +1,7 @@
 import { Component, useState } from "react";
 import { Link } from "react-router-dom";
 
-const title = "Our People";
+const title = "Associates";
 
 const CourseData = [
   {

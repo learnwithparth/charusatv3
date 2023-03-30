@@ -114,7 +114,7 @@ function App() {
         <Route path="/student-development-Initiatives" element={<SDI />} />
         <Route path="/ProvostDesk" element={<ProvostDesk />} />
         <Route path="/PresidentDesk" element={<PresidentDesk />} />
-        <Route path="/people" element={<People />} />
+        <Route path="/associates" element={<People />} />
         <Route path="/accreditation-and-ranking" element={<Accreditation />} />
         <Route path="/announcements" element={<Announcements />} />
         <Route path="/student-wellness-program" element={<WellnessProgram />} />
