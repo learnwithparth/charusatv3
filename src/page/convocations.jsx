@@ -38,31 +38,34 @@ const Convocations = () => {
                                 <Col>
                                   {" "}
                                   <p>
-                                    Convocation marks the culmination of the
-                                    academic pursuits. Students, thereafter,
-                                    move on to higher studies or look for / join
-                                    jobs of their interest. At CHARUSAT,
-                                    Convocation is organized with all piousness
-                                    and Indian tradition. Importantly, at
-                                    CHARUSAT, all the students are conferred
-                                    upon the Degrees in person in a dignified
-                                    manner. Today, when there is the tradition
-                                    of giving Gold Plated Medals, all the Medals
-                                    conferred by CHARUSAT are real Gold Medals
-                                    with certificates. Students and their
-                                    Parents are provided with hospitality and
-                                    special attention, too. Exceptionally, the
-                                    Convocation at CHARUSAT represents the
-                                    serenity of Indian Culture. The Procession
-                                    is fragranced with the Ganpati Vandana and
-                                    Degree Conferment with Vedic Shlokas in
-                                    addition to the Indian costumes and Deep
-                                    Pragatya to Inaugurate the Convocation.
-                                    Uniquely, dignitaries with substantial
-                                    contribution to the National Development
-                                    have been blessing the Convocations at
-                                    CHARUSAT. So far, 11 Convocations have been
-                                    organized at CHARUSAT. Glimpse are:
+                                    Convocation is a special event that marks
+                                    the culmination of academic pursuits for
+                                    students. At CHARUSAT, we organize our
+                                    convocations with utmost piety and Indian
+                                    tradition, making it a memorable experience
+                                    for all. We take great pride in conferring
+                                    degrees to our students in person, in a
+                                    dignified manner, and awarding them with
+                                    real gold medals and certificates, unlike
+                                    the trend of gold plated medals. We also
+                                    provide our students and their parents with
+                                    special attention and hospitality during the
+                                    event. <br />
+                                    <br />
+                                    Our convocation is a unique representation
+                                    of Indian culture, with the procession
+                                    scented with Ganpati Vandana and degree
+                                    conferment accompanied by Vedic shlokas. Our
+                                    students dress in traditional Indian
+                                    costumes and the convocation is inaugurated
+                                    with a traditional Deep Pragatya ceremony.
+                                    Notably, our convocation has been blessed by
+                                    dignitaries who have made substantial
+                                    contributions to the national development.
+                                    We are organizing convocations at CHARUSAT,
+                                    each one showcasing our commitment to
+                                    academic excellence and Indian culture.
+                                    Catch the glimpse of convocations.
                                   </p>
                                 </Col>
                               </Row>
