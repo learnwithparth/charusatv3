@@ -28,7 +28,7 @@ const Home = () => {
       <Faculties />
       <Intiatives />
       <Goals />
-      <Instructor />
+      {/* <Instructor /> */}
       <Collaboration />
       <AchievementThree />
       {/* <Achievement2/> */}

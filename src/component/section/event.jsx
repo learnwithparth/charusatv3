@@ -1,5 +1,5 @@
 const subTitle = "Don’t Miss the Day";
-const title = "Upcomming Events";
+const title = "Upcoming Events";
 const desc = "";
 
 const eventListOne = [
