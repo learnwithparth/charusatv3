@@ -51,10 +51,11 @@ const Cycle2 = () => {
                                 <div className="com-title-meta">
                                     {/* <h6>{val.name}</h6>
                                     <span> {val.date} </span> */}
+                                    <a href={val.link}><span>{val.desc}</span></a>
                                 </div>
                                 
                             </div>
-                            <a href={val.link}><span>{val.desc}</span></a>
+                            
                         </div>
                     </li>
                 ))}

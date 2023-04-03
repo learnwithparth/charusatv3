@@ -1,5 +1,7 @@
 import { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
+import Navigation from "../section/Navigation";
+
 import {
   Nav,
   Navbar,
@@ -12,7 +14,7 @@ import {
   Row,
 } from "react-bootstrap";
 
-import Navigation from "../section/Navigation";
+
 
 const HeaderThree = () => {
   const [menuToggle, setMenuToggle] = useState(false);
@@ -49,10 +51,10 @@ const HeaderThree = () => {
           <div className="header-top-area">
             <div className="header-top-contact">
               <a href="tel:+880123456789">+91-2697-265011/21</a>
-              <a href="mailto:contact@yourmail.com">info@charusat.ac.in</a>
+              <a href="mailto:info@charusat.ac.in">info@charusat.ac.in</a>
             </div>
             <div className="header-top-reglog">
-              <Link to="/accreditation" className="login">
+              <Link to="/accreditation-and-ranking" className="login">
                 Accreditation & Ranking
               </Link>
 
@@ -64,7 +66,7 @@ const HeaderThree = () => {
                 {" "}
                 Alumni
               </a>
-              <a href="./ComingSoon">Student Corner</a>
+              <a href="./coming-soon">Student Corner</a>
 
               {/* <Link to="/careers" className="login">
                 Careers

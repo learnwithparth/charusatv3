@@ -75,12 +75,14 @@ const Accreditation = () => {
                             <div className="col-lg-6">
                               <Cycle2 />
                             </div>
-
+                            
                             <div className="col-lg-6">
                               <Cycle1 />
                             </div>
-                            <br />
+                            
                           </div>
+                          <br />
+                        </div>
                         </div>
                         <div className="accordion-item">
                           <div className="accordion-header" id="accordion02">
@@ -157,7 +159,7 @@ const Accreditation = () => {
                             </a>
                           </div>
                         </div>
-                      </div>
+                      
                     </div>
                   </div>
                   {/* <Author /> */}
@@ -166,11 +168,7 @@ const Accreditation = () => {
                 </div>
               </div>
               {/* <div className="col-lg-4"> */}
-              <Contact
-                name="Dr Mayur Sutaria"
-                email="coordinator.iqac@charusat.ac.in"
-                phone="+91-2697-265037"
-              />
+              
 
               {/* <div className="sidebar-part"> */}
               {/* <CourseSideDetail /> */}
@@ -178,6 +176,11 @@ const Accreditation = () => {
               {/* </div> */}
               {/* </div> */}
             </div>
+            <Contact
+                name="Dr Mayur Sutaria"
+                email="coordinator.iqac@charusat.ac.in"
+                phone="+91-2697-265037"
+              />
           </div>
         </div>
       </div>
