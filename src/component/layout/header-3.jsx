@@ -52,8 +52,8 @@ const HeaderThree = () => {
               <a href="mailto:contact@yourmail.com">info@charusat.ac.in</a>
             </div>
             <div className="header-top-reglog">
-              <Link to="/accreditation" className="login">
-                Accreditation & Ranking
+              <Link to="/accreditation-and-ranking" className="login">
+                Accreditation &amp; Ranking
               </Link>
 
               <a
@@ -64,7 +64,10 @@ const HeaderThree = () => {
                 {" "}
                 Alumni
               </a>
-              <a href="./ComingSoon">Student Corner</a>
+              <Link to="/coming-soon" className="login">
+                Student Corner
+              </Link>
+              {/* <a href="./ComingSoon"></a> */}
 
               {/* <Link to="/careers" className="login">
                 Careers

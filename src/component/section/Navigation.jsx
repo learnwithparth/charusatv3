@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -13,9 +14,9 @@ const Header = () => {
         <header className="header">
           <nav className="nav">
             <div className="logo">
-              <a href="/" class="charusat">
+              <Link to="/home" class="charusat">
                 CHARUSAT
-              </a>
+              </Link>
             </div>
             <div className="nav-links">
               <ul className="links">
@@ -114,132 +115,132 @@ const Header = () => {
               <div className="menu-d border-b">
                 <h5 className="menu-head">Learn Online</h5>
                 <div className="menu-items">
-                  <a href="" className="menu-link">
+                  <Link to="/coming-soon" className="menu-link">
                     CharuVidya
-                  </a>
-                  <a href="" className="menu-link">
+                  </Link>
+                  <Link to="/coming-soon" className="menu-link">
                     NPTEL Resources
-                  </a>
+                  </Link>
                 </div>
               </div>
 
               <div className="menu-d border-b">
                 <h5 className="menu-head">Other Programmes</h5>
                 <div className="menu-items">
-                  <a href="" className="menu-link">
+                  <Link to="/coming-soon" className="menu-link">
                     Non-Credit & Certification Courses
-                  </a>
-                  <a href="" className="menu-link">
+                  </Link>
+                  <Link to="/coming-soon" className="menu-link">
                     General Nursing & Midwifery (GNM)
-                  </a>
-                  <a href="" className="menu-link">
+                  </Link>
+                  <Link to="/coming-soon" className="menu-link">
                     Post Graduation Diploma in Clinical Hypnosis (PGDCH)
-                  </a>
-                  <a href="" className="menu-link">
+                  </Link>
+                  <Link to="/coming-soon" className="menu-link">
                     Post Graduation Diploma in Cyber Security (PGDCS)
-                  </a>
-                  <a href="" className="menu-link">
+                  </Link>
+                  <Link to="/coming-soon" className="menu-link">
                     Post Graduation Diploma in Medical Laboratory Technology
                     (PGDMLT)
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="menu-d">
                 <h5 className="menu-head">Ph D Programs</h5>
                 <div className="menu-items">
-                  <a href="" className="menu-link">
+                  <Link to="/coming-soon" className="menu-link">
                     General Information
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="menu-div border-left">
               <h5 className="menu-head">Undergraduate Studies</h5>
               <div className="menu-items">
-                <a href="" className="menu-link">
-                  Bachelor of Technology (B Tech)
-                </a>
-                <a href="" className="menu-link">
+                <Link to="/undergraduate-courses" className="menu-link">
+                  Bachelor of Technology (B.Tech)
+                </Link>
+                <Link to="/undergraduate-courses" className="menu-link">
                   Bachelor of Computer Application (BCA)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/undergraduate-courses" className="menu-link">
                   Bachelor Science (Information Technology)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/undergraduate-courses" className="menu-link">
                   Bachelor of Pharmacy (B Pharm)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/undergraduate-courses" className="menu-link">
                   Bachelor of Business Administration (BBA)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/undergraduate-courses" className="menu-link">
                   Bachelor of Science (Biology)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/undergraduate-courses" className="menu-link">
                   Bachelor of Physiotherapy (BPT)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/undergraduate-courses" className="menu-link">
                   Bachelor of Science (Nursing)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/undergraduate-courses" className="menu-link">
                   Bachelor of Optometry (B Optom)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/undergraduate-courses" className="menu-link">
                   Bachelor of Science (Imaging Technology)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/undergraduate-courses" className="menu-link">
                   Bachelor of Science (Medical Technnology)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/ug-courses-list" className="menu-link">
                   Bachelor of Science (Operation Theatre & Anesthesia
                   Technology)
-                </a>
+                </Link>
               </div>
             </div>
             <div className="menu-div border-left">
               <h5 className="menu-head">Postgraduate Studies</h5>
               <div className="menu-items">
-                <a href="" className="menu-link">
+                <Link to="/ug-courses-list" className="menu-link">
                   Master of Technology (M Tech)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/ug-courses-list" className="menu-link">
                   Master of Computer Applications (MCA)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/ug-courses-list" className="menu-link">
                   Master of Science (Information Technology)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/ug-courses-list" className="menu-link">
                   Master of Pharmacy (M Pharm)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/ug-courses-list" className="menu-link">
                   Master of Business Administration (MBA)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/ug-courses-list" className="menu-link">
                   Master of Science (Advanced Organic Chemistry)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/ug-courses-list" className="menu-link">
                   Master of Science (Biochemistry)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/ug-courses-list" className="menu-link">
                   Master of Science (Biotechnology)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/ug-courses-list" className="menu-link">
                   Master of Science (Microbiology)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/ug-courses-list" className="menu-link">
                   Master of Science (Physics)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/ug-courses-list" className="menu-link">
                   Master of Physiotherapy (MPT)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/ug-courses-list" className="menu-link">
                   Master of Science (Nursing)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/ug-courses-list" className="menu-link">
                   Master of Science (Nursing)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/ug-courses-list" className="menu-link">
                   Master of Science (Medical Imaging Teachnology)
-                </a>
+                </Link>
               </div>
             </div>
             <div className="menu-div border-left">
