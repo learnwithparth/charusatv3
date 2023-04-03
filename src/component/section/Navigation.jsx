@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
+import { Link } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
@@ -114,10 +115,10 @@ const Header = () => {
               <div className="menu-d border-b">
                 <h5 className="menu-head">Learn Online</h5>
                 <div className="menu-items">
-                  <a href="" className="menu-link">
+                  <a href="http://117.239.83.200:9000/" className="menu-link">
                     CharuVidya
                   </a>
-                  <a href="" className="menu-link">
+                  <a href="./coming-soon" className="menu-link">
                     NPTEL Resources
                   </a>
                 </div>
@@ -126,19 +127,19 @@ const Header = () => {
               <div className="menu-d border-b">
                 <h5 className="menu-head">Other Programmes</h5>
                 <div className="menu-items">
-                  <a href="" className="menu-link">
+                  <Link to="/certification-courses" className="menu-link">
                     Non-Credit & Certification Courses
-                  </a>
+                  </Link>
                   <a href="" className="menu-link">
                     General Nursing & Midwifery (GNM)
                   </a>
-                  <a href="" className="menu-link">
+                  <a href="./coming-soon" className="menu-link">
                     Post Graduation Diploma in Clinical Hypnosis (PGDCH)
                   </a>
-                  <a href="" className="menu-link">
+                  <a href="https://pgdcs.charusat.ac.in/" className="menu-link">
                     Post Graduation Diploma in Cyber Security (PGDCS)
                   </a>
-                  <a href="" className="menu-link">
+                  <a href="./coming-soon" className="menu-link">
                     Post Graduation Diploma in Medical Laboratory Technology
                     (PGDMLT)
                   </a>
@@ -147,7 +148,7 @@ const Header = () => {
               <div className="menu-d">
                 <h5 className="menu-head">Ph D Programs</h5>
                 <div className="menu-items">
-                  <a href="" className="menu-link">
+                  <a href="./coming-soon" className="menu-link">
                     General Information
                   </a>
                 </div>
@@ -156,43 +157,43 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">Undergraduate Studies</h5>
               <div className="menu-items">
-                <a href="" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Technology (B Tech)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Computer Application (BCA)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/course-single" className="menu-link">
                   Bachelor Science (Information Technology)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Pharmacy (B Pharm)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Business Administration (BBA)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Science (Biology)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Physiotherapy (BPT)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Science (Nursing)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Optometry (B Optom)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Science (Imaging Technology)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Science (Medical Technnology)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Science (Operation Theatre & Anesthesia
                   Technology)
-                </a>
+                </Link>
               </div>
             </div>
             <div className="menu-div border-left">
