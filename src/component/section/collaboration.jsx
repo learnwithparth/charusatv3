@@ -205,7 +205,7 @@ export default function collaboration() {
       <div className="instructor-section style-3 padding-tb section-bg-ash">
         <div className="container">
           <div className="section-header text-center">
-            {/* <span className="subtitle">{subTitle}</span> */}
+            {/* <span className="subtitle">University</span> */}
             <h2 className="title">{title}</h2>
           </div>
           <div className="section-wrapper">

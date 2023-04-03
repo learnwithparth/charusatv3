@@ -7,8 +7,6 @@ export default function newsFrontPage() {
   return (
     <div className="style-2  ">
       <div className="container">
-        <hr />
-        <br />
         <div className="section-header text-center">
           <span className="subtitle ">{subTitle}</span>
           <h2 className="title">{title}</h2>
@@ -73,7 +71,6 @@ export default function newsFrontPage() {
           </div>
         </div>
       </div>
-      <br />
     </div>
   );
 }
