@@ -25,7 +25,7 @@ const achievementList = [
 
 const AchievementThree = () => {
   return (
-    <div className="achievement-section style-2 padding-tb">
+    <div className="achievement-section style-2 p-4  ">
       <div className="container">
         <div className="section-wrapper">
           <div className="counter-part">

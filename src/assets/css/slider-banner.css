@@ -1,16 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap");
+
 .main-text-slider {
   position: absolute;
   display: block;
   overflow: visible;
   font-size: 4vw !important;
   line-height: 85px;
-  font-weight: 700;
+  font-weight: 900;
   color: #fff;
   letter-spacing: 0;
-  /* font-family: "Playfair Display"; */
+  font-family: "Poppins", sans-serif !important;
   visibility: inherit;
   margin: 0 0;
-  padding: 4px 4px;
+  padding: 6px 10px 6px 10px;
+
   background-color: #3db166;
   max-width: none;
   opacity: 0.9;

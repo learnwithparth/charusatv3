@@ -25,7 +25,7 @@ const Home = () => {
       <About />
       <Event />
       <NewsFrontPage />
-      <Messages />
+      {/* <Messages /> */}
       <Faculties />
       <Intiatives />
       {/* <Goals /> */}
