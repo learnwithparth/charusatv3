@@ -14,7 +14,7 @@ const ComingSoon = () => {
               <br />
               <h2 className="title">{title}</h2>
               <p>{desc}</p>
-              <Link to="/final" className="lab-btn ">
+              <Link to="/home" className="lab-btn ">
                 <span>
                   {btnText} <i className="icofont-external-link"></i>
                 </span>

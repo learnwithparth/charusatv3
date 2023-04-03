@@ -96,6 +96,7 @@ function App() {
           path="/certification-courses"
           element={<Certification_Courses />}
         />
+        <Route path="/course-single" element={<Course />} />
         <Route path="/wincell" element={<Wincell />} />
         <Route path="/convocations" element={<Convocations />} />
         <Route path="/campus-map" element={<Campus_Map />} />
@@ -106,11 +107,9 @@ function App() {
         <Route path="/library" element={<Library />} />
         <Route path="/about" element={<About_us />} />
         <Route path="/about-us" element={<AboutUs />} />
-
         <Route path="/ipr-facilitation" element={<IPR />} />
         <Route path="/cdpc" element={<CDPC />} />
         <Route path="/ethics" element={<Ethics />} />
-
         <Route path="/research" element={<ResearchPage />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/student-development-Initiatives" element={<SDI />} />

@@ -43,10 +43,11 @@ const NIRF = () => {
                                 <div className="com-title-meta lab-ul">
                                     {/* <h6>{val.name}</h6>
                                     <span> {val.date} </span> */}
+                                    <a href={val.link} className="csdc-left"><span>{val.desc}</span></a>
                                 </div>
                                 
                             </div>
-                            <a href={val.link} className="csdc-left"><span>{val.desc}</span></a>
+                            
                         </div>
                     </li>
                 ))}
