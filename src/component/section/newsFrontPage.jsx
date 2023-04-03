@@ -16,14 +16,14 @@ export default function newsFrontPage() {
             <div class="course-item style-4">
               <div class="course-inner">
                 <div class="course-thumb">
-                  <img src="assets/images/initiative/ICC.jpg" alt="unai" />
+                  <img
+                    src="https://charusat.ac.in/images/news/IMG-20211219-WA0082.webp"
+                    alt="unai"
+                  />
                 </div>
                 <div class="course-content">
                   <a href="#">
-                    <p>
-                      CHARUSAT is now a member of UNAI (United Nations Academic
-                      Impact)
-                    </p>
+                    <p>Two cadets selected for the "Republic Day Camp"</p>
                   </a>
                 </div>
               </div>
@@ -34,16 +34,13 @@ export default function newsFrontPage() {
               <div class="course-inner">
                 <div class="course-thumb">
                   <img
-                    src="assets/images/initiative/RURAL%20EDUCATION.jpg"
+                    src="https://charusat.ac.in/cspit/ee/img/portfolio/ev3_tn.jpg"
                     alt="unai"
                   />
                 </div>
                 <div class="course-content">
                   <a href="#">
-                    <p>
-                      CHARUSAT is now a member of UNAI (United Nations Academic
-                      Impact)
-                    </p>
+                    <p>CHARUSAT Students build Electric Car</p>
                   </a>
                 </div>
               </div>
@@ -54,16 +51,13 @@ export default function newsFrontPage() {
               <div class="course-inner">
                 <div class="course-thumb">
                   <img
-                    src="assets/images/initiative/NABL%20&%20TESTING%20LAB.jpg"
-                    alt="unai"
+                    src="https://www.shutterstock.com/image-vector/mou-memorandum-understanding-type-agreement-260nw-1701328165.jpg"
+                    alt="Charusat University inks MoU with FRIGE HOUSE"
                   />
                 </div>
                 <div class="course-content">
                   <a href="#">
-                    <p>
-                      CHARUSAT is now a member of UNAI (United Nations Academic
-                      Impact)
-                    </p>
+                    <p>Charusat University inks MoU with FRIGE HOUSE</p>
                   </a>
                 </div>
               </div>

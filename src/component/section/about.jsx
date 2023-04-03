@@ -54,8 +54,8 @@ const About = () => {
           {title}
         </p>
         <h2 className="title text-center">
-          {subTitle}&nbsp;
-          {"   "}
+          {subTitle}&nbsp; {"   "}
+          {/* <i style={{ color: "#f16126" }}>NAAC A+</i> */}
         </h2>
 
         <div className="row justify-content-center row-cols-xl-2 row-cols-1 align-items-end flex-row-reverse">
@@ -81,6 +81,7 @@ const About = () => {
                       </div>
                       <div className="sr-right">
                         <h5>{val.desc}</h5>
+
                         {/* <p>{val.desc}</p> */}
                       </div>
                     </li>
