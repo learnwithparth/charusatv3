@@ -65,7 +65,6 @@ import Course from "./page/course-single";
 import Announcements from "./page/announcements";
 import UpcomingEvents from "./page/upcoming-events";
 import ComingSoon from "./page/ComingSoon";
-import "@fontsource/playfair-display";
 
 function App() {
   // const basename = document.querySelector('base')?.getAttribute('href') ?? '/'    ;
