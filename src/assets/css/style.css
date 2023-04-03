@@ -5057,7 +5057,7 @@ button {
   border: none;
 }
 .header-section.style-3 .header-top .header-top-area {
-  padding: 8px 0;
+  padding: 14px 0;
 }
 @media (max-width: 575px) {
   .header-section.style-3 .header-top .header-top-area {
@@ -11049,4 +11049,3 @@ span {
 #responsive-navbar-nav > div > custom-hover:hover {
   color: " #3db166 !important";
 }
-

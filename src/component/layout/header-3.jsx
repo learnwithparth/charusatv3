@@ -14,8 +14,6 @@ import {
   Row,
 } from "react-bootstrap";
 
-
-
 const HeaderThree = () => {
   const [menuToggle, setMenuToggle] = useState(false);
   const [socialToggle, setSocialToggle] = useState(false);
@@ -50,7 +48,10 @@ const HeaderThree = () => {
         <div className="container">
           <div className="header-top-area">
             <div className="header-top-contact">
+              <i className="icofont-phone"></i>
               <a href="tel:+880123456789">+91-2697-265011/21</a>
+              &nbsp;&nbsp;
+              <i className="icofont-email"></i>
               <a href="mailto:info@charusat.ac.in">info@charusat.ac.in</a>
             </div>
             <div className="header-top-reglog">
@@ -89,7 +90,17 @@ const HeaderThree = () => {
                 Pay Fees
               </a>
               <Link to="/donation">
-                <span>Support CHARUSAT</span>
+                <span
+                  style={{
+                    backgroundColor: "#3db166",
+                    lineHeight: 2,
+                    padding: "20px",
+                    fontWeight: 600,
+                    fontSize: "16px",
+                  }}
+                >
+                  Support CHARUSAT
+                </span>
               </Link>
             </div>
           </div>
