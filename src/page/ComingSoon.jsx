@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const title = "Coming soon!";
-const desc = "we are working on..";
+const desc = "...";
 const btnText = "Go Back To Home";
 
 const ComingSoon = () => {

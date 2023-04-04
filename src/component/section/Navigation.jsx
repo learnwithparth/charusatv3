@@ -1,6 +1,7 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
+import Container from "react-bootstrap/Container";
+
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
@@ -14,9 +15,9 @@ const Header = () => {
         <header className="header">
           <nav className="nav">
             <div className="logo">
-              <a href="/charusatv3/home" class="charusat">
+              <Link href="/home" class="charusat">
                 CHARUSAT
-              </a>
+              </Link>
             </div>
             <div className="nav-links">
               <ul className="links">
@@ -139,18 +140,18 @@ const Header = () => {
                   <a href="https://pgdcs.charusat.ac.in/" className="menu-link">
                     Post Graduation Diploma in Cyber Security (PGDCS)
                   </a>
-                  <a href="./coming-soon" className="menu-link">
+                  <Link href="./coming-soon" className="menu-link">
                     Post Graduation Diploma in Medical Laboratory Technology
                     (PGDMLT)
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="menu-d">
                 <h5 className="menu-head">Ph D Programs</h5>
                 <div className="menu-items">
-                  <a href="./coming-soon" className="menu-link">
+                  <Link href="./coming-soon" className="menu-link">
                     General Information
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -243,7 +244,10 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">Information You May Need!!!</h5>
               <div className="menu-items">
-                <a href="https://charusat.ac.in/Downloads/Academic%20Calenders/" className="menu-link">
+                <a
+                  href="https://charusat.ac.in/Downloads/Academic%20Calenders"
+                  className="menu-link"
+                >
                   Academic Calender
                 </a>
                 <a href="" className="menu-link">
@@ -724,7 +728,10 @@ const Header = () => {
                 <a href="" className="menu-link">
                   Data Center @ CHARUSAT - WINCELL
                 </a>
-                <a href="https://scpit.new.knimbus.com/user#/home" className="menu-link">
+                <a
+                  href="https://scpit.new.knimbus.com/user#/home"
+                  className="menu-link"
+                >
                   Knowledge Resource Center
                 </a>
                 <a href="" className="menu-link">
