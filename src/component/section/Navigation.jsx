@@ -199,62 +199,62 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">Postgraduate Studies</h5>
               <div className="menu-items">
-                <a href="" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Master of Technology (M Tech)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/course-single" className="menu-link">
                   Master of Computer Applications (MCA)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/course-single" className="menu-link">
                   Master of Science (Information Technology)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/course-single" className="menu-link">
                   Master of Pharmacy (M Pharm)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/course-single" className="menu-link">
                   Master of Business Administration (MBA)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/course-single" className="menu-link">
                   Master of Science (Advanced Organic Chemistry)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/course-single" className="menu-link">
                   Master of Science (Biochemistry)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/course-single" className="menu-link">
                   Master of Science (Biotechnology)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/course-singles" className="menu-link">
                   Master of Science (Microbiology)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/course-single" className="menu-link">
                   Master of Science (Physics)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link href="/course-single" className="menu-link">
                   Master of Physiotherapy (MPT)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link href="/course-single" className="menu-link">
                   Master of Science (Nursing)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link href="/course-single" className="menu-link">
                   Master of Science (Nursing)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link href="/course-single" className="menu-link">
                   Master of Science (Medical Imaging Teachnology)
-                </a>
+                </Link>
               </div>
             </div>
             <div className="menu-div border-left">
               <h5 className="menu-head">Information You May Need!!!</h5>
               <div className="menu-items">
-                <a href="" className="menu-link">
+                <a href="https://charusat.ac.in/Downloads/Academic%20Calenders" className="menu-link">
                   Academic Calender
                 </a>
                 <a href="" className="menu-link">
                   Academic Services
                 </a>
-                <a href="" className="menu-link">
+                <Link to="/cdpc" className="menu-link">
                   Career Development and Placements
-                </a>
+                </Link>
                 <a href="" className="menu-link">
                   Distinguished Lecture Series
                 </a>
@@ -330,9 +330,9 @@ const Header = () => {
                 <a href="" className="menu-link">
                   Admission Login
                 </a>
-                <a href="" className="menu-link">
+                <Link to="/admission-reprentatives" className="menu-link">
                   Have a query? Contact Admission Representatives
-                </a>
+                </Link>
                 <a href="" className="menu-link">
                   Need Personal Guidance!!! Talk to us
                 </a>
@@ -342,9 +342,9 @@ const Header = () => {
                 <a href="" className="menu-link">
                   Scholarship
                 </a>
-                <a href="" className="menu-link">
+                <Link to="/transport" className="menu-link">
                   Transportation
-                </a>
+                </Link>
                 <a href="" className="menu-link">
                   Frequently Asked Questions (FAQs)
                 </a>
@@ -354,14 +354,14 @@ const Header = () => {
           <div
             className="menu"
             id="IQAC"
-            onMouseOver={() => {
-              document.getElementById("IQAC").style.display = "grid";
-            }}
-            onMouseOut={() => {
-              document.getElementById("IQAC").style.display = "none";
-            }}
+            // onMouseOver={() => {
+            //   document.getElementById("IQAC").style.display = "grid";
+            // }}
+            // onMouseOut={() => {
+            //   document.getElementById("IQAC").style.display = "none";
+            // }}
           >
-            <div className="menu-div">
+            {/* <div className="menu-div">
               <div className="menu-d border-b">
                 <h5 className="menu-head">Academic Calendars</h5>
                 <div className="menu-items">
@@ -452,7 +452,7 @@ const Header = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div
             className="menu"
@@ -704,9 +704,9 @@ const Header = () => {
                 <a href="" className="menu-link">
                   Cell for Prevention of Sexual Harassment (CPSH)
                 </a>
-                <a href="" className="menu-link">
+                {/* <a href="" className="menu-link">
                   Internal Quality Assurance Cell (IQAC)
-                </a>
+                </a> */}
                 <a href="" className="menu-link">
                   Charusat Rural Education Development Program (CREDP)
                 </a>
@@ -727,7 +727,7 @@ const Header = () => {
                 <a href="" className="menu-link">
                   Data Center @ CHARUSAT - WINCELL
                 </a>
-                <a href="" className="menu-link">
+                <a href="https://scpit.new.knimbus.com/user#/home" className="menu-link">
                   Knowledge Resource Center
                 </a>
                 <a href="" className="menu-link">
