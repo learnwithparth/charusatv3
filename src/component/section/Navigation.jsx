@@ -371,15 +371,18 @@ const Header = () => {
                 <Link to="/admission-reprentatives" className="menu-link">
                   Have a query? Contact Admission Representatives
                 </Link>
-                <a href="" className="menu-link">
+                <Link to="/coming-soon" className="menu-link">
                   Need Personal Guidance!!! Talk to us
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <a
+                  href="https://www.charusat.ac.in/documents/pdfs/research/PGSF.pdf"
+                  className="menu-link"
+                >
                   Fellowship
                 </a>
-                <a href="" className="menu-link">
+                <Link href="/scholarship" className="menu-link">
                   Scholarship
-                </a>
+                </Link>
                 <Link to="/transport" className="menu-link">
                   Transportation
                 </Link>
