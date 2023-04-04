@@ -224,19 +224,19 @@ const Header = () => {
                 <Link to="/course-single" className="menu-link">
                   Master of Science (Biotechnology)
                 </Link>
-                <Link to="/course-singles" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Master of Science (Microbiology)
                 </Link>
                 <Link to="/course-single" className="menu-link">
                   Master of Science (Physics)
                 </Link>
-                <Link href="/course-single" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Master of Physiotherapy (MPT)
                 </Link>
-                <Link href="/course-single" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Master of Science (Nursing)
                 </Link>
-                <Link href="/course-single" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Master of Science (Medical Imaging Teachnology)
                 </Link>
               </div>
@@ -294,7 +294,7 @@ const Header = () => {
             <div className="menu-div">
               <h5 className="menu-head">National</h5>
               <div className="menu-items">
-                <a href="" className="menu-link">
+                <a href="https://charusat-admissions.extraaedge.com/" className="menu-link">
                   Apply Now
                 </a>
                 <a href="" className="menu-link">
@@ -311,7 +311,7 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">International</h5>
               <div className="menu-items">
-                <a href="" className="menu-link">
+                <a href="https://charusat-admissions.extraaedge.com/" className="menu-link">
                   Apply Now
                 </a>
                 <a href="" className="menu-link">
