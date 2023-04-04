@@ -15,7 +15,7 @@ const Header = () => {
         <header className="header">
           <nav className="nav">
             <div className="logo">
-              <Link href="/home" class="charusat">
+              <Link to="/home" class="charusat">
                 CHARUSAT
               </Link>
             </div>
@@ -36,6 +36,7 @@ const Header = () => {
                   className="link"
                   onMouseOver={() => {
                     document.getElementById("Admission").style.display = "grid";
+
                   }}
                   onMouseOut={() => {
                     document.getElementById("Admission").style.display = "none";
@@ -140,7 +141,7 @@ const Header = () => {
                   <a href="https://pgdcs.charusat.ac.in/" className="menu-link">
                     Post Graduation Diploma in Cyber Security (PGDCS)
                   </a>
-                  <Link href="./coming-soon" className="menu-link">
+                  <Link to="./coming-soon" className="menu-link">
                     Post Graduation Diploma in Medical Laboratory Technology
                     (PGDMLT)
                   </Link>
@@ -149,7 +150,7 @@ const Header = () => {
               <div className="menu-d">
                 <h5 className="menu-head">Ph D Programs</h5>
                 <div className="menu-items">
-                  <Link href="./coming-soon" className="menu-link">
+                  <Link to="./coming-soon" className="menu-link">
                     General Information
                   </Link>
                 </div>
