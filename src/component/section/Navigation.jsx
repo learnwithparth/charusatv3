@@ -236,9 +236,6 @@ const Header = () => {
                   Master of Science (Nursing)
                 </Link>
                 <Link href="/course-single" className="menu-link">
-                  Master of Science (Nursing)
-                </Link>
-                <Link href="/course-single" className="menu-link">
                   Master of Science (Medical Imaging Teachnology)
                 </Link>
               </div>
