@@ -380,7 +380,7 @@ const Header = () => {
                 >
                   Fellowship
                 </a>
-                <Link href="/scholarship" className="menu-link">
+                <Link to="/scholarship" className="menu-link">
                   Scholarship
                 </Link>
                 <Link to="/transport" className="menu-link">
