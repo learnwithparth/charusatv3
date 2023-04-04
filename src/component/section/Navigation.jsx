@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
+import { Link } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
@@ -14,7 +15,7 @@ const Header = () => {
         <header className="header">
           <nav className="nav">
             <div className="logo">
-              <Link to="/home" class="charusat">
+              <a href="/charusatv3/home" class="charusat">
                 CHARUSAT
               </Link>
             </div>
@@ -115,10 +116,10 @@ const Header = () => {
               <div className="menu-d border-b">
                 <h5 className="menu-head">Learn Online</h5>
                 <div className="menu-items">
-                  <Link to="/coming-soon" className="menu-link">
+                  <a href="http://117.239.83.200:9000/" className="menu-link">
                     CharuVidya
-                  </Link>
-                  <Link to="/coming-soon" className="menu-link">
+                  </a>
+                  <a href="./coming-soon" className="menu-link">
                     NPTEL Resources
                   </Link>
                 </div>
@@ -127,19 +128,19 @@ const Header = () => {
               <div className="menu-d border-b">
                 <h5 className="menu-head">Other Programmes</h5>
                 <div className="menu-items">
-                  <Link to="/coming-soon" className="menu-link">
+                  <Link to="/certification-courses" className="menu-link">
                     Non-Credit & Certification Courses
                   </Link>
-                  <Link to="/coming-soon" className="menu-link">
+                  <a href="" className="menu-link">
                     General Nursing & Midwifery (GNM)
-                  </Link>
-                  <Link to="/coming-soon" className="menu-link">
+                  </a>
+                  <a href="./coming-soon" className="menu-link">
                     Post Graduation Diploma in Clinical Hypnosis (PGDCH)
-                  </Link>
-                  <Link to="/coming-soon" className="menu-link">
+                  </a>
+                  <a href="https://pgdcs.charusat.ac.in/" className="menu-link">
                     Post Graduation Diploma in Cyber Security (PGDCS)
-                  </Link>
-                  <Link to="/coming-soon" className="menu-link">
+                  </a>
+                  <a href="./coming-soon" className="menu-link">
                     Post Graduation Diploma in Medical Laboratory Technology
                     (PGDMLT)
                   </Link>
@@ -148,7 +149,7 @@ const Header = () => {
               <div className="menu-d">
                 <h5 className="menu-head">Ph D Programs</h5>
                 <div className="menu-items">
-                  <Link to="/coming-soon" className="menu-link">
+                  <a href="./coming-soon" className="menu-link">
                     General Information
                   </Link>
                 </div>
@@ -157,40 +158,40 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">Undergraduate Studies</h5>
               <div className="menu-items">
-                <Link to="/undergraduate-courses" className="menu-link">
-                  Bachelor of Technology (B.Tech)
+                <Link to="/course-single" className="menu-link">
+                  Bachelor of Technology (B Tech)
                 </Link>
-                <Link to="/undergraduate-courses" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Computer Application (BCA)
                 </Link>
-                <Link to="/undergraduate-courses" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Bachelor Science (Information Technology)
                 </Link>
-                <Link to="/undergraduate-courses" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Pharmacy (B Pharm)
                 </Link>
-                <Link to="/undergraduate-courses" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Business Administration (BBA)
                 </Link>
-                <Link to="/undergraduate-courses" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Science (Biology)
                 </Link>
-                <Link to="/undergraduate-courses" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Physiotherapy (BPT)
                 </Link>
-                <Link to="/undergraduate-courses" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Science (Nursing)
                 </Link>
-                <Link to="/undergraduate-courses" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Optometry (B Optom)
                 </Link>
-                <Link to="/undergraduate-courses" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Science (Imaging Technology)
                 </Link>
-                <Link to="/undergraduate-courses" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Science (Medical Technnology)
                 </Link>
-                <Link to="/ug-courses-list" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Bachelor of Science (Operation Theatre & Anesthesia
                   Technology)
                 </Link>
@@ -199,46 +200,43 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">Postgraduate Studies</h5>
               <div className="menu-items">
-                <Link to="/ug-courses-list" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Master of Technology (M Tech)
                 </Link>
-                <Link to="/ug-courses-list" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Master of Computer Applications (MCA)
                 </Link>
-                <Link to="/ug-courses-list" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Master of Science (Information Technology)
                 </Link>
-                <Link to="/ug-courses-list" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Master of Pharmacy (M Pharm)
                 </Link>
-                <Link to="/ug-courses-list" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Master of Business Administration (MBA)
                 </Link>
-                <Link to="/ug-courses-list" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Master of Science (Advanced Organic Chemistry)
                 </Link>
-                <Link to="/ug-courses-list" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Master of Science (Biochemistry)
                 </Link>
-                <Link to="/ug-courses-list" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Master of Science (Biotechnology)
                 </Link>
-                <Link to="/ug-courses-list" className="menu-link">
+                <Link to="/course-singles" className="menu-link">
                   Master of Science (Microbiology)
                 </Link>
-                <Link to="/ug-courses-list" className="menu-link">
+                <Link to="/course-single" className="menu-link">
                   Master of Science (Physics)
                 </Link>
-                <Link to="/ug-courses-list" className="menu-link">
+                <Link href="/course-single" className="menu-link">
                   Master of Physiotherapy (MPT)
                 </Link>
-                <Link to="/ug-courses-list" className="menu-link">
+                <Link href="/course-single" className="menu-link">
                   Master of Science (Nursing)
                 </Link>
-                <Link to="/ug-courses-list" className="menu-link">
-                  Master of Science (Nursing)
-                </Link>
-                <Link to="/ug-courses-list" className="menu-link">
+                <Link href="/course-single" className="menu-link">
                   Master of Science (Medical Imaging Teachnology)
                 </Link>
               </div>
@@ -246,15 +244,15 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">Information You May Need!!!</h5>
               <div className="menu-items">
-                <a href="" className="menu-link">
+                <a href="https://charusat.ac.in/Downloads/Academic%20Calenders" className="menu-link">
                   Academic Calender
                 </a>
                 <a href="" className="menu-link">
                   Academic Services
                 </a>
-                <a href="" className="menu-link">
+                <Link to="/cdpc" className="menu-link">
                   Career Development and Placements
-                </a>
+                </Link>
                 <a href="" className="menu-link">
                   Distinguished Lecture Series
                 </a>
@@ -330,9 +328,9 @@ const Header = () => {
                 <a href="" className="menu-link">
                   Admission Login
                 </a>
-                <a href="" className="menu-link">
+                <Link to="/admission-reprentatives" className="menu-link">
                   Have a query? Contact Admission Representatives
-                </a>
+                </Link>
                 <a href="" className="menu-link">
                   Need Personal Guidance!!! Talk to us
                 </a>
@@ -342,9 +340,9 @@ const Header = () => {
                 <a href="" className="menu-link">
                   Scholarship
                 </a>
-                <a href="" className="menu-link">
+                <Link to="/transport" className="menu-link">
                   Transportation
-                </a>
+                </Link>
                 <a href="" className="menu-link">
                   Frequently Asked Questions (FAQs)
                 </a>
@@ -354,14 +352,14 @@ const Header = () => {
           <div
             className="menu"
             id="IQAC"
-            onMouseOver={() => {
-              document.getElementById("IQAC").style.display = "grid";
-            }}
-            onMouseOut={() => {
-              document.getElementById("IQAC").style.display = "none";
-            }}
+            // onMouseOver={() => {
+            //   document.getElementById("IQAC").style.display = "grid";
+            // }}
+            // onMouseOut={() => {
+            //   document.getElementById("IQAC").style.display = "none";
+            // }}
           >
-            <div className="menu-div">
+            {/* <div className="menu-div">
               <div className="menu-d border-b">
                 <h5 className="menu-head">Academic Calendars</h5>
                 <div className="menu-items">
@@ -452,7 +450,7 @@ const Header = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div
             className="menu"
@@ -704,9 +702,9 @@ const Header = () => {
                 <a href="" className="menu-link">
                   Cell for Prevention of Sexual Harassment (CPSH)
                 </a>
-                <a href="" className="menu-link">
+                {/* <a href="" className="menu-link">
                   Internal Quality Assurance Cell (IQAC)
-                </a>
+                </a> */}
                 <a href="" className="menu-link">
                   Charusat Rural Education Development Program (CREDP)
                 </a>
@@ -727,7 +725,7 @@ const Header = () => {
                 <a href="" className="menu-link">
                   Data Center @ CHARUSAT - WINCELL
                 </a>
-                <a href="" className="menu-link">
+                <a href="https://scpit.new.knimbus.com/user#/home" className="menu-link">
                   Knowledge Resource Center
                 </a>
                 <a href="" className="menu-link">

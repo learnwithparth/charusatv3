@@ -1,9 +1,4 @@
-
-
-
 const title = "Course Categories";
-
-
 const cscContentList = [
     {
         link: '#',

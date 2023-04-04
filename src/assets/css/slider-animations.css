@@ -279,8 +279,8 @@ button:hover {
   box-sizing: border-box;
   position: absolute;
   width: 100%;
-  top: 56%;
-  left: 60%;
+  top: 45%;
+  left: 55%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }

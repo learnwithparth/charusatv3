@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const desc = [
   "Intelligence with Character is the true goal of Education. Knowledge gives humility, from humility, one attains Character. The Highest Education is that which makes our life in harmony with all existence.",
@@ -18,56 +19,54 @@ const provost_title = "From the Provost's Desk";
 
 export default function messages() {
   return (
-    <section className="about-section style-4 padding-tb">
+    <section className="about-section style-3 padding-tb">
       <div className="container">
         <div className="row">
-          <div className="col-sm-2">
+          <div className="col-3">
+            {/* <span className="subtitle">{subTitle}</span> */}
+            <img
+              src="assets/images/about/President_sir.png"
+              alt="about"
+              className="thumbnail"
+            />
+            <h6 className="subtitle  mt-1">Shri Surendrabhai Patel</h6>
+            <h6 className="subtitle ">President, CHARUSAT</h6>
+          </div>
+          {/* <img src="assets/images/about/President_sir.png" alt="about" />
+            <h6 className="subtitle yellow-color mt-1">
+              Shri Surendrabhai Patel
+            </h6>
+            <h6 className="subtitle yellow-color">President, CHARUSAT</h6> */}
+
+          <div className="col-9">
+            <div className="section-header">
+              <h2 className="subtitle  ">{title}</h2>
+              <p style={{ textAlign: "justify" }}>
+                {desc} &nbsp;&nbsp;&nbsp;&nbsp;
+                <Link to="/PresidentDesk"> Read More >></Link>{" "}
+              </p>
+            </div>
+            <br />
+          </div>
+        </div>
+        <div className="row pt-4">
+          <div className="col-3">
             <div className="about-left ">
-              <div className="about-thumb">
-                <img src="assets/images/about/President_sir.png" alt="about" />
-              </div>
-              <h6 className="subtitle yellow-color mt-1">
-                Shri Surendrabhai Patel
-              </h6>
-              <h6 className="subtitle yellow-color">President, CHARUSAT</h6>
+              <img src="assets/images/about/Provost_RVU.webp" alt="about" />
+
+              <h6 className="subtitle  mt-1">Dr R V Upadhyay</h6>
+              <h6 className="subtitle ">Provost, CHARUSAT</h6>
             </div>
           </div>
-          <div className="col-sm-4">
+          <div className="col-9">
             <div className="about-right">
               <div className="section-header">
                 {/* <span className="subtitle">{subTitle}</span> */}
-                <h2 className="subtitle yellow-color ">{title}</h2>
-                <p style={{ textAlign: "justify", color: "white" }}>{desc}</p>
-                <br />
-                <a href="./PresidentDesk" style={{ color: "yellow" }}>
-                  {" "}
-                  Read More >>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-2">
-            <div className="about-left ">
-              <div className="about-thumb">
-                <img src="assets/images/about/Provost_RVU.webp" alt="about" />
-              </div>
-              <h6 className="subtitle yellow-color mt-1">Dr R V Upadhyay</h6>
-              <h6 className="subtitle yellow-color">Provost, CHARUSAT</h6>
-            </div>
-          </div>
-          <div className="col-sm-4">
-            <div className="about-right">
-              <div className="section-header">
-                {/* <span className="subtitle">{subTitle}</span> */}
-                <h2 className="subtitle yellow-color ">{provost_title}</h2>
-                <p style={{ textAlign: "justify", color: "white" }}>
-                  {provost_desc}
+                <h2 className="subtitle  ">{provost_title}</h2>
+                <p style={{ textAlign: "justify" }}>
+                  {provost_desc} &nbsp; &nbsp;{" "}
+                  <a href="./ProvostDesk"> Read More >></a>
                 </p>
-                <br />
-                <a href="./ProvostDesk" style={{ color: "yellow" }}>
-                  {" "}
-                  Read More >>
-                </a>
               </div>
             </div>
           </div>

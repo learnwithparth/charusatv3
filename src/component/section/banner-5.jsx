@@ -25,20 +25,12 @@ const slides = [
 
 const content = [
   {
-    title: "NAAC 'A+' University ",
-    description: "Take a tour",
+    title: "CHARUSAT",
+    description: "Accreditated with 'A+' Grade by NAAC",
     button: "Apply Now",
-    image: "assets/images/home/s7.webp",
+    image: "assets/images/home/s1-updated.png",
     user: "Luan Gjokaj",
     userProfile: "https://i.imgur.com/JSW6mEk.png",
-  },
-  {
-    title: "Green Campus",
-    description: "Creating a Sustainable and Eco-Friendly Campus Environment",
-    button: "Apply Now",
-    image: "assets/images/home/s9.png",
-    user: "Bruno Vizovskyy",
-    userProfile: "https://i.imgur.com/4KeKvtH.png",
   },
   {
     title: "Laboratories",
@@ -50,11 +42,55 @@ const content = [
     userProfile: "https://i.imgur.com/0Clfnu7.png",
   },
   {
-    title: "Campus Life",
+    title: "Hostels",
     description:
-      "At CHARUSAT, campus life feels just like home - comfortable and content.",
+      "Our hostels give out the vibes of comfort and contentment, just like home",
     button: "Apply Now",
     image: "assets/images/home/s3.webp",
+    user: "Bruno Vizovskyy",
+    userProfile: "https://i.imgur.com/4KeKvtH.png",
+  },
+  {
+    title: "Wifi Campus",
+    description:
+      "Connect with the world on CHARUSAT that is entirely wi-fi enabled",
+    button: "Apply Now",
+    image: "assets/images/home/s4.webp",
+    user: "Bruno Vizovskyy",
+    userProfile: "https://i.imgur.com/4KeKvtH.png",
+  },
+  {
+    title: "Canteen",
+    description:
+      "Wholesome meals served as a part of indian and world cuisines replete with all 5 flavors",
+    button: "Apply Now",
+    image: "assets/images/home/canteen.webp",
+    user: "Bruno Vizovskyy",
+    userProfile: "https://i.imgur.com/4KeKvtH.png",
+  },
+  {
+    title: "Infrastucture",
+    description:
+      "Future-ready acamedic infrastructures with ergonomically designed classrooms, ICT and climatization",
+    button: "Apply Now",
+    image: "assets/images/home/s7.webp",
+    user: "Bruno Vizovskyy",
+    userProfile: "https://i.imgur.com/4KeKvtH.png",
+  },
+  {
+    title: "ATHLETICS & FITNESS",
+    description:
+      "Physical benefits of recreational sports on the sports fields and in gymnasium facilitates. Indoor sports facility for mental endurance and relaxation",
+    button: "Apply Now",
+    image: "assets/images/home/s8.webp",
+    user: "Bruno Vizovskyy",
+    userProfile: "https://i.imgur.com/4KeKvtH.png",
+  },
+  {
+    title: "Green Campus",
+    description: "Creating a Sustainable and Eco-Friendly Campus Environment",
+    button: "Apply Now",
+    image: "assets/images/home/s9.png",
     user: "Bruno Vizovskyy",
     userProfile: "https://i.imgur.com/4KeKvtH.png",
   },
@@ -103,7 +139,7 @@ const BannerFive = () => {
         slidesPerView={1}
         navigation
         autoplay={{
-          delay: 2500,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination, Navigation, EffectFade]}
@@ -126,7 +162,13 @@ const BannerFive = () => {
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
             <div className="inner">
-              <div className="h1 main-text-slider animated-text-front-page">
+              <div
+                className="h1 main-text-slider animated-text-front-page"
+                style={{
+                  fontFamily: "Playfair Display",
+                  fontweight: "700",
+                }}
+              >
                 {item.title}
               </div>
               <br /> <br /> <br /> <br />

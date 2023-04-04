@@ -149,8 +149,7 @@ const FooterThree = () => {
             className="fst-2"
           />
         </div> */}
-        <br />
-        <br />
+
         <footer className="style-2 ">
           <div className="footer-top  padding-tb ">
             <div className="container">

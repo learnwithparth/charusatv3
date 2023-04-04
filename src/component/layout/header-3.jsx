@@ -1,5 +1,7 @@
 import { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
+import Navigation from "../section/Navigation";
+
 import {
   Nav,
   Navbar,
@@ -11,8 +13,6 @@ import {
   Col,
   Row,
 } from "react-bootstrap";
-
-import Navigation from "../section/Navigation";
 
 const HeaderThree = () => {
   const [menuToggle, setMenuToggle] = useState(false);
@@ -48,12 +48,15 @@ const HeaderThree = () => {
         <div className="container">
           <div className="header-top-area">
             <div className="header-top-contact">
+              <i className="icofont-phone"></i>
               <a href="tel:+880123456789">+91-2697-265011/21</a>
-              <a href="mailto:contact@yourmail.com">info@charusat.ac.in</a>
+              &nbsp;&nbsp;
+              <i className="icofont-email"></i>
+              <a href="mailto:info@charusat.ac.in">info@charusat.ac.in</a>
             </div>
             <div className="header-top-reglog">
               <Link to="/accreditation-and-ranking" className="login">
-                Accreditation &amp; Ranking
+                Accreditation & Ranking
               </Link>
 
               <a
@@ -64,10 +67,7 @@ const HeaderThree = () => {
                 {" "}
                 Alumni
               </a>
-              <Link to="/coming-soon" className="login">
-                Student Corner
-              </Link>
-              {/* <a href="./ComingSoon"></a> */}
+              <a href="./coming-soon">Student Corner</a>
 
               {/* <Link to="/careers" className="login">
                 Careers
@@ -90,7 +90,17 @@ const HeaderThree = () => {
                 Pay Fees
               </a>
               <Link to="/donation">
-                <span>Support CHARUSAT</span>
+                <span
+                  style={{
+                    backgroundColor: "#3db166",
+                    lineHeight: 2,
+                    padding: "20px",
+                    fontWeight: 600,
+                    fontSize: "16px",
+                  }}
+                >
+                  Support CHARUSAT
+                </span>
               </Link>
             </div>
           </div>
