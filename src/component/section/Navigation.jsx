@@ -386,7 +386,10 @@ const Header = () => {
                 <Link to="/transport" className="menu-link">
                   Transportation
                 </Link>
-                <a href="" className="menu-link">
+                <a
+                  href="https://www.charusat.ac.in/files/CHARUSAT%20Admission%20FAQ%2004-06-2022.pdf"
+                  className="menu-link"
+                >
                   Frequently Asked Questions (FAQs)
                 </a>
               </div>
