@@ -36,7 +36,6 @@ const Header = () => {
                   className="link"
                   onMouseOver={() => {
                     document.getElementById("Admission").style.display = "grid";
-
                   }}
                   onMouseOut={() => {
                     document.getElementById("Admission").style.display = "none";
@@ -260,16 +259,21 @@ const Header = () => {
                 <a href="" className="menu-link">
                   Distinguished Lecture Series
                 </a>
-                <a href="" className="menu-link">
+                <Link to="/edic" className="menu-link">
                   Entrepreneurship and Innovations
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <a href="#" className="menu-link">
                   Endowment Chairs
                 </a>
-                <a href="" className="menu-link">
+                <a href="#" className="menu-link">
                   Initiatives
                 </a>
-                <a href="" className="menu-link">
+                <a
+                  href="https://scpit.knimbus.com/user#/home"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="menu-link"
+                >
                   Knowledge Resource Center
                 </a>
                 <a href="" className="menu-link">
@@ -295,16 +299,31 @@ const Header = () => {
             <div className="menu-div">
               <h5 className="menu-head">National</h5>
               <div className="menu-items">
-                <a href="https://charusat-admissions.extraaedge.com/" className="menu-link">
+                <a
+                  href="https://charusat-admissions.extraaedge.com/"
+                  className="menu-link"
+                >
                   Apply Now
                 </a>
-                <a href="" className="menu-link">
+                <a
+                  href="https://charusat.ac.in/admission/doc/AdmissionsEligibility.pdf"
+                  target="_blank"
+                  className="menu-link"
+                  rel="noopener noreferrer"
+                >
                   Eligibility Criteria
                 </a>
-                <a href="" className="menu-link">
+                <a
+                  href="https://charusat.ac.in/files/CHARUSAT%20Admission%20FAQ%2004-06-2022.pdf"
+                  className="menu-link"
+                >
                   Fees
                 </a>
-                <a href="" className="menu-link">
+                <a href="#" className="menu-link">
+                  <i
+                    class="icofont-brand-whatsapp"
+                    style={{ color: "#3db166" }}
+                  ></i>{" "}
                   +91 8905500500
                 </a>
               </div>
@@ -312,16 +331,30 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">International</h5>
               <div className="menu-items">
-                <a href="https://charusat-admissions.extraaedge.com/" className="menu-link">
+                <a
+                  href="https://charusat-admissions.extraaedge.com/"
+                  className="menu-link"
+                >
                   Apply Now
                 </a>
-                <a href="" className="menu-link">
+                <a
+                  href="https://charusat.ac.in/international/Eligibility_criteria.pdf"
+                  target="_blank"
+                  className="menu-link"
+                >
                   Eligibility Criteria
                 </a>
-                <a href="" className="menu-link">
+                <a
+                  href="https://charusat.ac.in/international/International_Fee.pdf"
+                  className="menu-link"
+                >
                   Fees
                 </a>
-                <a href="" className="menu-link">
+                <a href="#" className="menu-link">
+                  <i
+                    class="icofont-brand-whatsapp"
+                    style={{ color: "#3db166" }}
+                  ></i>{" "}
                   +91 9173701614
                 </a>
               </div>
@@ -329,7 +362,10 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">Other</h5>
               <div className="menu-items">
-                <a href="" className="menu-link">
+                <a
+                  href="https://charusat-admissions.extraaedge.com/"
+                  className="menu-link"
+                >
                   Admission Login
                 </a>
                 <Link to="/admission-reprentatives" className="menu-link">

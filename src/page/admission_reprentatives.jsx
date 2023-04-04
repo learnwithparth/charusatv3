@@ -19,7 +19,7 @@ const Admission_Reprentatives = () => {
                       <div className="post-item style-2">
                         <div className="post-inner">
                           <div className="post-content">
-                            <h3>Admission Representatives @CHARUSAT</h3>
+                            <h3>Admission Representatives </h3>
 
                             <br />
 
@@ -71,9 +71,7 @@ const Admission_Reprentatives = () => {
                                       Technology
                                     </h6>
                                     <p>Computer Engineering</p>
-                                    <div className="p-2 bg-green">
-                                      Mrs Mayuri Popat, Assistant Professor
-                                    </div>
+                                    <p>Mrs Mayuri Popat, Assistant Professor</p>
                                     <p>
                                       <i className="icofont-email"></i>{" "}
                                       admission_cspit_ce@charusat.ac.in

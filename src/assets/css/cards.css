@@ -8,6 +8,9 @@
 p {
   color: #fff;
 }
+.post-item.style-2 .post-inner .post-content p {
+  color: #fff;
+}
 .bg-green {
   color: #3db166 !important;
   font-weight: 600;
