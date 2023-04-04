@@ -18,19 +18,22 @@ const Certification_Courses = () => {
                       <div className="post-item style-2">
                         <div className="post-inner">
                           <div className="post-content">
-                            <h3>Certification Courses & Non-credit Courses</h3>
+                            <h3>Certification Courses </h3>
+                            <br />
+                            <br />
                             <br />
                             <Container>
-                              <Row className="p-2">
-                                <Col>
-                                  <div className="col p-2">
-                                    <div className="course-item style-4">
-                                      <div className="course-inner pb-4">
+                              <Row className="p-2 text-center">
+                                <Col className="p-2">
+                                  <div>
+                                    <div className=" style-4">
+                                      <div className="course-inner pb-2">
                                         <a
                                           href="https://asc.charusat.ac.in"
                                           target="_blank"
+                                          rel="noopener noreferrer"
                                         >
-                                          <div className="course-thumb p-4">
+                                          <div className="course-thumb p-2">
                                             <img
                                               src={aws_img}
                                               alt={"AWS Student Club (ASC)"}
@@ -52,11 +55,103 @@ const Certification_Courses = () => {
                                     </div>
                                   </div>
                                 </Col>
-                                <Col></Col>
-                                <Col></Col>
-                                <Col></Col>
+                                <Col className="p-2">
+                                  <div>
+                                    <div className=" style-4">
+                                      <div className="course-inner pb-2">
+                                        <a
+                                          href="https://asc.charusat.ac.in"
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                        >
+                                          <div className="course-thumb p-2">
+                                            <img
+                                              src={aws_img}
+                                              alt={"AWS Student Club (ASC)"}
+                                            />
+                                          </div>
+
+                                          <div className="text-center">
+                                            {/* <div className="course-category">
+                                              <div className="course-cate">
+                                                <a href="#">
+                                                  AWS Student Club (ASC)
+                                                </a>
+                                              </div>
+                                            </div> */}
+                                            <h6>Get More Details</h6>
+                                          </div>
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </Col>
+                                <Col className="p-2">
+                                  <div>
+                                    <div className=" style-4">
+                                      <div className="course-inner pb-2">
+                                        <a
+                                          href="https://asc.charusat.ac.in"
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                        >
+                                          <div className="course-thumb p-2">
+                                            <img
+                                              src={aws_img}
+                                              alt={"AWS Student Club (ASC)"}
+                                            />
+                                          </div>
+
+                                          <div className="text-center">
+                                            {/* <div className="course-category">
+                                              <div className="course-cate">
+                                                <a href="#">
+                                                  AWS Student Club (ASC)
+                                                </a>
+                                              </div>
+                                            </div> */}
+                                            <h6>Get More Details</h6>
+                                          </div>
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </Col>
+                                <Col className="p-2 ">
+                                  <div>
+                                    <div className=" style-4">
+                                      <div className="course-inner pb-2">
+                                        <a
+                                          href="https://asc.charusat.ac.in"
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                        >
+                                          <div className="course-thumb p-2">
+                                            <img
+                                              src={aws_img}
+                                              alt={"AWS Student Club (ASC)"}
+                                            />
+                                          </div>
+
+                                          <div className="text-center">
+                                            {/* <div className="course-category">
+                                              <div className="course-cate">
+                                                <a href="#">
+                                                  AWS Student Club (ASC)
+                                                </a>
+                                              </div>
+                                            </div> */}
+                                            <h6>Get More Details</h6>
+                                          </div>
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </Col>
                               </Row>
                             </Container>
+                            <br />
+                            <br />
                           </div>
                         </div>
                       </div>
