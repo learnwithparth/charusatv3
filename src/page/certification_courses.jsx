@@ -18,36 +18,26 @@ const Certification_Courses = () => {
                       <div className="post-item style-2">
                         <div className="post-inner">
                           <div className="post-content">
-                            <h3>
-                              Certification Courses & Non-credit Courses
-                              @CHARUSAT
-                            </h3>
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              adipisicing elit. Pariatur quas ratione quae unde
-                              dolores, minus quisquam sunt odit deleniti
-                              distinctio non explicabo tenetur quaerat, maxime
-                              voluptates aperiam iusto architecto perspiciatis.
-                            </p>
+                            <h3>Certification Courses & Non-credit Courses</h3>
                             <br />
                             <Container>
                               <Row className="p-2">
                                 <Col>
-                                  <div className="col">
+                                  <div className="col p-2">
                                     <div className="course-item style-4">
-                                      <div className="course-inner">
-                                        <div className="course-thumb">
-                                          <img
-                                            src={aws_img}
-                                            alt={"AWS Student Club (ASC)"}
-                                          />
-                                        </div>
+                                      <div className="course-inner pb-4">
+                                        <a
+                                          href="https://asc.charusat.ac.in"
+                                          target="_blank"
+                                        >
+                                          <div className="course-thumb p-4">
+                                            <img
+                                              src={aws_img}
+                                              alt={"AWS Student Club (ASC)"}
+                                            />
+                                          </div>
 
-                                        <div className="course-content">
-                                          <a
-                                            href="https://asc.charusat.ac.in"
-                                            target="_blank"
-                                          >
+                                          <div className="text-center">
                                             {/* <div className="course-category">
                                               <div className="course-cate">
                                                 <a href="#">
@@ -56,8 +46,8 @@ const Certification_Courses = () => {
                                               </div>
                                             </div> */}
                                             <h6>Get More Details</h6>
-                                          </a>
-                                        </div>
+                                          </div>
+                                        </a>
                                       </div>
                                     </div>
                                   </div>
