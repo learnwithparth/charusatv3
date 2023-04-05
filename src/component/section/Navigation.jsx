@@ -71,16 +71,12 @@ const Header = () => {
                     Research
                   </a>
                 </li>
-                <li
-                  className="link"
-                  onMouseOver={() => {
-                    document.getElementById("IQAC").style.display = "grid";
-                  }}
-                  onMouseOut={() => {
-                    document.getElementById("IQAC").style.display = "none";
-                  }}
-                >
-                  <a id="IQAC-link" href="">
+                <li className="link">
+                  <a
+                    id="IQAC-link"
+                    target="_blank"
+                    href="https://iqac.charusat.ac.in/"
+                  >
                     IQAC
                   </a>
                 </li>
@@ -511,52 +507,52 @@ const Header = () => {
             <div className="menu-div">
               <h5 className="menu-head">Activity & Events</h5>
               <div className="menu-items">
-                <a href="" className="menu-link">
+                <Link to="/coming-soon" className="menu-link">
                   NCC@CHARUSAT
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   NSS@CHARUSAT
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Sports & Gym
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Student Activities & Events
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Student Clubs
-                </a>
+                </Link>
               </div>
             </div>
             <div className="menu-div border-left">
               <h5 className="menu-head">Residencies & Amenities</h5>
               <div className="menu-items">
-                <a href="" className="menu-link">
+                <Link to="/hostels" className="menu-link">
                   Girl's Hostel
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Boy's Hostel
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Staff Quarters
-                </a>
-                <a href="" className="menu-link">
-                  Food
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
+                  Food / Canteen
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Transportation
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Recreation
-                </a>
+                </Link>
               </div>
             </div>
             <div className="menu-div border-left">
               <h5 className="menu-head">Student Helpline</h5>
               <div className="menu-items">
-                <a href="" className="menu-link">
+                <Link to="/coming-soon" className="menu-link">
                   Helpline Contacts
-                </a>
+                </Link>
               </div>
             </div>
           </div>
