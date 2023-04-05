@@ -30,7 +30,7 @@ const Convocations = () => {
                       <div className="post-item style-2">
                         <div className="post-inner">
                           <div className="post-content">
-                            <h3>Convocations @CHARUSAT</h3>
+                            <h3>Convocations </h3>
                             <hr />
 
                             <Container>

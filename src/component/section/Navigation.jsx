@@ -681,15 +681,15 @@ const Header = () => {
                   <Link to="/president-desk" className="menu-link">
                     From President's Desk
                   </Link>
-                  <a href="" className="menu-link">
-                    From President's Desk
-                  </a>
-                  <a href="" className="menu-link">
+                  <Link to="/provost-desk" className="menu-link">
+                    From Provost's Desk
+                  </Link>
+                  <Link to="/coming-soon" className="menu-link">
                     Students' Reviews
-                  </a>
-                  <a href="" className="menu-link">
+                  </Link>
+                  <Link to="/convocations" className="menu-link">
                     Convocations
-                  </a>
+                  </Link>
                 </div>
               </div>
 
