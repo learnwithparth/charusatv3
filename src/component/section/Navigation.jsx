@@ -666,21 +666,21 @@ const Header = () => {
               <div className="menu-d border-b">
                 <h5 className="menu-head">About University</h5>
                 <div className="menu-items">
-                  <a href="" className="menu-link">
+                  <Link to="/about" className="menu-link">
                     About University
-                  </a>
-                  <a href="" className="menu-link">
+                  </Link>
+                  <Link to="/coming-soon" className="menu-link">
                     Vision
-                  </a>
-                  <a href="" className="menu-link">
+                  </Link>
+                  <Link to="/coming-soon" className="menu-link">
                     Mission
-                  </a>
-                  <a href="" className="menu-link">
+                  </Link>
+                  <Link to="/coming-soon" className="menu-link">
                     Torchbearers
-                  </a>
-                  <a href="" className="menu-link">
+                  </Link>
+                  <Link to="/president-desk" className="menu-link">
                     From President's Desk
-                  </a>
+                  </Link>
                   <a href="" className="menu-link">
                     From President's Desk
                   </a>

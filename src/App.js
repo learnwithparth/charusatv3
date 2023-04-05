@@ -114,8 +114,8 @@ function App() {
         <Route path="/research" element={<ResearchPage />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/student-development-Initiatives" element={<SDI />} />
-        <Route path="/ProvostDesk" element={<ProvostDesk />} />
-        <Route path="/PresidentDesk" element={<PresidentDesk />} />
+        <Route path="/provost-desk" element={<ProvostDesk />} />
+        <Route path="/president-desk" element={<PresidentDesk />} />
         <Route path="/associates" element={<People />} />
         <Route path="/accreditation-and-ranking" element={<Accreditation />} />
         <Route path="/announcements" element={<Announcements />} />
@@ -124,8 +124,8 @@ function App() {
         <Route path="/coming-soon" element={<ComingSoon />} />
         <Route path="/error" element={<ErrorPage />} />
         <Route path="*" element={<Home />} />
-        <Route path="/edic" element={<Edic/>}/>
-        <Route path="/scholarship" element={<Scholarship/>}/>
+        <Route path="/edic" element={<Edic />} />
+        <Route path="/scholarship" element={<Scholarship />} />
         {/*  ------  */}
 
         {/* http://preview.themeforest.net/item/edukon-education-and-lms-react-js-template/full_screen_preview/38286924?_ga=2.76967702.264634929.1671012406-1346785869.1667801964 */}
