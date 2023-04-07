@@ -714,71 +714,71 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">Centers & Cells</h5>
               <div className="menu-items">
-                <a href="" className="menu-link">
+                <Link to="/coming-soon" className="menu-link">
                   Anti-Ragging Committee
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Equal Opportunity Cell (EOC)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Energy Conservation Cell (ECC)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Grievance Redressal Cell (GRC)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/edic" className="menu-link">
                   Enterpreneurship Development & Incubation Cell (EDIC)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   University Industry Interaction Cell (UIIC)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Womens' Development Cell (WDC)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Pri. B I Patel Human Resource Development Center (HRDC)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   International Students' Cell (ISC)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Cell for Prevention of Sexual Harassment (CPSH)
-                </a>
+                </Link>
                 {/* <a href="" className="menu-link">
                   Internal Quality Assurance Cell (IQAC)
                 </a> */}
-                <a href="" className="menu-link">
+                <Link to="/coming-soon" className="menu-link">
                   Charusat Rural Education Development Program (CREDP)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Student Wellness Programme (SWP)
-                </a>
+                </Link>
               </div>
             </div>
             <div className="menu-div border-left">
               <h5 className="menu-head">Infrastructure & Resources</h5>
               <div className="menu-items">
-                <a href="" className="menu-link">
+                <Link to="/coming-soon" className="menu-link">
                   Auditoria & Lectures Halls
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Laboratories
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/wincell" className="menu-link">
                   Data Center @ CHARUSAT - WINCELL
-                </a>
+                </Link>
                 <a
                   href="https://scpit.new.knimbus.com/user#/home"
                   className="menu-link"
                 >
                   Knowledge Resource Center
                 </a>
-                <a href="" className="menu-link">
+                <Link to="/coming-soon" className="menu-link">
                   Sports & Gym
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Herbal Garden
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -787,35 +787,35 @@ const Header = () => {
               <div className="menu-d border-b">
                 <h5 className="menu-head">Visit</h5>
                 <div className="menu-items">
-                  <a href="" className="menu-link">
+                  <Link to="/coming-soon" className="menu-link">
                     360 Campus Tour
-                  </a>
+                  </Link>
                 </div>
               </div>
 
               <div className="menu-d border-b">
                 <h5 className="menu-head">Reach US</h5>
                 <div className="menu-items">
-                  <a href="" className="menu-link">
+                  <Link to="/contact-us" className="menu-link">
                     Connect with CHARUSAT
-                  </a>
-                  <a href="" className="menu-link">
+                  </Link>
+                  <Link to="/coming-soon" className="menu-link">
                     Lodge Complaint
-                  </a>
-                  <a href="" className="menu-link">
+                  </Link>
+                  <Link to="/coming-soon" className="menu-link">
                     Faculty & Staff Directory
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="menu-d">
                 <h5 className="menu-head">Others</h5>
                 <div className="menu-items">
-                  <a href="" className="menu-link">
+                  <Link to="/coming-soon" className="menu-link">
                     Give & Support
-                  </a>
-                  <a href="" className="menu-link">
+                  </Link>
+                  <Link to="/coming-soon" className="menu-link">
                     Reports
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
