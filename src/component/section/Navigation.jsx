@@ -570,85 +570,85 @@ const Header = () => {
             <div className="menu-div">
               <h5 className="menu-head">Initiatives</h5>
               <div className="menu-items">
-                <a href="" className="menu-link">
+                <Link to="/coming-soon" className="menu-link">
                   Laboratories
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   CHARUSAT Journal
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Enterpreneurship Development & Incubation Cell (EDIC)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Dr. K. C. Patel Research and Development Centre (KRADLE)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   International Center for Cosmology (ICC)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   IPR Cell
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/research" className="menu-link">
                   Research Facilitation
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   CHARUSAT Space Research Center
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Research Ethics Committee
-                </a>
+                </Link>
               </div>
             </div>
             <div className="menu-div border-left">
               <h5 className="menu-head">Policies</h5>
               <div className="menu-items">
-                <a href="" className="menu-link">
+                <Link to="/coming-soon" className="menu-link">
                   Publications
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   CHARUSAT Ph. D. Scholars’ Fellowship (CPSF)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   CHARUSAT Visitor Student Research Internship (CVSRI)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Postgraduate Student Fellowship (PGSF)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   CHARUSAT SEED Grant for Research (CSGR)
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Research
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Research Paper Award
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Intellectual Property
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Plagiarism
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Patent, IPR and Royalty Sharing
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Consultancy
-                </a>
+                </Link>
               </div>
             </div>
             <div className="menu-div border-left">
               <h5 className="menu-head">Outcomes</h5>
               <div className="menu-items">
-                <a href="" className="menu-link">
+                <Link to="/coming-soon" className="menu-link">
                   Publications
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Project Grants
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="/coming-soon" className="menu-link">
                   Patents
-                </a>
+                </Link>
               </div>
             </div>
           </div>
