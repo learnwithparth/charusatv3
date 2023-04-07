@@ -696,18 +696,18 @@ const Header = () => {
               <div className="menu-d">
                 <h5 className="menu-head">Governing Members</h5>
                 <div className="menu-items">
-                  <a href="" className="menu-link">
+                  <Link to="/people" className="menu-link">
                     Governing Body
-                  </a>
-                  <a href="" className="menu-link">
+                  </Link>
+                  <Link to="/people" className="menu-link">
                     Board of Management
-                  </a>
-                  <a href="" className="menu-link">
+                  </Link>
+                  <Link to="/people" className="menu-link">
                     Deans, Principals & Heads
-                  </a>
-                  <a href="" className="menu-link">
+                  </Link>
+                  <Link to="/people" className="menu-link">
                     University Officers
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
