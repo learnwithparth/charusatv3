@@ -150,7 +150,7 @@ const BannerFive = () => {
           <SwiperSlide
             className="slider-content"
             style={{
-              height: "850px",
+              height: "750px",
               width: "100%",
               // background: `url('${item.image}') no-repeat center center`,
             }}
