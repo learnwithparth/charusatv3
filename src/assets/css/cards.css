@@ -24,3 +24,7 @@ p {
 .card:hover h6 {
   color: #ffffff;
 } */
+
+.card p {
+  color: #3db166 !important;
+}
