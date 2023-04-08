@@ -64,7 +64,7 @@ const eventSliderList = [
 
 export default function initiatives() {
   return (
-    <div className="event-section style-2  section-bg-ash">
+    <div className="event-section style-2 padding-tb section-bg-ash">
       <div className="container">
         <div className="section-header text-center">
           <span className="subtitle ">{subTitle}</span>

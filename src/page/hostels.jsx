@@ -134,7 +134,7 @@ const Hostels = () => {
                               available.For further information contact Jignesh
                               Patel – 98794 38045.
                             </p>
-                            <h4> Mess Facility</h4>
+                            {/* <h4> Mess Facility</h4>
                             <hr />
                             <p>
                               Lorem ipsum dolor sit amet consectetur adipisicing
@@ -142,7 +142,7 @@ const Hostels = () => {
                               deleniti hic eligendi. Obcaecati aliquid repellat
                               error explicabo minus sed doloremque quam mollitia
                               quibusdam? Architecto, molestiae.
-                            </p>
+                            </p> */}
 
                             <br />
                           </div>

@@ -35,20 +35,30 @@ export default function contact(props) {
                     <h3>{props.title}</h3>
                     {/* </Link> */}
                     <div className="meta-post">
-                      <ul className="lab-ul">
+                      <div>
+                        <i className="icofont-ui-user"></i>
+                        &nbsp;{props.name}
+                        <br />
+                        <i className="icofont-email"></i>
+                        &nbsp;{props.email} <br />
+                        <i className="icofont-phone"></i>
+                        {props.phone}
+                      </div>
+                      {/* <ul className="lab-ul">
                         <li>
                           <i className="icofont-ui-user"></i>
-                          {props.name}<br/>
+                          {props.name}
                         </li>
                         <li>
                           <i className="icofont-email"></i>
-                          {props.email}<br/>
+                          {props.email}
+                          <br />
                         </li>
                         <li>
                           <i className="icofont-phone"></i>
                           {props.phone}
                         </li>
-                      </ul>
+                      </ul> */}
                     </div>
                     {/* <Link to="/blog-single" className="lab-btn"><span>{val.btnText} <i className="icofont-external-link"></i></span></Link> */}
                   </div>
