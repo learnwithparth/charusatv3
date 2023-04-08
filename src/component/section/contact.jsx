@@ -36,11 +36,14 @@ export default function contact(props) {
                     {/* </Link> */}
                     <div className="meta-post">
                       <div>
+                        <br />
                         <i className="icofont-ui-user"></i>
                         &nbsp;{props.name}
                         <br />
+                        <br />
                         <i className="icofont-email"></i>
                         &nbsp;{props.email} <br />
+                        <br />
                         <i className="icofont-phone"></i>
                         {props.phone}
                       </div>
