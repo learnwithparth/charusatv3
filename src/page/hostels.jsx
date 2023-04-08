@@ -120,7 +120,7 @@ const Hostels = () => {
                               serve the taste of young students.
                             </p>
 
-                            <h4>Boys' Hostel</h4>
+                            {/* <h4>Boys' Hostel</h4>
                             <hr />
                             <p>
                               Boys’ hostels are outsourced at 8 different
@@ -133,7 +133,7 @@ const Hostels = () => {
                               to the campus and back. Guest rooms are also
                               available.For further information contact Jignesh
                               Patel – 98794 38045.
-                            </p>
+                            </p> */}
                             {/* <h4> Mess Facility</h4>
                             <hr />
                             <p>
