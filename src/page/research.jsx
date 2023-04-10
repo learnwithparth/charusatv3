@@ -201,9 +201,10 @@ const ResearchPage = () => {
                                                     <span> {val.date} </span> */}
                                                 </div>
                                                 
-                                            </div>
-                                            <a href={val.link}><span>{val.desc}</span> <span><i class="icofont-download"></i></span></a>
-                                        </div>
+                                            </div
+                                            >
+                                            <a href={val.link}><span  style={{color:"#555555"}}>{val.desc}</span > <span  style={{color:"#555555"}}><i class="icofont-download"></i></span></a>
+                                        </div>;
                                     </div>
                                 ))}
                             </div>
