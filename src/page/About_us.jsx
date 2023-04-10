@@ -109,8 +109,8 @@ const AboutPage = () => {
       {/* <Skill />
             <AchievementTwo />
             <Blog />*/}
-      <PresidentDesk />
-      <ProvostDesk />
+      {/* <PresidentDesk />
+      <ProvostDesk /> */}
 
       {/* <Skill />
             <AchievementTwo />

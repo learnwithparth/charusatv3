@@ -37,8 +37,9 @@ const VisionMission = () => {
                         <div className="col">
                             <div className="sf-left">
                                 <div className="sfl-thumb">
-                                    <img src="assets/images/feedback/01.jpg" alt="student feedback" />
-                                    <a href="https://www.youtube.com/embed/MU3qrgR2Kkc" className="video-button popup" target="_blank"><i className="icofont-ui-play"></i></a>
+                                <iframe width="615" height="340" src="https://www.youtube-nocookie.com/embed/tNv3Kx5nEsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    {/* <img src="assets/images/feedback/01.jpg" alt="student feedback" />
+                                    <a href="https://www.youtube.com/embed/tNv3Kx5nEsg" className="video-button popup" target="_blank"><i className="icofont-ui-play"></i></a> */}
                                 </div>
                             </div>
                         </div>
