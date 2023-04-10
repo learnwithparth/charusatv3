@@ -359,7 +359,7 @@ const Header = () => {
               <h5 className="menu-head">Other</h5>
               <div className="menu-items">
                 <a
-                  href="https://charusat-admissions.extraaedge.com/"
+                  href="https://admission2023.charusat.ac.in/"
                   className="menu-link"
                 >
                   Admission Login
