@@ -669,13 +669,13 @@ const Header = () => {
                   <Link to="/about" className="menu-link">
                     About University
                   </Link>
-                  <Link to="/coming-soon" className="menu-link">
+                  <Link to="/about" className="menu-link">
                     Vision
                   </Link>
-                  <Link to="/coming-soon" className="menu-link">
+                  <Link to="/about" className="menu-link">
                     Mission
                   </Link>
-                  <Link to="/coming-soon" className="menu-link">
+                  <Link to="/about" className="menu-link">
                     Torchbearers
                   </Link>
                   <Link to="/president-desk" className="menu-link">
