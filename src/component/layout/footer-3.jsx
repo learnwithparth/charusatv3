@@ -114,7 +114,7 @@ const quickList = [
   },
   {
     text: "The Act & First Statutes",
-    link: "../../../files/statutes.pdf",
+    link: "/assests/files/statutes.pdf",
   },
   {
     text: "Policies and Procedures - Support Facilities",
