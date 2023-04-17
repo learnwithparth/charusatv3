@@ -1,8 +1,6 @@
 import { Fragment } from "react";
 import Contact from "../component/section/contact";
-import Image from 'react-bootstrap/Image';
-
-
+import Image from "react-bootstrap/Image";
 
 const Scholarship = () => {
   return (
@@ -21,40 +19,32 @@ const Scholarship = () => {
                           <div className="post-content">
                             <h3>Scholarship</h3>
                             <div className="meta-post">
-                              <Image src="./assets/images/CDPC_banner.jpg"/><br/><br/>
-                              <p></p>
-                              <p style={{"color":"#3db166"}}></p>
-                              <br/>
-                              <p style={{"text-align":"justify"}}></p>
+                              <Image src="./assets/images/CDPC_banner.jpg" />
+                              <br />
+                              <br />
+                              <p>
+                                CHARUSAT offers a variety of scholarships to
+                                encourage and facilitate academic and research
+                                pursuits.
+                              </p>
+                              <p style={{ color: "#3db166" }}></p>
+                              <br />
+                              <p style={{ "text-align": "justify" }}></p>
                             </div>
-                          
-                            
-                            
-                          
                           </div>
-                          
                         </div>
-                        
                       </div>
-                      
                     </div>
-                    
                   </div>
-                  
                 </div>
-                
               </article>
-              
             </div>
-            
+
             <Contact
-                name="Dr. Ashwin Makwana, Head, CDPC || Mr. Divyang Purohit, TPO, CDPC"
-                email="ashwinmakwana.ce@charusat.ac.in || divyangpurohit.tnp@charusat.ac.in"
-                phone="+91-2697-265213 / 265214"
+              name="Dr. Mayur Sutaria Head, IQAC "
+              email="iqac@charusat.ac.in"
+              phone="+91-2697-265213"
             />
-              
-            
-            
           </div>
         </div>
       </div>
