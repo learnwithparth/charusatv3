@@ -5,8 +5,8 @@ const title = "News";
 
 export default function newsFrontPage() {
   return (
-    <div className="style-2  ">
-      <div className="container">
+    <div className="style-2 pb-3  ">
+      <div className="container ">
         <div className="section-header text-center">
           <span className="subtitle ">{subTitle}</span>
           <h2 className="title">{title}</h2>

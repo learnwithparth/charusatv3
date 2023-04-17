@@ -63,7 +63,7 @@ const CodeofConduct = () => {
                                         <td>3</td>
                                         <td>
                                           {" "}
-                                          Administrator
+                                          Administrator{" "}
                                           <a
                                             href="https://charusat.ac.in/documents/pdfs/data_1/Code_Of_Conduct/Administrators%20code%20of%20conduct.pdf"
                                             target="blank"
