@@ -129,9 +129,9 @@ const Header = () => {
                 <h5 className="menu-head">Other Programmes</h5>
                 <div className="menu-items">
                   <Link to="/certification-courses" className="menu-link">
-                    Non-Credit & Certification Courses
+                    Certification & Audit Courses
                   </Link>
-                  <a href="" className="menu-link">
+                  <a href="./coming-soon" className="menu-link">
                     General Nursing & Midwifery (GNM)
                   </a>
                   <a href="./coming-soon" className="menu-link">
