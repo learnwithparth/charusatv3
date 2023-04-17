@@ -18,7 +18,7 @@ const UpcomingEvents = () => {
                       <div className="post-item style-2">
                         <div className="post-inner">
                           <div className="post-content">
-                            <h3>Upcoming Events @CHARUSAT</h3>
+                            <h3>Announcements</h3>
                             <hr />
                             <br />
                             <Container>

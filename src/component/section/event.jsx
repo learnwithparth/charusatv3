@@ -1,5 +1,5 @@
 const subTitle = "Don’t Miss the Day";
-const title = "Upcoming Events";
+const title = "Announcements";
 const desc = "";
 
 const eventListOne = [
@@ -8,40 +8,44 @@ const eventListOne = [
     imgAlt: "upcomming event",
     Date: "13",
     MonthYear: "Nav 2021",
-    title: "The Way of Higher Education & Its Difficulties",
-    Time: "08:30 am",
+    title: "Conference on Ethics Review in Health Research-2023",
+    Time: "",
     Place: " National Auditorium, Dhaka",
   },
 ];
 
 const eventListTwo = [
   {
-    Date: "13",
-    MonthYear: "Nav 2021",
-    title: "Convocation and Celebration 2021",
-    Time: "08:30 am",
-    Place: " National Auditorium, Dhaka",
+    Date: "01",
+    MonthYear: "APR 2023",
+    link: "https://charusat.ac.in/arip/#admission",
+    openInNewTab: true,
+    title: "MPT Admission Open 2023-24",
+    Time: "",
+    Place: " CHARUSAT",
   },
   {
     Date: "15",
     MonthYear: "Nav 2021",
-    title: "Convocation and Celebration 2021",
-    Time: "08:30 am",
-    Place: " National Auditorium, Dhaka",
+    link: "https://charusat.ac.in/pdpias/maths-dept/brochure/Brochure_RProgramming.pdf",
+    openInNewTab: true,
+    title: "Certifcate Course on R Programming for Beginners",
+    Time: "",
+    Place: " CHARUSAT",
   },
   {
     Date: "18",
     MonthYear: "Nav 2021",
-    title: "Convocation and Celebration 2021",
+    title: "DASA Online Reporting Form",
+    link: "https://charusat.ac.in/arip/#admission",
+    openInNewTab: true,
     Time: "08:30 am",
     Place: " National Auditorium, Dhaka",
   },
   {
     Date: "25",
     MonthYear: "Nav 2021",
-    title: "Convocation and Celebration 2021",
-    Time: "08:30 am",
-    Place: " National Auditorium, Dhaka",
+    title: "PG Admission under DASA Scheme",
   },
 ];
 
@@ -76,13 +80,23 @@ const Event = () => {
                             <h3>{val.title}</h3>
                           </a>
                           <ul className="lab-ul">
-                            <li>
-                              <i className="icofont-clock-time"></i> {val.Time}
-                            </li>
-                            <li>
-                              <i className="icofont-google-map"></i>
-                              {val.Place}
-                            </li>
+                            {val.Time ? (
+                              <li>
+                                <i className="icofont-clock-time"></i>
+                                {val.Time}
+                              </li>
+                            ) : (
+                              <span></span>
+                            )}
+
+                            {val.Place ? (
+                              <li>
+                                <i className="icofont-google-map"></i>
+                                {val.Place}
+                              </li>
+                            ) : (
+                              <span></span>
+                            )}
                           </ul>
                         </div>
                       </div>
@@ -104,16 +118,27 @@ const Event = () => {
                           </div>
                         </div>
                         <div className="event-content-info">
-                          <a href="./upcoming-events">
+                          <a href={val.link}>
                             <h5>{val.title}</h5>
                           </a>
                           <ul className="lab-ul">
-                            <li>
-                              <i className="icofont-clock-time"></i> {val.Time}
-                            </li>
-                            <li>
-                              <i className="icofont-google-map"></i> {val.Place}
-                            </li>
+                            {val.Time ? (
+                              <li>
+                                <i className="icofont-clock-time"></i>
+                                {val.Time}
+                              </li>
+                            ) : (
+                              <span></span>
+                            )}
+
+                            {val.Place ? (
+                              <li>
+                                <i className="icofont-google-map"></i>
+                                {val.Place}
+                              </li>
+                            ) : (
+                              <span></span>
+                            )}
                           </ul>
                         </div>
                       </div>
