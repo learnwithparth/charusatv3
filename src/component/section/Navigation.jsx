@@ -115,7 +115,11 @@ const Header = () => {
                   <a href="http://117.239.83.200:9000/" className="menu-link">
                     CharuVidya
                   </a>
-                  <a href="./coming-soon" className="menu-link">
+                  <a
+                    href="http://172.16.11.116/LocalGuru/"
+                    target="_blank"
+                    className="menu-link"
+                  >
                     NPTEL Resources
                   </a>
                 </div>
