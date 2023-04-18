@@ -236,9 +236,9 @@ const Header = () => {
               <div className="menu-d">
                 <h5 className="menu-head">Ph D Programs</h5>
                 <div className="menu-items">
-                  <Link to="./coming-soon" className="menu-link">
+                  <a href="https://charusat.ac.in/files/PhD%20Regulations.pdf" className="menu-link">
                     General Information
-                  </Link>
+                  </a>
                 </div>
               </div>
               <hr />
@@ -256,9 +256,9 @@ const Header = () => {
                 <Link to="/cdpc" className="menu-link">
                   Career Development and Placements
                 </Link>
-                <a href="" className="menu-link">
+                {/* <a href="" className="menu-link">
                   Distinguished Lecture Series
-                </a>
+                </a> */}
                 <Link to="/edic" className="menu-link">
                   Entrepreneurship and Innovations
                 </Link>
