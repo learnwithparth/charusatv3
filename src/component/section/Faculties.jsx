@@ -10,6 +10,7 @@ const CourseData = [
     imgAlt: "CSPIT image",
     cate: "Engineering",
     title: "C S Patel Institute of Technology",
+    link:"https://www.charusat.ac.in/cspit/",
     author: "assets/images/course/author/01.jpg",
     authorName: "William Smith",
     price: "$199.00",
@@ -20,6 +21,7 @@ const CourseData = [
     imgAlt: "Depstar image",
     cate: "Engineering",
     title: "Devang Patel Institute of Advance Technology and Research",
+    link:"https://www.charusat.ac.in/depstar/",
     author: "assets/images/course/author/01.jpg",
     authorName: "William Smith",
     price: "$199.00",
@@ -30,6 +32,7 @@ const CourseData = [
     imgAlt: "RPCP image",
     cate: "Pharmacy",
     title: "Ramanbhai Patel College of Pharmacy",
+    link:"https://www.charusat.ac.in/rpcp/",
     author: "assets/images/course/author/02.jpg",
     authorName: "Angel Mili",
     price: "$199.00",
@@ -40,6 +43,7 @@ const CourseData = [
     imgAlt: "CMPICA image",
     cate: "Computer Science and Application",
     title: "Chandaben Mohanbhai Patel Institute of Computer Application",
+    link:"https://www.charusat.ac.in/cmpica/",
     author: "assets/images/course/author/03.jpg",
     authorName: "Sajahan Sagor",
     price: "$199.00",
@@ -50,6 +54,7 @@ const CourseData = [
     imgAlt: "I2IM image",
     cate: "Management Studies",
     title: "Indukaka Ippcowala Institute of Management",
+    link:"https://www.charusat.ac.in/i2im/",
     author: "assets/images/course/author/04.jpg",
     authorName: "Ummi Nishat",
     price: "$199.00",
@@ -60,6 +65,7 @@ const CourseData = [
     imgAlt: "PDPIAS image",
     cate: "Sciences",
     title: "P. D. Patel Institute of Applied Science",
+    link:"https://www.charusat.ac.in/pdpias/",
     author: "assets/images/course/author/05.jpg",
     authorName: "Rassel Hossin",
     price: "$199.00",
@@ -70,6 +76,7 @@ const CourseData = [
     imgAlt: "MTIN image",
     cate: "Medical Sciences",
     title: "Manikaka Topawala Institute of Nursing",
+    link:"https://www.charusat.ac.in/mtin/",
     author: "assets/images/course/author/06.jpg",
     authorName: "Zinat Zaara",
     price: "$199.00",
@@ -80,6 +87,7 @@ const CourseData = [
     imgAlt: "ARIP image",
     cate: "Medical Sciences",
     title: "Ashok & Rita Patel Institute of Physiotherapy",
+    link:"https://www.charusat.ac.in/arip/",
     author: "assets/images/course/author/01.jpg",
     authorName: "William Smith",
     price: "$199.00",
@@ -90,6 +98,7 @@ const CourseData = [
     imgAlt: "BDIPS image",
     cate: "Medical Sciences",
     title: "Bapubhai Desaibhai Patel Institute of Paramedical Sciences",
+    link:"https://www.charusat.ac.in/cips/",
     author: "assets/images/course/author/02.jpg",
     authorName: "Angel Mili",
     price: "$199.00",
@@ -146,6 +155,7 @@ export default function Faculties() {
                 imgAlt,
                 cate,
                 title,
+                link,
                 author,
                 authorName,
                 price,
@@ -166,9 +176,9 @@ export default function Faculties() {
                         </div>
                       </div>
                       <div className="course-content">
-                        <Link to="/course-single">
+                        <a href={link}>
                           <h5>{title}</h5>
-                        </Link>
+                        </a>
                         {/* <div className="course-footer">
                                                     <div className="course-author">
                                                         <img src={author} alt={imgAlt} />
