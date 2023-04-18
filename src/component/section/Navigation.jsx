@@ -146,6 +146,93 @@ const Header = () => {
                   </Link>
                 </div>
               </div>
+            </div>
+            <div className="menu-div border-left">
+              <h5 className="menu-head">Undergraduate Studies</h5>
+              <div className="menu-items">
+                <Link to="/course-single" className="menu-link">
+                  B.Tech
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  BCA
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  B.Sc(IT)
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  B Pharm (Bachelor of Pharmacy)
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  BBA
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  B.Sc(Biology)
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  BPT(Bachelor of Physiotherapy)
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  B.Sc(Nursing)
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  Bachelor of Optometry (B Optom)
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  B.Sc (Imaging Technology)
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  B.Sc (Medical Technnology)
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  B.Sc (Operation Theatre & Anesthesia Technology)
+                </Link>
+              </div>
+            </div>
+            <div className="menu-div border-left">
+              <h5 className="menu-head">Postgraduate Studies</h5>
+              <div className="menu-items">
+                <Link to="/course-single" className="menu-link">
+                  M.Tech
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  MCA
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  M.Sc(IT)
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  M.Pharm
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  MBA
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  M.Sc (Advanced Organic Chemistry)
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  M.Sc (Biochemistry)
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  M.Sc (Biotechnology)
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  M.Sc (Microbiology)
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  M.Sc (Physics)
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  MPT (Master of Physiotherapy)
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  M.Sc (Nursing)
+                </Link>
+                <Link to="/course-single" className="menu-link">
+                  M.Sc (Medical Imaging Teachnology)
+                </Link>
+              </div>
+            </div>
+            <div className="menu-div border-left">
               <div className="menu-d">
                 <h5 className="menu-head">Ph D Programs</h5>
                 <div className="menu-items">
@@ -154,94 +241,7 @@ const Header = () => {
                   </Link>
                 </div>
               </div>
-            </div>
-            <div className="menu-div border-left">
-              <h5 className="menu-head">Undergraduate Studies</h5>
-              <div className="menu-items">
-                <Link to="/course-single" className="menu-link">
-                  Bachelor of Technology (B Tech)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Bachelor of Computer Application (BCA)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Bachelor Science (Information Technology)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Bachelor of Pharmacy (B Pharm)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Bachelor of Business Administration (BBA)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Bachelor of Science (Biology)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Bachelor of Physiotherapy (BPT)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Bachelor of Science (Nursing)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Bachelor of Optometry (B Optom)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Bachelor of Science (Imaging Technology)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Bachelor of Science (Medical Technnology)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Bachelor of Science (Operation Theatre & Anesthesia
-                  Technology)
-                </Link>
-              </div>
-            </div>
-            <div className="menu-div border-left">
-              <h5 className="menu-head">Postgraduate Studies</h5>
-              <div className="menu-items">
-                <Link to="/course-single" className="menu-link">
-                  Master of Technology (M Tech)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Master of Computer Applications (MCA)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Master of Science (Information Technology)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Master of Pharmacy (M Pharm)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Master of Business Administration (MBA)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Master of Science (Advanced Organic Chemistry)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Master of Science (Biochemistry)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Master of Science (Biotechnology)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Master of Science (Microbiology)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Master of Science (Physics)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Master of Physiotherapy (MPT)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Master of Science (Nursing)
-                </Link>
-                <Link to="/course-single" className="menu-link">
-                  Master of Science (Medical Imaging Teachnology)
-                </Link>
-              </div>
-            </div>
-            <div className="menu-div border-left">
+              <hr />
               <h5 className="menu-head">Information You May Need!!!</h5>
               <div className="menu-items">
                 <a
