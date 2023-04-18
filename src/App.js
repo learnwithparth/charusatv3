@@ -67,6 +67,7 @@ import Announcements from "./page/announcements";
 import UpcomingEvents from "./page/upcoming-events";
 import ComingSoon from "./page/ComingSoon";
 import Edic from "./page/edic";
+import StudentCorner from "./page/student-corner";
 
 function App() {
   // const basename = document.querySelector('base')?.getAttribute('href') ?? '/'    ;
@@ -113,7 +114,7 @@ function App() {
         <Route path="/ethics" element={<Ethics />} />
         <Route path="/research" element={<ResearchPage />} />
         <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/student-development-Initiatives" element={<SDI />} />
+        <Route path="/student-development-initiatives" element={<SDI />} />
         <Route path="/provost-desk" element={<ProvostDesk />} />
         <Route path="/president-desk" element={<PresidentDesk />} />
         <Route path="/associates" element={<People />} />
@@ -121,12 +122,13 @@ function App() {
         <Route path="/announcements" element={<Announcements />} />
         <Route path="/student-wellness-program" element={<WellnessProgram />} />
         <Route path="/upcoming-events" element={<UpcomingEvents />} />
+        <Route path="/edic" element={<Edic />} />
+        <Route path="/scholarship" element={<Scholarship />} />
+        <Route path="/student-corner" element={<StudentCorner />} />
+
         <Route path="/coming-soon" element={<ComingSoon />} />
         <Route path="/error" element={<ErrorPage />} />
         <Route path="*" element={<Home />} />
-        <Route path="/edic" element={<Edic />} />
-        <Route path="/scholarship" element={<Scholarship />} />
-        {/*  ------  */}
 
         {/* http://preview.themeforest.net/item/edukon-education-and-lms-react-js-template/full_screen_preview/38286924?_ga=2.76967702.264634929.1671012406-1346785869.1667801964 */}
 

@@ -115,7 +115,11 @@ const Header = () => {
                   <a href="http://117.239.83.200:9000/" className="menu-link">
                     CharuVidya
                   </a>
-                  <a href="./coming-soon" className="menu-link">
+                  <a
+                    href="http://172.16.11.116/LocalGuru/"
+                    target="_blank"
+                    className="menu-link"
+                  >
                     NPTEL Resources
                   </a>
                 </div>
@@ -125,9 +129,9 @@ const Header = () => {
                 <h5 className="menu-head">Other Programmes</h5>
                 <div className="menu-items">
                   <Link to="/certification-courses" className="menu-link">
-                    Non-Credit & Certification Courses
+                    Certification & Audit Courses
                   </Link>
-                  <a href="" className="menu-link">
+                  <a href="./coming-soon" className="menu-link">
                     General Nursing & Midwifery (GNM)
                   </a>
                   <a href="./coming-soon" className="menu-link">

@@ -5,53 +5,66 @@ const desc = "";
 const eventListOne = [
   {
     imgUrl: "assets/images/event/01.jpg",
-    imgAlt: "upcomming event",
-    Date: "13",
-    MonthYear: "Nav 2021",
-    title: "Conference on Ethics Review in Health Research-2023",
+    imgAlt: "Conference on Ethics Review in Health Research",
+    Date: "28",
+    MonthYear: "APR 2023",
+    link: "https://charusat.ac.in/files/Conference on Ethics Review in Health Research.pdf",
+    title: "Conference on Ethics Review in Health Research",
     Time: "",
-    Place: " National Auditorium, Dhaka",
+    Place: "CHARUSAT, MTIN-Auditorium",
   },
 ];
 
 const eventListTwo = [
   {
-    Date: "01",
+    Date: "10",
     MonthYear: "APR 2023",
-    link: "https://charusat.ac.in/arip/#admission",
+    link: "https://rb.gy/f7qfd",
     openInNewTab: true,
-    title: "MPT Admission Open 2023-24",
+    title:
+      "Registration form for CHARUSAT CAMPUS VISIT from Ahmedabad and Vadodara",
     Time: "",
     Place: " CHARUSAT",
   },
   {
-    Date: "15",
-    MonthYear: "Nav 2021",
+    Date: "28",
+    MonthYear: "APR 2023",
+    link: "https://charusat.ac.in/files/Conference on Ethics Review in Health Research.pdf",
+    openInNewTab: true,
+    title: "Conference on Ethics Review in Health Research",
+    Time: "",
+    Place: " CHARUSAT",
+  },
+
+  {
+    Date: "22",
+    MonthYear: "May 2023",
     link: "https://charusat.ac.in/pdpias/maths-dept/brochure/Brochure_RProgramming.pdf",
     openInNewTab: true,
     title: "Certifcate Course on R Programming for Beginners",
     Time: "",
     Place: " CHARUSAT",
   },
-  {
-    Date: "18",
-    MonthYear: "Nav 2021",
-    title: "DASA Online Reporting Form",
-    link: "https://charusat.ac.in/arip/#admission",
-    openInNewTab: true,
-    Time: "08:30 am",
-    Place: " National Auditorium, Dhaka",
-  },
-  {
-    Date: "25",
-    MonthYear: "Nav 2021",
-    title: "PG Admission under DASA Scheme",
-  },
+
+  // {
+  //   Date: "18",
+  //   MonthYear: "Nav 2021",
+  //   title: "DASA Online Reporting Form",
+  //   link: "https://charusat.ac.in/arip/#admission",
+  //   openInNewTab: true,
+  //   Time: "08:30 am",
+  //   Place: " National Auditorium, Dhaka",
+  // },
+  // {
+  //   Date: "25",
+  //   MonthYear: "Nav 2021",
+  //   title: "PG Admission under DASA Scheme",
+  // },
 ];
 
 const Event = () => {
   return (
-    <div className="event-section padding-tb">
+    <div className="event-section ">
       <div className="container">
         <div className="section-header text-center">
           <span className="subtitle">{subTitle}</span>
@@ -76,7 +89,7 @@ const Event = () => {
                           </div>
                         </div>
                         <div className="event-content-info">
-                          <a href="./upcoming-events">
+                          <a href={val.link}>
                             <h3>{val.title}</h3>
                           </a>
                           <ul className="lab-ul">
