@@ -131,16 +131,16 @@ const Header = () => {
                   <Link to="/certification-courses" className="menu-link">
                     Certification & Audit Courses
                   </Link>
-                  <a href="./coming-soon" className="menu-link">
+                  <Link to="./course-single" className="menu-link">
                     General Nursing & Midwifery (GNM)
-                  </a>
-                  <a href="./coming-soon" className="menu-link">
+                  </Link>
+                  <Link to="./course-single" className="menu-link">
                     Post Graduation Diploma in Clinical Hypnosis (PGDCH)
-                  </a>
+                  </Link>
                   <a href="https://pgdcs.charusat.ac.in/" className="menu-link">
                     Post Graduation Diploma in Cyber Security (PGDCS)
                   </a>
-                  <Link to="./coming-soon" className="menu-link">
+                  <Link to="./course-single" className="menu-link">
                     Post Graduation Diploma in Medical Laboratory Technology
                     (PGDMLT)
                   </Link>
@@ -150,10 +150,10 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">Undergraduate Studies</h5>
               <div className="menu-items">
-                <Link to="/course-single" className="menu-link">
+                <Link to="./course-single" className="menu-link">
                   B.Tech
                 </Link>
-                <Link to="/course-single" className="menu-link">
+                <Link to="./course-single" className="menu-link">
                   BCA
                 </Link>
                 <Link to="/course-single" className="menu-link">
@@ -250,10 +250,10 @@ const Header = () => {
                 >
                   Academic Calender
                 </a>
-                <a href="" className="menu-link">
+                <Link to="./student-corner" className="menu-link">
                   Academic Services
-                </a>
-                <Link to="/cdpc" className="menu-link">
+                </Link>
+                <Link to="./cdpc" className="menu-link">
                   Career Development and Placements
                 </Link>
                 {/* <a href="" className="menu-link">
@@ -265,23 +265,22 @@ const Header = () => {
                 <a href="#" className="menu-link">
                   Endowment Chairs
                 </a>
-                <a href="#" className="menu-link">
+                <Link to="./student-development-initiatives" className="menu-link">
                   Initiatives
-                </a>
-                <a
-                  href="https://scpit.knimbus.com/user#/home"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                </Link>
+                <Link
+                  to="./library"
+                  
                   className="menu-link"
                 >
                   Knowledge Resource Center
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                <Link to="./code-of-conduct" className="menu-link">
                   Code of Conduct
-                </a>
-                <a href="" className="menu-link">
+                </Link>
+                {/* <a href="" className="menu-link">
                   Academic Regulations
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
