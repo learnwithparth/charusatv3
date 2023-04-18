@@ -75,91 +75,89 @@ const Accreditation = () => {
                             <div className="col-lg-6">
                               <Cycle2 />
                             </div>
-                            
+
                             <div className="col-lg-6">
                               <Cycle1 />
                             </div>
-                            
                           </div>
                           <br />
                         </div>
-                        </div>
-                        <div className="accordion-item">
-                          <div className="accordion-header" id="accordion02">
-                            <button
-                              className="d-flex flex-wrap justify-content-between"
-                              data-bs-toggle="collapse"
-                              data-bs-target="#videolist2"
-                              aria-expanded="true"
-                              aria-controls="videolist2"
-                            >
-                              {" "}
-                              <span>Ranking</span>{" "}
-                              <span>
-                                <i class="icofont-square-down"></i>
-                              </span>{" "}
-                            </button>
-                          </div>
-                          <div
-                            id="videolist2"
-                            className="accordion-collapse collapse"
-                            aria-labelledby="accordion02"
-                            data-bs-parent="#accordionExample"
+                      </div>
+                      <div className="accordion-item">
+                        <div className="accordion-header" id="accordion02">
+                          <button
+                            className="d-flex flex-wrap justify-content-between"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#videolist2"
+                            aria-expanded="true"
+                            aria-controls="videolist2"
                           >
-                            <div className="row">
-                              <div className="col-lg-6">
-                                <NIRF />
-                              </div>
-
-                              <div className="col-lg-6">
-                                <GSIRF />
-                              </div>
+                            {" "}
+                            <span>Ranking</span>{" "}
+                            <span>
+                              <i class="icofont-square-down"></i>
+                            </span>{" "}
+                          </button>
+                        </div>
+                        <div
+                          id="videolist2"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="accordion02"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div className="row">
+                            <div className="col-lg-6">
+                              <NIRF />
                             </div>
-                            <br />
+
+                            <div className="col-lg-6">
+                              <GSIRF />
+                            </div>
                           </div>
+                          <br />
                         </div>
-                        <div className="accordion-item">
-                          <div className="accordion-header" id="accordion03">
-                            <button
-                              className="d-flex flex-wrap justify-content-between"
-                              data-bs-toggle="collapse"
-                              data-bs-target="#videolist3"
-                              aria-expanded="true"
-                              aria-controls="videolist3"
-                            >
-                              <span>CoE, Government of Gujarat</span>{" "}
-                              <span>
-                                <i class="icofont-square-down"></i>
-                              </span>{" "}
-                            </button>
-                          </div>
-                          <div
-                            id="videolist3"
-                            className="accordion-collapse collapse"
-                            aria-labelledby="accordion03"
-                            data-bs-parent="#accordionExample"
+                      </div>
+                      <div className="accordion-item">
+                        <div className="accordion-header" id="accordion03">
+                          <button
+                            className="d-flex flex-wrap justify-content-between"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#videolist3"
+                            aria-expanded="true"
+                            aria-controls="videolist3"
                           >
-                            <p>
-                              CHARUSAT has applied to Government of Gujarat for
-                              the grant of the status of Center of Excellence.
-                            </p>
-                            <a
-                              class="lab-btn"
-                              href="https://charusat.ac.in/files/iqac/coe/CoEApplicationData.pdf"
-                            >
-                              <span>Application Data</span>
-                            </a>
-                            <br />
-                            <br />
-                            <a
-                              class="lab-btn"
-                              href="http://www.coegujarat.org/index.aspx"
-                            >
-                              <span>CoE Gujarat Website</span>
-                            </a>
-                          </div>
+                            <span>CoE, Government of Gujarat</span>{" "}
+                            <span>
+                              <i class="icofont-square-down"></i>
+                            </span>{" "}
+                          </button>
                         </div>
-                      
+                        <div
+                          id="videolist3"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="accordion03"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <p>
+                            The Government of Gujarat has granted CHARUSAT the
+                            status of a Center of Excellence.
+                          </p>
+                          <a
+                            class="lab-btn"
+                            href="https://charusat.ac.in/files/iqac/coe/CoEApplicationData.pdf"
+                          >
+                            <span>Application Data</span>
+                          </a>
+                          <br />
+                          <br />
+                          <a
+                            class="lab-btn"
+                            href="http://www.coegujarat.org/index.aspx"
+                          >
+                            <span>CoE Gujarat Website</span>
+                          </a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   {/* <Author /> */}
@@ -168,7 +166,6 @@ const Accreditation = () => {
                 </div>
               </div>
               {/* <div className="col-lg-4"> */}
-              
 
               {/* <div className="sidebar-part"> */}
               {/* <CourseSideDetail /> */}
@@ -177,10 +174,10 @@ const Accreditation = () => {
               {/* </div> */}
             </div>
             <Contact
-                name="Dr Mayur Sutaria"
-                email="coordinator.iqac@charusat.ac.in"
-                phone="+91-2697-265037"
-              />
+              name="Dr Mayur Sutaria"
+              email="coordinator.iqac@charusat.ac.in"
+              phone="+91-2697-265037"
+            />
           </div>
         </div>
       </div>
