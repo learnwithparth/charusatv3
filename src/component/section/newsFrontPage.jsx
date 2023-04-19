@@ -17,8 +17,8 @@ export default function newsFrontPage() {
               <div class="course-inner">
                 <div class="course-thumb">
                   <img
-                    src="https://charusat.ac.in/images/news/IMG-20211219-WA0082.webp"
-                    alt="unai"
+                    src="./assets/images/uni-news/cadets.webp"
+                    alt="cadets"
                   />
                 </div>
                 <div class="course-content">
@@ -33,10 +33,7 @@ export default function newsFrontPage() {
             <div class="course-item style-4">
               <div class="course-inner">
                 <div class="course-thumb">
-                  <img
-                    src="https://charusat.ac.in/cspit/ee/img/portfolio/ev3_tn.jpg"
-                    alt="unai"
-                  />
+                  <img src="./assets/images/uni-news/ev3_tn.jpg" alt="unai" />
                 </div>
                 <div class="course-content">
                   <a href="#">
@@ -51,7 +48,7 @@ export default function newsFrontPage() {
               <div class="course-inner">
                 <div class="course-thumb">
                   <img
-                    src="https://www.shutterstock.com/image-vector/mou-memorandum-understanding-type-agreement-260nw-1701328165.jpg"
+                    src="./assets/images/uni-news/mou.png"
                     alt="Charusat University inks MoU with FRIGE HOUSE"
                   />
                 </div>
