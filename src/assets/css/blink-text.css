@@ -18,8 +18,9 @@
   -webkit-animation: blink-animation 1s steps(5, start) infinite;
 
   /* background-color: rgb(61, 177, 102); */
-  padding: 2% !important;
-  color: #fff !important;
+  padding: 1% !important;
+  color: yellow !important;
+  font-size: 1rem;
   font-weight: 700;
 }
 @keyframes blink-animation {

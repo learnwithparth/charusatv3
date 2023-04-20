@@ -49,21 +49,16 @@ const HeaderThree = () => {
         <div className="container">
           <div className="header-top-area">
             <div className="header-top-contact w-25">
-              <i className="icofont-phone"></i>
+              {/* <i className="icofont-phone"></i>
               <a href="tel:+880123456789">+91-2697-265011/21</a>
               &nbsp;&nbsp;
               <i className="icofont-email"></i>
-              <a href="mailto:info@charusat.ac.in">info@charusat.ac.in</a>
-            </div>
-            <div className="header-top-reglog">
-              <a
-                href="https://admission2023.charusat.ac.in"
-                style={{ color: "#ffffff" }}
-                className="blink"
-              >
+              <a href="mailto:info@charusat.ac.in">info@charusat.ac.in</a> */}
+              <a href="https://admission2023.charusat.ac.in" className="blink">
                 Apply for Admission
               </a>
-
+            </div>
+            <div className="header-top-reglog">
               <Link to="/accreditation-and-ranking" className="login">
                 Accreditation & Ranking
               </Link>
