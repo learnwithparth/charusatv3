@@ -28,7 +28,7 @@ export default function contact(props) {
         <div className="section-wrapper">
           <div className="row row-cols-1 justify-content-center g-4">
             <div className="col">
-              <div className="post-item style-2">
+              <div className="post-item style-2 ">
                 <div className="post-inner">
                   <div className="post-content">
                     {/* <Link to="/blog-single"> */}

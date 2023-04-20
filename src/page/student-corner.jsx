@@ -5,7 +5,7 @@ import Image from "react-bootstrap/Image";
 const StudentCorner = () => {
   return (
     <Fragment>
-      {/* <PageHeader title={'4 Results found for: Business'} curPage={'Search Result'} /> */}
+      {/* <spanageHeader title={'4 Results found for: Business'} curPage={'Search Result'} /> */}
       <div className="blog-section padding-tb section-bg">
         <div className="container">
           <div className="row justify-content-center">
@@ -18,14 +18,320 @@ const StudentCorner = () => {
                         <div className="post-inner">
                           <div className="post-content">
                             <h3>Student Corner</h3>
+                            <hr />
                             <div className="meta-post">
-                              <Image src="./assets/images/CDPC_banner.jpg" />
                               <br />
+                              {/* <Image src="./assets/images/CDPC_banner.jpg" /> */}
+                              {/* <a href="#"></a>
                               <br />
-                              <p>coming soon...!</p>
-                              <p style={{ color: "#3db166" }}></p>
+                              <span>coming soon...!</span>
+                              <span style={{ color: "#3db166" }}></span>
                               <br />
-                              <p style={{ "text-align": "justify" }}></p>
+                              <span style={{ "text-align": "justify" }}></span> */}
+                              <div className="">
+                                <div
+                                  className=""
+                                  style={{ paddingBottom: "45px" }}
+                                >
+                                  <div className="">
+                                    <a
+                                      href="https://charusat.edu.in:912/OthPaymentApp/frmAcademicVerification.aspx"
+                                      target="_blank"
+                                    >
+                                      <span>Academic Record Verification </span>
+                                      <i className="icofont-long-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <hr />
+                                  <div className="gdlr-core-course-item-list">
+                                    <a
+                                      className="gdlr-core-course-item-link"
+                                      href="https://charusat.ac.in/files/studentCorner/application-form-of-Name-Correction-in-Grade-card-degree-certificate.pdf"
+                                      target="_blank"
+                                    >
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        {" "}
+                                        Name Correction on Grade Card/Degree
+                                        Certificate{" "}
+                                      </span>
+                                      <i className="icofont-long-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <hr />
+                                  <div className="gdlr-core-course-item-list">
+                                    <a
+                                      className="gdlr-core-course-item-link"
+                                      href="https://charusat.edu.in:912/OthPaymentApp/"
+                                      target="_blank"
+                                    >
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        Transcript / Duplicate Grade Card
+                                      </span>
+                                      <i className="icofont-long-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <hr />
+                                  <div className="gdlr-core-course-item-list">
+                                    <a
+                                      className="gdlr-core-course-item-link"
+                                      href="https://charusat.ac.in/files/studentCorner/Transfer_of_academic_year.pdf"
+                                      target="_blank"
+                                    >
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        Transfer of Academic Year
+                                      </span>
+                                      <i className="icofont-long-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <hr />
+
+                                  <div className="gdlr-core-course-item-list">
+                                    <a
+                                      className="gdlr-core-course-item-link"
+                                      href="https://charusat.edu.in:912/eGovernance/"
+                                      target="_blank"
+                                    >
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        CHARUSAT e-Governance
+                                      </span>
+                                      <i className="icofont-long-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <hr />
+                                  <div className="gdlr-core-course-item-list">
+                                    <a
+                                      className="gdlr-core-course-item-link"
+                                      href="https://charusat.ac.in/files/studentCorner/Detention_rules_2021-22.pdf"
+                                      target="_blank"
+                                    >
+                                      {/*href="https://www.charusat.ac.in/files/studentCorner/Circular%20(Academic%20&%20Exam%20Section).pdf" target="_blank">*/}
+                                      {/*<span class="gdlr-core-course-item-id gdlr-core-skin-caption">DOWNLOAD</span>*/}
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        Rules of Promotion
+                                      </span>
+                                      <i className="icofont-long-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <hr />
+                                  <div className="gdlr-core-course-item-list">
+                                    <a
+                                      className="gdlr-core-course-item-link"
+                                      href="https://charusat.ac.in/Downloads/"
+                                      target="_blank"
+                                    >
+                                      {/*<span class="gdlr-core-course-item-id gdlr-core-skin-caption">DOWNLOAD</span>*/}
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        Downloads
+                                      </span>
+                                      <i className="icofont-long-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <hr />
+                                  <div className="gdlr-core-course-item-list">
+                                    <a
+                                      className="gdlr-core-course-item-link"
+                                      href="https://charusat.edu.in:912/Uniexamresult/"
+                                      target="_blank"
+                                    >
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        Exam Result{" "}
+                                      </span>
+                                      <i className="icofont-long-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <hr />
+                                  <div className="gdlr-core-course-item-list">
+                                    <a
+                                      className="gdlr-core-course-item-link"
+                                      href="./files/kya.pdf"
+                                      target="_blank"
+                                    >
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        Guidelines for Know Your Answersheet
+                                        (KYA)
+                                      </span>
+                                      <i className="icofont-long-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <hr />
+                                  <div className="gdlr-core-course-item-list">
+                                    <a
+                                      className="gdlr-core-course-item-link"
+                                      href="./files/NEW Percent Chart-PG.pdf"
+                                      target="_blank"
+                                    >
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        Percentage Conversation Formula
+                                      </span>
+                                      <i className="icofont-long-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <hr />
+                                  <div className="gdlr-core-course-item-list">
+                                    <a
+                                      className="gdlr-core-course-item-link"
+                                      href="https://charusat.edu.in:912/FeesPaymentApp/"
+                                      target="_blank"
+                                    >
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        Pay Fees
+                                      </span>
+                                      <i className="icofont-long-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <hr />
+                                  <div className="gdlr-core-course-item-list">
+                                    <a
+                                      className="gdlr-core-course-item-link"
+                                      href="https://charusat.ac.in/cdpc.php"
+                                      target="_blank"
+                                    >
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        Placement Cell{" "}
+                                      </span>
+                                      <i className="icofont-long-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <hr />
+                                  <div className="gdlr-core-course-item-list">
+                                    <a
+                                      className="gdlr-core-course-item-link"
+                                      href="https://charusat.ac.in/wellness_program.php"
+                                      target="_blank"
+                                    >
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        Wellness Program{" "}
+                                      </span>
+                                      <i className="icofont-long-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <hr />
+                                  <div className="gdlr-core-course-item-list">
+                                    <a
+                                      className="gdlr-core-course-item-link"
+                                      href="https://charusat.ac.in/files/studentCorner/STUDENT%20CODE%20OF%20CONDUCT.pdf"
+                                      target="_blank"
+                                    >
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        Student Code of Conduct{" "}
+                                      </span>
+                                      <i className="icofont-long-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <hr />
+                                  <div className="gdlr-core-course-item-list">
+                                    <a
+                                      className="gdlr-core-course-item-link"
+                                      href="https://charusat.ac.in/flipbooks/SSS_Brief_Summary_for_AY_2019_20/"
+                                    >
+                                      <span
+                                        className="gdlr-core-course-item-title gdlr-core-skin-title"
+                                        target="_blank"
+                                      >
+                                        Students' Satisfaction Survey{" "}
+                                      </span>
+                                      <i className="icofont-long-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <hr />
+                                  <div className="gdlr-core-course-item-list">
+                                    <a
+                                      className="gdlr-core-course-item-link"
+                                      href="https://charusat.ac.in/Student_academic_award.php"
+                                      target="_blank"
+                                    >
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        Students' NDML Academic depository{" "}
+                                      </span>
+                                      <i className="icofont-long-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <hr />
+                                  <div className="gdlr-core-course-item-list">
+                                    <a
+                                      className="gdlr-core-course-item-link"
+                                      href="https://charusat.ac.in/Downloads/Syllabus"
+                                      target="_blank"
+                                    >
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        Syllabus &amp; Academic Regulations{" "}
+                                      </span>
+                                      <i className="icofont-long-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <hr />
+                                  <div className="gdlr-core-course-item-list">
+                                    <a
+                                      className="gdlr-core-course-item-link"
+                                      href="../hostels"
+                                      target="_blank"
+                                    >
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        Hostel{" "}
+                                      </span>
+                                      <i className="icofont-long-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <hr />
+                                  <div className="gdlr-core-course-item-list">
+                                    <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                      Fellowship -
+                                    </span>
+                                    <a
+                                      href="https://charusat.ac.in/files/UGSF%20Application%20form.pdf"
+                                      target="_blank"
+                                    >
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        {" "}
+                                        UG{" "}
+                                      </span>
+                                    </a>{" "}
+                                    |
+                                    <a
+                                      href="https://charusat.ac.in/files/PGSF%20Application%20form.pdf"
+                                      target="_blank"
+                                    >
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        {" "}
+                                        PG{" "}
+                                      </span>
+                                    </a>{" "}
+                                    |
+                                    <a
+                                      href="https://charusat.ac.in/documents/pdfs/research/CPSF.pdf"
+                                      target="_blank"
+                                    >
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        {" "}
+                                        PhD{" "}
+                                      </span>
+                                    </a>{" "}
+                                    |
+                                    <a
+                                      href="https://charusat.ac.in/documents/pdfs/research/PDF%20Policy%20CHARUSAT.pdf"
+                                      target="_blank"
+                                    >
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        PDF
+                                      </span>
+                                    </a>
+                                  </div>
+                                  <hr />
+                                  <div className="gdlr-core-course-item-list">
+                                    <a
+                                      className="gdlr-core-course-item-link"
+                                      href="https://charusat.ac.in/SDI.php"
+                                      target="_blank"
+                                    >
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        Student Development Initiatives
+                                      </span>
+                                      <i className="icofont-long-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <hr />
+                                </div>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -37,9 +343,9 @@ const StudentCorner = () => {
             </div>
 
             <Contact
-              name="Dr. Mayur Sutaria Head, IQAC "
-              email="iqac@charusat.ac.in"
-              phone="+91-2697-265213"
+              name="Mr. Dipen Patel "
+              email="dipenpatel.rnd@charusat.ac.in"
+              phone=" +91-2697-265008"
             />
           </div>
         </div>
