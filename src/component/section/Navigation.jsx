@@ -12,7 +12,16 @@ const Header = () => {
   return (
     <>
       <div>
-        <header className="header">
+        <header
+          className="header"
+          onClick={() => {
+            document.getElementById("Academics").style.display = "none";
+            document.getElementById("Admission").style.display = "none";
+            document.getElementById("CampusLife").style.display = "none";
+            document.getElementById("Research").style.display = "none";
+            document.getElementById("KnowCHARUSAT").style.display = "none";
+          }}
+        >
           <nav className="nav">
             <div className="logo">
               <Link to="/home" class="charusat">
@@ -54,7 +63,7 @@ const Header = () => {
                       "none";
                   }}
                 >
-                  <a id="CampusLife-link" href="">
+                  <a id="CampusLife-link" href="#">
                     Campus Life
                   </a>
                 </li>
@@ -381,7 +390,10 @@ const Header = () => {
                 >
                   Fellowship
                 </a>
-                <a href="https://www.charusat.ac.in/admission/scholarship.html" className="menu-link">
+                <a
+                  href="https://www.charusat.ac.in/admission/scholarship.html"
+                  className="menu-link"
+                >
                   Scholarship
                 </a>
                 <Link to="./transport" className="menu-link">
@@ -578,7 +590,10 @@ const Header = () => {
                 <Link to="/coming-soon" className="menu-link">
                   Laboratories
                 </Link>
-                <a href="https://charusat.ac.in/charusatjournal/" className="menu-link">
+                <a
+                  href="https://charusat.ac.in/charusatjournal/"
+                  className="menu-link"
+                >
                   CHARUSAT Journal
                 </a>
                 <Link to="/edic" className="menu-link">
