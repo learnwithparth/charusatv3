@@ -31,7 +31,7 @@ const clientSliderList = [
     degi: "Padma Vibhushan, National Research Professor, National Chemical Laboratory",
   },
   {
-    imgUrl: "assets/images/clients/04.jpg",
+    imgUrl: "assets/images/clients/04.png",
     imgAlt: "education thumb rajibraj91 rajibraj",
     iconNane: "icofont-quote-left",
     desc: "CHARUSAT is indeed a Golden Truth of Gujarat.",
@@ -67,8 +67,12 @@ const ClientsThree = () => {
                 <SwiperSlide key={i}>
                   <div className="client-item">
                     <div className="client-inner">
-                      <div className="client-thumb">
-                        <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} />
+                      <div className="_client-thumb">
+                        <img
+                          style={{ height: "250px", borderRadius: "100%" }}
+                          src={`${val.imgUrl}`}
+                          alt={`${val.imgAlt}`}
+                        />
                         <div className="quote">
                           <i className={val.iconNane}></i>
                         </div>

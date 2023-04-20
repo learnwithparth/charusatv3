@@ -1,0 +1,33 @@
+/* .blink {
+  animation: blink 2s infinite;
+ 
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    color: #fff;
+  }
+} */
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+
+  background-color: rgb(61, 177, 102);
+  padding: 2% !important;
+  color: #fff !important;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}

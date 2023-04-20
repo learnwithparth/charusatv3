@@ -32,7 +32,7 @@ const Wincell = () => {
                             <h4>IT INFRASTRUCTURE @CHARUSAT</h4>
                             <hr />
                             WINCell offer Sound, Advance, Secure and Productive
-                            IT Infrastructure. Thanks to WINCell!!
+                            IT Infrastructure.
                             <br />
                             <br />
                             <Image
@@ -126,6 +126,9 @@ const Wincell = () => {
                               </li>
                               <li>
                                 Mr. Hardik Patel, Lab Technician - Ext. No. 5107
+                              </li>
+                              <li>
+                                Mr. Harsh Patel, Lab Technician - Ext. No. 5107
                               </li>
                             </ul>
                           </div>

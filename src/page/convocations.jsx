@@ -33,7 +33,7 @@ const Convocations = () => {
                             <h3>Convocations </h3>
                             <hr />
 
-                            <Container>
+                            <Container style={{ "text-align": "justify" }}>
                               <Row>
                                 <Col>
                                   {" "}

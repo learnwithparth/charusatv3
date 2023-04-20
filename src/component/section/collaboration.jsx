@@ -202,7 +202,7 @@ const instructorBottomList = [
 export default function collaboration() {
   return (
     <div>
-      <div className="instructor-section style-3  section-bg-ash">
+      <div className="instructor-section style-3  padding-tb  section-bg-ash">
         <div className="container">
           <div className="section-header text-center">
             {/* <span className="subtitle">University</span> */}

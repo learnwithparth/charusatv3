@@ -125,7 +125,7 @@ const Header = () => {
                 </div>
               </div>
 
-              <div className="menu-d border-b">
+              <div className="menu-d ">
                 <h5 className="menu-head">Other Programmes</h5>
                 <div className="menu-items">
                   <Link to="/certification-courses" className="menu-link">
@@ -236,7 +236,10 @@ const Header = () => {
               <div className="menu-d">
                 <h5 className="menu-head">Ph D Programs</h5>
                 <div className="menu-items">
-                  <a href="https://charusat.ac.in/files/PhD%20Regulations.pdf" className="menu-link">
+                  <a
+                    href="https://charusat.ac.in/files/PhD%20Regulations.pdf"
+                    className="menu-link"
+                  >
                     General Information
                   </a>
                 </div>
@@ -265,14 +268,13 @@ const Header = () => {
                 <a href="#" className="menu-link">
                   Endowment Chairs
                 </a>
-                <Link to="./student-development-initiatives" className="menu-link">
-                  Initiatives
-                </Link>
                 <Link
-                  to="./library"
-                  
+                  to="./student-development-initiatives"
                   className="menu-link"
                 >
+                  Initiatives
+                </Link>
+                <Link to="./library" className="menu-link">
                   Knowledge Resource Center
                 </Link>
                 <Link to="./code-of-conduct" className="menu-link">
@@ -370,9 +372,9 @@ const Header = () => {
                 <Link to="/admission-reprentatives" className="menu-link">
                   Have a query? Contact Admission Representatives
                 </Link>
-                <Link to="/coming-soon" className="menu-link">
+                {/* <Link to="/coming-soon" className="menu-link">
                   Need Personal Guidance!!! Talk to us
-                </Link>
+                </Link> */}
                 <a
                   href="https://www.charusat.ac.in/documents/pdfs/research/PGSF.pdf"
                   className="menu-link"

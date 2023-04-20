@@ -19,9 +19,9 @@ const Scholarship = () => {
                           <div className="post-content">
                             <h3>Scholarship</h3>
                             <div className="meta-post">
-                              <Image src="./assets/images/CDPC_banner.jpg" />
+                              {/* <Image src="./assets/images/CDPC_banner.jpg" />
                               <br />
-                              <br />
+                              <br /> */}
                               <p>
                                 CHARUSAT offers a variety of scholarships to
                                 encourage and facilitate academic and research

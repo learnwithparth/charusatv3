@@ -64,7 +64,7 @@ const eventListTwo = [
 
 const Event = () => {
   return (
-    <div className="event-section ">
+    <div className="event-section  padding-tb ">
       <div className="container">
         <div className="section-header text-center">
           <span className="subtitle">{subTitle}</span>
