@@ -203,7 +203,7 @@ const ResearchPage = () => {
                                                 
                                             </div>
                                             <a href={val.link}><span  style={{color:"#555555"}}>{val.desc}</span > <span  style={{color:"#555555"}}><i class="icofont-download"></i></span></a>
-                                        </div>;
+                                        </div>
                                     </div>
                                 ))}
                             </div>

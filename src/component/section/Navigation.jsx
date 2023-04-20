@@ -379,10 +379,10 @@ const Header = () => {
                 >
                   Fellowship
                 </a>
-                <Link to="/scholarship" className="menu-link">
+                <a href="https://www.charusat.ac.in/admission/scholarship.html" className="menu-link">
                   Scholarship
-                </Link>
-                <Link to="/transport" className="menu-link">
+                </a>
+                <Link to="./transport" className="menu-link">
                   Transportation
                 </Link>
                 <a
@@ -576,25 +576,25 @@ const Header = () => {
                 <Link to="/coming-soon" className="menu-link">
                   Laboratories
                 </Link>
-                <Link to="/coming-soon" className="menu-link">
+                <a href="https://charusat.ac.in/charusatjournal/" className="menu-link">
                   CHARUSAT Journal
-                </Link>
-                <Link to="/coming-soon" className="menu-link">
+                </a>
+                <Link to="/edic" className="menu-link">
                   Enterpreneurship Development & Incubation Cell (EDIC)
                 </Link>
-                <Link to="/coming-soon" className="menu-link">
+                <a href="http://kradle.charusat.ac.in/" className="menu-link">
                   Dr. K. C. Patel Research and Development Centre (KRADLE)
-                </Link>
-                <Link to="/coming-soon" className="menu-link">
+                </a>
+                <a href="http://icccharusat.com/" className="menu-link">
                   International Center for Cosmology (ICC)
-                </Link>
-                <Link to="/coming-soon" className="menu-link">
+                </a>
+                <Link to="/ipr" className="menu-link">
                   IPR Cell
                 </Link>
-                <Link to="/research" className="menu-link">
+                <Link to="./research" className="menu-link">
                   Research Facilitation
                 </Link>
-                <Link to="/coming-soon" className="menu-link">
+                <Link to="./csrtc" className="menu-link">
                   CHARUSAT Space Research Center
                 </Link>
                 <Link to="/coming-soon" className="menu-link">
