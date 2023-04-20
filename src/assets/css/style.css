@@ -10974,7 +10974,6 @@ footer.style-2 .footer-top.dark-view * {
 .achievement-section.style-3 .count-content .count h2,
 span {
   color: white;
-
 }
 .count-item .count-inner .count-content p {
   color: white !important;
@@ -11049,4 +11048,12 @@ span {
 
 #responsive-navbar-nav > div > custom-hover:hover {
   color: " #3db166 !important";
+}
+
+.post-item.style-2 .post-inner .post-content p {
+  margin-bottom: 5px;
+}
+.post-item.style-2 .post-inner .post-content span {
+  margin-bottom: 5px;
+  color: #555555;
 }

@@ -174,7 +174,6 @@ const BannerFive = () => {
               <br /> <br /> <br /> <br />
               <br />
               <div className="subTitle-slider">{item.description}</div>
-              {/* <button>{item.button}</button> */}
             </div>
           </SwiperSlide>
         ))}
