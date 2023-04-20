@@ -21,6 +21,9 @@ const Home = () => {
   return (
     <Fragment>
       {/* <Header /> */}
+      {/* <a href="https://eequeuestorage.blob.core.windows.net/staticfiles/charusat/ee-form-widget/form-2/charusatEnq.html"></a>
+
+      <script src="https://eequeuestorage.blob.core.windows.net/staticfiles/charusat/ee-form-widget/form-2/widget.js"></script> */}
       <Banner />
       <About />
       <Event />
