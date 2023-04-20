@@ -17,7 +17,7 @@ const Header = () => {
           onClick={() => {
             document.getElementById("Academics").style.display = "none";
             document.getElementById("Admission").style.display = "none";
-            document.getElementById("CampusLife").style.display = "none";
+            // document.getElementById("CampusLife").style.display = "none";
             document.getElementById("Research").style.display = "none";
             document.getElementById("KnowCHARUSAT").style.display = "none";
           }}
@@ -52,21 +52,7 @@ const Header = () => {
                 >
                   <a href="">Admission</a>
                 </li>
-                <li
-                  className="link"
-                  onMouseOver={() => {
-                    document.getElementById("CampusLife").style.display =
-                      "grid";
-                  }}
-                  onMouseOut={() => {
-                    document.getElementById("CampusLife").style.display =
-                      "none";
-                  }}
-                >
-                  <a id="CampusLife-link" href="#">
-                    Campus Life
-                  </a>
-                </li>
+
                 <li
                   className="link"
                   onMouseOver={() => {
@@ -322,7 +308,7 @@ const Header = () => {
                   Eligibility Criteria
                 </a>
                 <a
-                  href="https://charusat.ac.in/files/CHARUSAT%20Admission%20FAQ%2004-06-2022.pdf"
+                  href="https://drive.google.com/file/d/14qe_BKwzOQfK8M-yjN8YnYMAH4RcKHSS/view?usp=share_link"
                   className="menu-link"
                 >
                   Fees
@@ -332,7 +318,7 @@ const Header = () => {
                     class="icofont-brand-whatsapp"
                     style={{ color: "#3db166" }}
                   ></i>{" "}
-                  +91 8905500500
+                  +91 9825961830
                 </a>
               </div>
             </div>
@@ -384,25 +370,25 @@ const Header = () => {
                   href="https://charusat.ac.in/files/UGSF%20Application%20form.pdf"
                   className="menu-link"
                 >
-                  Undergraduate Student Fellowship (UGSF)
+                  Undergraduate Student Fellowship
                 </a>
                 <a
                   href="https://charusat.ac.in/documents/pdfs/research/PGSF.pdf"
                   className="menu-link"
                 >
-                  Postgraduate Student Fellowship (PGSF)
+                  Postgraduate Student Fellowship
                 </a>
                 <a
                   href="https://charusat.ac.in/documents/pdfs/research/PDF%20Policy%20CHARUSAT.pdf"
                   className="menu-link"
                 >
-                  Ph. D. Scholars’ Fellowship (CPSF)
+                  Ph. D. Scholars’ Fellowship
                 </a>
                 <a
                   href="https://charusat.ac.in/documents/pdfs/research/PDF%20Policy%20CHARUSAT.pdf"
                   className="menu-link"
                 >
-                  CHARUSAT Post Doctoral Fellowship Programme
+                  Post Doctoral Fellowship Programme
                 </a>
                 <a
                   href="https://www.charusat.ac.in/admission/scholarship.html"
@@ -410,6 +396,9 @@ const Header = () => {
                 >
                   Scholarship
                 </a>
+                <Link to="/hostels" className="menu-link">
+                  Hostels
+                </Link>
                 <Link to="./transport" className="menu-link">
                   Transportation
                 </Link>
@@ -525,7 +514,7 @@ const Header = () => {
               </div>
             </div> */}
           </div>
-          <div
+          {/* <div
             className="menu"
             id="CampusLife"
             onMouseOver={() => {
@@ -539,15 +528,6 @@ const Header = () => {
               <h5 className="menu-head">Activity & Events</h5>
               <div className="menu-items">
                 <Link to="/coming-soon" className="menu-link">
-                  NCC@CHARUSAT
-                </Link>
-                <Link to="/coming-soon" className="menu-link">
-                  NSS@CHARUSAT
-                </Link>
-                <Link to="/coming-soon" className="menu-link">
-                  Sports & Gym
-                </Link>
-                <Link to="/coming-soon" className="menu-link">
                   Student Activities & Events
                 </Link>
                 <Link to="/coming-soon" className="menu-link">
@@ -558,9 +538,6 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">Residencies & Amenities</h5>
               <div className="menu-items">
-                <Link to="/hostels" className="menu-link">
-                  Girl's Hostel
-                </Link>
                 <Link to="/coming-soon" className="menu-link">
                   Boy's Hostel
                 </Link>
@@ -586,7 +563,7 @@ const Header = () => {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div
             className="menu"
@@ -601,9 +578,13 @@ const Header = () => {
             <div className="menu-div">
               <h5 className="menu-head">Initiatives</h5>
               <div className="menu-items">
-                <Link to="/coming-soon" className="menu-link">
+                <a
+                  href="https://youtu.be/Og4NMqI3q5M"
+                  target="_blank"
+                  className="menu-link"
+                >
                   Laboratories
-                </Link>
+                </a>
                 <a
                   href="https://charusat.ac.in/charusatjournal/"
                   className="menu-link"
@@ -636,39 +617,68 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">Policies</h5>
               <div className="menu-items">
-                <Link to="/coming-soon" className="menu-link">
-                  Publications
-                </Link>
-                <Link to="/coming-soon" className="menu-link">
-                  CHARUSAT Ph. D. Scholars’ Fellowship (CPSF)
-                </Link>
-                <Link to="/coming-soon" className="menu-link">
-                  CHARUSAT Visitor Student Research Internship (CVSRI)
-                </Link>
-                <Link to="/coming-soon" className="menu-link">
+                <a
+                  href="https://charusat.ac.in/documents/pdfs/research/PDF%20Policy%20CHARUSAT.pdf"
+                  className="menu-link"
+                >
+                  Post Doctoral Fellowship Programme
+                </a>
+
+                <a
+                  href="https://charusat.ac.in/documents/pdfs/research/CPSF.pdf"
+                  className="menu-link"
+                >
+                  Ph. D. Scholars’ Fellowship (CPSF)
+                </a>
+                <a
+                  href="https://charusat.ac.in/documents/pdfs/research/CVSRI.pdf"
+                  className="menu-link"
+                >
+                  Visitor Student Research Internship (CVSRI)
+                </a>
+                <a
+                  href="https://charusat.ac.in/documents/pdfs/research/PGSF.pdf"
+                  className="menu-link" //charusat.ac.in/documents/pdfs/research/PGSF.pdf
+                >
                   Postgraduate Student Fellowship (PGSF)
-                </Link>
-                <Link to="/coming-soon" className="menu-link">
-                  CHARUSAT SEED Grant for Research (CSGR)
-                </Link>
-                <Link to="/coming-soon" className="menu-link">
+                </a>
+                <a
+                  href="https://charusat.ac.in/documents/pdfs/research/7.%20Policy%20for%20CHARUSAT%20SEED%20Grant%20for%20Research.pdf"
+                  className="menu-link"
+                >
+                  SEED Grant for Research
+                </a>
+                <a
+                  href="https://charusat.ac.in/documents/pdfs/research/1.%20CHARUSAT%20Research%20Policy.pdf"
+                  className="menu-link"
+                >
                   Research
-                </Link>
-                <Link to="/coming-soon" className="menu-link">
+                </a>
+                <a
+                  href="https://charusat.ac.in/documents/pdfs/research/8.%20Research%20Paper%20Award%20Policy%202018.pdf"
+                  className="menu-link"
+                >
                   Research Paper Award
-                </Link>
-                <Link to="/coming-soon" className="menu-link">
-                  Intellectual Property
-                </Link>
-                <Link to="/coming-soon" className="menu-link">
+                </a>
+
+                <a
+                  href="https://charusat.ac.in/documents/pdfs/research/06.Plagiarism%20Policy.pdf"
+                  className="menu-link"
+                >
                   Plagiarism
-                </Link>
-                <Link to="/coming-soon" className="menu-link">
+                </a>
+                <a
+                  href="https://charusat.ac.in/documents/pdfs/research/05.INTELLECTUAL%20PROPERTY%20POLICY.pdf"
+                  className="menu-link"
+                >
                   Patent, IPR and Royalty Sharing
-                </Link>
-                <Link to="/coming-soon" className="menu-link">
+                </a>
+                <a
+                  href="https://drive.google.com/file/d/1CzmhA6azuxlWGMwdaJPd6DNIv5e5Vyc9/view?usp=sharing"
+                  className="menu-link"
+                >
                   Consultancy
-                </Link>
+                </a>
               </div>
             </div>
             <div className="menu-div border-left">
@@ -845,14 +855,14 @@ const Header = () => {
 
             {/*  */}
             <div className="menu-div border-left">
-              <div className="menu-d border-b">
+              {/* <div className="menu-d border-b">
                 <h5 className="menu-head">Visit</h5>
                 <div className="menu-items">
                   <Link to="/coming-soon" className="menu-link">
                     360 Campus Tour
                   </Link>
                 </div>
-              </div>
+              </div> */}
 
               {/* <div className="menu-d border-b">
                 <h5 className="menu-head">Reach US</h5>
