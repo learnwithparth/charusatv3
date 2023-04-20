@@ -8,7 +8,8 @@ const CourseData = [
   {
     imgUrl: "assets/images/institute/CSPIT.jpg",
     imgAlt: "CSPIT image",
-    cate: "B. Tech,M. Tech,Ph. d.",
+    cate: "Engineering",
+    programs: "B. Tech, M. Tech, Ph. D.",
     title: "C S Patel Institute of Technology",
     link: "https://www.charusat.ac.in/cspit/",
     author: "assets/images/course/author/01.jpg",
@@ -19,7 +20,8 @@ const CourseData = [
   {
     imgUrl: "assets/images/institute/DEPSTAR.jpg",
     imgAlt: "Depstar image",
-    cate: "B.Tech,M.Tech,Phd",
+    cate: "Engineering",
+    programs: "B. Tech, M. Tech, Ph. D.",
     title: "Devang Patel Institute of Advance Technology and Research",
     link: "https://www.charusat.ac.in/depstar/",
     author: "assets/images/course/author/01.jpg",
@@ -30,7 +32,8 @@ const CourseData = [
   {
     imgUrl: "assets/images/institute/RPCP.jpg",
     imgAlt: "RPCP image",
-    cate: "B.Pharm,M.Pharm,Ph. D.",
+    cate: "Pharmacy",
+    programs: "B. Pharm., M. Pharm., Ph. D.",
     title: "Ramanbhai Patel College of Pharmacy",
     link: "https://www.charusat.ac.in/rpcp/",
     author: "assets/images/course/author/02.jpg",
@@ -41,7 +44,8 @@ const CourseData = [
   {
     imgUrl: "assets/images/institute/CMPICA.jpg",
     imgAlt: "CMPICA image",
-    cate: "BCA,MCA,BscIT,MscIT,Ph. D.",
+    cate: "Computer Sci and Appl",
+    programs: "BCA, MCA, B.Sc. IT, M.Sc. IT, Ph. D.",
     title: "Chandaben Mohanbhai Patel Institute of Computer Application",
     link: "https://www.charusat.ac.in/cmpica/",
     author: "assets/images/course/author/03.jpg",
@@ -52,7 +56,8 @@ const CourseData = [
   {
     imgUrl: "assets/images/institute/I2IM.jpg",
     imgAlt: "I2IM image",
-    cate: "BBA,MBA,Ph. D.",
+    cate: "Management Studies",
+    programs: "BBA, MBA, Ph. D.",
     title: "Indukaka Ippcowala Institute of Management",
     link: "https://www.charusat.ac.in/i2im/",
     author: "assets/images/course/author/04.jpg",
@@ -63,7 +68,8 @@ const CourseData = [
   {
     imgUrl: "assets/images/institute/PDPIAS.jpg",
     imgAlt: "PDPIAS image",
-    cate: "B. Sc,M. Sc,Ph. D.",
+    cate: "Sciences",
+    programs: "B. Sc, M. Sc., Ph. D.",
     title: "P. D. Patel Institute of Applied Science",
     link: "https://www.charusat.ac.in/pdpias/",
     author: "assets/images/course/author/05.jpg",
@@ -74,7 +80,8 @@ const CourseData = [
   {
     imgUrl: "assets/images/institute/MTIN.jpg",
     imgAlt: "MTIN image",
-    cate: "GNM,B. Sc., M. Sc.",
+    cate: "Medical Sciences",
+    programs: "GNM, B. Sc, M. Sc., Ph. D.",
     title: "Manikaka Topawala Institute of Nursing",
     link: "https://www.charusat.ac.in/mtin/",
     author: "assets/images/course/author/06.jpg",
@@ -85,7 +92,8 @@ const CourseData = [
   {
     imgUrl: "assets/images/institute/ARIP.jpg",
     imgAlt: "ARIP image",
-    cate: "BPT,MPT,Phd",
+    cate: "Medical Sciences",
+    programs: "BPT, MPT, Ph. D.",
     title: "Ashok & Rita Patel Institute of Physiotherapy",
     link: "https://www.charusat.ac.in/arip/",
     author: "assets/images/course/author/01.jpg",
@@ -97,6 +105,7 @@ const CourseData = [
     imgUrl: "assets/images/institute/ARIP.jpg",
     imgAlt: "BDIPS image",
     cate: "Medical Sciences",
+    programs: "B. Opto., B. Sc., M. Sc., Ph. D.",
     title: "Bapubhai Desaibhai Patel Institute of Paramedical Sciences",
     link: "https://www.charusat.ac.in/cips/",
     author: "assets/images/course/author/02.jpg",
@@ -154,6 +163,7 @@ export default function Faculties() {
                 imgUrl,
                 imgAlt,
                 cate,
+                programs,
                 title,
                 link,
                 author,
@@ -169,6 +179,9 @@ export default function Faculties() {
                         <div className="course-category">
                           <div className="course-cate">
                             <a href="#">{cate}</a>
+                            <p>
+                              <span>{programs}</span>
+                            </p>
                           </div>
                           {/* <div className="course-reiew">
                                                         <Rating />

@@ -48,17 +48,12 @@ const HeaderThree = () => {
       >
         <div className="container">
           <div className="header-top-area">
-            <div className="header-top-contact w-25">
-              {/* <i className="icofont-phone"></i>
-              <a href="tel:+880123456789">+91-2697-265011/21</a>
-              &nbsp;&nbsp;
-              <i className="icofont-email"></i>
-              <a href="mailto:info@charusat.ac.in">info@charusat.ac.in</a> */}
+            {/* <div className="header-top-contact  ">
               <a href="https://admission2023.charusat.ac.in" className="blink">
                 Apply for Admission
               </a>
-            </div>
-            <div className="header-top-reglog">
+            </div> */}
+            <div className="header-top-reglog ">
               <Link to="/accreditation-and-ranking" className="login">
                 Accreditation & Ranking
               </Link>
@@ -71,11 +66,19 @@ const HeaderThree = () => {
                 {" "}
                 Alumni
               </a>
-              <a href="./coming-soon">Student Corner</a>
-
-              {/* <Link to="/careers" className="login">
+              <Link to="/careers" className="login">
                 Careers
-              </Link> */}
+              </Link>
+              <Link to="./accreditation-and-ranking">NIRF</Link>
+              <Link to="./placement">Placement</Link>
+              <a href="https://charusat.ac.in/admission/scholarship.html">
+                Scholarships
+              </a>
+              <a href="https://charusat.edu.in:912/eGovernance">
+                Samaj Scholarships
+              </a>
+              <Link to="./student-corner">Student Corner</Link>
+
               {/* <Link to="/signup" className="signup">
                 Students' Corner
               </Link> */}
