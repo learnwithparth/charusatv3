@@ -14,6 +14,7 @@ import Convocation_08_Guest from "../assets/images/convocations/SUN1917.jpg";
 import Convocation_09_Guest from "../assets/images/convocations/convocation9_1.jpg";
 import Convocation_10_Guest from "../assets/images/convocations/convocation_10.jpg";
 import Convocation_11_Guest from "../assets/images/convocations/Dr_Bimal_Patel.webp";
+import Convocation_12_Guest from "../assets/images/convocations/Ashok-Patel.jpg";
 
 const Convocations = () => {
   return (
@@ -66,6 +67,31 @@ const Convocations = () => {
                                     each one showcasing our commitment to
                                     academic excellence and Indian culture.
                                     Catch the glimpse of convocations.
+                                  </p>
+                                </Col>
+                              </Row>
+
+                              <Row className="p-2">
+                                <Col>
+                                  <hr />
+                                  <h6 className="  p-1">
+                                    12<sup>th</sup> Convocation – Shri. Ashok Patel
+                                  </h6>
+                                </Col>
+                              </Row>
+
+                              <Row className="p-2">
+                                <Col md={2}>
+                                  <Image
+                                    src={Convocation_12_Guest}
+                                    alt={"Shri Ashok Patel"}
+                                    thumbnail
+                                  />
+                                </Col>
+                                <Col md={10}>
+                                  <p>
+                                  The 12th Convocation of CHARUSAT was held on 13th January, 2023. In all, 2558 students from 6 different faculties of CHARUSAT namely, Faculty of Technology and Engineering, Faculty of Computer Science and Applications, Faculty of Pharmacy, Faculty of Management Studies, Faculty of Applied Sciences, and Faculty of Medical Sciences were awarded with the degrees including 27 PhD Scholars. Importantly, 45 students with academic excellence were awarded with different Gold Medals.
+                                  The occasion was graced by the presence of Shri Ashok Patel, US based Technopreneur and Industrialist.
                                   </p>
                                 </Col>
                               </Row>
