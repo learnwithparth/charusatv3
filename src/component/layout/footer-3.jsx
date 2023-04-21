@@ -124,6 +124,7 @@ const quickList = [
     text: "Code of Conduct",
     link: "./code-of-conduct",
   },
+  
 ];
 
 const footerbottomList = [
@@ -208,6 +209,13 @@ const FooterThree = () => {
                                 </a>
                               </li>
                             ))}
+                            <li  style={{ color: "#fff" }}>
+                                            NAD/ABC Videos --
+                                            <a href="https://charusat-aqar.s3.ap-south-1.amazonaws.com/charusat/nad/1.mp4" target="_blank" style={{ color: "#fff" }}>1</a>{" "}
+                                            <a href="https://charusat-aqar.s3.ap-south-1.amazonaws.com/charusat/nad/2.mp4" target="_blank" style={{ color: "#fff" }}>2</a>{" "}
+                                            <a href="https://charusat-aqar.s3.ap-south-1.amazonaws.com/charusat/nad/3.mp4" target="_blank" style={{ color: "#fff" }}>3</a>{" "}
+                                            <a href="https://charusat-aqar.s3.ap-south-1.amazonaws.com/charusat/nad/4.mp4" target="_blank" style={{ color: "#fff" }}>4</a>{" "}
+                                        </li>
                           </ul>
                         </div>
                       </div>
