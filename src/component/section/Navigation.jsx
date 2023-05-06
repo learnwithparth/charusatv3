@@ -134,7 +134,7 @@ const Header = () => {
                   <Link to="./course-single#6303" className="menu-link">
                     Post Graduation Diploma in Clinical Hypnosis (PGDCH)
                   </Link>
-                  <a href="https://pgdcs.charusat.ac.in/" className="menu-link">
+                  <a href="./course-single#6304" className="menu-link">
                     Post Graduation Diploma in Cyber Security (PGDCS)
                   </a>
                   <Link to="./course-single" className="menu-link">

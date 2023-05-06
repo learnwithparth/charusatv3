@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import {HashRouter, Link } from "react-router-dom";
 import Contact from "../component/section/contact";
 import Image from "react-bootstrap/Image";
 
@@ -88,7 +89,7 @@ const StudentCorner = () => {
                                   <div className="gdlr-core-course-item-list">
                                     <a
                                       className="gdlr-core-course-item-link"
-                                      href="https://charusat.edu.in:912/eGovernance/"
+                                      href="http://egov.charusat/"
                                       target="_blank"
                                     >
                                       <span className="gdlr-core-course-item-title gdlr-core-skin-title">
@@ -107,7 +108,7 @@ const StudentCorner = () => {
                                       {/*href="https://www.charusat.ac.in/files/studentCorner/Circular%20(Academic%20&%20Exam%20Section).pdf" target="_blank">*/}
                                       {/*<span class="gdlr-core-course-item-id gdlr-core-skin-caption">DOWNLOAD</span>*/}
                                       <span className="gdlr-core-course-item-title gdlr-core-skin-title">
-                                        Rules of Promotion
+                                        Rules of Promotion to Next Academic Year
                                       </span>
                                       <i className="icofont-long-arrow-right"></i>
                                     </a>
@@ -180,7 +181,7 @@ const StudentCorner = () => {
                                     </a>
                                   </div>
                                   <hr />
-                                  <div className="gdlr-core-course-item-list">
+                                  {/* <div className="gdlr-core-course-item-list">
                                     <a
                                       className="gdlr-core-course-item-link"
                                       href="https://charusat.ac.in/cdpc.php"
@@ -192,7 +193,7 @@ const StudentCorner = () => {
                                       <i className="icofont-long-arrow-right"></i>
                                     </a>
                                   </div>
-                                  <hr />
+                                  <hr /> */}
                                   <div className="gdlr-core-course-item-list">
                                     <a
                                       className="gdlr-core-course-item-link"
@@ -209,7 +210,7 @@ const StudentCorner = () => {
                                   <div className="gdlr-core-course-item-list">
                                     <a
                                       className="gdlr-core-course-item-link"
-                                      href="https://charusat.ac.in/files/studentCorner/STUDENT%20CODE%20OF%20CONDUCT.pdf"
+                                      href="https://charusat.ac.in/documents/pdfs/data_1/Code_Of_Conduct/Student%20code%20of%20Conduct.pdf"
                                       target="_blank"
                                     >
                                       <span className="gdlr-core-course-item-title gdlr-core-skin-title">
@@ -237,7 +238,7 @@ const StudentCorner = () => {
                                   <div className="gdlr-core-course-item-list">
                                     <a
                                       className="gdlr-core-course-item-link"
-                                      href="https://charusat.ac.in/Student_academic_award.php"
+                                      href="https://nad.digilocker.gov.in/students"
                                       target="_blank"
                                     >
                                       <span className="gdlr-core-course-item-title gdlr-core-skin-title">
@@ -318,16 +319,16 @@ const StudentCorner = () => {
                                   </div>
                                   <hr />
                                   <div className="gdlr-core-course-item-list">
-                                    <a
+                                    <Link
                                       className="gdlr-core-course-item-link"
-                                      href="https://charusat.ac.in/SDI.php"
+                                      to="./student-development-initiatives"
                                       target="_blank"
                                     >
                                       <span className="gdlr-core-course-item-title gdlr-core-skin-title">
                                         Student Development Initiatives
                                       </span>
                                       <i className="icofont-long-arrow-right"></i>
-                                    </a>
+                                    </Link>
                                   </div>
                                   <hr />
                                 </div>

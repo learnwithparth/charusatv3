@@ -124,7 +124,7 @@ const DocList = [
                         <div className="post-item style-2">
                           <div className="post-inner">
                             <div className="post-content">
-                              <center><h3>Student Development Initiatives @ CHARUSAT</h3></center><br/>
+                              <center><h3>Student Development Initiatives</h3></center><br/>
                               <div className="meta-post" style={{textAlign:"justify"}}>
                                 CHARUSAT fosters holistic development of students, in addition to their academic enrichment and career development. The focus is on shaping up and contribute confident, progressive, skilful and enlightened individuals to the society.
                               </div>
