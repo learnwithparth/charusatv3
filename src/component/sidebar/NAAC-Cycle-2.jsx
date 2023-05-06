@@ -33,6 +33,11 @@ const commentList = [
         desc: 'NAAC Certificate',
         link: NAACCertificate,
     },
+    {
+        desc: 'NAAC AQAR 2020-2021',
+        link: 'https://heyzine.com/flip-book/0e2d6e399a.html',
+    },
+    
 ]
 
 

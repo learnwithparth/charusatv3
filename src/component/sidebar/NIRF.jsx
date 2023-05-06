@@ -5,6 +5,10 @@ const title = "National Institutional Ranking Framework (NIRF)";
 
 const commentList = [
     {
+        desc: 'NIRF India Ranking 2023',
+        link: 'https://charusat.ac.in/iqac/nirf/NIRF2023/CHARUSAT_20230120.pdf',
+    },
+    {
         desc: 'NIRF India Ranking 2022',
         link: 'https://charusat.ac.in/iqac/nirf/NIRF2022',
     },
@@ -24,6 +28,8 @@ const commentList = [
         desc: 'NIRF India Ranking 2018',
         link: 'https://charusat.ac.in/iqac/nirf/NIRF2018',
     },
+    
+    
 ]
 
 
