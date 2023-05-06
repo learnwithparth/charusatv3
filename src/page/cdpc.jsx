@@ -186,7 +186,7 @@ const CDPC = () => {
             <Contact
                 name="Dr. Ashwin Makwana, Head, CDPC || Mr. Divyang Purohit, TPO, CDPC"
                 email="ashwinmakwana.ce@charusat.ac.in || divyangpurohit.tnp@charusat.ac.in"
-                phone="+91-2697-265213 / 265214"
+                phone="+91-2697-265213 / 265214" 
             />
               
             
