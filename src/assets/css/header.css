@@ -1,0 +1,19 @@
+.support-btn {
+  background: #3db166;
+  line-height: 2;
+  padding: 20px;
+  height: 100%;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+@media (max-width: 1400px) {
+  .support-btn {
+    background: none;
+    line-height: normal;
+    padding: 0;
+    height: auto;
+    font-weight: normal;
+    font-size: unset;
+  }
+}

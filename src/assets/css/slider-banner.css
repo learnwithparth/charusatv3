@@ -4,7 +4,7 @@
   position: absolute;
   display: block;
   overflow: visible;
-  font-size: 4vw !important;
+  font-size: 3rem !important;
   line-height: 85px;
   font-weight: 900;
   color: #fff;
@@ -46,4 +46,5 @@
   opacity: 1;
   transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   transform-origin: 50% 50% 0px;
+  max-width: 68%;
 }
