@@ -737,16 +737,16 @@ const Header = () => {
                   <Link to="/convocations" className="menu-link">
                     Convocations
                   </Link>
-                  <Link to="/people" className="menu-link">
+                  <Link to="/associates" className="menu-link">
                     Governing Body
                   </Link>
-                  <Link to="/people" className="menu-link">
+                  <Link to="/associates" className="menu-link">
                     Board of Management
                   </Link>
-                  <Link to="/people" className="menu-link">
+                  <Link to="/associates" className="menu-link">
                     Deans, Principals & Heads
                   </Link>
-                  <Link to="/people" className="menu-link">
+                  <Link to="/associates" className="menu-link">
                     University Officers
                   </Link>
                 </div>
