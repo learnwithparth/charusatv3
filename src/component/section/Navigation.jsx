@@ -1,5 +1,5 @@
 import React from "react";
-import {HashRouter, Link } from "react-router-dom";
+import { HashRouter, Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 
 import Nav from "react-bootstrap/Nav";
@@ -7,12 +7,12 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "bootstrap/dist/css/bootstrap.css";
 import "../../assets/css/navigation.css";
+import Dropdown from "react-bootstrap/Dropdown";
 
 const Header = () => {
   return (
     <>
       <div>
-
         <header
           className="header"
           onClick={() => {
@@ -23,7 +23,6 @@ const Header = () => {
             document.getElementById("KnowCHARUSAT").style.display = "none";
           }}
         >
-
           <nav className="nav">
             <div className="logo">
               <Link to="/home" class="charusat">
@@ -68,7 +67,17 @@ const Header = () => {
                     Research
                   </a>
                 </li>
-                <li className="link">
+                <li
+                  className="link"
+                  onMouseOver={() => {
+                    document.getElementById("IQAC").style.display =
+                      "grid";
+                  }}
+                  onMouseOut={() => {
+                    document.getElementById("IQAC").style.display =
+                      "none";
+                  }}
+                >
                   <a
                     id="IQAC-link"
                     target="_blank"
@@ -109,7 +118,10 @@ const Header = () => {
               <div className="menu-d border-b">
                 <h5 className="menu-head">Learn Online</h5>
                 <div className="menu-items">
-                  <a href="https://charuvidya.charusat.ac.in" className="menu-link">
+                  <a
+                    href="https://charuvidya.charusat.ac.in"
+                    className="menu-link"
+                  >
                     CharuVidya
                   </a>
                   <a
@@ -121,7 +133,7 @@ const Header = () => {
                   </a>
                 </div>
               </div>
-              
+
               <div className="menu-d ">
                 <h5 className="menu-head">Other Programmes</h5>
                 <div className="menu-items">
@@ -143,7 +155,6 @@ const Header = () => {
                   </Link>
                 </div>
               </div>
-              
             </div>
             <div className="menu-div border-left">
               <h5 className="menu-head">Undergraduate Studies</h5>
@@ -415,8 +426,8 @@ const Header = () => {
             </div>
           </div>
           <div
-            className="menu"
-            id="IQAC"
+            // className="menu"
+            // id="IQAC"
             // onMouseOver={() => {
             //   document.getElementById("IQAC").style.display = "grid";
             // }}
@@ -940,8 +951,8 @@ const Header = () => {
 
           <nav className="mobile-nav"></nav>
         </header>
-        
-        <Navbar bg="white" expand="lg" className="nav">
+
+        {/* <Navbar bg="white" expand="lg" className="nav">
           <Container>
             <Navbar.Brand href="#home">
               <a href="/" class="charusat">
@@ -965,6 +976,398 @@ const Header = () => {
                   <NavDropdown.Item href="#action/3.4">
                     Separated link
                   </NavDropdown.Item>
+                </NavDropdown>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar> */}
+        <Navbar bg="white" expand="lg" className="nav">
+          <Container>
+            <Navbar.Brand href="#home">
+              <a href="/" class="charusat">
+                CHARUSAT
+              </a>
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="me-auto">
+                <NavDropdown title="Academics" id="basic-nav-dropdown">
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      Learn Online
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item href="#/action-2">
+                        CharuVidya
+                      </Dropdown.Item>
+                      <Dropdown.Item href="#/action-2">
+                        NPTEL Resources (Intranet)
+                      </Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      Other Programmes
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item>
+                        Certification & Audit Courses
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        General Nursing & Midwifery (GNM)
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        Post Graduation Diploma in Clinical Hypnosis (PGDCH)
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        Post Graduation Diploma in Cyber Security (PGDCS)
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        Post Graduation Diploma in Medical Laboratory Technology
+                        (PGDMLT)
+                      </Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      Undergraduate Studies
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item>B.Tech</Dropdown.Item>
+                      <Dropdown.Item>BCA</Dropdown.Item>
+                      <Dropdown.Item>B.Sc(IT)</Dropdown.Item>
+                      <Dropdown.Item>
+                        B Pharm (Bachelor of Pharmacy)
+                      </Dropdown.Item>
+                      <Dropdown.Item>BBA</Dropdown.Item>
+                      <Dropdown.Item>B.Sc(Biology)</Dropdown.Item>
+                      <Dropdown.Item>
+                        BPT(Bachelor of Physiotherapy)
+                      </Dropdown.Item>
+                      <Dropdown.Item>B.Sc(Nursing)</Dropdown.Item>
+                      <Dropdown.Item>
+                        Bachelor of Optometry (B Optom)
+                      </Dropdown.Item>
+                      <Dropdown.Item>B.Sc (Imaging Technology)</Dropdown.Item>
+                      <Dropdown.Item>B.Sc (Medical Technnology)</Dropdown.Item>
+                      <Dropdown.Item>
+                        B.Sc (Operation Theatre & Anesthesia Technology)
+                      </Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      Postgraduate Studies
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item>M.Tech</Dropdown.Item>
+                      <Dropdown.Item>MCA</Dropdown.Item>
+                      <Dropdown.Item>M.Sc(IT)</Dropdown.Item>
+                      <Dropdown.Item>M.Pharm</Dropdown.Item>
+                      <Dropdown.Item>MBA</Dropdown.Item>
+                      <Dropdown.Item>
+                        M.Sc (Advanced Organic Chemistry)
+                      </Dropdown.Item>
+                      <Dropdown.Item>M.Sc (Biochemistry)</Dropdown.Item>
+                      <Dropdown.Item>M.Sc (Biotechnology)</Dropdown.Item>
+                      <Dropdown.Item>M.Sc (Microbiology)</Dropdown.Item>
+                      <Dropdown.Item>M.Sc (Physics)</Dropdown.Item>
+                      <Dropdown.Item>
+                        MPT (Master of Physiotherapy)
+                      </Dropdown.Item>
+                      <Dropdown.Item>M.Sc (Nursing)</Dropdown.Item>
+                      <Dropdown.Item>
+                        M.Sc (Medical Imaging Teachnology)
+                      </Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      Ph D Programs
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item>General Information</Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      Information You May Need!!!
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item>Academic Calender</Dropdown.Item>
+                      <Dropdown.Item>Students' Corner</Dropdown.Item>
+                      <Dropdown.Item>
+                        Career Development and Placements
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        Entrepreneurship and Innovations
+                      </Dropdown.Item>
+                      <Dropdown.Item>Initiatives</Dropdown.Item>
+                      <Dropdown.Item>Knowledge Resource Center</Dropdown.Item>
+                      <Dropdown.Item>Code of Conduct</Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                </NavDropdown>
+                {/*  */}
+                <NavDropdown title="Admission" id="basic-nav-dropdown">
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      National
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item href="#/action-2">Apply Now</Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">
+                        Eligibility criteria
+                      </Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">Fees</Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">
+                        +91 8905500500
+                      </Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      International
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item href="#/action-2">Apply Now</Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">
+                        Eligibility criteria
+                      </Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">Fees</Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">
+                        +91 917370164
+                      </Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      Other
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item href="#/action-2">
+                        Admission Login
+                      </Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">
+                        Have a query? Contact Admission Representative
+                      </Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">
+                        Need Personal Guidance!!! Talk To us
+                      </Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">
+                        Fellowship
+                      </Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">
+                        Scholarship
+                      </Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">
+                        Transportation
+                      </Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">
+                        Frequently Asked Questions (FAQs)
+                      </Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                </NavDropdown>
+                {/*  */}
+                {/* <NavDropdown title="Campus Life" id="basic-nav-dropdown">
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      Activity & Events
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item href="#/action-2">
+                        NCC@CHARUSAT
+                      </Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">
+                        NSS@CHARUSAT
+                      </Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">
+                        Sports & Gym
+                      </Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">
+                        Student Activities & Events
+                      </Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">
+                        Student Clubs
+                      </Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      Residences & Amenities
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item href="#/action-2">
+                        Girl's Hostel
+                      </Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">
+                        Boy's Hostel
+                      </Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">
+                        Staff Quarters
+                      </Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">Food</Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">
+                        Transportation
+                      </Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">
+                        Recreation
+                      </Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      Student Helpline
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item href="#/action-2">
+                        Helpline Contacts
+                      </Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                </NavDropdown> */}
+                {/*  */}
+                <NavDropdown title="Research" id="basic-nav-dropdown">
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      Initiatives
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item>Laboratories</Dropdown.Item>
+                      <Dropdown.Item>CHARUSAT Journal</Dropdown.Item>
+                      <Dropdown.Item>
+                        Enterpreneurship Development & Incubation Cell (EDIC)
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        Dr. K. C. Patel Research and Development Centre (KRADLE)
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        International Center for Cosmology (ICC)
+                      </Dropdown.Item>
+                      <Dropdown.Item>IPR Cell</Dropdown.Item>
+                      <Dropdown.Item>Research Facilitation</Dropdown.Item>
+                      <Dropdown.Item>
+                        CHARUSAT Space Research Center
+                      </Dropdown.Item>
+                      <Dropdown.Item>Research Ethics Committee</Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      Policies
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item>
+                        Post Doctoral Fellowship Programme
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        Ph. D. Scholars’ Fellowship (CPSF)
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        Visitor Student Research Internship (CVSRI)
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        Postgraduate Student Fellowship (PGSF)
+                      </Dropdown.Item>
+                      <Dropdown.Item>SEED Grant for Research</Dropdown.Item>
+                      <Dropdown.Item>Research</Dropdown.Item>
+                      <Dropdown.Item>Research Paper Award</Dropdown.Item>
+                      <Dropdown.Item>Plagiarism</Dropdown.Item>
+                      <Dropdown.Item>
+                        Patent, IPR and Royalty Sharing
+                      </Dropdown.Item>
+                      <Dropdown.Item>Consultancy</Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      Outcomes
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item>Publications</Dropdown.Item>
+                      <Dropdown.Item>Project Grants</Dropdown.Item>
+                      <Dropdown.Item>Patents</Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                </NavDropdown>
+                {/*  */}
+                <NavDropdown title="Know CHARUSAT" id="basic-nav-dropdown">
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      About University
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item>Vision</Dropdown.Item>
+                      <Dropdown.Item>Mission</Dropdown.Item>
+                      <Dropdown.Item>Torchbearers</Dropdown.Item>
+                      <Dropdown.Item>From President's Desk</Dropdown.Item>
+                      <Dropdown.Item>From Provost's Desk</Dropdown.Item>
+                      <Dropdown.Item>Convocations</Dropdown.Item>
+                      <Dropdown.Item>Governing Body</Dropdown.Item>
+                      <Dropdown.Item>Board of Management</Dropdown.Item>
+                      <Dropdown.Item>Deans, Principals & Heads</Dropdown.Item>
+                      <Dropdown.Item>University Officers</Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      Centers & Cells
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item>Anti-Ragging Committee</Dropdown.Item>
+                      <Dropdown.Item>Equal Opportunity Cell</Dropdown.Item>
+                      <Dropdown.Item>Energy Conservation Cell</Dropdown.Item>
+                      <Dropdown.Item>Grievance Redressal Cell</Dropdown.Item>
+                      <Dropdown.Item>
+                        Enterpreneurship Development & Incubation Cell
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        University Industry Interaction Cell
+                      </Dropdown.Item>
+                      <Dropdown.Item>Womens' Development Cell</Dropdown.Item>
+                      <Dropdown.Item>
+                        Pri. B I Patel Human Resource Development Center
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        International Students' Cell
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        Cell for Prevention of Sexual Harassment
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        Charusat Rural Education Development Program
+                      </Dropdown.Item>
+                      <Dropdown.Item>Student Wellness Programme</Dropdown.Item>
+                      <Dropdown.Item>
+                        Data Center @ CHARUSAT - WINCELL
+                      </Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      Infrastructure & Resources
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item>Laboratories</Dropdown.Item>
+                      <Dropdown.Item>Knowledge Resource Center</Dropdown.Item>
+                      <Dropdown.Item>Herbal Garden</Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      Others
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item>Give & Support</Dropdown.Item>
+                      <Dropdown.Item>Finance Reports</Dropdown.Item>
+                      <Dropdown.Item>Annual Report 2020-21</Dropdown.Item>
+                      <Dropdown.Item>Annual Report 2019-20</Dropdown.Item>
+                      <Dropdown.Item>Annual Report 2018-19</Dropdown.Item>
+                      <Dropdown.Item>Annual Report 2017-18</Dropdown.Item>
+                      <Dropdown.Item>Annual Report 2016-17</Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>

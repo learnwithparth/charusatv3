@@ -171,7 +171,7 @@ const BannerFive = () => {
               >
                 {item.title}
               </div>
-              <br /> <br /> <br /> <br />
+              <br /> <br />
               <br />
               <div className="subTitle-slider">{item.description}</div>
             </div>
