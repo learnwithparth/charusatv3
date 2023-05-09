@@ -7,7 +7,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/SurendraSir.png",
     imgAlt: "Surendra sir",
-    cate: ["Governing Body","BOM"],
+    cate: ["Governing Body", "BOM"],
     title: "Surendra Patel",
     author: "assets/images/course/author/01.jpg",
     authorName: [
@@ -24,7 +24,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/RVU_Sir.png",
     imgAlt: "RVU Sir",
-    cate: ["Governing Body","BOM"],
+    cate: ["Governing Body", "BOM"],
     title: "Dr. R V Upadhyay",
     author: "assets/images/course/author/01.jpg",
     authorName: [
@@ -70,7 +70,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/NaginbhaiPatel.png",
     imgAlt: "Naginbhai patel",
-    cate: ["Governing Body","BOM"],
+    cate: ["Governing Body", "BOM"],
     title: "Shri Naginbhai M. Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -98,7 +98,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/MananRaval.webp",
     imgAlt: "Manan Raval",
-    cate: ["Governing Body","DeansNPrincipals"],
+    cate: ["Governing Body", "DeansNPrincipals"],
     title: "Dr. Manan Raval",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -113,7 +113,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/dr-y-p-kosta.webp",
     imgAlt: "y p kosta",
-    cate: ["Governing Body","DeansNPrincipals"],
+    cate: ["Governing Body", "DeansNPrincipals"],
     title: "Dr. Y. P. Kosta",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -218,7 +218,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/DrDevangJoshi-1.png",
     imgAlt: "Devang Joshi",
-    cate: ["Governing Body","University Officers","BOM"],
+    cate: ["Governing Body", "University Officers", "BOM"],
     title: "Dr. Devang Joshi",
     author: "assets/images/course/author/03.jpg",
     authorName: ["Member Secretary", <br />, "Registrar, CHARUSAT"],
@@ -258,7 +258,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/DarshanPatel.webp",
     imgAlt: "Darshan Patel",
-    cate: ["BOM","DeansNPrincipals"],
+    cate: ["BOM", "DeansNPrincipals"],
     title: "Dr. Darshan Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -273,7 +273,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/AtulPatel.png",
     imgAlt: "Dr. Atul Patel",
-    cate: ["BOM","DeansNPrincipals"],
+    cate: ["BOM", "DeansNPrincipals"],
     title: "Dr. Atul Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -290,7 +290,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/BalaGanpathy.webp",
     imgAlt: "Dr. M BalaGanpathy",
-    cate: ["BOM","DeansNPrincipals"],
+    cate: ["BOM", "DeansNPrincipals"],
     title: "Dr. M Balaganapathy",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -449,22 +449,22 @@ const CourseData = [
 
 export default function People() {
   const [items, setItems] = useState(CourseData);
-  const filterItem =async (categItem) => {
+  const filterItem = async (categItem) => {
     // const updateItems = CourseData.filter((curElem) => {
     //   console.log(curElem.cate.includes(categItem));
     //     return curElem.cate.includes(categItem);
-      
+
     // });
-    console.log("items:"+categItem);
+    console.log("items:" + categItem);
     const updateItems = [];
-    CourseData.forEach(async(element) => {
+    CourseData.forEach(async (element) => {
       console.log(element.cate.includes(categItem));
       if (element.cate.includes(categItem)) {
         // console.log(updateItems.length);
-         updateItems.push(element);
+        updateItems.push(element);
       }
     });
-   console.log(updateItems.length);
+    console.log(updateItems.length);
     await setItems(updateItems);
   };
 
@@ -510,11 +510,26 @@ export default function People() {
                 price,
               } = elem;
               return (
-                <div className="col" key={id}>
+                <div className="col" style={{ height: "" }} key={id}>
                   <div className="course-item style-4">
-                    <div className="course-inner">
-                      <div className="course-thumb">
-                        <img src={imgUrl} alt={imgAlt} />
+                    <div className="course-inner" style={{ height: "450px" }}>
+                      <div
+                        className="course-thumb"
+                        style={{
+                          height: "15rem",
+                          width: "100%",
+                          objectFit: "cover",
+                        }}
+                      >
+                        <img
+                          src={imgUrl}
+                          alt={imgAlt}
+                          style={{
+                            height: "100%",
+                            width: "100%",
+                            objectFit: "cover",
+                          }}
+                        />
                         <div className="course-category">
                           {/* <div className="course-cate">
                             <a href="#">{cate}</a>
@@ -524,10 +539,20 @@ export default function People() {
                                                     </div> */}
                         </div>
                       </div>
-                      <div className="course-content">
+                      <div
+                        className="course-content"
+                        style={{ background: "", height: "100%" }}
+                      >
                         <Link to="/course-single">
-                          <h5>{title}</h5>
-                          <h6>{authorName}</h6>
+                          <h5 style={{ wordWrap: "break-word" }}>{title}</h5>
+                          <h6
+                            style={{
+                              wordWrap: "break-word",
+                              fontSize: "0.9rem",
+                            }}
+                          >
+                            {authorName}
+                          </h6>
                         </Link>
                         {/* <div className="course-footer">
                                                     <div className="course-author">
