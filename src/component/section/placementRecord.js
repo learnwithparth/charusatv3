@@ -40,7 +40,7 @@ const data = {
   labels,
   datasets: [
     {
-      label: "Companies Visited",
+      label: "Number of Companies Visited",
       data: [200, 220, 297, 315, 344, 350],
       backgroundColor: "rgba(235, 99, 132, 0.5)",
     },
