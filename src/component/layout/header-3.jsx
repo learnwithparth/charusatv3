@@ -69,7 +69,7 @@ const HeaderThree = () => {
               <Link to="/careers" className="login">
                 Careers
               </Link>
-              <Link to="./accreditation-and-ranking">NIRF</Link>
+              {/* <Link to="./accreditation-and-ranking">NIRF</Link> */}
               <Link to="./placement">Placement</Link>
               <a href="https://charusat.ac.in/admission/scholarship.html">
                 Scholarships
