@@ -1346,7 +1346,7 @@ const Header = () => {
                   </Dropdown>
                   <Dropdown>
                     <Dropdown.Toggle variant="" id="dropdown">
-                      Infrastructure & Resources
+                    Infrastructure & Resources
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
                       <Dropdown.Item>Laboratories</Dropdown.Item>

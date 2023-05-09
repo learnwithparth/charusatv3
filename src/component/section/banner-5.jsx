@@ -62,7 +62,7 @@ const content = [
   {
     title: "Canteen",
     description:
-      "Wholesome meals served as a part of indian and world cuisines replete with all 5 flavors",
+      "Wholesome meals served as a part of indian and world cuisines replete with all 5 flavours",
     button: "Apply Now",
     image: "assets/images/home/canteen.webp",
     user: "Bruno Vizovskyy",
@@ -71,7 +71,7 @@ const content = [
   {
     title: "Infrastucture",
     description:
-      "Future-ready acamedic infrastructures with ergonomically designed classrooms, ICT and climatization",
+      "Future Ready Academics infrastructure with ergonomically designed classrooms, ICT and climatization",
     button: "Apply Now",
     image: "assets/images/home/s7.webp",
     user: "Bruno Vizovskyy",
