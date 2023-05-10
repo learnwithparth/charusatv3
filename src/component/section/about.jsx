@@ -19,13 +19,13 @@ const aboutList = [
     imgUrl: "assets/images/about/icon/02.jpg",
     imgAlt: "about icon rajibraj91 rajibraj",
     title: "Get Certificate",
-    desc: "Ranked among Top 3 Universities in Gujarat by GSIF",
+    desc: "Ranked among Top 3 Universities in Gujarat by GSIRF",
   },
   {
     imgUrl: "assets/images/about/icon/03.jpg",
     imgAlt: "about icon rajibraj91 rajibraj",
     title: "Online Classes",
-    desc: "Member of United Nation of Academic Impact",
+    desc: "Member of United Nations of Academic Impact",
   },
   {
     imgUrl: "assets/images/about/icon/02.jpg",
@@ -37,7 +37,7 @@ const aboutList = [
     imgUrl: "assets/images/about/icon/03.jpg",
     imgAlt: "about icon rajibraj91 rajibraj",
     title: "Online Classes",
-    desc: "Certified Center of Excellence - GoG",
+    desc: "Certified as Center of Excellence by Goverment of Gujarat",
   },
 ];
 
