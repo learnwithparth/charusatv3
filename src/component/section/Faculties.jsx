@@ -10,7 +10,7 @@ const CourseData = [
     imgAlt: "CSPIT image",
     cate: "Engineering",
     programs: "B. Tech, M. Tech, Ph. D.",
-    title: "C S Patel Institute of Technology",
+    title: "Chandubhai S. Patel Institute of Technology",
     link: "https://www.charusat.ac.in/cspit/",
     author: "assets/images/course/author/01.jpg",
     authorName: "William Smith",

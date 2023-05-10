@@ -38,7 +38,7 @@ const menuList = [
               link: "#",
             },
             {
-              text: "Bachelor of Optometry (B Optom)",
+              text: "Bachelor of Optometry (B.Optom)",
               link: "#",
             },
             {
@@ -91,7 +91,7 @@ const menuList = [
               link: "#",
             },
             {
-              text: "Bachelor of Optometry (B Optom)",
+              text: "Bachelor of Optometry (B.Optom)",
               link: "#",
             },
             {
@@ -144,7 +144,7 @@ const menuList = [
               link: "#",
             },
             {
-              text: "Bachelor of Optometry (B Optom)",
+              text: "Bachelor of Optometry (B.Optom)",
               link: "#",
             },
             {
