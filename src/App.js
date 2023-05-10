@@ -125,6 +125,7 @@ function App() {
         <Route path="/edic" element={<Edic />} />
         <Route path="/scholarship" element={<Scholarship />} />
         <Route path="/student-corner" element={<StudentCorner />} />
+        <Route path="/crtc" element={<CSRTC />} />
 
         <Route path="/coming-soon" element={<ComingSoon />} />
         <Route path="/error" element={<ErrorPage />} />

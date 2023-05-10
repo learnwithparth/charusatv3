@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { HashRouter, Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 
@@ -10,6 +10,12 @@ import "../../assets/css/navigation.css";
 import Dropdown from "react-bootstrap/Dropdown";
 
 const Header = () => {
+  const [activeLink, setActiveLink] = useState("");
+
+  useEffect(() => {
+    console.log(activeLink);
+  }, [activeLink]);
+
   return (
     <>
       <div>
@@ -30,52 +36,74 @@ const Header = () => {
               </Link>
             </div>
             <div className="nav-links">
-              <ul className="links">
+              <ul className={`links `}>
                 <li
-                  className="link"
+                  className={`link green-text`}
                   onMouseOver={() => {
                     document.getElementById("Academics").style.display = "grid";
+                    setActiveLink("Academics");
                   }}
                   onMouseOut={() => {
                     document.getElementById("Academics").style.display = "none";
                   }}
                 >
-                  <a href="">Academics</a>
+                  <a
+                    href=""
+                    className={`${
+                      activeLink === "Academics" ? "green-text" : "green"
+                    }`}
+                  >
+                    Academics
+                  </a>
                 </li>
                 <li
                   className="link"
                   onMouseOver={() => {
                     document.getElementById("Admission").style.display = "grid";
+                    setActiveLink("Admission");
                   }}
                   onMouseOut={() => {
                     document.getElementById("Admission").style.display = "none";
                   }}
                 >
-                  <a href="">Admission</a>
+                  <a
+                    href=""
+                    className={`${
+                      activeLink === "Admission" ? "green-text" : "green"
+                    }`}
+                  >
+                    Admission
+                  </a>
                 </li>
 
                 <li
                   className="link"
                   onMouseOver={() => {
                     document.getElementById("Research").style.display = "grid";
+                    setActiveLink("Research");
                   }}
                   onMouseOut={() => {
                     document.getElementById("Research").style.display = "none";
                   }}
                 >
-                  <a id="Research-link" href="">
+                  <a
+                    id="Research-link"
+                    href=""
+                    className={`${
+                      activeLink === "Research" ? "green-text" : "green"
+                    }`}
+                  >
                     Research
                   </a>
                 </li>
                 <li
                   className="link"
                   onMouseOver={() => {
-                    document.getElementById("IQAC").style.display =
-                      "grid";
+                    document.getElementById("IQAC").style.display = "grid";
+                    setActiveLink("IQAC");
                   }}
                   onMouseOut={() => {
-                    document.getElementById("IQAC").style.display =
-                      "none";
+                    document.getElementById("IQAC").style.display = "none";
                   }}
                 >
                   <a
@@ -91,13 +119,20 @@ const Header = () => {
                   onMouseOver={() => {
                     document.getElementById("KnowCHARUSAT").style.display =
                       "grid";
+                    setActiveLink("KnowCHARUSAT");
                   }}
                   onMouseOut={() => {
                     document.getElementById("KnowCHARUSAT").style.display =
                       "none";
                   }}
                 >
-                  <a id="KnowCHARUSAT-link" href="">
+                  <a
+                    id="KnowCHARUSAT-link"
+                    href=""
+                    className={`${
+                      activeLink === "KnowCHARUSAT" ? "green-text" : "green"
+                    }`}
+                  >
                     Know CHARUSAT
                   </a>
                 </li>
@@ -109,9 +144,11 @@ const Header = () => {
             id="Academics"
             onMouseOver={() => {
               document.getElementById("Academics").style.display = "grid";
+              setActiveLink("Academics");
             }}
             onMouseOut={() => {
               document.getElementById("Academics").style.display = "none";
+              setActiveLink("");
             }}
           >
             <div className="menu-div">
@@ -299,9 +336,11 @@ const Header = () => {
             id="Admission"
             onMouseOver={() => {
               document.getElementById("Admission").style.display = "grid";
+              setActiveLink("Admission");
             }}
             onMouseOut={() => {
               document.getElementById("Admission").style.display = "none";
+              setActiveLink("");
             }}
           >
             <div className="menu-div">
@@ -426,14 +465,14 @@ const Header = () => {
             </div>
           </div>
           <div
-            // className="menu"
-            // id="IQAC"
-            // onMouseOver={() => {
-            //   document.getElementById("IQAC").style.display = "grid";
-            // }}
-            // onMouseOut={() => {
-            //   document.getElementById("IQAC").style.display = "none";
-            // }}
+          // className="menu"
+          // id="IQAC"
+          // onMouseOver={() => {
+          //   document.getElementById("IQAC").style.display = "grid";
+          // }}
+          // onMouseOut={() => {
+          //   document.getElementById("IQAC").style.display = "none";
+          // }}
           >
             {/* <div className="menu-div">
               <div className="menu-d border-b">
@@ -584,9 +623,11 @@ const Header = () => {
             id="Research"
             onMouseOver={() => {
               document.getElementById("Research").style.display = "grid";
+              setActiveLink("Research");
             }}
             onMouseOut={() => {
               document.getElementById("Research").style.display = "none";
+              setActiveLink("");
             }}
           >
             <div className="menu-div">
@@ -715,9 +756,11 @@ const Header = () => {
             id="KnowCHARUSAT"
             onMouseOver={() => {
               document.getElementById("KnowCHARUSAT").style.display = "grid";
+              setActiveLink("KnowCHARUSAT");
             }}
             onMouseOut={() => {
               document.getElementById("KnowCHARUSAT").style.display = "none";
+              setActiveLink("");
             }}
           >
             <div className="menu-div">
@@ -1346,7 +1389,7 @@ const Header = () => {
                   </Dropdown>
                   <Dropdown>
                     <Dropdown.Toggle variant="" id="dropdown">
-                    Infrastructure & Resources
+                      Infrastructure & Resources
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
                       <Dropdown.Item>Laboratories</Dropdown.Item>

@@ -21,7 +21,9 @@ const CDPC = () => {
                           <div className="post-content">
                             <h3>Career Development and Placement Cell (CDPC)</h3>
                             <div className="meta-post">
-                              <Image src="./assets/images/CDPC_banner.jpg"/><br/><br/>
+                              {/* <Image src="./assets/images/CDPC_banner.jpg"/> */}
+                              <Image src="https://placehold.co/800x400?text=CDPC" />
+                              <br/><br/>
                               <p>The Motive of Charotar University of Science and Technology, Changa (CHARUSAT) is to help society to develop towards a better future.</p>
                               <p style={{"color":"#3db166"}}>The cell is sensitized to function all through the year towards generating placement and training opportunities for the students.</p>
                               <br/>
