@@ -1,14 +1,14 @@
 import { Fragment } from "react";
 import Contact from "../component/section/contact";
 import Image from 'react-bootstrap/Image';
-
+import "../assets/css/cdpc.css"
 
 
 const CDPC = () => {
   return (
     <Fragment>
       {/* <PageHeader title={'4 Results found for: Business'} curPage={'Search Result'} /> */}
-      <div className="blog-section padding-tb section-bg">
+      <div className="blog-section padding-tb section-bg fonts">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 col-12">

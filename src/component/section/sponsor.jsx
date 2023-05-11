@@ -5,6 +5,42 @@ const title = "Recruiters";
 
 const sponsorList = [
   {
+    imgUrl: "https://charusat.ac.in/images/recruiters/placement/jaro.png",
+    imgAlt: "Jaro Education",
+  },
+  {
+    imgUrl: "https://charusat.ac.in/images/recruiters/placement/in.png",
+    imgAlt: "Indian Navy",
+  },
+  {
+    imgUrl: "https://charusat.ac.in/images/recruiters/placement/gsfc.png",
+    imgAlt: "GSFC",
+  },
+  {
+    imgUrl: "https://charusat.ac.in/images/recruiters/placement/ops.png",
+    imgAlt: "OPS",
+  },
+  {
+    imgUrl: "https://charusat.ac.in/images/recruiters/placement/mg.png",
+    imgAlt: "MG",
+  },
+  {
+    imgUrl: "https://charusat.ac.in/images/recruiters/placement/evosys.png",
+    imgAlt: "Evosys",
+  },
+  {
+    imgUrl: "https://charusat.ac.in/images/recruiters/placement/tbea.png",
+    imgAlt: "TBEA",
+  },
+  {
+    imgUrl: "https://charusat.ac.in/images/recruiters/placement/meditab.png",
+    imgAlt: "Meditab",
+  },
+  {
+    imgUrl: "https://charusat.ac.in/images/recruiters/placement/tr.png",
+    imgAlt: "TR",
+  },
+  {
     imgUrl: "assets/images/recruiters/adani.png",
     imgAlt: "sponsor rajibraj91 rajibraj",
   },
@@ -73,7 +109,7 @@ const Sponsor = () => {
               {sponsorList.map((val, i) => (
                 <SwiperSlide key={i}>
                   <div className="sponsor-iten">
-                    <div className="sponsor-thumb">
+                    <div className="sponsor-thumb bg-white border p-3 rounded">
                       <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} />
                     </div>
                   </div>
