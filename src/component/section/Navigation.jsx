@@ -875,7 +875,7 @@ const Header = () => {
                   Charusat Rural Education Development Program
                 </a>
                 <a
-                  href="https://charusat.ac.in/wellness_program.php"
+                  href="./student-wellness-program"
                   className="menu-link"
                 >
                   Student Wellness Programme
@@ -1493,7 +1493,7 @@ const Header = () => {
                       <Dropdown.Item href="https://charusat.ac.in/centers_and_cells.php#1543642621602-5e7edef6-54cb">
                         Charusat Rural Education Development Program
                       </Dropdown.Item>
-                      <Dropdown.Item href="https://charusat.ac.in/wellness_program.php">
+                      <Dropdown.Item href="./student-wellness-program">
                         Student Wellness Programme
                       </Dropdown.Item>
                       <Dropdown.Item href="/wincell">

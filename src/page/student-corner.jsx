@@ -197,7 +197,7 @@ const StudentCorner = () => {
                                   <div className="gdlr-core-course-item-list">
                                     <a
                                       className="gdlr-core-course-item-link"
-                                      href="https://charusat.ac.in/wellness_program.php"
+                                      href="./student-wellness-program"
                                       target="_blank"
                                     >
                                       <span className="gdlr-core-course-item-title gdlr-core-skin-title">
