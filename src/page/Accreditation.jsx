@@ -151,7 +151,7 @@ const Accreditation = () => {
                           </a>
                           <br />
                           <br />
-                          <a
+                          {/* <a
                             class="lab-btn"
                             href={CoeNotification}
                             target="_blank"
@@ -159,7 +159,7 @@ const Accreditation = () => {
                           >
                             <span>CoE Notification</span>
                           </a>
-                          <br/><br/>
+                          <br/><br/> */}
                           <img src="assets/images/achive/COE-Certificate.jpg" alt=""/>
                         </div>
                       </div>
