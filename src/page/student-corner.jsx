@@ -66,7 +66,7 @@ const StudentCorner = () => {
                                       target="_blank"
                                     >
                                       <span className="gdlr-core-course-item-title gdlr-core-skin-title">
-                                        Transcript / Duplicate Grade Card
+                                        Transcript / Duplicate Grade Card / Migration Certificate
                                       </span>
                                       <i className="icofont-long-arrow-right"></i>
                                     </a>
