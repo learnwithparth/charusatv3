@@ -18,6 +18,10 @@
   height: 90px;
 }
 
+.green-text {
+  color: #3db166 !important;
+}
+
 .charusat {
   margin-left: 7rem !important;
   font-size: 53px;

@@ -155,10 +155,90 @@ const Hostels = () => {
             </div>
 
             <Contact
-              title="Hostel Contact"
+              title="Girls Hostel Contact"
               name="Rasilaben Patel"
               email="info@charusat.ac.in"
               phone="+91-2697-2651xx"
+            />
+          </div>
+        </div>
+      </div>
+      {/* Boys Hostel */}
+      <div
+        className="blog-section padding-tb section-bg"
+        style={{ padding: "10px 0" }}
+      >
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8 col-12">
+              <article>
+                <div className="section-wrapper">
+                  <div className="row row-cols-1 justify-content-center g-4">
+                    <div className="col">
+                      <div className="post-item style-2">
+                        <div className="post-inner">
+                          <div className="post-content">
+                            <h3>Boys' Hostels</h3>
+                            <br />
+                            <div>
+                              <p>
+                                Boys’ hostels are outsourced at 8 different
+                                locations within a radius of 1 km. These hostels
+                                have a housing capacity for about 1500 boys. AC
+                                as well Non AC accommodation is available at
+                                these Hostels.
+                              </p>
+                              <p style={{ marginBottom: "20px" }}>
+                                Facilities available at these hostels include
+                                Dining hall, Sports, reading room, TV room,
+                                Wi-Fi connectivity and transport facilities to
+                                the campus and back. Guest rooms are also
+                                available.
+                              </p>
+                            </div>
+                            <Image
+                              src="https://www.charusat.ac.in/images/Hostel_2022-23.JPG"
+                              thumbnail
+                            />
+                            {/* <h4>Boys' Hostel</h4>
+                            <hr />
+                            <p>
+                              Boys’ hostels are outsourced at 8 different
+                              locations within a radius of 1 km. These hostels
+                              have a housing capacity for about 1200 boys. AC as
+                              well Non AC accommodation is available at these
+                              Hostels. Facilities available at these hostels
+                              include Dining hall, Sports, reading room, TV
+                              room, Wi-Fi connectivity and transport facilities
+                              to the campus and back. Guest rooms are also
+                              available.For further information contact Jignesh
+                              Patel – 98794 38045.
+                            </p> */}
+                            {/* <h4> Mess Facility</h4>
+                            <hr />
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Culpa quibusdam doloribus soluta, porro iure
+                              deleniti hic eligendi. Obcaecati aliquid repellat
+                              error explicabo minus sed doloremque quam mollitia
+                              quibusdam? Architecto, molestiae.
+                            </p> */}
+
+                            <br />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <Contact
+              title="Boys' Hostel Contact"
+              name="Anonymous"
+              email="info@charusat.ac.in"
+              phone="+91-98794 38045"
             />
           </div>
         </div>

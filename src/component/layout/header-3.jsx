@@ -2,6 +2,7 @@ import { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
 import Navigation from "../section/Navigation";
 import "../../assets/css/blink-text.css";
+import "../../assets/css/header.css";
 
 import {
   Nav,
@@ -46,8 +47,13 @@ const HeaderThree = () => {
           fontSize: "0.8rem",
         }}
       >
-        <div className="container">
-          <div className="header-top-area">
+        <div
+          className="container"
+          style={{
+            margin: "0 auto",
+          }}
+        >
+          <div className="header-top-area" style={{ position: "relative" }}>
             {/* <div className="header-top-contact  ">
               <a href="https://admission2023.charusat.ac.in" className="blink">
                 Apply for Admission
@@ -74,7 +80,7 @@ const HeaderThree = () => {
               <a href="https://charusat.ac.in/admission/scholarship.html">
                 Scholarships
               </a>
-              <a href="https://charusat.edu.in:912/eGovernance">
+              <a href="https://www.charusat.ac.in/admission/scholarship.html">
                 Samaj Scholarships
               </a>
               <Link to="./student-corner">Student Corner</Link>
@@ -96,18 +102,9 @@ const HeaderThree = () => {
               >
                 Pay Fees
               </a>
+
               <Link to="/donation">
-                <span
-                  style={{
-                    backgroundColor: "#3db166",
-                    lineHeight: 2,
-                    padding: "20px",
-                    fontWeight: 600,
-                    fontSize: "16px",
-                  }}
-                >
-                  Support CHARUSAT
-                </span>
+                <span className="support-btn">Support CHARUSAT</span>
               </Link>
             </div>
           </div>

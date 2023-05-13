@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import RepublicDayCamp from "../../files/news/Achievement_RDC-2022.pdf";
 
 const subTitle = "University";
 const title = "News";
@@ -22,7 +23,7 @@ export default function newsFrontPage() {
                   />
                 </div>
                 <div class="course-content">
-                  <a href="#">
+                  <a href={RepublicDayCamp}>
                     <p>Two cadets selected for the "Republic Day Camp"</p>
                   </a>
                 </div>
@@ -37,7 +38,7 @@ export default function newsFrontPage() {
                 </div>
                 <div class="course-content">
                   <a href="#">
-                    <p>CHARUSAT Students build Electric Car</p>
+                    <p>Charusat Students build Electric Car</p>
                   </a>
                 </div>
               </div>

@@ -7,7 +7,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/SurendraSir.png",
     imgAlt: "Surendra sir",
-    cate: ["Governing Body"],
+    cate: ["Governing Body", "BOM"],
     title: "Surendra Patel",
     author: "assets/images/course/author/01.jpg",
     authorName: [
@@ -24,7 +24,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/RVU_Sir.png",
     imgAlt: "RVU Sir",
-    cate: "Governing Body",
+    cate: ["Governing Body", "BOM"],
     title: "Dr. R V Upadhyay",
     author: "assets/images/course/author/01.jpg",
     authorName: [
@@ -35,7 +35,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/VirendraPatel.png",
     imgAlt: "virendra patel",
-    cate: "Governing Body",
+    cate: ["Governing Body"],
     title: "Shri Virendra S Patel",
     author: "assets/images/course/author/02.jpg",
     authorName: [
@@ -53,7 +53,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/mipatel-1.png",
     imgAlt: "mipatel",
-    cate: "Governing Body",
+    cate: ["Governing Body"],
     title: "Dr. M. I. Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -70,7 +70,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/NaginbhaiPatel.png",
     imgAlt: "Naginbhai patel",
-    cate: "Governing Body",
+    cate: ["Governing Body", "BOM"],
     title: "Shri Naginbhai M. Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -82,8 +82,8 @@ const CourseData = [
   },
   {
     imgUrl: "assets/images/People/Bimal-Patel.png",
-    imgAlt: "Naginbhai patel",
-    cate: "Governing Body",
+    imgAlt: "Dr. Bimal Patel",
+    cate: ["Governing Body"],
     title: "Dr. Bimal Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -98,7 +98,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/MananRaval.webp",
     imgAlt: "Manan Raval",
-    cate: "Governing Body",
+    cate: ["Governing Body", "DeansNPrincipals"],
     title: "Dr. Manan Raval",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -113,7 +113,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/dr-y-p-kosta.webp",
     imgAlt: "y p kosta",
-    cate: "Governing Body",
+    cate: ["Governing Body", "DeansNPrincipals"],
     title: "Dr. Y. P. Kosta",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -128,7 +128,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/ManubhaiPatel.png",
     imgAlt: "Manubhai Patel",
-    cate: "Governing Body",
+    cate: ["Governing Body"],
     title: "Shri Manubhai Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -145,7 +145,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/HemalPatel-1.png",
     imgAlt: "Hemal Patel",
-    cate: "Governing Body",
+    cate: ["Governing Body"],
     title: "Shri Hemal Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: ["Member", <br />, "Leading Entrepreneur in IT Industry"],
@@ -154,7 +154,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/PankajPatel-1.png",
     imgAlt: "Pankaj Patel",
-    cate: "Governing Body",
+    cate: ["Governing Body"],
     title: "Shri Pankaj R Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -171,7 +171,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/DevangPatel.png",
     imgAlt: "Devang Patel",
-    cate: "Governing Body",
+    cate: ["Governing Body"],
     title: "Shri Devang Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -188,7 +188,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/dr_harish_patel.png",
     imgAlt: "harish patel",
-    cate: "Governing Body",
+    cate: ["Governing Body"],
     title: "Dr. Harish Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -205,7 +205,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/SJHaider.png",
     imgAlt: "S J Haider",
-    cate: "Governing Body",
+    cate: ["Governing Body"],
     title: "Shri S J Haider, IAS",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -218,75 +218,34 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/DrDevangJoshi-1.png",
     imgAlt: "Devang Joshi",
-    cate: "Governing Body",
+    cate: ["Governing Body", "University Officers", "BOM"],
     title: "Dr. Devang Joshi",
     author: "assets/images/course/author/03.jpg",
     authorName: ["Member Secretary", <br />, "Registrar, CHARUSAT"],
     id: 15,
   },
   {
-    imgUrl: "assets/images/People/SurendraSir.png",
-    imgAlt: "Surendra sir",
-    cate: "BoM",
-    title: "Surendra Patel",
-    author: "assets/images/course/author/01.jpg",
-    authorName: [
-      "President: Shri Charotar Moti Sattavis Patidar Kelavani Mandal",
-      <br />,
-      "Former Chairman: Ahmedabad Urban Development Authority",
-      <br />,
-      "Former Member of Parliament: Rajya Sabha",
-      <br />,
-      " A Renowned Technocrat",
-    ],
-    id: 1,
-  },
-  {
-    imgUrl: "assets/images/People/RVU_Sir.png",
-    imgAlt: "RVU Sir",
-    cate: "BoM",
-    title: "Dr. R V Upadhyay",
-    author: "assets/images/course/author/01.jpg",
-    authorName: [
-      "Provost:Charotar University of Science and Technology (CHARUSAT)",
-    ],
-    id: 2,
-  },
-  {
-    imgUrl: "assets/images/People/NaginbhaiPatel.png",
-    imgAlt: "Naginbhai patel",
-    cate: "BoM",
-    title: "Shri Naginbhai M. Patel",
-    author: "assets/images/course/author/03.jpg",
-    authorName: [
-      "Member",
-      <br />,
-      "President : Shri Charotar Moti Sattavis Leuva Patidar Samaj – Mathrusanstha",
-    ],
-    id: 3,
-  },
-  {
     imgUrl: "assets/images/People/nayan_patel_sir.png",
     imgAlt: "Nayan patel",
-    cate: "BoM",
+    cate: ["BOM"],
     title: "Shri Nayan Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: ["Member", <br />, "Industrialist, Mumbai"],
-    id: 4,
+    id: 30,
   },
   {
     imgUrl: "assets/images/People/user.png",
     imgAlt: "Dipenbhai patel",
-    cate: "BoM",
+    cate: ["BOM"],
     title: "Shri Dipenbhai Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: ["Member", <br />, ""],
-    id: 5,
+    id: 16,
   },
   {
     imgUrl: "assets/images/People/HTPatel.png",
     imgAlt: "H T patel",
-    cate: "BoM",
+    cate: ["BOM"],
     title: "Shri H T Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -294,12 +253,12 @@ const CourseData = [
       <br />,
       "Former President: API Business, Zydus Cadila Healthcare Ltd",
     ],
-    id: 6,
+    id: 17,
   },
   {
     imgUrl: "assets/images/People/DarshanPatel.webp",
-    imgAlt: "H T patel",
-    cate: "BoM",
+    imgAlt: "Darshan Patel",
+    cate: ["BOM", "DeansNPrincipals"],
     title: "Dr. Darshan Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -309,12 +268,12 @@ const CourseData = [
       <br />,
       "principal.cips@charusat.ac.in",
     ],
-    id: 7,
+    id: 18,
   },
   {
     imgUrl: "assets/images/People/AtulPatel.png",
     imgAlt: "Dr. Atul Patel",
-    cate: "BoM",
+    cate: ["BOM", "DeansNPrincipals"],
     title: "Dr. Atul Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -326,12 +285,12 @@ const CourseData = [
       <br />,
       "principal.cmpica@carusat.ac.in",
     ],
-    id: 8,
+    id: 19,
   },
   {
     imgUrl: "assets/images/People/BalaGanpathy.webp",
     imgAlt: "Dr. M BalaGanpathy",
-    cate: "BoM",
+    cate: ["BOM", "DeansNPrincipals"],
     title: "Dr. M Balaganapathy",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -343,38 +302,12 @@ const CourseData = [
       <br />,
       "principal.arip@charusat.ac.in",
     ],
-    id: 9,
-  },
-  {
-    imgUrl: "assets/images/People/DrDevangJoshi-1.png",
-    imgAlt: "Dr. Devang Joshi",
-    cate: "BoM",
-    title: "Dr. Devang Joshi",
-    author: "assets/images/course/author/03.jpg",
-    authorName: ["Member Secretary", <br />, "Registrar, CHARUSAT"],
-    id: 10,
-  },
-  {
-    imgUrl: "assets/images/People/dr-y-p-kosta.webp",
-    imgAlt: "y p kosta",
-    cate: "DeansNPrincipals",
-    title: "Dr. Y. P. Kosta",
-    author: "assets/images/course/author/03.jpg",
-    authorName: [
-      "Ph.D.",
-      <br />,
-      "Principal: Chandubhai S Patel Institute of Technology (CSPIT)",
-      <br />,
-      "I/C Principal: Devang Patel Institute of Advanced Technology and Research (DEPSTAR)",
-      <br />,
-      "principal.cspit@charusat.ac.in",
-    ],
-    id: 1,
+    id: 20,
   },
   {
     imgUrl: "assets/images/People/Vijay_Chaudhary.webp",
     imgAlt: "Vijay Chaudhary",
-    cate: "DeansNPrincipals",
+    cate: ["DeansNPrincipals"],
     title: "Dr. Vijay Chaudhary",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -386,46 +319,12 @@ const CourseData = [
       <br />,
       "hod.me@charusat.ac.in",
     ],
-    id: 2,
-  },
-  {
-    imgUrl: "assets/images/People/AtulPatel.png",
-    imgAlt: "Dr. Atul Patel",
-    cate: "DeansNPrincipals",
-    title: "Dr. Atul Patel",
-    author: "assets/images/course/author/03.jpg",
-    authorName: [
-      "Ph.D.",
-      <br />,
-      "Dean: Faculty of Computer Science & Applications",
-      <br />,
-      "Principal: Smt. Chandaben Mohanbhai Patel Intitute of Computer Applications (CMPICA)",
-      <br />,
-      "principal.cmpica@carusat.ac.in",
-    ],
-    id: 3,
-  },
-  {
-    imgUrl: "assets/images/People/MananRaval.webp",
-    imgAlt: "Manan Raval",
-    cate: "DeansNPrincipals",
-    title: "Dr. Manan Raval",
-    author: "assets/images/course/author/03.jpg",
-    authorName: [
-      "Ph.D.",
-      <br />,
-      "Dean: Faculty of Pharmacy",
-      <br />,
-      "Principal: Ramanbhai Patel College of Pharmacy (RPCP)",
-      <br />,
-      "principal.rpcp@charusat.ac.in",
-    ],
-    id: 4,
+    id: 21,
   },
   {
     imgUrl: "assets/images/People/DrBhaskarPandya.png",
     imgAlt: "Bhaskar Pandya",
-    cate: "DeansNPrincipals",
+    cate: ["DeansNPrincipals"],
     title: "Dr. Bhaskar Pandya",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -437,12 +336,12 @@ const CourseData = [
       <br />,
       "principal.iiim@charusat.ac.in",
     ],
-    id: 5,
+    id: 22,
   },
   {
     imgUrl: "assets/images/People/Gayatri-Dave.jpg",
     imgAlt: "Gayatri Dave",
-    cate: "DeansNPrincipals",
+    cate: ["DeansNPrincipals"],
     title: "Dr. Gayatri Dave",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -452,12 +351,12 @@ const CourseData = [
       <br />,
       "dean.fas@charusat.ac.in",
     ],
-    id: 6,
+    id: 23,
   },
   {
     imgUrl: "assets/images/People/PalashMandal.webp",
     imgAlt: "Palash Mandal",
-    cate: "DeansNPrincipals",
+    cate: ["DeansNPrincipals"],
     title: "Dr. Palash Mandal",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -467,29 +366,12 @@ const CourseData = [
       <br />,
       "principal.pdpias@charusat.ac.in",
     ],
-    id: 7,
-  },
-  {
-    imgUrl: "assets/images/People/BalaGanpathy.webp",
-    imgAlt: "Dr. M BalaGanpathy",
-    cate: "DeansNPrincipals",
-    title: "Dr. M Balaganapathy",
-    author: "assets/images/course/author/03.jpg",
-    authorName: [
-      "Ph. D.",
-      <br />,
-      "Dean : Faculty of Medical Sciences",
-      <br />,
-      "Principal : Ashok & Rita Patel Institute of Physiotherapy (ARIP)",
-      <br />,
-      "principal.arip@charusat.ac.in",
-    ],
-    id: 8,
+    id: 24,
   },
   {
     imgUrl: "assets/images/People/AnilSharma.webp",
     imgAlt: "Dr. Anil Sharma",
-    cate: "DeansNPrincipals",
+    cate: ["DeansNPrincipals"],
     title: "Dr. Anil Sharma",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -499,36 +381,12 @@ const CourseData = [
       <br />,
       "principal.mtin@charusat.ac.in",
     ],
-    id: 9,
-  },
-  {
-    imgUrl: "assets/images/People/DarshanPatel.webp",
-    imgAlt: "H T patel",
-    cate: "DeansNPrincipals",
-    title: "Dr. Darshan Patel",
-    author: "assets/images/course/author/03.jpg",
-    authorName: [
-      "Ph.D.",
-      <br />,
-      "Principal : Bapubhai Desaibhai Patel Institute of Paramedical Sciences (BDIPS)",
-      <br />,
-      "principal.cips@charusat.ac.in",
-    ],
-    id: 10,
-  },
-  {
-    imgUrl: "assets/images/People/DrDevangJoshi-1.png",
-    imgAlt: "Devang Joshi",
-    cate: "University Officers",
-    title: "Dr. Devang Joshi",
-    author: "assets/images/course/author/03.jpg",
-    authorName: ["Registrar, CHARUSAT"],
-    id: 1,
+    id: 25,
   },
   {
     imgUrl: "assets/images/People/HSPatel.png",
     imgAlt: "Hasmukh Patel",
-    cate: "University Officers",
+    cate: ["University Officers"],
     title: "Mr. Hasmukh Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -538,12 +396,12 @@ const CourseData = [
       <br />,
       "hasmukhpatel.adm@charusat.ac.in",
     ],
-    id: 2,
+    id: 26,
   },
   {
     imgUrl: "assets/images/People/BhavdipPatel.png",
     imgAlt: "Bhavdip Patel",
-    cate: "University Officers",
+    cate: ["University Officers"],
     title: "Mr. Bhavdip Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -553,12 +411,12 @@ const CourseData = [
       <br />,
       "bhavdippatel.adm@charusat.ac.in",
     ],
-    id: 3,
+    id: 27,
   },
   {
     imgUrl: "assets/images/People/PRO.png",
     imgAlt: "Dilip Gosai",
-    cate: "University Officers",
+    cate: ["University Officers"],
     title: "Dr. Dilip Gosai",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -568,12 +426,12 @@ const CourseData = [
       <br />,
       "dilipgosai.pr@charusat.ac.in",
     ],
-    id: 4,
+    id: 28,
   },
   {
     imgUrl: "assets/images/People/AshwinMakwana.png",
     imgAlt: "Ashwin Makwana",
-    cate: "University Officers",
+    cate: ["University Officers"],
     title: "Dr. Ashwin Makwana",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -585,17 +443,29 @@ const CourseData = [
       <br />,
       "ashwinmakwana.ce@charusat.ac.in",
     ],
-    id: 5,
+    id: 29,
   },
 ];
 
 export default function People() {
   const [items, setItems] = useState(CourseData);
-  const filterItem = (categItem) => {
-    const updateItems = CourseData.filter((curElem) => {
-      return curElem.cate === categItem;
+  const filterItem = async (categItem) => {
+    // const updateItems = CourseData.filter((curElem) => {
+    //   console.log(curElem.cate.includes(categItem));
+    //     return curElem.cate.includes(categItem);
+
+    // });
+    console.log("items:" + categItem);
+    const updateItems = [];
+    CourseData.forEach(async (element) => {
+      console.log(element.cate.includes(categItem));
+      if (element.cate.includes(categItem)) {
+        // console.log(updateItems.length);
+        updateItems.push(element);
+      }
     });
-    setItems(updateItems);
+    console.log(updateItems.length);
+    await setItems(updateItems);
   };
 
   return (
@@ -616,7 +486,7 @@ export default function People() {
               <li onClick={() => filterItem("Governing Body")}>
                 Governing Body
               </li>
-              <li onClick={() => filterItem("BoM")}>Board of Management</li>
+              <li onClick={() => filterItem("BOM")}>Board of Management</li>
               <li onClick={() => filterItem("DeansNPrincipals")}>
                 Deans & Principal
               </li>
@@ -640,11 +510,26 @@ export default function People() {
                 price,
               } = elem;
               return (
-                <div className="col" key={id}>
+                <div className="col" style={{ height: "" }} key={id}>
                   <div className="course-item style-4">
-                    <div className="course-inner">
-                      <div className="course-thumb">
-                        <img src={imgUrl} alt={imgAlt} />
+                    <div className="course-inner" style={{ height: "450px" }}>
+                      <div
+                        className="course-thumb"
+                        style={{
+                          height: "15rem",
+                          width: "100%",
+                          objectFit: "cover",
+                        }}
+                      >
+                        <img
+                          src={imgUrl}
+                          alt={imgAlt}
+                          style={{
+                            height: "100%",
+                            width: "100%",
+                            objectFit: "cover",
+                          }}
+                        />
                         <div className="course-category">
                           {/* <div className="course-cate">
                             <a href="#">{cate}</a>
@@ -654,10 +539,20 @@ export default function People() {
                                                     </div> */}
                         </div>
                       </div>
-                      <div className="course-content">
+                      <div
+                        className="course-content"
+                        style={{ background: "", height: "100%" }}
+                      >
                         <Link to="/course-single">
-                          <h5>{title}</h5>
-                          <h6>{authorName}</h6>
+                          <h5 style={{ wordWrap: "break-word" }}>{title}</h5>
+                          <h6
+                            style={{
+                              wordWrap: "break-word",
+                              fontSize: "0.9rem",
+                            }}
+                          >
+                            {authorName}
+                          </h6>
                         </Link>
                         {/* <div className="course-footer">
                                                     <div className="course-author">

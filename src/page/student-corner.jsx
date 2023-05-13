@@ -89,7 +89,7 @@ const StudentCorner = () => {
                                   <div className="gdlr-core-course-item-list">
                                     <a
                                       className="gdlr-core-course-item-link"
-                                      href="http://egov.charusat/"
+                                      href="https://charusat.edu.in:912/eGovernance/"
                                       target="_blank"
                                     >
                                       <span className="gdlr-core-course-item-title gdlr-core-skin-title">
@@ -197,7 +197,7 @@ const StudentCorner = () => {
                                   <div className="gdlr-core-course-item-list">
                                     <a
                                       className="gdlr-core-course-item-link"
-                                      href="https://charusat.ac.in/wellness_program.php"
+                                      href="./student-wellness-program"
                                       target="_blank"
                                     >
                                       <span className="gdlr-core-course-item-title gdlr-core-skin-title">
@@ -264,7 +264,7 @@ const StudentCorner = () => {
                                   <div className="gdlr-core-course-item-list">
                                     <a
                                       className="gdlr-core-course-item-link"
-                                      href="../hostels"
+                                      href="./hostels"
                                       target="_blank"
                                     >
                                       <span className="gdlr-core-course-item-title gdlr-core-skin-title">
@@ -321,7 +321,7 @@ const StudentCorner = () => {
                                   <div className="gdlr-core-course-item-list">
                                     <Link
                                       className="gdlr-core-course-item-link"
-                                      to="./student-development-initiatives"
+                                      to="/student-development-initiatives"
                                       target="_blank"
                                     >
                                       <span className="gdlr-core-course-item-title gdlr-core-skin-title">

@@ -22,7 +22,8 @@ const Edic = () => {
                               Cell(EDIC)
                             </h3>
                             <div className="meta-post">
-                              <Image src="./assets/images/CDPC_banner.jpg" />
+                              {/* <Image src="./assets/images/CDPC_banner.jpg" /> */}
+                              <Image src="https://placehold.co/800x400?text=EDIC" />
                               <br />
                               <br />
                               <p>
