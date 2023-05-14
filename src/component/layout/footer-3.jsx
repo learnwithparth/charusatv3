@@ -114,7 +114,7 @@ const quickList = [
   },
   {
     text: "The Act & First Statutes",
-    link: "/assests/files/statutes.pdf",
+    link: "https://charusat.ac.in/files/CHARUSAT-STATUTES%20HANDBOOK.pdf",
   },
   {
     text: "Policies and Procedures - Support Facilities",

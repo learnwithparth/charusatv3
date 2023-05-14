@@ -361,7 +361,7 @@ const Header = () => {
                   Eligibility Criteria
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/14qe_BKwzOQfK8M-yjN8YnYMAH4RcKHSS/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1zzlAVorLJXqcde1JAKHlMyBc8sJuvUov/view"
                   className="menu-link"
                 >
                   Fees

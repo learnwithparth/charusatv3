@@ -169,13 +169,12 @@ const Placement = () => {
                                 <Col>
                                   <img src="assets/images/students_placement_testimonial/karunya_parmanik_n.png" />
                                   <p>
-                                    Highly qualified faculty and flexible
-                                    curriculum which offers a unique amalgam of
-                                    technical and humanities courses along with
-                                    the vibrant campus life helped us to become
-                                    socially aware technologists prepared both
-                                    for industrial and research domain and It's
-                                    not only what you learn, it's how you learn.
+                                  CHARUSAT University is a place of learning, fun, culture, lore, literature and many such life
+												preaching activities. Studying at the CHARUSAT University brought an added value to my life. It
+												gave me an opportunity to meet different kind of people and learn a number of things. I have
+												received a great support from faculties & placement office. I am thankful to Training &
+												Placement cell for providing a platform to enhance my skills and an opportunity to showcase
+												them.
                                   </p>
                                 </Col>
                                 <Col>
