@@ -153,8 +153,15 @@ const Placement = () => {
                                 </Col>
                               </Row>
                               <Row>
-                                <Col>
+                                <Col
+                                  style={{
+                                    border: "1px solid #ccc",
+                                    margin: "10px",
+                                    padding: "10px",
+                                  }}
+                                >
                                   <img src="assets/images/students_placement_testimonial/aditya_pawar_n.png" />
+                                  <p className="mt-3">
                                   <p><i>&quot;
                                     CHARUSAT helped me set a benchmark and gave
                                     me a head start towards my professional
@@ -167,8 +174,15 @@ const Placement = () => {
                                     </i>
                                   </p>
                                 </Col>
-                                <Col>
+                                <Col
+                                  style={{
+                                    border: "1px solid #ccc",
+                                    margin: "10px",
+                                    padding: "10px",
+                                  }}
+                                >
                                   <img src="assets/images/students_placement_testimonial/karunya_parmanik_n.png" />
+                                  <p className="mt-3">
                                   <p><i>&quot;
                                     Highly qualified faculty and flexible
                                     curriculum which offers a unique amalgam of
@@ -180,8 +194,15 @@ const Placement = () => {
                                     </i>&quot;
                                   </p>
                                 </Col>
-                                <Col>
+                                <Col
+                                  style={{
+                                    border: "1px solid #ccc",
+                                    margin: "10px",
+                                    padding: "10px",
+                                  }}
+                                >
                                   <img src="assets/images/students_placement_testimonial/maharshi_bodani_n.png" />
+                                  <p className="mt-3">
                                   <p><i>&quot;
                                     I am thankful to CSPIT, IT placement team &
                                     Training and Placement Cell for inviting the
@@ -196,8 +217,15 @@ const Placement = () => {
                                 </Col>
                               </Row>
                               <Row>
-                                <Col>
+                                <Col
+                                  style={{
+                                    border: "1px solid #ccc",
+                                    margin: "10px",
+                                    padding: "10px",
+                                  }}
+                                >
                                   <img src="assets/images/students_placement_testimonial/parth_shah_n.png" />
+                                  <p className="mt-3">
                                   <p><i>&quot;
                                     Truly saying, Department of Information
                                     technology started aptitude classes which
@@ -210,8 +238,15 @@ const Placement = () => {
                                     </i>&quot;
                                   </p>
                                 </Col>
-                                <Col>
+                                <Col
+                                  style={{
+                                    border: "1px solid #ccc",
+                                    margin: "10px",
+                                    padding: "10px",
+                                  }}
+                                >
                                   <img src="assets/images/students_placement_testimonial/jeel_soni_n.png" />
+                                  <p className="mt-3">
                                   <p><i>&quot;
                                     Highly qualified faculty and flexible
                                     curriculum which offers a unique amalgam of
@@ -223,8 +258,15 @@ const Placement = () => {
                                     </i>&quot;
                                   </p>
                                 </Col>
-                                <Col>
+                                <Col
+                                  style={{
+                                    border: "1px solid #ccc",
+                                    margin: "10px",
+                                    padding: "10px",
+                                  }}
+                                >
                                   <img src="assets/images/students_placement_testimonial/harsh_shah_n.png" />
+                                  <p className="mt-3">
                                   <p><i>&quot;
                                     CHARUSAT has not only impacted me the best
                                     technical knowledge of my field but has also
@@ -240,13 +282,16 @@ const Placement = () => {
                             </Container>
                             <br />
                             <h4>PLACEMENT STATISTICS</h4>
-                            <div className="d-flex p-2 bd-highlight justify-content-center w-70">
+                            <div
+                              className="d-flex p-2 bd-highlight justify-content-center align-items-center"
+                              style={{ width: "75%", margin: "auto" }}
+                            >
                               <PlacementRecord />
                             </div>
                             <br />
                             <br />
                             <div className="container">
-                              <div className="section-header text-center">
+                              <div className="section-header">
                                 <h2 className="title">
                                   <h3>MAJOR RECRUITERS</h3>
                                 </h2>
@@ -297,14 +342,6 @@ const Placement = () => {
                                                   src={`${val.imgUrl}`}
                                                   alt={`${val.imgAlt}`}
                                                 />
-                                              </div>
-                                              <div className="instructor-content">
-                                                <Link to="/team-single">
-                                                  <h5>{val.name}</h5>
-                                                </Link>
-                                                <span className="d-block">
-                                                  {val.degi}
-                                                </span>
                                               </div>
                                             </div>
                                           </div>

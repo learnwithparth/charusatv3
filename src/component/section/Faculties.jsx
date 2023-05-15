@@ -44,7 +44,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/institute/CMPICA.jpg",
     imgAlt: "CMPICA image",
-    cate: "Computer Sci and Appl",
+    cate: "Computer Science and Application",
     programs: "BCA, MCA, B.Sc. IT, M.Sc. IT, Ph. D.",
     title: "Chandaben Mohanbhai Patel Institute of Computer Application",
     link: "https://www.charusat.ac.in/cmpica/",
@@ -124,6 +124,12 @@ export default function Faculties() {
     setItems(updateItems);
   };
 
+  const imageStyle = {
+    height: "200px",
+    objectFit: "cover",
+    width: "100%",
+  };
+
   return (
     <div className="course-section style-3 padding-tb">
       <div className="course-shape one">
@@ -143,7 +149,7 @@ export default function Faculties() {
               <li
                 onClick={() => filterItem("Computer Science and Application")}
               >
-                Computer Sci and Appl
+                Computer Science and Application
               </li>
               <li onClick={() => filterItem("Management Studies")}>
                 Management Studies
@@ -175,11 +181,15 @@ export default function Faculties() {
                   <div className="course-item style-4">
                     <div className="course-inner">
                       <div className="course-thumb">
-                        <img src={imgUrl} alt={imgAlt} />
+                        <img src={imgUrl} alt={imgAlt} style={imageStyle} />
                         <div className="course-category">
                           <div className="course-cate">
                             <a href="#">{cate}</a>
-                            <p>
+                            <p
+                              style={{
+                                fontSize: "1rem",
+                              }}
+                            >
                               <span>{programs}</span>
                             </p>
                           </div>
@@ -190,7 +200,7 @@ export default function Faculties() {
                       </div>
                       <div className="course-content">
                         <a href={link}>
-                          <h5>{title}</h5>
+                          <h6>{title}</h6>
                         </a>
                         {/* <div className="course-footer">
                                                     <div className="course-author">

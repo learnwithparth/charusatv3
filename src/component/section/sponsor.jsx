@@ -81,41 +81,16 @@ const Sponsor = () => {
         </div>
 
         <div className="section-wrapper">
-          <div className="sponsor-slider">
-            <Swiper
-              spaceBetween={20}
-              slidesPerView={2}
-              loop={"true"}
-              autoplay={{
-                delay: 5000,
-                disableOnInteraction: false,
-              }}
-              modules={[Autoplay]}
-              breakpoints={{
-                0: {
-                  width: 0,
-                  slidesPerView: 1,
-                },
-                768: {
-                  width: 768,
-                  slidesPerView: 3,
-                },
-                1200: {
-                  width: 1200,
-                  slidesPerView: 5.5,
-                },
-              }}
-            >
-              {sponsorList.map((val, i) => (
-                <SwiperSlide key={i}>
-                  <div className="sponsor-iten">
-                    <div className="sponsor-thumb bg-white border p-3 rounded">
-                      <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} />
-                    </div>
+          <div className="sponsor-slider row">
+            {sponsorList.map((val, i) => (
+              <div key={i} className="col-md-2">
+                <div className="sponsor-iten">
+                  <div className="sponsor-thumb bg-white border p-3 m-2 rounded">
+                    <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} />
                   </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

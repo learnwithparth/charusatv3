@@ -5,6 +5,12 @@ const subTitle = "University";
 const title = "News";
 
 export default function newsFrontPage() {
+  const imageStyle = {
+    height: "200px",
+    objectFit: "scale-down",
+    width: "100%",
+  };
+
   return (
     <div className="style-2 pb-3  ">
       <div className="container ">
@@ -20,6 +26,7 @@ export default function newsFrontPage() {
                   <img
                     src="./assets/images/uni-news/cadets.webp"
                     alt="cadets"
+                    style={imageStyle}
                   />
                 </div>
                 <div class="course-content">
@@ -34,7 +41,11 @@ export default function newsFrontPage() {
             <div class="course-item style-4">
               <div class="course-inner">
                 <div class="course-thumb">
-                  <img src="./assets/images/uni-news/ev3_tn.jpg" alt="unai" />
+                  <img
+                    src="./assets/images/uni-news/ev3_tn.jpg"
+                    alt="unai"
+                    style={imageStyle}
+                  />
                 </div>
                 <div class="course-content">
                   <a href="#">
@@ -49,6 +60,7 @@ export default function newsFrontPage() {
               <div class="course-inner">
                 <div class="course-thumb">
                   <img
+                    style={imageStyle}
                     src="./assets/images/uni-news/mou.png"
                     alt="Charusat University inks MoU with FRIGE HOUSE"
                   />

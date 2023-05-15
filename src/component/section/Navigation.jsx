@@ -8,6 +8,8 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import "bootstrap/dist/css/bootstrap.css";
 import "../../assets/css/navigation.css";
 import Dropdown from "react-bootstrap/Dropdown";
+import Scroll from "react-scroll";
+const ScrollLink = Scroll.ScrollLink;
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("");
@@ -361,7 +363,7 @@ const Header = () => {
                   Eligibility Criteria
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/14qe_BKwzOQfK8M-yjN8YnYMAH4RcKHSS/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1zzlAVorLJXqcde1JAKHlMyBc8sJuvUov/view"
                   className="menu-link"
                 >
                   Fees
