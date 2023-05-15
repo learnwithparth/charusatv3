@@ -72,6 +72,12 @@ const eventSliderList = [
 ];
 
 export default function initiatives() {
+  const imageStyle = {
+    height: "200px",
+    objectFit: "cover",
+    width: "100%",
+  };
+
   return (
     <div className="event-section style-2 padding-tb section-bg-ash">
       <div className="container">
@@ -121,7 +127,11 @@ export default function initiatives() {
                     <div className="event-inner">
                       <a href={val.url}>
                         <div className="event-thumb">
-                          <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} />
+                          <img
+                            src={`${val.imgUrl}`}
+                            alt={`${val.imgAlt}`}
+                            style={imageStyle}
+                          />
                         </div>
                         <div className="event-content">
                           <h5 className="pt-3">{val.title}</h5>

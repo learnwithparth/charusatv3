@@ -124,6 +124,12 @@ export default function Faculties() {
     setItems(updateItems);
   };
 
+  const imageStyle = {
+    height: "200px",
+    objectFit: "cover",
+    width: "100%",
+  };
+
   return (
     <div className="course-section style-3 padding-tb">
       <div className="course-shape one">
@@ -175,11 +181,15 @@ export default function Faculties() {
                   <div className="course-item style-4">
                     <div className="course-inner">
                       <div className="course-thumb">
-                        <img src={imgUrl} alt={imgAlt} />
+                        <img src={imgUrl} alt={imgAlt} style={imageStyle} />
                         <div className="course-category">
                           <div className="course-cate">
                             <a href="#">{cate}</a>
-                            <p>
+                            <p
+                              style={{
+                                fontSize: "1rem",
+                              }}
+                            >
                               <span>{programs}</span>
                             </p>
                           </div>

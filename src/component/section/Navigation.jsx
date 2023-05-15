@@ -8,6 +8,8 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import "bootstrap/dist/css/bootstrap.css";
 import "../../assets/css/navigation.css";
 import Dropdown from "react-bootstrap/Dropdown";
+import Scroll from "react-scroll";
+const ScrollLink = Scroll.ScrollLink;
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("");
