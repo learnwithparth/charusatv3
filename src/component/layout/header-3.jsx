@@ -80,7 +80,7 @@ const HeaderThree = () => {
               <a href="https://charusat.ac.in/admission/scholarship.html">
                 Scholarships
               </a>
-              <a href="https://charusat.edu.in:912/eGovernance">
+              <a href="https://www.charusat.ac.in/admission/scholarship.html">
                 Samaj Scholarships
               </a>
               <Link to="./student-corner">Student Corner</Link>

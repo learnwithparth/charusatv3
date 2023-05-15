@@ -44,7 +44,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/institute/CMPICA.jpg",
     imgAlt: "CMPICA image",
-    cate: "Computer Sci and Appl",
+    cate: "Computer Science and Application",
     programs: "BCA, MCA, B.Sc. IT, M.Sc. IT, Ph. D.",
     title: "Chandaben Mohanbhai Patel Institute of Computer Application",
     link: "https://www.charusat.ac.in/cmpica/",
@@ -149,7 +149,7 @@ export default function Faculties() {
               <li
                 onClick={() => filterItem("Computer Science and Application")}
               >
-                Computer Sci and Appl
+                Computer Science and Application
               </li>
               <li onClick={() => filterItem("Management Studies")}>
                 Management Studies
@@ -200,7 +200,7 @@ export default function Faculties() {
                       </div>
                       <div className="course-content">
                         <a href={link}>
-                          <h5>{title}</h5>
+                          <h6>{title}</h6>
                         </a>
                         {/* <div className="course-footer">
                                                     <div className="course-author">

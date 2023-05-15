@@ -363,7 +363,7 @@ const Header = () => {
                   Eligibility Criteria
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/14qe_BKwzOQfK8M-yjN8YnYMAH4RcKHSS/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1zzlAVorLJXqcde1JAKHlMyBc8sJuvUov/view"
                   className="menu-link"
                 >
                   Fees
@@ -877,7 +877,7 @@ const Header = () => {
                   Charusat Rural Education Development Program
                 </a>
                 <a
-                  href="https://charusat.ac.in/wellness_program.php"
+                  href="./student-wellness-program"
                   className="menu-link"
                 >
                   Student Wellness Programme
@@ -1495,7 +1495,7 @@ const Header = () => {
                       <Dropdown.Item href="https://charusat.ac.in/centers_and_cells.php#1543642621602-5e7edef6-54cb">
                         Charusat Rural Education Development Program
                       </Dropdown.Item>
-                      <Dropdown.Item href="https://charusat.ac.in/wellness_program.php">
+                      <Dropdown.Item href="./student-wellness-program">
                         Student Wellness Programme
                       </Dropdown.Item>
                       <Dropdown.Item href="/wincell">
