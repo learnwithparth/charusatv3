@@ -6,6 +6,7 @@ import Cycle2 from "../component/sidebar/NAAC-Cycle-2";
 import Contact from "../component/section/contact";
 import NIRF from "../component/sidebar/NIRF";
 import GSIRF from "../component/sidebar/GSIRF";
+import CoeNotification from "../files/Accreditation/CoE-Notification.pdf";
 
 const Accreditation = () => {
   // const [isActive, setIsActive] = useState(null);
@@ -146,16 +147,20 @@ const Accreditation = () => {
                             class="lab-btn"
                             href="https://charusat.ac.in/files/iqac/coe/CoEApplicationData.pdf"
                           >
-                            <span>Application Data</span>
+                          <span>Application Data</span>
                           </a>
                           <br />
                           <br />
-                          <a
+                          {/* <a
                             class="lab-btn"
-                            href="http://www.coegujarat.org/index.aspx"
+                            href={CoeNotification}
+                            target="_blank"
+                            rel="noreferrer"
                           >
-                            <span>CoE Gujarat Website</span>
+                            <span>CoE Notification</span>
                           </a>
+                          <br/><br/> */}
+                          <img src="assets/images/achive/COE-Certificate.jpg" alt=""/>
                         </div>
                       </div>
                     </div>

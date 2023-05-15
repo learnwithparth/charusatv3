@@ -10,62 +10,62 @@ import PlacementRecord from "../component/section/placementRecord";
 
 const topRecruiters = [
   {
-    imgUrl: "assets/images/recruiters/jaro.PNG",
+    imgUrl: "assets/images/recruiters/jaro.png",
     imgAlt: "jaro",
     name: "12 Lacs",
   },
   {
-    imgUrl: "assets/images/recruiters/byju.PNG",
+    imgUrl: "assets/images/recruiters/byju.png",
     imgAlt: "byju",
     name: "10 Lacs",
   },
   {
-    imgUrl: "assets/images/recruiters/in.PNG",
+    imgUrl: "assets/images/recruiters/in.png",
     imgAlt: "navy",
     name: "9 Lacs",
   },
   {
-    imgUrl: "assets/images/recruiters/gsfc.PNG",
+    imgUrl: "assets/images/recruiters/gsfc.png",
     imgAlt: "gsfc",
     name: "8 Lacs",
   },
   {
-    imgUrl: "assets/images/recruiters/tcs.PNG",
+    imgUrl: "assets/images/recruiters/tcs.png",
     imgAlt: "tcs",
     name: "7 Lacs",
   },
   {
-    imgUrl: "assets/images/recruiters/samsung.PNG",
+    imgUrl: "assets/images/recruiters/samsung.png",
     imgAlt: "samsung",
     name: "7 Lacs",
   },
   {
-    imgUrl: "assets/images/recruiters/ops.PNG",
+    imgUrl: "assets/images/recruiters/ops.png",
     imgAlt: "opsHUB",
     name: "6.5 Lacs",
   },
   {
-    imgUrl: "assets/images/recruiters/berger.PNG",
+    imgUrl: "assets/images/recruiters/berger.png",
     imgAlt: "berger",
     name: "6 Lacs",
   },
   {
-    imgUrl: "assets/images/recruiters/mg.PNG",
+    imgUrl: "assets/images/recruiters/mg.png",
     imgAlt: "mg",
     name: "6 Lacs",
   },
   {
-    imgUrl: "assets/images/recruiters/evosys.PNG",
+    imgUrl: "assets/images/recruiters/evosys.png",
     imgAlt: "evosys",
     name: "5.5 Lacs",
   },
   {
-    imgUrl: "assets/images/recruiters/jeavio.PNG",
+    imgUrl: "assets/images/recruiters/jeavio.png",
     imgAlt: "jeavio",
     name: "5.3 Lacs",
   },
   {
-    imgUrl: "assets/images/recruiters/crest.PNG",
+    imgUrl: "assets/images/recruiters/crest.png",
     imgAlt: "crestData",
     name: "5 Lacs",
   },
@@ -149,7 +149,7 @@ const Placement = () => {
 
                               <Row>
                                 <Col>
-                                  <h4>STUDENT'S TESTIMONIAL</h4>
+                                  <h4>STUDENTS' TESTIMONIAL</h4>
                                 </Col>
                               </Row>
                               <Row>
@@ -162,6 +162,7 @@ const Placement = () => {
                                 >
                                   <img src="assets/images/students_placement_testimonial/aditya_pawar_n.png" />
                                   <p className="mt-3">
+                                  <p><i>&quot;
                                     CHARUSAT helped me set a benchmark and gave
                                     me a head start towards my professional
                                     career. Faculties here have a
@@ -169,7 +170,8 @@ const Placement = () => {
                                     Industrial visits at regular intervals make
                                     the students well aware of recent trends and
                                     guide them accordingly to improve their
-                                    learning graph.
+                                    learning graph.&quot;
+                                    </i>
                                   </p>
                                 </Col>
                                 <Col
@@ -181,6 +183,7 @@ const Placement = () => {
                                 >
                                   <img src="assets/images/students_placement_testimonial/karunya_parmanik_n.png" />
                                   <p className="mt-3">
+                                  <p><i>&quot;
                                     Highly qualified faculty and flexible
                                     curriculum which offers a unique amalgam of
                                     technical and humanities courses along with
@@ -188,6 +191,7 @@ const Placement = () => {
                                     socially aware technologists prepared both
                                     for industrial and research domain and It's
                                     not only what you learn, it's how you learn.
+                                    </i>&quot;
                                   </p>
                                 </Col>
                                 <Col
@@ -199,6 +203,7 @@ const Placement = () => {
                                 >
                                   <img src="assets/images/students_placement_testimonial/maharshi_bodani_n.png" />
                                   <p className="mt-3">
+                                  <p><i>&quot;
                                     I am thankful to CSPIT, IT placement team &
                                     Training and Placement Cell for inviting the
                                     renowned organizations and molding us as per
@@ -206,7 +211,8 @@ const Placement = () => {
                                     helped us in getting best profile and
                                     package of industry. I’m very much proud to
                                     be an alumni of such a beautiful college and
-                                    be a part of the CHARUSAT family.”
+                                    be a part of the CHARUSAT family.
+                                    </i>&quot;
                                   </p>
                                 </Col>
                               </Row>
@@ -220,6 +226,7 @@ const Placement = () => {
                                 >
                                   <img src="assets/images/students_placement_testimonial/parth_shah_n.png" />
                                   <p className="mt-3">
+                                  <p><i>&quot;
                                     Truly saying, Department of Information
                                     technology started aptitude classes which
                                     were very helpful for someone like me who
@@ -228,6 +235,7 @@ const Placement = () => {
                                     were organized to make sure each student had
                                     enough confidence for appearing in placement
                                     & clearing It.
+                                    </i>&quot;
                                   </p>
                                 </Col>
                                 <Col
@@ -239,6 +247,7 @@ const Placement = () => {
                                 >
                                   <img src="assets/images/students_placement_testimonial/jeel_soni_n.png" />
                                   <p className="mt-3">
+                                  <p><i>&quot;
                                     Highly qualified faculty and flexible
                                     curriculum which offers a unique amalgam of
                                     technical and humanities courses along with
@@ -246,6 +255,7 @@ const Placement = () => {
                                     socially aware technologists prepared both
                                     for industrial and research domain and It's
                                     not only what you learn, it's how you learn.
+                                    </i>&quot;
                                   </p>
                                 </Col>
                                 <Col
@@ -257,6 +267,7 @@ const Placement = () => {
                                 >
                                   <img src="assets/images/students_placement_testimonial/harsh_shah_n.png" />
                                   <p className="mt-3">
+                                  <p><i>&quot;
                                     CHARUSAT has not only impacted me the best
                                     technical knowledge of my field but has also
                                     given me many opportunities to bring the
@@ -264,7 +275,7 @@ const Placement = () => {
                                     never had self-doubt, as CHARUSAT had
                                     implanted a strong foundation of technical,
                                     managerial and leadership skillsets within
-                                    me.
+                                    me.</i>&quot;
                                   </p>
                                 </Col>
                               </Row>

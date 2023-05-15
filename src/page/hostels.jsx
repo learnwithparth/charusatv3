@@ -77,16 +77,13 @@ const Hostels = () => {
                               <h5>Fee Structure</h5>
                               <ul>
                                 <li>
-                                  Rs. 5,000/- Security Deposit per Girl (One
-                                  time payable for New admission & refundable
-                                  while leaving the Hostel)
+                                  Rs. 5,000/- Security Deposit (Refundable)
                                 </li>
-                                <li>Rs. 28,000/- per Year - with AC</li>
+                                <li>Rs. 28,000/- per Year (AC)</li>
                                 <li>
-                                  Rs. 22,000/- per Year Hostel Fees per Girl
-                                  Non-AC
+                                  Rs. 22,000/- per Year (Non-AC)
                                 </li>
-                                <li>Rs. 2,500 – 3000 per Month Food bill</li>
+                                <li>Rs. 2,500/- to 3000/- per Month Food bill</li>
                               </ul>
                             </div>
                             <h4>Facilities</h4>
