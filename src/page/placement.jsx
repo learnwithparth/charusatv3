@@ -161,8 +161,7 @@ const Placement = () => {
                                   }}
                                 >
                                   <img src="assets/images/students_placement_testimonial/aditya_pawar_n.png" />
-                                  <p className="mt-3">
-                                  <p><i>&quot;
+                                  <p className="mt-3"><i>&quot;
                                     CHARUSAT helped me set a benchmark and gave
                                     me a head start towards my professional
                                     career. Faculties here have a
@@ -182,8 +181,7 @@ const Placement = () => {
                                   }}
                                 >
                                   <img src="assets/images/students_placement_testimonial/karunya_parmanik_n.png" />
-                                  <p className="mt-3">
-                                  <p><i>&quot;
+                                  <p className="mt-3"><i>&quot;
                                     Highly qualified faculty and flexible
                                     curriculum which offers a unique amalgam of
                                     technical and humanities courses along with
@@ -202,8 +200,7 @@ const Placement = () => {
                                   }}
                                 >
                                   <img src="assets/images/students_placement_testimonial/maharshi_bodani_n.png" />
-                                  <p className="mt-3">
-                                  <p><i>&quot;
+                                  <p className="mt-3"><i>&quot;
                                     I am thankful to CSPIT, IT placement team &
                                     Training and Placement Cell for inviting the
                                     renowned organizations and molding us as per
@@ -225,8 +222,7 @@ const Placement = () => {
                                   }}
                                 >
                                   <img src="assets/images/students_placement_testimonial/parth_shah_n.png" />
-                                  <p className="mt-3">
-                                  <p><i>&quot;
+                                  <p className="mt-3"><i>&quot;
                                     Truly saying, Department of Information
                                     technology started aptitude classes which
                                     were very helpful for someone like me who
@@ -246,8 +242,7 @@ const Placement = () => {
                                   }}
                                 >
                                   <img src="assets/images/students_placement_testimonial/jeel_soni_n.png" />
-                                  <p className="mt-3">
-                                  <p><i>&quot;
+                                  <p className="mt-3"><i>&quot;
                                     Highly qualified faculty and flexible
                                     curriculum which offers a unique amalgam of
                                     technical and humanities courses along with
@@ -266,8 +261,7 @@ const Placement = () => {
                                   }}
                                 >
                                   <img src="assets/images/students_placement_testimonial/harsh_shah_n.png" />
-                                  <p className="mt-3">
-                                  <p><i>&quot;
+                                  <p className="mt-3"><i>&quot;
                                     CHARUSAT has not only impacted me the best
                                     technical knowledge of my field but has also
                                     given me many opportunities to bring the
