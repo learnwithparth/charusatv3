@@ -1175,7 +1175,7 @@ const Header = () => {
                   </Dropdown>
                   <Dropdown>
                     <Dropdown.Toggle variant="" id="dropdown">
-                      Information You May Need!!!
+                      Information You May Need
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
                       <Dropdown.Item href="https://charusat.ac.in/Downloads/Academic%20Calenders/">

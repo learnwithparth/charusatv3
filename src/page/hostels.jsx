@@ -68,11 +68,8 @@ const Hostels = () => {
 
                               <h5>Capacity</h5>
                               <p>
-                                CHARUSAT campus has 4 Girls’ hostels. These
-                                hostels have a housing capacity for 1100 girls.
-                                AC as well Non AC accommodation is available at
-                                these Hostels. AC accommodations are on
-                                requests.
+                                At CHARUSAT, we understand the importance of providing safe and comfortable living accommodations for our female students. That's why we have four well-equipped girls' hostels on campus, with a total housing capacity of 1100 students. Our hostels offer both AC and non-AC rooms, with AC accommodations available upon request. We strive to provide our students with a supportive and secure environment where they can focus on their studies and personal growth.
+                                <br />
                               </p>
                               <h5>Fee Structure</h5>
                               <ul>

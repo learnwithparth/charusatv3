@@ -87,12 +87,7 @@ const Transport = () => {
                             <h3>Transportation Facilities</h3>
                             <div className="meta-post">
                               <ul className="lab-ul">
-                                CHARUSAT has entered into contracts for
-                                providing the commuting transport facilities to
-                                the students. Buses from Ahmedabad, Nadiad,
-                                Anand and Vadodara every day. For Charusat
-                                internal requirements, Charusat’s own vehicles
-                                are used.
+                              At CHARUSAT, we understand that transportation is a crucial aspect of student life. To ensure that our students have easy access to our campus, we have partnered with reliable transport providers to offer daily bus services from Ahmedabad, Nadiad, Anand, and Vadodara. In addition, we have our own vehicles that are used for internal transportation needs.
                               </ul>
                             </div>
                             {/* <Link to="/blog-single" className="lab-btn"><span>Operator's Detail <i className="icofont-external-link"></i></span></Link> */}

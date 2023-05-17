@@ -32,7 +32,7 @@ const IPR = () => {
                                 researchers, faculties, students and grassroots
                                 innovators within and outside CHARUSAT.
                               </ul>
-                              <br/>
+                              <br />
                               <a class="lab-btn" href={IPRBroucher}><span>Brochure</span></a>{"    "}
                               <a class="lab-btn" href={InquiryForm}><span>Inquiry Form</span></a>
                             </div>
@@ -120,7 +120,7 @@ const IPR = () => {
                                 </strong>{" "}
                               </li>
                             </ul>
-                            <br/>
+                            <br />
                             <h4>Facilities @ CHARUSAT IPR Facilitation</h4>
                             <hr />
                             <ul className="lab-ul">
@@ -139,7 +139,7 @@ const IPR = () => {
                                 and obtaining a legal opinion as to whether a
                                 product, process or service may be considered to
                                 infringe any patent(s) owned by others. <br /><br /><strong>Patent
-                                Drafting</strong> - Techno-legal drafting of complete
+                                  Drafting</strong> - Techno-legal drafting of complete
                                 specification with claims. <br /><br /><strong>Patent Filing</strong> -
                                 Preparation and submission of Patent Application
                                 at Indian Patent Office. <br /><br /><strong>PCT Application</strong> -
@@ -155,10 +155,10 @@ const IPR = () => {
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
                                 <strong>Copyright</strong>
-                                <br /><br /><strong>Software</strong>
-Copyright filing at the Indian Copyright Office for software related innovation.
-<br /><br /><strong>Literature and art</strong>
-Copyright filing at the Indian Copyright Office for literature and art-related innovation.
+                                <br /><br /><strong>Software </strong>
+                                Copyright filing at the Indian Copyright Office for software related innovation.
+                                <br /><br /><strong>Literature and art </strong>
+                                Copyright filing at the Indian Copyright Office for literature and art-related innovation.
                               </li>
                               <br />
                               <li>
@@ -166,14 +166,14 @@ Copyright filing at the Indian Copyright Office for literature and art-related i
                                 <strong>Trademark</strong> <br /><br />
                                 Registration of Trademark at the Trademark office
                               </li>
-                              <br/>
+                              <br />
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Industrial Design</strong> <br />
-                                <br /><br /><strong>Design Search</strong>
-Search for anticipation/existence of similar design before application.
-<br /><br /><strong>Design Registration</strong>
-Preparation of documents and application for the Indian Patent Office.
+                                <strong>Industrial Design</strong>
+                                <br /><br /><strong>Design Search </strong>
+                                Search for anticipation/existence of similar design before application.
+                                <br /><br /><strong>Design Registration </strong>
+                                Preparation of documents and application for the Indian Patent Office.
                                 idea.
                               </li>
                             </ul>
@@ -185,16 +185,16 @@ Preparation of documents and application for the Indian Patent Office.
                 </div>
               </article>
             </div>
-            
-              <Contact
-                name="Dr Swayamprakash Patel"
-                email="swayamprakash.patel@charusat.ac.in"
-                phone="+91-8780034097"
-              />
-                
-              
-            
-            
+
+            <Contact
+              name="Dr Swayamprakash Patel"
+              email="swayamprakash.patel@charusat.ac.in"
+              phone="+91-8780034097"
+            />
+
+
+
+
           </div>
         </div>
       </div>
