@@ -184,13 +184,10 @@ const Placement = () => {
                                   <img src="assets/images/students_placement_testimonial/karunya_parmanik_n.png" />
                                   <p className="mt-3">
                                   <i>&quot;
-                                    Highly qualified faculty and flexible
-                                    curriculum which offers a unique amalgam of
-                                    technical and humanities courses along with
-                                    the vibrant campus life helped us to become
-                                    socially aware technologists prepared both
-                                    for industrial and research domain and It's
-                                    not only what you learn, it's how you learn.
+                                  Charusat by providing various facilities to the students has proved that it is not only being
+												study oriented university. The counselling batches assigned to the respective faculties has been
+												an initiative that has helped the students at various points in their college life. Along with
+												the platforms that it provides to enhance the co-curricular skills is pretty good.
                                     </i>&quot;
                                   </p>
                                 </Col>
