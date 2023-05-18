@@ -33,6 +33,7 @@ const CSRTC = () => {
                               2013.
                             </p>
 
+                            <br />
                             <h4>Objecctives of CSRTC</h4>
                             <hr />
                             <ul>

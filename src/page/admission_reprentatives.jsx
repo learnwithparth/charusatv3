@@ -188,9 +188,8 @@ const Admission_Reprentatives = () => {
                                 <Col>
                                   <div className="card p-2">
                                     <h6>
-                                      Charotar Institute of
-                                      <br />
-                                      Paramedical Sciences
+                                      Bapubhai Desaibhai Patel Institute of Paramedical Sciences
+
                                     </h6>
                                     <p>B Sc & M Sc</p>
                                     <p>

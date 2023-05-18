@@ -44,10 +44,7 @@ const PresidentDesk = () => {
                     Character.
                   </strong>{" "}
                   The Highest Education is that which makes our life in harmony
-                  with all existence.
-                </p>
-                <p style={{ textAlign: "justify", lineHeight:"1.8rem" }}>
-                  In the context, CHARUSAT as a University has been quite
+                  with all existence. In the context, CHARUSAT as a University has been quite
                   distinct from day one. It strives to make{" "}
                   <strong>Charotar – the Land of Sardar Patel</strong> the{" "}
                   <strong>Global Education Hub</strong> through knowledge
@@ -59,7 +56,7 @@ const PresidentDesk = () => {
                 </p>
                 <p style={{ textAlign: "justify", lineHeight:"1.8rem" }}>
                   As a University, CHARUSAT is emerging with a thrust on
-                  socially relevant Research & Development. For the purpose, a
+                  socially relevant Research & Development. For the purpose, a{' '}
                   <strong>Research and Development Centre</strong> has been
                   established on the Campus. Uniquely,{" "}
                   <strong>Space Research and Technology Centre</strong> is also
@@ -82,14 +79,14 @@ const PresidentDesk = () => {
             <p style={{ textAlign: "justify", lineHeight:"1.8rem" }}>
               Through these initiatives and practices, CHARUSAT focuses on
               converting eyes into sight and vision; information into knowledge
-              and wisdom; and demography into citizens and harmonious living.
+              and wisdom; and students / individuals into citizens and harmonious living.
               Further, programs at CHARUSAT enable the students not only to gain
               an understanding but also to develop insights in altered research
               areas. Teachers also dedicate their efforts to construct and
               facilitate opportunities where the{" "}
               <strong>students can practice and experience creativity.</strong>{" "}
               Moving a step ahead towards the purpose of education, CHARUSAT
-              aims to make its student’s{" "}
+              aims to make its students{" "}
               <strong>Job Creators and not Job Seekers.</strong>
             </p>
             <p style={{ textAlign: "justify", lineHeight:"1.8rem" }}>
