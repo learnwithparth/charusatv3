@@ -6,7 +6,7 @@ const title = "Associates";
 const CourseData = [
   {
     imgUrl: "assets/images/People/SurendraSir.png",
-    imgAlt: "Surendra sir",
+    imgAlt: "Shri Surendra M. Patel",
     cate: ["Governing Body", "BOM"],
     title: "Surendra Patel",
     author: "assets/images/course/author/01.jpg",
