@@ -46,39 +46,43 @@ const Donation = () => {
                             <ul className="lab-ul">
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
-                                <strong>
+                                {/* <strong> */}
                                   CHARUSAT is an “A+” Grade University
                                   accredited by NAAC (Govt. of India).
-                                </strong>{" "}
+                                {/* </strong> */}
+                                {" "}
                               </li>
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
-                                <strong>
+                                {/* <strong> */}
                                   CHARUSAT’S Mission is social service through
                                   Education and Research.
-                                </strong>{" "}
+                                {/* </strong> */}
+                                {" "}
                               </li>
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
-                                <strong>
+                                {/* <strong> */}
                                   CHARUSAT seeks support to facilitate the
                                   education of economically constrained
                                   students.
-                                </strong>{" "}
+                                {/* </strong> */}
+                                {" "}
                               </li>
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
-                                <strong>
+                                {/* <strong> */}
                                   CHARUSAT also works for many more social
                                   development goals.
-                                </strong>{" "}
+                                {/* </strong> */}
+                                {" "}
                               </li>
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
-                                <strong>
+                                {/* <strong> */}
                                   CHARUSAT practices values of Honesty,
                                   Integrity & Transparency.
-                                </strong>
+                                {/* </strong> */}
                               </li>
                             </ul>
                             <br />
@@ -1137,19 +1141,21 @@ const Donation = () => {
                             <ul className="lab-ul">
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
-                                <strong>
+                                {/* <strong> */}
                                   Donation to CHARUSAT are Tax exempted under
                                   80G of Income Tax Act.(Indian Donors)
-                                </strong>{" "}
+                                {/* </strong> */}
+                                {" "}
                               </li>
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
-                                <strong>
+                                {/* <strong> */}
                                   USA donors can route their donation through
                                   CHARUSAT Education Foundation. Inc., and avail
                                   Income tax exemption under IRS section 501(c)
                                   3 Tax fin ID 46-3603014
-                                </strong>{" "}
+                                {/* </strong> */}
+                                {" "}
                               </li>
                             </ul>
                             <br />
@@ -1165,23 +1171,26 @@ const Donation = () => {
                             <ul className="lab-ul">
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
-                                <strong>
+                                {/* <strong> */}
                                   Ashok and Rita Patel Institute of
                                   Physiotherapy
-                                </strong>{" "}
+                                {/* </strong> */}
+                                {" "}
                               </li>
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
-                                <strong>
+                                {/* <strong> */}
                                   Ramanbhai Patel College of Pharmacy
-                                </strong>{" "}
+                                {/* </strong> */}
+                                {" "}
                               </li>
 
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
-                                <strong>
+                                {/* <strong> */}
                                   Anil & Asha Patel Endowment Fund
-                                </strong>{" "}
+                                {/* </strong> */}
+                                {" "}
                               </li>
                             </ul>
                           </div>
