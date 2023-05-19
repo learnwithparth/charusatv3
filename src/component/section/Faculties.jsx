@@ -177,42 +177,43 @@ export default function Faculties() {
                 price,
               } = elem;
               return (
-                <div className="col" key={id}>
-                  <div className="course-item style-4">
-                    <div className="course-inner">
-                      <div className="course-thumb">
-                        <img src={imgUrl} alt={imgAlt} style={imageStyle} />
-                        <div className="course-category">
-                          <div className="course-cate">
-                            <a href="#">{cate}</a>
-                            <p
-                              style={{
-                                fontSize: "1rem",
-                              }}
-                            >
-                              <span>{programs}</span>
-                            </p>
-                          </div>
-                          {/* <div className="course-reiew">
+                <a href={link} target="_blank">
+                  <div className="col" key={id}>
+                    <div className="course-item style-4">
+                      <div className="course-inner">
+                        <div className="course-thumb">
+                          <img src={imgUrl} alt={imgAlt} style={imageStyle} />
+                          <div className="course-category">
+                            <div className="course-cate">
+                              <a href="#">{cate}</a>
+                              <p
+                                style={{
+                                  fontSize: "1rem",
+                                }}
+                              >
+                                <span>{programs}</span>
+                              </p>
+                            </div>
+                            {/* <div className="course-reiew">
                                                         <Rating />
                                                     </div> */}
+                          </div>
                         </div>
-                      </div>
-                      <div className="course-content">
-                        <a href={link}>
+                        <div className="course-content">
                           <h6>{title}</h6>
-                        </a>
-                        {/* <div className="course-footer">
+
+                          {/* <div className="course-footer">
                                                     <div className="course-author">
                                                         <img src={author} alt={imgAlt} />
                                                         <Link to="/team-single" className="ca-name">{authorName}</Link>
                                                     </div>
                                                     <div className="course-price">{price}</div>
                                                 </div> */}
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                </a>
               );
             })}
           </div>
