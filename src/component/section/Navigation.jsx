@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "../../assets/css/navigation.css";
 import Dropdown from "react-bootstrap/Dropdown";
 import Scroll from "react-scroll";
+import logo from "../../files/logo.webp";
 const ScrollLink = Scroll.ScrollLink;
 
 const Header = () => {
@@ -34,7 +35,13 @@ const Header = () => {
           <nav className="nav">
             <div className="logo">
               <Link to="/home" class="charusat">
-                CHARUSAT
+                <img
+                  src={logo}
+                  alt="CHARUSAT"
+                  style={{
+                    width: "22rem",
+                  }}
+                />
               </Link>
             </div>
             <div className="nav-links">
@@ -654,7 +661,10 @@ const Header = () => {
                 <a href="http://kradle.charusat.ac.in/" className="menu-link">
                   Dr. K. C. Patel Research and Development Centre (KRADLE)
                 </a>
-                <a href="https://charusat.irins.org/faculty/index/International+Centre+for+Cosmology+ICC" className="menu-link">
+                <a
+                  href="https://charusat.irins.org/faculty/index/International+Centre+for+Cosmology+ICC"
+                  className="menu-link"
+                >
                   International Center for Cosmology (ICC)
                 </a>
                 <Link to="/ipr" className="menu-link">
@@ -876,10 +886,7 @@ const Header = () => {
                 >
                   Charusat Rural Education Development Program
                 </a>
-                <a
-                  href="./student-wellness-program"
-                  className="menu-link"
-                >
+                <a href="./student-wellness-program" className="menu-link">
                   Student Wellness Programme
                 </a>
                 <Link to="/wincell" className="menu-link">
@@ -1031,7 +1038,13 @@ const Header = () => {
           <Container>
             <Navbar.Brand href="#home">
               <a href="/" class="charusat">
-                CHARUSAT
+                <img
+                  src={logo}
+                  alt="CHARUSAT"
+                  style={{
+                    width: "22rem",
+                  }}
+                />
               </a>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
