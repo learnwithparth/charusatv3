@@ -292,7 +292,8 @@ const ResearchPage = () => {
                                   flexDirection: "column",
                                 }}
                               >
-                                <h4>Grants received(in Lacs)</h4>
+                                <h4>Grants received
+                                 <br /> (in Lacs)</h4>
                                 <h4>1200+</h4>
                               </div>
                               <div className="col-lg-2"></div>
