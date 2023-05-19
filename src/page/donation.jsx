@@ -41,7 +41,7 @@ const Donation = () => {
                                 <span>Inquiry Form</span>
                               </a>
                             </div> */}
-                            <h4>WHY SUPPORT CHARUSAT?</h4>
+                            <h5>WHY SUPPORT CHARUSAT?</h5>
                             <hr />
                             <ul className="lab-ul">
                               <li>

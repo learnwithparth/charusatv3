@@ -1,5 +1,6 @@
-import { Component, useState } from "react";
+import { Component, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import "../assets/css/people.css";
 
 const title = "Associates";
 
@@ -95,7 +96,7 @@ const CourseData = [
     ],
     id: 6,
   },
-  
+
   {
     imgUrl: "assets/images/People/dr-y-p-kosta.webp",
     imgAlt: "y p kosta",
@@ -274,7 +275,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/People/AtulPatel.png",
     imgAlt: "Dr. Atul Patel",
-    cate: ["Governing Body","BOM","University Officers"],
+    cate: ["Governing Body", "BOM", "University Officers"],
     title: "Dr. Atul Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
@@ -355,11 +356,13 @@ const CourseData = [
     id: 23,
   },
   {
-    imgUrl: "https://charusat.ac.in/wp-content/uploads/Deans_Principal/Dhruv-Dave.webp",
+    imgUrl:
+      "https://charusat.ac.in/wp-content/uploads/Deans_Principal/Dhruv-Dave.webp",
     imgAlt: "Dhruv Dave",
     cate: ["DeansNPrincipals"],
     title: "Dr. Dhruv Dave",
-    author: "https://charusat.ac.in/wp-content/uploads/Deans_Principal/Dhruv-Dave.webp",
+    author:
+      "https://charusat.ac.in/wp-content/uploads/Deans_Principal/Dhruv-Dave.webp",
     authorName: [
       "Ph.D.",
       <br />,
@@ -370,11 +373,13 @@ const CourseData = [
     id: 31,
   },
   {
-    imgUrl: "https://charusat.ac.in/wp-content/uploads/Deans_Principal/TKU.webp",
+    imgUrl:
+      "https://charusat.ac.in/wp-content/uploads/Deans_Principal/TKU.webp",
     imgAlt: "Dr. Trushit Upadhyay",
     cate: ["DeansNPrincipals"],
     title: "Dr. Trushit Upadhyay",
-    author: "https://charusat.ac.in/wp-content/uploads/Deans_Principal/TKU.webp",
+    author:
+      "https://charusat.ac.in/wp-content/uploads/Deans_Principal/TKU.webp",
     authorName: [
       "Ph.D.",
       <br />,
@@ -415,11 +420,13 @@ const CourseData = [
     id: 34,
   },
   {
-    imgUrl: "https://charusat.ac.in/wp-content/uploads/Deans_Principal/sanskruti_patel.jpg",
+    imgUrl:
+      "https://charusat.ac.in/wp-content/uploads/Deans_Principal/sanskruti_patel.jpg",
     imgAlt: "Dr. Sanskruti Patel",
     cate: ["DeansNPrincipals"],
     title: "Dr. Sanskruti Patel",
-    author: "https://charusat.ac.in/wp-content/uploads/Deans_Principal/sanskruti_patel.jpg",
+    author:
+      "https://charusat.ac.in/wp-content/uploads/Deans_Principal/sanskruti_patel.jpg",
     authorName: [
       "Ph.D.",
       <br />,
@@ -445,11 +452,13 @@ const CourseData = [
     id: 36,
   },
   {
-    imgUrl: "https://charusat.ac.in/wp-content/uploads/Deans_Principal/Reshma.webp",
+    imgUrl:
+      "https://charusat.ac.in/wp-content/uploads/Deans_Principal/Reshma.webp",
     imgAlt: "Dr. Reshma Sable",
     cate: ["DeansNPrincipals"],
     title: "Dr. Reshma Sable",
-    author: "https://charusat.ac.in/wp-content/uploads/Deans_Principal/Reshma.webp",
+    author:
+      "https://charusat.ac.in/wp-content/uploads/Deans_Principal/Reshma.webp",
     authorName: [
       "Ph.D.",
       <br />,
@@ -460,11 +469,13 @@ const CourseData = [
     id: 37,
   },
   {
-    imgUrl: "https://charusat.ac.in/wp-content/uploads/Deans_Principal/Binit-Patel.webp",
+    imgUrl:
+      "https://charusat.ac.in/wp-content/uploads/Deans_Principal/Binit-Patel.webp",
     imgAlt: "Dr. Binit Patel",
     cate: ["DeansNPrincipals"],
     title: "Dr. Binit Patel",
-    author: "https://charusat.ac.in/wp-content/uploads/Deans_Principal/Binit-Patel.webp",
+    author:
+      "https://charusat.ac.in/wp-content/uploads/Deans_Principal/Binit-Patel.webp",
     authorName: [
       "Ph.D.",
       <br />,
@@ -585,6 +596,8 @@ const CourseData = [
 
 export default function People() {
   const [items, setItems] = useState(CourseData);
+  const [active, setActive] = useState("");
+
   const filterItem = async (categItem) => {
     // const updateItems = CourseData.filter((curElem) => {
     //   console.log(curElem.cate.includes(categItem));
@@ -592,6 +605,7 @@ export default function People() {
 
     // });
     console.log("items:" + categItem);
+    setActive(categItem);
     const updateItems = [];
     CourseData.forEach(async (element) => {
       console.log(element.cate.includes(categItem));
@@ -619,14 +633,30 @@ export default function People() {
             <ul className="lab-ul">
               {/* <li onClick={() => setItems(CourseData)}>All</li> */}
 
-              <li onClick={() => filterItem("Governing Body")}>
+              <li
+                className={`${active === "Governing Body" ? "active" : ""}`}
+                onClick={() => filterItem("Governing Body")}
+              >
                 Governing Body
               </li>
-              <li onClick={() => filterItem("BOM")}>Board of Management</li>
-              <li onClick={() => filterItem("DeansNPrincipals")}>
+              <li
+                className={`${active === "BOM" ? "active" : ""}`}
+                onClick={() => filterItem("BOM")}
+              >
+                Board of Management
+              </li>
+              <li
+                className={`${active === "DeansNPrincipals" ? "active" : ""}`}
+                onClick={() => filterItem("DeansNPrincipals")}
+              >
                 Deans & Principal
               </li>
-              <li onClick={() => filterItem("University Officers")}>
+              <li
+                className={`${
+                  active === "University Officers" ? "active" : ""
+                }`}
+                onClick={() => filterItem("University Officers")}
+              >
                 University Officers
               </li>
             </ul>
@@ -685,6 +715,7 @@ export default function People() {
                             style={{
                               wordWrap: "break-word",
                               fontSize: "0.9rem",
+                              fontWeight: "400",
                             }}
                           >
                             {authorName}

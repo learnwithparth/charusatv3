@@ -21,9 +21,12 @@ const Header = () => {
 
   return (
     <>
-      <div>
+      <div className="bg-white">
         <header
-          className="header"
+          className="container"
+          style={{
+            shadow: "none",
+          }}
           onClick={() => {
             document.getElementById("Academics").style.display = "none";
             document.getElementById("Admission").style.display = "none";
@@ -34,12 +37,12 @@ const Header = () => {
         >
           <nav className="nav">
             <div className="logo">
-              <Link to="/home" class="charusat">
+              <Link to="/home" class="charusat-main">
                 <img
                   src={logo}
                   alt="CHARUSAT"
                   style={{
-                    width: "22rem",
+                    width: "17rem",
                   }}
                 />
               </Link>
