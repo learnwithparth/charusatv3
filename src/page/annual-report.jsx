@@ -1,63 +1,71 @@
 import { Fragment } from "react";
 import { Link } from "react-router-dom";
 
-import Fellowship from "../files/PhD/Fellowship.pdf";
-import Regulations from "../../src/files/PhD/Regulations.pdf";
-import Supervisors from "../../src/files/PhD/Supervisors.pdf";
-import Scholar from "../../src/files/PhD/Scholar.pdf";
-
 const searchList = [
   {
-    title: "PhD Fellowship Guidelines",
-    btnText: "Read More",
-    link: Fellowship,
+    title: "Annual Report 2020-21",
+    btnText: "Download",
+    link: "/files/CHARUSAT_12thAnnualReport.pdf",
     metaList: [
       {
         iconName: "icofont-calendar",
-        text: "May 22,2023",
+        text: "2020-21",
       },
     ],
   },
   {
-    title: "PhD Latest Guidelines",
-    btnText: "Read More",
-    link: Regulations,
+    title: "Annual Report 2019-20",
+    btnText: "Download",
+    link: "/files/CHARUSAT_11thAnnualReport.pdf",
     metaList: [
       {
         iconName: "icofont-calendar",
-        text: "May 22,2023",
+        text: "2019-20",
       },
     ],
   },
   {
-    title: "PhD Supervisors List",
-    btnText: "Read More",
-    link: Supervisors,
+    title: "Annual Report 2018-19",
+    btnText: "Download",
+    link: "/files/CHARUSAT_10thAnnualReport.pdf",
     metaList: [
       {
         iconName: "icofont-calendar",
-        text: "May 22,2023",
+        text: "2018-19",
       },
     ],
   },
   {
-    title: "PhD Scholar List",
-    btnText: "Read More",
-    link: Scholar,
+    title: "Annual Report 2017-18",
+    btnText: "Download",
+    link: "/files/CHARUSAT_9thAnnualReport.pdf",
     metaList: [
       {
         iconName: "icofont-calendar",
-        text: "May 22,2023",
+        text: "2017-18",
+      },
+    ],
+  },
+  {
+    title: "Annual Report 2016-17",
+    btnText: "Download",
+    link: "/files/CHARUSAT_8thAnnualReport.pdf",
+    metaList: [
+      {
+        iconName: "icofont-calendar",
+        text: "2016-17",
       },
     ],
   },
 ];
 
-const PhDPrograms = () => {
+const AnnualReport = () => {
   return (
     <Fragment>
       <div className="blog-section padding-tb section-bg">
-        <h1 className="inner-title text-center mb-5">PhD Programs</h1>
+        <h1 className="inner-title text-center mb-5">
+          Annual Reports of the Institute
+        </h1>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 col-12">
@@ -104,4 +112,4 @@ const PhDPrograms = () => {
   );
 };
 
-export default PhDPrograms;
+export default AnnualReport;

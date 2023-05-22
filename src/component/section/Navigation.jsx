@@ -958,45 +958,9 @@ const Header = () => {
                   >
                     Finance Reports
                   </a>
-
-                  <a
-                    href="/files/CHARUSAT_12thAnnualReport.pdf"
-                    target="_blank"
-                    className="menu-link"
-                  >
-                    Annual Report 2020-21
-                  </a>
-
-                  <a
-                    href="/files/CHARUSAT_11thAnnualReport.pdf"
-                    target="_blank"
-                    className="menu-link"
-                  >
-                    Annual Report 2019-20
-                  </a>
-
-                  <a
-                    href="/files/CHARUSAT_10thAnnualReport.pdf"
-                    target="_blank"
-                    className="menu-link"
-                  >
-                    Annual Report 2018-19
-                  </a>
-                  <a
-                    href="/files/CHARUSAT_9thAnnualReport.pdf"
-                    target="_blank"
-                    className="menu-link"
-                  >
-                    Annual Report 2017-18{" "}
-                  </a>
-
-                  <a
-                    href="/files/CHARUSAT_8thAnnualReport.pdf"
-                    target="_blank"
-                    className="menu-link"
-                  >
-                    Annual Report 2016-17
-                  </a>
+                  <Link to="/annual-report" className="menu-link">
+                    Annual Report
+                  </Link>
                 </div>
               </div>
             </div>
