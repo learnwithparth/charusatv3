@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import { Link } from "react-router-dom";
 
 const searchList = [
@@ -61,7 +60,7 @@ const searchList = [
 
 const AnnualReport = () => {
   return (
-    <Fragment>
+    <>
       <div className="blog-section padding-tb section-bg">
         <h1 className="inner-title text-center mb-5">
           Annual Reports of the Institute
@@ -108,7 +107,7 @@ const AnnualReport = () => {
           </div>
         </div>
       </div>
-    </Fragment>
+    </>
   );
 };
 
