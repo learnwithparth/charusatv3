@@ -294,12 +294,9 @@ const Header = () => {
               <div className="menu-d">
                 <h5 className="menu-head">Ph D Programs</h5>
                 <div className="menu-items">
-                  <a
-                    href="https://charusat.ac.in/files/PhD%20Regulations.pdf"
-                    className="menu-link"
-                  >
+                  <Link to="/ph-d-programs" className="menu-link">
                     General Information
-                  </a>
+                  </Link>
                 </div>
               </div>
               <hr />
@@ -1184,7 +1181,7 @@ const Header = () => {
                       Ph D Programs
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="https://charusat.ac.in/files/PhD%20Regulations.pdf">
+                      <Dropdown.Item href="ph-d-programs">
                         General Information
                       </Dropdown.Item>
                     </Dropdown.Menu>
