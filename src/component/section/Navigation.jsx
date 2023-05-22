@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { HashRouter, Link } from "react-router-dom";
+import { HashRouter, Link, Redirect } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 
 import Nav from "react-bootstrap/Nav";
@@ -173,31 +173,31 @@ const Header = () => {
                   >
                     CharuVidya
                   </a>
-                  <a
+                  {/* <a
                     href="http://172.16.11.116/LocalGuru/"
                     target="_blank"
                     className="menu-link"
                   >
                     NPTEL Resources (Intranet)
-                  </a>
+                  </a> */}
                 </div>
               </div>
 
               <div className="menu-d ">
                 <h5 className="menu-head">Other Programmes</h5>
                 <div className="menu-items">
-                  <Link to="/certification-courses" className="menu-link">
+                  <Link to="./certification-courses" className="menu-link">
                     Certification & Audit Courses
                   </Link>
-                  <Link to="/course-single#GNM" className="menu-link">
+                  <Link to="./course-single#GNM" className="menu-link">
                     General Nursing & Midwifery (GNM)
                   </Link>
                   <Link to="./course-single#6303" className="menu-link">
                     Post Graduation Diploma in Clinical Hypnosis (PGDCH)
                   </Link>
-                  <a href="./course-single#6304" className="menu-link">
+                  <Link href="./course-single#6304" className="menu-link">
                     Post Graduation Diploma in Cyber Security (PGDCS)
-                  </a>
+                  </Link>
                   <Link to="./course-single" className="menu-link">
                     Post Graduation Diploma in Medical Laboratory Technology
                     (PGDMLT)
@@ -214,34 +214,34 @@ const Header = () => {
                 <Link to="./course-single#2401" className="menu-link">
                   BCA
                 </Link>
-                <Link to="/course-single#2402" className="menu-link">
+                <Link to="./course-single#2402" className="menu-link">
                   B.Sc(IT)
                 </Link>
-                <Link to="/course-single#3401" className="menu-link">
+                <Link to="./course-single#3401" className="menu-link">
                   B Pharm (Bachelor of Pharmacy)
                 </Link>
-                <Link to="/course-single#4401" className="menu-link">
+                <Link to="./course-single#4401" className="menu-link">
                   BBA
                 </Link>
-                <Link to="/course-single#5401" className="menu-link">
+                <Link to="./course-single#5401" className="menu-link">
                   B.Sc(Biology)
                 </Link>
-                <Link to="/course-single#6401" className="menu-link">
+                <Link to="./course-single#6401" className="menu-link">
                   BPT(Bachelor of Physiotherapy)
                 </Link>
-                <Link to="/course-single#6402" className="menu-link">
+                <Link to="./course-single#6402" className="menu-link">
                   B.Sc(Nursing)
                 </Link>
-                <Link to="/course-single#6405" className="menu-link">
-                  Bachelor of Optometry (B.Optom)
+                <Link to="./course-single#6405" className="menu-link">
+                  Bachelor of Optometry (B.Optom.)
                 </Link>
-                <Link to="/course-single#6403" className="menu-link">
+                <Link to="./course-single#6403" className="menu-link">
                   B.Sc (Imaging Technology)
                 </Link>
-                <Link to="/course-single#6406" className="menu-link">
+                <Link to="./course-single#6406" className="menu-link">
                   B.Sc (Medical Technnology)
                 </Link>
-                <Link to="/course-single#6404" className="menu-link">
+                <Link to="./course-single#6404" className="menu-link">
                   B.Sc (Operation Theatre & Anesthesia Technology)
                 </Link>
               </div>
@@ -249,43 +249,43 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">Postgraduate Studies</h5>
               <div className="menu-items">
-                <Link to="/course-single#1406" className="menu-link">
+                <Link to="./course-single#1406" className="menu-link">
                   M.Tech
                 </Link>
-                <Link to="/course-single#2501" className="menu-link">
+                <Link to="./course-single#2501" className="menu-link">
                   MCA
                 </Link>
-                <Link to="/course-single#2502" className="menu-link">
+                <Link to="./course-single#2502" className="menu-link">
                   M.Sc(IT)
                 </Link>
-                <Link to="/course-single#3501" className="menu-link">
+                <Link to="./course-single#3501" className="menu-link">
                   M.Pharm
                 </Link>
-                <Link to="/course-single#4501" className="menu-link">
+                <Link to="./course-single#4501" className="menu-link">
                   MBA
                 </Link>
-                <Link to="/course-single#5505" className="menu-link">
+                <Link to="./course-single#5505" className="menu-link">
                   M.Sc (Advanced Organic Chemistry)
                 </Link>
-                <Link to="/course-single#5502" className="menu-link">
+                <Link to="./course-single#5502" className="menu-link">
                   M.Sc (Biochemistry)
                 </Link>
-                <Link to="/course-single#5501" className="menu-link">
+                <Link to="./course-single#5501" className="menu-link">
                   M.Sc (Biotechnology)
                 </Link>
-                <Link to="/course-single#5503" className="menu-link">
+                <Link to="./course-single#5503" className="menu-link">
                   M.Sc (Microbiology)
                 </Link>
-                <Link to="/course-single#5506" className="menu-link">
+                <Link to="./course-single#5506" className="menu-link">
                   M.Sc (Physics)
                 </Link>
-                <Link to="/course-single#6501" className="menu-link">
+                <Link to="./course-single#6501" className="menu-link">
                   MPT (Master of Physiotherapy)
                 </Link>
-                <Link to="/course-single#6510" className="menu-link">
+                <Link to="./course-single#6510" className="menu-link">
                   M.Sc (Nursing)
                 </Link>
-                <Link to="/course-single#6514" className="menu-link">
+                <Link to="./course-single#6514" className="menu-link">
                   M.Sc (Medical Imaging Technology)
                 </Link>
               </div>
@@ -320,7 +320,7 @@ const Header = () => {
                 {/* <a href="" className="menu-link">
                   Distinguished Lecture Series
                 </a> */}
-                <Link to="/edic" className="menu-link">
+                <Link to="./edic" className="menu-link">
                   Entrepreneurship and Innovations
                 </Link>
 
@@ -1062,9 +1062,9 @@ const Header = () => {
                       <Dropdown.Item href="https://charuvidya.charusat.ac.in/">
                         CharuVidya
                       </Dropdown.Item>
-                      <Dropdown.Item href="http://172.16.11.116/LocalGuru/">
+                      {/* <Dropdown.Item href="http://172.16.11.116/LocalGuru/">
                         NPTEL Resources (Intranet)
-                      </Dropdown.Item>
+                      </Dropdown.Item> */}
                     </Dropdown.Menu>
                   </Dropdown>
                   <Dropdown>
