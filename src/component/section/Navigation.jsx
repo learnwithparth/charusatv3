@@ -654,7 +654,7 @@ const Header = () => {
                 <a href="http://kradle.charusat.ac.in/" className="menu-link">
                   Dr. K. C. Patel Research and Development Centre (KRADLE)
                 </a>
-                <a href="http://icccharusat.com/" className="menu-link">
+                <a href="https://charusat.irins.org/faculty/index/International+Centre+for+Cosmology+ICC" className="menu-link">
                   International Center for Cosmology (ICC)
                 </a>
                 <Link to="/ipr" className="menu-link">
@@ -1356,7 +1356,7 @@ const Header = () => {
                       <Dropdown.Item href="http://kradle.charusat.ac.in/">
                         Dr. K. C. Patel Research and Development Centre (KRADLE)
                       </Dropdown.Item>
-                      <Dropdown.Item href="http://icccharusat.com/">
+                      <Dropdown.Item href="https://charusat.irins.org/faculty/index/International+Centre+for+Cosmology+ICC">
                         International Center for Cosmology (ICC)
                       </Dropdown.Item>
                       <Dropdown.Item href="/ipr">IPR Cell</Dropdown.Item>

@@ -57,15 +57,11 @@ const CSRTC = () => {
                             </ul>
                             <br />
                             <p>
-                              Presently, the centre works on development of Nano
-                              Satellite called “SARASWATI” under the ISRO
-                              Student Satellite Program. Further, SAC, ISRO,
-                              Ahmedabad has approved five research proposals
-                              submitted by CHARUSAT. Currently, the center is
-                              working on these five projects and Student Nano
-                              Satellite Program. For the purpose, an MOU has
-                              also been signed between CHARUSAT and SAC, ISRO,
-                              Ahmedabad on 3rd February 2014.
+                              Charusat Space Research and Technology Center (CSRTC) is dedicated to promoting and advancing research in space technology. Established on 15th June 2013, the center has been working tirelessly to achieve its objectives, which include providing top-notch educational facilities to students pursuing careers in space technology, offering a conducive environment to faculty and students for research, providing research and development consultancy, and bridging the gap between the university and industry to provide services to the community at large.
+                              <br />
+                              <br />
+                              At CSRTC, we are currently focused on the development of "SARASWATI," a nanosatellite, as part of the ISRO Student Satellite Program. Our efforts have been recognized by SAC, ISRO, Ahmedabad, which has approved five research proposals submitted by CHARUSAT. We are actively working on these five projects, as well as the Student Nano Satellite Program, with the support of an MOU signed between CHARUSAT and SAC, ISRO, Ahmedabad on 3rd February 2014.
+
                             </p>
                           </div>
                         </div>

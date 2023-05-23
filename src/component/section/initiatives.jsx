@@ -32,7 +32,7 @@ const eventSliderList = [
     imgAlt: "ICC image",
     title: "International Cosmology Center (ICC)",
     btnText: "Read More",
-    url: "http://icccharusat.com/",
+    url: "https://charusat.irins.org/faculty/index/International+Centre+for+Cosmology+ICC",
   },
   {
     imgUrl: "assets/images/initiative/SDG HANDPRINT ACTION LAB.png",

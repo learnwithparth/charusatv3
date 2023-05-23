@@ -38,33 +38,24 @@ const Edic = () => {
                               </p>
                               <br />
                               <p style={{ "text-align": "justify" }}>
-                                We believe in providing value based education to
-                                the students so that they can be better
-                                employable candidates and more importantly an
-                                individual contributing to the organization and
-                                the society as a whole. For the same purpose, a
-                                dedicated centralized Career Development and
-                                Placement Cell (CDPC) has been constituted on
-                                the campus. The Cell coordinates all the
-                                Training and Placement activities of different
-                                institutes of the University and enhances
-                                Industry Institute Interaction. Exposure to good
-                                work culture at the beginning of the students’
-                                professional life guarantees success in all
-                                their endeavours. We at Training and Placement
-                                Cell, provide our students with the best avenues
-                                to utilize their skills by helping them find
-                                gainful employment with the best firms. The
-                                university has provided complete infrastructure
-                                for effective functioning of the cell. Training
-                                activities are organized throughout the year in
-                                an effort towards preparing the prospective
-                                students for the campus selection programmes.
-                                The cell keeps on inviting various industries
-                                and reputed firms for campus recruitment. The
-                                cell is sensitized to function all through the
-                                year towards generating placement and training
-                                opportunities for the students.
+                                CHARUSAT aims to make its students Job Creators and not Job Seekers. In the context of the same, the University has established an eco-system for innovations including Incubation center and other initiatives for creation and transfer of knowledge named Entrepreneurship Development and Incubation Cell (EDIC) (2014).
+                                <br />
+                                <br />
+                                It works with a vision to develop successful entrepreneurs who can contribute (to nation building) through creativity, problem-solving and innovation for the growth and development of society at large. EDIC aims to create an entrepreneurial ecosystem within CHARUSAT that acts as a catalyst in identifying, motivating and nurturing entrepreneurial talents; mentoring them towards sustainable pursuits through entrepreneurship awareness, education, training and research.
+                                <br />
+                                <br />
+                                Entrepreneurship Developmental activities are being undertaken by faculty members trained at IIMA, University of Madras, EDI, University of Texas, USA and we also have access to renowned resource persons. For effective integration of entrepreneurship in all available disciplines within CHARUSAT, EDIC has identified Faculty Entrepreneurship Champions (FEC) from each department of the constituent departments / Institution through scientific tests.
+                                <br />
+                                <br />
+                                Under the Student Startup and Innovation Policy (SSIP) initiated by Gujarat Knowledge Society, Commissionerate of Technical Education, Govt. of Gujarat, CHARUSAT EDIC has received / commitment for a grant of - Rs. 20 lakhs for next five years starting from 2017-18 onwards and the equal amount has been committed from CHARUSAT University. It has established Student Start-up and Innovation Cell (SSIP Cell) and Intellectual Property & Research Cell (IPR Cell). Under this, Establishment of State of Art Tinkering and Fabrication Laboratories with facilities like IoT, Electronic Equipment, 3D Printer Tools & Kits, Internet of Things & Sensors, Robotic Equipment, Microcontroller Boards, Development Boards, Robotic / DIY Kits is established at CHARUSAT.
+                                <br />
+                                <br />
+                                CHARUSAT EDIC has collaborated with The Centre for Entrepreneurship Development (CED) - Govt. of Gujarat (2016) and has started “Business Accelerator and Startup Cell” (BASC) which is nurturing ideas and jointly organizing various programmes like Entrepreneurship Development Programme (EDP) for different stakeholders of the society like for Differently Abled People.
+                                <br />
+                                <br />
+                                With the help and support of the Government of Gujarat, CHARUSAT EDIC has established CHARUSAT STARTUP AND INNOVATION CENTRE on December 16, 2020.
+                                <br />
+
                               </p>
                             </div>
                           </div>

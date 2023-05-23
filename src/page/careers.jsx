@@ -18,7 +18,7 @@ const Certification_Courses = () => {
                       <div className="post-item style-2">
                         <div className="post-inner">
                           <div className="post-content">
-                            <h3>Careers @CHARUSAT</h3>
+                            <h3>Work With Us :</h3>
                             <hr />
                             <br />
                             <Container>
