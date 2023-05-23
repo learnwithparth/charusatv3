@@ -5,9 +5,9 @@
 }
 
 .nav {
-  padding: 0 7rem;
+  /* padding: ; */
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,29 +20,6 @@
 
 .green-text {
   color: #3db166 !important;
-}
-
-.charusat {
-  margin-left: 7rem !important;
-  font-size: 53px;
-  font-weight: 700;
-  color: #0066b3 !important;
-  letter-spacing: 2px;
-  font-family: "Poppins", sans-seri;
-  visibility: inherit;
-  transition: none;
-  text-align: inherit;
-  border-width: 0px;
-  margin: 0 10px;
-  padding: 0px;
-  min-height: 0px;
-  min-width: 0px;
-  max-height: none;
-  max-width: none;
-  opacity: 1;
-  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  transform-origin: 50% 50% 0px;
-  text-decoration: none;
 }
 
 .links {
@@ -190,15 +167,9 @@
   display: none !important;
 }
 
-@media screen and (max-width: 1111px) {
-  .charusat {
-    font-size: 28px;
-  }
-}
-
 @media screen and (max-width: 990px) {
-  .charusat {
-    font-size: 28px;
+  .charusat-main {
+    display: none;
   }
 
   .header {

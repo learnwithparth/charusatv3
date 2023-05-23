@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "../../assets/css/navigation.css";
 import Dropdown from "react-bootstrap/Dropdown";
 import Scroll from "react-scroll";
+import logo from "../../files/logo.webp";
 const ScrollLink = Scroll.ScrollLink;
 
 const Header = () => {
@@ -20,9 +21,12 @@ const Header = () => {
 
   return (
     <>
-      <div>
+      <div className="bg-white">
         <header
-          className="header"
+          className="container"
+          style={{
+            shadow: "none",
+          }}
           onClick={() => {
             document.getElementById("Academics").style.display = "none";
             document.getElementById("Admission").style.display = "none";
@@ -33,8 +37,14 @@ const Header = () => {
         >
           <nav className="nav">
             <div className="logo">
-              <Link to="/home" class="charusat">
-                CHARUSAT
+              <Link to="/home" class="charusat-main">
+                <img
+                  src={logo}
+                  alt="CHARUSAT"
+                  style={{
+                    width: "17rem",
+                  }}
+                />
               </Link>
             </div>
             <div className="nav-links">
@@ -284,12 +294,9 @@ const Header = () => {
               <div className="menu-d">
                 <h5 className="menu-head">Ph D Programs</h5>
                 <div className="menu-items">
-                  <a
-                    href="https://charusat.ac.in/files/PhD%20Regulations.pdf"
-                    className="menu-link"
-                  >
+                  <Link to="/ph-d-programs" className="menu-link">
                     General Information
-                  </a>
+                  </Link>
                 </div>
               </div>
               <hr />
@@ -654,7 +661,12 @@ const Header = () => {
                 <a href="http://kradle.charusat.ac.in/" className="menu-link">
                   Dr. K. C. Patel Research and Development Centre (KRADLE)
                 </a>
-                <a href="https://charusat.irins.org/faculty/index/International+Centre+for+Cosmology+ICC" className="menu-link">
+
+                <a
+                  href="https://charusat.irins.org/faculty/index/International+Centre+for+Cosmology+ICC"
+                  className="menu-link"
+                >
+
                   International Center for Cosmology (ICC)
                 </a>
                 <Link to="/ipr" className="menu-link">
@@ -876,10 +888,7 @@ const Header = () => {
                 >
                   Charusat Rural Education Development Program
                 </a>
-                <a
-                  href="./student-wellness-program"
-                  className="menu-link"
-                >
+                <a href="./student-wellness-program" className="menu-link">
                   Student Wellness Programme
                 </a>
                 <Link to="/wincell" className="menu-link">
@@ -951,45 +960,9 @@ const Header = () => {
                   >
                     Finance Reports
                   </a>
-
-                  <a
-                    href="/files/CHARUSAT_12thAnnualReport.pdf"
-                    target="_blank"
-                    className="menu-link"
-                  >
-                    Annual Report 2020-21
-                  </a>
-
-                  <a
-                    href="/files/CHARUSAT_11thAnnualReport.pdf"
-                    target="_blank"
-                    className="menu-link"
-                  >
-                    Annual Report 2019-20
-                  </a>
-
-                  <a
-                    href="/files/CHARUSAT_10thAnnualReport.pdf"
-                    target="_blank"
-                    className="menu-link"
-                  >
-                    Annual Report 2018-19
-                  </a>
-                  <a
-                    href="/files/CHARUSAT_9thAnnualReport.pdf"
-                    target="_blank"
-                    className="menu-link"
-                  >
-                    Annual Report 2017-18{" "}
-                  </a>
-
-                  <a
-                    href="/files/CHARUSAT_8thAnnualReport.pdf"
-                    target="_blank"
-                    className="menu-link"
-                  >
-                    Annual Report 2016-17
-                  </a>
+                  <Link to="/annual-report" className="menu-link">
+                    Annual Report
+                  </Link>
                 </div>
               </div>
             </div>
@@ -1031,7 +1004,13 @@ const Header = () => {
           <Container>
             <Navbar.Brand href="#home">
               <a href="/" class="charusat">
-                CHARUSAT
+                <img
+                  src={logo}
+                  alt="CHARUSAT"
+                  style={{
+                    width: "22rem",
+                  }}
+                />
               </a>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -1168,7 +1147,7 @@ const Header = () => {
                       Ph D Programs
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="https://charusat.ac.in/files/PhD%20Regulations.pdf">
+                      <Dropdown.Item href="ph-d-programs">
                         General Information
                       </Dropdown.Item>
                     </Dropdown.Menu>
