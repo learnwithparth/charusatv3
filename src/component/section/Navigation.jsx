@@ -661,10 +661,12 @@ const Header = () => {
                 <a href="http://kradle.charusat.ac.in/" className="menu-link">
                   Dr. K. C. Patel Research and Development Centre (KRADLE)
                 </a>
+
                 <a
                   href="https://charusat.irins.org/faculty/index/International+Centre+for+Cosmology+ICC"
                   className="menu-link"
                 >
+
                   International Center for Cosmology (ICC)
                 </a>
                 <Link to="/ipr" className="menu-link">
