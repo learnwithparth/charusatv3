@@ -52,23 +52,32 @@ export default function contact_donation(props) {
                       </ul>
                     </div>
                     <br />
-                    <a
-                      href="./assets/files/BankAccountDetailsforDonors.pdf"
-                      className="lab-btn"
-                      target="_blank"
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        width: "fit-content",
+                      }}
                     >
-                      <span>
-                        Get Bank Details{" "}
-                        <i className="icofont-external-link"></i>
-                      </span>
-                    </a>
-                    <br />
-                    <br />
-                    <Link to="/#" className="lab-btn">
-                      <span>
-                        Donate Online <i className="icofont-external-link"></i>
-                      </span>
-                    </Link>
+                      <a
+                        href="./assets/files/BankAccountDetailsforDonors.pdf"
+                        className="lab-btn"
+                        target="_blank"
+                      >
+                        <span>
+                          Get Bank Details{" "}
+                          <i className="icofont-external-link"></i>
+                        </span>
+                      </a>
+                      <br />
+                      <br />
+                      <Link to="/#" className="lab-btn">
+                        <span>
+                          Donate Online{" "}
+                          <i className="icofont-external-link"></i>
+                        </span>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>

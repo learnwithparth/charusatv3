@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { HashRouter, Link } from "react-router-dom";
+import { HashRouter, Link, Redirect } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 
 import Nav from "react-bootstrap/Nav";
@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "../../assets/css/navigation.css";
 import Dropdown from "react-bootstrap/Dropdown";
 import Scroll from "react-scroll";
+import logo from "../../files/logo.webp";
 const ScrollLink = Scroll.ScrollLink;
 
 const Header = () => {
@@ -20,9 +21,12 @@ const Header = () => {
 
   return (
     <>
-      <div>
+      <div className="bg-white">
         <header
-          className="header"
+          className="container"
+          style={{
+            shadow: "none",
+          }}
           onClick={() => {
             document.getElementById("Academics").style.display = "none";
             document.getElementById("Admission").style.display = "none";
@@ -33,8 +37,14 @@ const Header = () => {
         >
           <nav className="nav">
             <div className="logo">
-              <Link to="/home" class="charusat">
-                CHARUSAT
+              <Link to="/home" class="charusat-main">
+                <img
+                  src={logo}
+                  alt="CHARUSAT"
+                  style={{
+                    width: "17rem",
+                  }}
+                />
               </Link>
             </div>
             <div className="nav-links">
@@ -163,31 +173,31 @@ const Header = () => {
                   >
                     CharuVidya
                   </a>
-                  <a
+                  {/* <a
                     href="http://172.16.11.116/LocalGuru/"
                     target="_blank"
                     className="menu-link"
                   >
                     NPTEL Resources (Intranet)
-                  </a>
+                  </a> */}
                 </div>
               </div>
 
               <div className="menu-d ">
                 <h5 className="menu-head">Other Programmes</h5>
                 <div className="menu-items">
-                  <Link to="/certification-courses" className="menu-link">
+                  <Link to="./certification-courses" className="menu-link">
                     Certification & Audit Courses
                   </Link>
-                  <Link to="/course-single#GNM" className="menu-link">
+                  <Link to="./course-single#GNM" className="menu-link">
                     General Nursing & Midwifery (GNM)
                   </Link>
                   <Link to="./course-single#6303" className="menu-link">
                     Post Graduation Diploma in Clinical Hypnosis (PGDCH)
                   </Link>
-                  <a href="./course-single#6304" className="menu-link">
+                  <Link href="./course-single#6304" className="menu-link">
                     Post Graduation Diploma in Cyber Security (PGDCS)
-                  </a>
+                  </Link>
                   <Link to="./course-single" className="menu-link">
                     Post Graduation Diploma in Medical Laboratory Technology
                     (PGDMLT)
@@ -204,34 +214,34 @@ const Header = () => {
                 <Link to="./course-single#2401" className="menu-link">
                   BCA
                 </Link>
-                <Link to="/course-single#2402" className="menu-link">
+                <Link to="./course-single#2402" className="menu-link">
                   B.Sc(IT)
                 </Link>
-                <Link to="/course-single#3401" className="menu-link">
+                <Link to="./course-single#3401" className="menu-link">
                   B Pharm (Bachelor of Pharmacy)
                 </Link>
-                <Link to="/course-single#4401" className="menu-link">
+                <Link to="./course-single#4401" className="menu-link">
                   BBA
                 </Link>
-                <Link to="/course-single#5401" className="menu-link">
+                <Link to="./course-single#5401" className="menu-link">
                   B.Sc(Biology)
                 </Link>
-                <Link to="/course-single#6401" className="menu-link">
+                <Link to="./course-single#6401" className="menu-link">
                   BPT(Bachelor of Physiotherapy)
                 </Link>
-                <Link to="/course-single#6402" className="menu-link">
+                <Link to="./course-single#6402" className="menu-link">
                   B.Sc(Nursing)
                 </Link>
-                <Link to="/course-single#6405" className="menu-link">
-                  Bachelor of Optometry (B.Optom)
+                <Link to="./course-single#6405" className="menu-link">
+                  Bachelor of Optometry (B.Optom.)
                 </Link>
-                <Link to="/course-single#6403" className="menu-link">
+                <Link to="./course-single#6403" className="menu-link">
                   B.Sc (Imaging Technology)
                 </Link>
-                <Link to="/course-single#6406" className="menu-link">
+                <Link to="./course-single#6406" className="menu-link">
                   B.Sc (Medical Technnology)
                 </Link>
-                <Link to="/course-single#6404" className="menu-link">
+                <Link to="./course-single#6404" className="menu-link">
                   B.Sc (Operation Theatre & Anesthesia Technology)
                 </Link>
               </div>
@@ -239,43 +249,43 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">Postgraduate Studies</h5>
               <div className="menu-items">
-                <Link to="/course-single#1406" className="menu-link">
+                <Link to="./course-single#1406" className="menu-link">
                   M.Tech
                 </Link>
-                <Link to="/course-single#2501" className="menu-link">
+                <Link to="./course-single#2501" className="menu-link">
                   MCA
                 </Link>
-                <Link to="/course-single#2502" className="menu-link">
+                <Link to="./course-single#2502" className="menu-link">
                   M.Sc(IT)
                 </Link>
-                <Link to="/course-single#3501" className="menu-link">
+                <Link to="./course-single#3501" className="menu-link">
                   M.Pharm
                 </Link>
-                <Link to="/course-single#4501" className="menu-link">
+                <Link to="./course-single#4501" className="menu-link">
                   MBA
                 </Link>
-                <Link to="/course-single#5505" className="menu-link">
+                <Link to="./course-single#5505" className="menu-link">
                   M.Sc (Advanced Organic Chemistry)
                 </Link>
-                <Link to="/course-single#5502" className="menu-link">
+                <Link to="./course-single#5502" className="menu-link">
                   M.Sc (Biochemistry)
                 </Link>
-                <Link to="/course-single#5501" className="menu-link">
+                <Link to="./course-single#5501" className="menu-link">
                   M.Sc (Biotechnology)
                 </Link>
-                <Link to="/course-single#5503" className="menu-link">
+                <Link to="./course-single#5503" className="menu-link">
                   M.Sc (Microbiology)
                 </Link>
-                <Link to="/course-single#5506" className="menu-link">
+                <Link to="./course-single#5506" className="menu-link">
                   M.Sc (Physics)
                 </Link>
-                <Link to="/course-single#6501" className="menu-link">
+                <Link to="./course-single#6501" className="menu-link">
                   MPT (Master of Physiotherapy)
                 </Link>
-                <Link to="/course-single#6510" className="menu-link">
+                <Link to="./course-single#6510" className="menu-link">
                   M.Sc (Nursing)
                 </Link>
-                <Link to="/course-single#6514" className="menu-link">
+                <Link to="./course-single#6514" className="menu-link">
                   M.Sc (Medical Imaging Technology)
                 </Link>
               </div>
@@ -284,12 +294,9 @@ const Header = () => {
               <div className="menu-d">
                 <h5 className="menu-head">Ph D Programs</h5>
                 <div className="menu-items">
-                  <a
-                    href="https://charusat.ac.in/files/PhD%20Regulations.pdf"
-                    className="menu-link"
-                  >
+                  <Link to="/ph-d-programs" className="menu-link">
                     General Information
-                  </a>
+                  </Link>
                 </div>
               </div>
               <hr />
@@ -310,7 +317,7 @@ const Header = () => {
                 {/* <a href="" className="menu-link">
                   Distinguished Lecture Series
                 </a> */}
-                <Link to="/edic" className="menu-link">
+                <Link to="./edic" className="menu-link">
                   Entrepreneurship and Innovations
                 </Link>
 
@@ -654,7 +661,12 @@ const Header = () => {
                 <a href="http://kradle.charusat.ac.in/" className="menu-link">
                   Dr. K. C. Patel Research and Development Centre (KRADLE)
                 </a>
-                <a href="https://charusat.irins.org/faculty/index/International+Centre+for+Cosmology+ICC" className="menu-link">
+
+                <a
+                  href="https://charusat.irins.org/faculty/index/International+Centre+for+Cosmology+ICC"
+                  className="menu-link"
+                >
+
                   International Center for Cosmology (ICC)
                 </a>
                 <Link to="/ipr" className="menu-link">
@@ -876,10 +888,7 @@ const Header = () => {
                 >
                   Charusat Rural Education Development Program
                 </a>
-                <a
-                  href="./student-wellness-program"
-                  className="menu-link"
-                >
+                <a href="./student-wellness-program" className="menu-link">
                   Student Wellness Programme
                 </a>
                 <Link to="/wincell" className="menu-link">
@@ -951,45 +960,9 @@ const Header = () => {
                   >
                     Finance Reports
                   </a>
-
-                  <a
-                    href="/files/CHARUSAT_12thAnnualReport.pdf"
-                    target="_blank"
-                    className="menu-link"
-                  >
-                    Annual Report 2020-21
-                  </a>
-
-                  <a
-                    href="/files/CHARUSAT_11thAnnualReport.pdf"
-                    target="_blank"
-                    className="menu-link"
-                  >
-                    Annual Report 2019-20
-                  </a>
-
-                  <a
-                    href="/files/CHARUSAT_10thAnnualReport.pdf"
-                    target="_blank"
-                    className="menu-link"
-                  >
-                    Annual Report 2018-19
-                  </a>
-                  <a
-                    href="/files/CHARUSAT_9thAnnualReport.pdf"
-                    target="_blank"
-                    className="menu-link"
-                  >
-                    Annual Report 2017-18{" "}
-                  </a>
-
-                  <a
-                    href="/files/CHARUSAT_8thAnnualReport.pdf"
-                    target="_blank"
-                    className="menu-link"
-                  >
-                    Annual Report 2016-17
-                  </a>
+                  <Link to="/annual-report" className="menu-link">
+                    Annual Report
+                  </Link>
                 </div>
               </div>
             </div>
@@ -1031,7 +1004,13 @@ const Header = () => {
           <Container>
             <Navbar.Brand href="#home">
               <a href="/" class="charusat">
-                CHARUSAT
+                <img
+                  src={logo}
+                  alt="CHARUSAT"
+                  style={{
+                    width: "22rem",
+                  }}
+                />
               </a>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -1046,9 +1025,9 @@ const Header = () => {
                       <Dropdown.Item href="https://charuvidya.charusat.ac.in/">
                         CharuVidya
                       </Dropdown.Item>
-                      <Dropdown.Item href="http://172.16.11.116/LocalGuru/">
+                      {/* <Dropdown.Item href="http://172.16.11.116/LocalGuru/">
                         NPTEL Resources (Intranet)
-                      </Dropdown.Item>
+                      </Dropdown.Item> */}
                     </Dropdown.Menu>
                   </Dropdown>
                   <Dropdown>
@@ -1168,7 +1147,7 @@ const Header = () => {
                       Ph D Programs
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="https://charusat.ac.in/files/PhD%20Regulations.pdf">
+                      <Dropdown.Item href="ph-d-programs">
                         General Information
                       </Dropdown.Item>
                     </Dropdown.Menu>
