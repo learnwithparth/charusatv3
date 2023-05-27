@@ -70,6 +70,7 @@ import Edic from "./page/edic";
 import StudentCorner from "./page/student-corner";
 import PhDPrograms from "./page/ph-d-programs";
 import AnnualReport from "./page/annual-report";
+import UIIC from "./page/UIIC";
 
 function App() {
   // const basename = document.querySelector('base')?.getAttribute('href') ?? '/'    ;
@@ -130,6 +131,7 @@ function App() {
         <Route path="/crtc" element={<CSRTC />} />
         <Route exact path="/ph-d-programs" element={<PhDPrograms />} />
         <Route path="/annual-report" element={<AnnualReport />} />
+        <Route path="university-industry-interaction-cell" element={<UIIC />} />
 
         <Route path="/coming-soon" element={<ComingSoon />} />
         <Route path="/error" element={<ErrorPage />} />
