@@ -1,3 +1,5 @@
+import conferenceOnEthicsReviewInHealthResearch from '../../files/event/Conference on Ethics Review in Health Research.pdf'
+import certifcateCourseOnRProgrammingForBeginners from '../../files/event/Brochure_RProgramming.pdf'
 const subTitle = "Don’t Miss the Day";
 const title = "Announcements";
 const desc = "";
@@ -8,7 +10,7 @@ const eventListOne = [
     imgAlt: "Conference on Ethics Review in Health Research",
     Date: "28",
     MonthYear: "APR 2023",
-    link: "https://charusat.ac.in/files/Conference on Ethics Review in Health Research.pdf",
+    link: `${conferenceOnEthicsReviewInHealthResearch}`,
     title: "Conference on Ethics Review in Health Research",
     Time: "",
     Place: "CHARUSAT, MTIN-Auditorium",
@@ -29,7 +31,7 @@ const eventListTwo = [
   {
     Date: "28",
     MonthYear: "APR 2023",
-    link: "https://charusat.ac.in/files/Conference on Ethics Review in Health Research.pdf",
+    link: `${conferenceOnEthicsReviewInHealthResearch}`,
     openInNewTab: true,
     title: "Conference on Ethics Review in Health Research",
     Time: "",
@@ -39,7 +41,7 @@ const eventListTwo = [
   {
     Date: "22",
     MonthYear: "May 2023",
-    link: "https://charusat.ac.in/pdpias/maths-dept/brochure/Brochure_RProgramming.pdf",
+    link: `${certifcateCourseOnRProgrammingForBeginners}`,
     openInNewTab: true,
     title: "Certifcate Course on R Programming for Beginners",
     Time: "",

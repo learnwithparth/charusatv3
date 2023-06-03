@@ -151,7 +151,9 @@ const SDI = () => {
 
                               <li>Tech-fests and scientific events to develop leadership skills in students</li>
                             </ul>
+                            <br />
                             <h5>The necessary documents to support the data can be accessed using the following links:</h5>
+                            <hr />
                             <div className="shop-cart">
                               <div className="container-fluid">
                                 <div className="section-wrapper">

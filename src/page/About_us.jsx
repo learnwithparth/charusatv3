@@ -115,7 +115,7 @@ const AboutPage = () => {
       {/* <Skill />
             <AchievementTwo />
             <Blog />*/}
-      <Footer />
+      {/* <Footer /> */}
     </Fragment>
   );
 };

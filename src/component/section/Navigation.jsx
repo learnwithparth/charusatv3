@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { HashRouter, Link, Redirect } from "react-router-dom";
 import Container from "react-bootstrap/Container";
+import AdmissionEligibilityCriteria from '../../files/navigation/AdmissionsEligibility.pdf'
+import EligibilityCriteria from '../../files/navigation/Eligibility_criteria.pdf'
+import InterNationalFees from '../../files/navigation/International_Fee.pdf';
 
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -198,7 +201,7 @@ const Header = () => {
                   <Link href="./course-single#6304" className="menu-link">
                     Post Graduation Diploma in Cyber Security (PGDCS)
                   </Link>
-                  <Link to="./course-single" className="menu-link">
+                  <Link to="./course-single#PGDMLT" className="menu-link">
                     Post Graduation Diploma in Medical Laboratory Technology
                     (PGDMLT)
                   </Link>
@@ -218,7 +221,7 @@ const Header = () => {
                   B.Sc(IT)
                 </Link>
                 <Link to="./course-single#3401" className="menu-link">
-                  B Pharm (Bachelor of Pharmacy)
+                  B.Pharm (Bachelor of Pharmacy)
                 </Link>
                 <Link to="./course-single#4401" className="menu-link">
                   BBA
@@ -287,6 +290,9 @@ const Header = () => {
                 </Link>
                 <Link to="./course-single#6514" className="menu-link">
                   M.Sc (Medical Imaging Technology)
+                </Link>
+                <Link to="./course-single#6513" className="menu-link">
+                  M.Sc (Medical Laboratory Technology)
                 </Link>
               </div>
             </div>
@@ -362,7 +368,7 @@ const Header = () => {
                   Apply Now
                 </a>
                 <a
-                  href="https://charusat.ac.in/admission/doc/AdmissionsEligibility.pdf"
+                  href="../../files/navigation/AdmissionsEligibility.pdf"
                   target="_blank"
                   className="menu-link"
                   rel="noopener noreferrer"
@@ -394,14 +400,14 @@ const Header = () => {
                   Apply Now
                 </a>
                 <a
-                  href="https://charusat.ac.in/international/Eligibility_criteria.pdf"
+                  href={EligibilityCriteria}
                   target="_blank"
                   className="menu-link"
                 >
                   Eligibility Criteria
                 </a>
                 <a
-                  href="https://charusat.ac.in/international/International_Fee.pdf"
+                  href={InterNationalFees}
                   className="menu-link"
                 >
                   Fees
@@ -1047,7 +1053,7 @@ const Header = () => {
                       <Dropdown.Item href="./course-single#6304">
                         Post Graduation Diploma in Cyber Security (PGDCS)
                       </Dropdown.Item>
-                      <Dropdown.Item href="./course-single">
+                      <Dropdown.Item href="./course-single#PGDMLT">
                         Post Graduation Diploma in Medical Laboratory Technology
                         (PGDMLT)
                       </Dropdown.Item>
@@ -1068,7 +1074,7 @@ const Header = () => {
                         B.Sc(IT)
                       </Dropdown.Item>
                       <Dropdown.Item href="./course-single#3401">
-                        B Pharm (Bachelor of Pharmacy)
+                        B.Pharm (Bachelor of Pharmacy)
                       </Dropdown.Item>
                       <Dropdown.Item href="./course-single#4401">
                         BBA
@@ -1137,8 +1143,11 @@ const Header = () => {
                       <Dropdown.Item href="./course-single#6510">
                         M.Sc (Nursing)
                       </Dropdown.Item>
-                      <Dropdown.Item href="./course-single#6514">
+                      <Dropdown.Item href="./course-single#6403">
                         M.Sc (Medical Imaging Technology)
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./course-single#6511">
+                        M.Sc (Medical Laboratory Technology)
                       </Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
@@ -1191,7 +1200,7 @@ const Header = () => {
                       <Dropdown.Item href="https://admission2023.charusat.ac.in/">
                         Apply Now
                       </Dropdown.Item>
-                      <Dropdown.Item href="https://charusat.ac.in/admission/doc/AdmissionsEligibility.pdf">
+                      <Dropdown.Item href={AdmissionEligibilityCriteria}>
                         Eligibility criteria
                       </Dropdown.Item>
                       <Dropdown.Item href="#/action-3">Fees</Dropdown.Item>
@@ -1206,10 +1215,10 @@ const Header = () => {
                       <Dropdown.Item href="https://admission2023.charusat.ac.in/">
                         Apply Now
                       </Dropdown.Item>
-                      <Dropdown.Item href="https://charusat.ac.in/international/Eligibility_criteria.pdf">
+                      <Dropdown.Item href={EligibilityCriteria}>
                         Eligibility criteria
                       </Dropdown.Item>
-                      <Dropdown.Item href="https://charusat.ac.in/international/International_Fee.pdf">
+                      <Dropdown.Item href={InterNationalFees}>
                         Fees
                       </Dropdown.Item>
                       <Dropdown.Item>+91 917370164</Dropdown.Item>
