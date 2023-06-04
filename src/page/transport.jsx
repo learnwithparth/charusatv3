@@ -2,6 +2,7 @@ import { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
 import PageHeader from "../component/layout/pageheader";
 import Contact from "../component/section/contact";
+import { colors } from "@mui/material";
 
 const transporterList = [
   {
@@ -140,17 +141,17 @@ const Transport = () => {
           <div className="row justify-content-center">
             <div className="col">
               <div className="shop-cart padding-tb">
-                <div className="container">
+                <div className="container" >
                   <div className="section-wrapper">
-                    <div className="cart-top">
-                      <table>
-                        <thead>
+                    <div className="cart-top" >
+                      <table style={{'background-color':'#bfd6de'}}>
+                        <thead >
                           <tr>
-                            <th className="cat-product">Sr No.</th>
-                            <th className="cat-product">Route</th>
-                            <th className="cat-price">Transporters' Name</th>
-                            <th className="cat-toprice">Contact Person</th>
-                            <th className="cat-edit">Contact No.</th>
+                            <th className="cat-product" style={{'background-color':'#5b7b86'}}>Sr No.</th>
+                            <th className="cat-product" style={{'background-color':'#5b7b86'}}>Route</th>
+                            <th className="cat-price" style={{'background-color':'#5b7b86'}}>Transporters' Name</th>
+                            <th className="cat-toprice" style={{'background-color':'#5b7b86'}}>Contact Person</th>
+                            <th className="cat-edit" style={{'background-color':'#5b7b86'}}>Contact No.</th>
                           </tr>
                         </thead>
                         <tbody>

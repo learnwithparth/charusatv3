@@ -39,11 +39,11 @@ const WellnessProgram = () => {
                             <hr />
                             <p>CHARUSAT, through student counselling system aims to foster:</p>
                             <ol className="lab-ul">
-                            
+                            <p>
                             <li>Academic excellence</li>
                             <li>Positive Mental Attitude</li>
                             <li>General Well-being of the students</li>
-
+                            </p>
                             </ol>
                               {/* <li>
                                 <i className="icofont-tick-mark"></i>{" "}
@@ -103,37 +103,43 @@ const WellnessProgram = () => {
                             <hr />
                             <p>The students are being counseled in the areas of:</p>
                             <ul className="lab-ul">
+                              <p>
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
                                 <strong>
-                                Academic Matters: 
-                                </strong>{"By way of helping students set their career goals and guiding them as to how to achieve the goals. "}
+                                Academic Matters : 
+                                </strong>{" By way of helping students set their career goals and guiding them as to how to achieve the goals. "}
                               </li>
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
                                 <strong>
-                                Social Matters:
-                                </strong>{"By way of helping them undertake various social inter-relationships like family, relatives, friends, peers, strangers and unforeseen events. "}
+                                Social Matters :
+                                </strong>{" By way of helping them undertake various social inter-relationships like family, relatives, friends, peers, strangers and unforeseen events. "}
                               </li>
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
                                 <strong>
-                                Personal Matters affecting his/her career life:
-                                </strong>{"By way of helping them understand their strengths and constraints and provide proper guidance to overcome the challenges. "}
+                                Personal Matters affecting his/her career life :
+                                </strong>{" By way of helping them understand their strengths and constraints and provide proper guidance to overcome the challenges. "}
                               </li>
+                              </p>
                             </ul>
                             <br/>
                             <h4>GENERAL GUIDELINES</h4>
                             <hr />
+                            <p>
                             A broad-based ‘Student Counselling System’ is being envisaged which shall be, interactive and result-oriented, involving students, teachers and parents, addressing common student concerns ranging from anxiety, stress, fear of change and failure, homesickness and a slew of academic worries.<br/>
+                            
                             <br/>
                             In view to meet the above:
+                            </p>
                             <ol>
+                              <p>
                                 <li>All the Principals/ HoDs (Engg.) shall have to allocate counsellor teachers to the students at the beginning of the new Term. This has to be widely notified to the students and parents through display on the notice boards, emails, etc. within a week of the beginning of the Term.</li>
                                 <li>Each teacher will act as a Counsellor with a batch ranging from 15 to 25 students allotted to him/her.</li>
                                 <li>Students allocated to a particular counsellor will remain under his/her guidance till the completion of their studies (UG/PG Programmes). In the event of Teacher Counsellor leaving the University, other Teacher Counsellor may be allocated to the students by Principal immediately.</li>
                                 <li>The Teacher Counsellor is expected to undertake and execute:
-                                    <ol start={"a"} style={{listStyleType:" lower-alpha"}}>
+                                    <ol start={"a"}>
                                         <li>Ensuring enrollment formalities of their counsellees and getting filled in all the details in e-governance of the University.</li>
                                         <li>Maintaining and monitoring Attendance of their counsellees and keeping their parents updated regularly at a maximum interval of one Month.</li>
                                         <li>Keeping track of payment status of Fees (Term Fes/ Examination Fee, etc.) and updating parents of respective Counsellees about the same, at regular intervals.</li>
@@ -148,7 +154,7 @@ const WellnessProgram = () => {
                                     </ol>
                                 </li>
                                 <li>The Teacher Counsellor will need to have a thorough understanding of the credit system/ evaluation system for counselling a student for academic as well as other matters like:
-                                    <ol start={"a"} style={{listStyleType:" lower-alpha"}}>
+                                    <ol start={"a"}>
                                     <li>Rules pertaining to Attendance</li>
                                     <li>Leave Application Process</li>
                                     <li>Submissions of assignments/ projects, etc.</li>
@@ -159,18 +165,24 @@ const WellnessProgram = () => {
                                 <li>The counsellors shall report the progress of their counsellees to the Department Counselling Coordinator every month.</li>
                                 <li>The counselling activities shall be part of Performance Appraisals of the teachers.</li>
                                 <li>The Principals shall have to regularly monitor the activities of Student Counselling and report to Academic Counsel in its meetings.</li>
+                                </p>
                             </ol>
                             <strong>Note:</strong>
                             <ul>
+                              <p>
                                 <li>An Online Test will be initiated and coordinated by HRDC for the Faculty Members to evaluate and ensure their thorough understanding of Credit Systems/ Evaluation System and other related academic matters, for the purpose of effective counselling.</li>
                                 <li>To equip the Teacher Counsellor with techniques of counselling, the teacher counsellor shall be provided advanced training under Senior Professional Counsellor.</li>
+                                </p>
                             </ul>
                             <br/>
                             <h4>COUNSELLING STRUCTURE</h4>
                             <hr />
+                            <p>
                             The Counselling Cell shall comprise of the following members:<br/>
+                            </p>
                             <img src={swpstructure} />
                             <br/>
+                            <p>
                             <strong>*Note:</strong> For Institutes other than CSPIT, <b>"Principal"</b> shall be the <b>“Institute Counsellor”</b>
                             <br/><br/>
                             <b>Teacher Counsellor</b> – Faculty members
@@ -193,9 +205,11 @@ const WellnessProgram = () => {
                                 </li>
                               </ul>
                               <b>Professional Member</b> – A Professional Psychologist and Psycho Therapist, appointed under Student Wellness Programme, or Senior Psychologist, depending on gravity of the circumstance, will be the Professional Member.
+                            </p>
                             <br/><br/>
                             <h4>COUNSELLING SYSTEM: FUNCTIONAL FLOW</h4>
                             <hr />
+                            <p>
                             <ol>
                                 <li>As soon as a student gets enrolled and begins his/her sessions, he/she will be assigned to a particular Teacher Counsellor by the Principal/ HoD (Engg.).</li>
                                 <li>It will be a Teacher Counsellor’s utmost responsibility to ensure that the new incumbent is comfortable in the new environment and is getting acclimatized. The illustrative model could be through building a rapport with the students by way of different activities, games and informal interactions carried out to help build strong Teacher-Taught relationship.</li>
@@ -224,13 +238,13 @@ const WellnessProgram = () => {
                                             <li>Study Habits</li>
                                         </ul>
                                         </div>
-                                    </div>    
+                                    </div>  
                                         On critical appraisal of the student wellness questionnaire students are grouped under 3-Tier Systems of Intervention:<br/>
-                                        <strong>Tier-I:</strong>
+                                        <strong>Tier-I : </strong>
                                         Students falling under this group are potential learners with mild to moderate level of immaturity. Hence, there arises the need for regular guidance driven Intervention by their respective Teacher Mentors.<br/>
-                                        <strong>Tier-II:</strong>
+                                        <strong>Tier-II : </strong>
                                         Students falling under this group are capable lot, but lacking motivation, indifferent, inattentive and passive in their approach to studies. Hence, there arises the need for Individual Intervention for motivation and support.<br/>
-                                        <strong>Tier-III:</strong>
+                                        <strong>Tier-III : </strong>
                                         Students falling under this group are “Students at Risk”. Hence, there arises the need for One-to-One Therapeutic Intervention by SWP Counselor.
                                         A Quarterly Comprehensive Report has to be prepared by SWP Counsellor, putting together the progress reports of all ‘Three Tiers’, and to be submitted to HRDC which in turn will be forwarded to the respective Institute Counsellor [Principal/HoD(Engg.)].
                                 </li>
@@ -246,9 +260,12 @@ const WellnessProgram = () => {
                                 <li>In order to achieve students’ optimal development and well-being, a Parent-Teacher’s meet, with parents of <b>‘Potential Learners’</b> as well as <b>‘Progressive Learners’</b>, shall be organized after a month of announcement of results, so as to enable the Teacher Counsellors and the Department Counselling Co-ordinators to convey the progress made by the students to their parents.</li>
                                 <li>The <b>‘Proficient Learners’</b> having academic excellence should be encouraged and guided by the Institute Counsellors for greater participation in Inter-University events and activities, State/ National level competitions/Workshop/Seminars, etc.. Such exposure will ultimately contribute towards holistic growth of the student.</li>
                             </ol>
+                            </p>
                             <br/>
                             <h4>NEW INITIATIVES OF SWP</h4>
                             <hr />
+                            <p>
+
                             <b>SWP REACH Programmme:</b>
                             <ul>
                                 <li>HRDC introduced SWP Reach Programme wherein SWP Councellor’s Service has been made available at the respective institute on every Tuesday and first Friday of the month.</li>
@@ -263,6 +280,7 @@ const WellnessProgram = () => {
                             <ul>
                                 <li>HRDC proposes under SWP Activity, to explore how formulating interventions on the basis of Psycho-Social factors offer an avenue for student’s to address specific attitudes, emotions, and behaviors that relate to college success.</li>
                             </ul>
+                            </p>
                             
                           </div>
                         </div>

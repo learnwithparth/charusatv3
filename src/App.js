@@ -71,6 +71,8 @@ import StudentCorner from "./page/student-corner";
 import PhDPrograms from "./page/ph-d-programs";
 import AnnualReport from "./page/annual-report";
 
+import WDC from "./page/WDC";
+
 function App() {
   // const basename = document.querySelector('base')?.getAttribute('href') ?? '/'    ;
 
@@ -134,6 +136,8 @@ function App() {
         <Route path="/coming-soon" element={<ComingSoon />} />
         <Route path="/error" element={<ErrorPage />} />
         <Route path="*" element={<Home />} />
+
+        <Route path="/WDC" element={<WDC />} />
 
         {/* http://preview.themeforest.net/item/edukon-education-and-lms-react-js-template/full_screen_preview/38286924?_ga=2.76967702.264634929.1671012406-1346785869.1667801964 */}
 
