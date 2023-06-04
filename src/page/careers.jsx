@@ -3,9 +3,27 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import PageHeader from "../component/layout/pageheader";
 import career1_img from "../assets/images/advertisment_nov_2022.webp";
+import { Helmet } from "react-helmet";
 const Certification_Courses = () => {
   return (
     <Fragment>
+      <Helmet>
+        <title>Careers @ CHARUSAT</title>
+        <meta http-equiv="Content-Type" content=" text/html; charset=utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Career " />
+        <meta name="keywords" content="" />
+        <meta name="robots" content="index" />
+        <meta name="robots" content="follow" />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="google" content="translate" />
+        <meta name="google" content="nopagereadaloud" />
+        <meta property="og:type" content="homepage" />
+        <meta property="og:title" content="CSPIT Homepage" />
+        <meta property="og:description" content="CSPIT - best engineering college to study in Gujarat." />
+        <meta name="author" content="CHARUSAT Web Team" />
+      </Helmet>
       {/* <PageHeader title={'4 Results found for: Business'} curPage={'Search Result'} /> */}
       <div className="blog-section padding-tb section-bg">
         <div className="container">

@@ -2,6 +2,7 @@ import React from "react";
 
 import { Component, useState } from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const title = "Institutions ";
 
@@ -112,6 +113,9 @@ export default function UndergraduateCourses() {
 
   return (
     <div className="course-section style-3 padding-tb">
+      <Helmet>
+        <title>Undergraduate Courses</title>
+      </Helmet>
       <div className="course-shape one">
         <img src="assets/images/shape-img/icon/01.png" alt="education" />
       </div>

@@ -1,6 +1,7 @@
 import { Component, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../assets/css/people.css";
+import { Helmet } from "react-helmet";
 
 const title = "Associates";
 
@@ -14,12 +15,12 @@ const CourseData = [
     authorName: [
       <strong>
         President:</strong>, "Shri Charotar Moti Sattavis Patidar Kelavani Mandal",
-        <br />,
-      <strong>Former Chairman:</strong>, "Ahmedabad Urban Development Authority",<br />,
+      <br />,
+      <strong>Former Chairman:</strong>, "Ahmedabad Urban Development Authority", <br />,
       <strong>Former Member of Parliament:</strong>,
-      "Rajya Sabha",<br />,
+      "Rajya Sabha", <br />,
       <strong>A Renowned Technocrat</strong>
-  
+
     ],
     id: 1,
   },
@@ -105,11 +106,11 @@ const CourseData = [
     title: "Dr. Y. P. Kosta",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-       <strong>Director:</strong>,
-       "University Research Cell(URC) - CSRTC,KRADLE,ICC,ADPICoE(AI)",
-        <br/>,
-        <strong>Email:</strong>,
-         "director.urc@charusat.ac.in"
+      <strong>Director:</strong>,
+      "University Research Cell(URC) - CSRTC,KRADLE,ICC,ADPICoE(AI)",
+      <br />,
+      <strong>Email:</strong>,
+      "director.urc@charusat.ac.in"
     ],
     id: 8,
   },
@@ -154,8 +155,8 @@ const CourseData = [
     title: "Shri Hemal Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: ["Member", <br />, "Leading Entrepreneur in IT Industry",
-    <br />,
-    <strong>Email:</strong>, "hemal@hemal.com"],
+      <br />,
+      <strong>Email:</strong>, "hemal@hemal.com"],
     id: 10,
   },
   {
@@ -337,10 +338,10 @@ const CourseData = [
       "Ph.D.",
       <br />,
       <strong>Dean:</strong>,
-       "Faculty of Humanities",
-       <br />,
-                        <strong>Head:</strong>, "Dept. of Humanities",<br />,
-                        <strong>Email:</strong>, "dean.foh@charusat.ac.in"
+      "Faculty of Humanities",
+      <br />,
+      <strong>Head:</strong>, "Dept. of Humanities", <br />,
+      <strong>Email:</strong>, "dean.foh@charusat.ac.in"
     ],
     id: 22,
   },
@@ -599,7 +600,7 @@ const CourseData = [
     title: "Dr. Ashwin Makwana",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      <strong>Head:</strong> ,"Career Development and Placement Cell (CDPC)",
+      <strong>Head:</strong>, "Career Development and Placement Cell (CDPC)",
       <br />,
       <strong>Contact For:</strong>,
       "Training, Internship, Campus Placement, Career Guidance",
@@ -639,6 +640,23 @@ export default function People() {
 
   return (
     <div className="course-section style-3 padding-tb">
+      <Helmet>
+        import {Helmet} from "react-helmet";<title>CHARUSAT People</title>
+        <meta http-equiv="Content-Type" content=" text/html; charset=utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="CHARUSAT Governing Body" />
+        <meta name="keywords" content="Charusat governing body, member, afilliation of governing body members" />
+        <meta name="robots" content="index" />
+        <meta name="robots" content="follow" />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="google" content="translate" />
+        <meta name="google" content="nopagereadaloud" />
+        <meta property="og:type" content="homepage" />
+        <meta property="og:title" content="CHARUSAT Governing Body" />
+        <meta property="og:description" content="List of governing body members of CHARUSAT" />
+        <meta name="author" content="CHARUSAT Web Team" />
+      </Helmet>
       <div className="course-shape one">
         <img src="assets/images/shape-img/icon/01.png" alt="education" />
       </div>
@@ -671,9 +689,8 @@ export default function People() {
                 Deans & Principal
               </li>
               <li
-                className={`${
-                  active === "University Officers" ? "active" : ""
-                }`}
+                className={`${active === "University Officers" ? "active" : ""
+                  }`}
                 onClick={() => filterItem("University Officers")}
               >
                 University Officers
