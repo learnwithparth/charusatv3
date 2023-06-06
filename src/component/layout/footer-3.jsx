@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import GoogleMap from "../sidebar/googlemap";
+import TheActFirstStatutes from '../../files/Footer-3/CHARUSAT-STATUTES HANDBOOK.pdf'
 
 const title = "Contact";
 //const desc =  "Eduaid theme numb  er one world class university in the world There are student are studing always in this university for all time.";
@@ -114,7 +115,7 @@ const quickList = [
   },
   {
     text: "The Act & First Statutes",
-    link: "https://charusat.ac.in/files/CHARUSAT-STATUTES%20HANDBOOK.pdf",
+    link: `${TheActFirstStatutes}`,
   },
   {
     text: "Policies and Procedures - Support Facilities",

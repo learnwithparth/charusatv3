@@ -70,7 +70,11 @@ import Edic from "./page/edic";
 import StudentCorner from "./page/student-corner";
 import PhDPrograms from "./page/ph-d-programs";
 import AnnualReport from "./page/annual-report";
+
+import { Helmet } from "react-helmet";
+
 import UIIC from "./page/UIIC";
+
 
 function App() {
   // const basename = document.querySelector('base')?.getAttribute('href') ?? '/'    ;
@@ -80,19 +84,19 @@ function App() {
       <ScrollToTop />
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} /> //Helmet done
+        <Route path="/home" element={<Home />} /> //Helmet done
         <Route
           path="/undergraduate-courses"
           element={<UndergraduateCourses />}
         />
         <Route path="/postgraduate-courses" element={<PostgraduateCourses />} />
         <Route path="/ug-courses-list" element={<Course />} />
-        <Route path="/transport" element={<Transport />} />
-        <Route path="/donation" element={<Donation />} />
+        <Route path="/transport" element={<Transport />} /> //Helmet done
+        <Route path="/donation" element={<Donation />} /> //Helmet done
         <Route path="/ipr" element={<IPR />} />
         <Route path="/csrtc" element={<CSRTC />} />
-        <Route path="/hostels" element={<Hostels />} />
+        <Route path="/hostels" element={<Hostels />} /> //Helmet done
         <Route
           path="/admission-reprentatives"
           element={<Admission_Reprentatives />}
@@ -103,27 +107,27 @@ function App() {
         />
         <Route path="/course-single" element={<Course />} />
         <Route path="/wincell" element={<Wincell />} />
-        <Route path="/convocations" element={<Convocations />} />
-        <Route path="/campus-map" element={<Campus_Map />} />
-        <Route path="/careers" element={<Careers />} />
+        <Route path="/convocations" element={<Convocations />} /> //Helmet done
+        <Route path="/campus-map" element={<Campus_Map />} /> //Helmet done
+        <Route path="/careers" element={<Careers />} /> //Helmet done
         <Route path="/policies_terms" element={<PoliciesTerms />} />
         <Route path="/code-of-conduct" element={<CodeOfConduct />} />
-        <Route path="/placement" element={<Placement />} />
-        <Route path="/library" element={<Library />} />
+        <Route path="/placement" element={<Placement />} /> //Helmet done
+        <Route path="/library" element={<Library />} /> //Helmet done
         <Route path="/about" element={<About_us />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/ipr-facilitation" element={<IPR />} />
-        <Route path="/cdpc" element={<CDPC />} />
+        <Route path="/cdpc" element={<CDPC />} /> //Helmet done
         <Route path="/ethics" element={<Ethics />} />
         <Route path="/research" element={<ResearchPage />} />
         <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/student-development-initiatives" element={<SDI />} />
-        <Route path="/provost-desk" element={<ProvostDesk />} />
-        <Route path="/president-desk" element={<PresidentDesk />} />
-        <Route path="/associates" element={<People />} />
-        <Route path="/accreditation-and-ranking" element={<Accreditation />} />
+        <Route path="/student-development-initiatives" element={<SDI />} /> //Helmet done
+        <Route path="/provost-desk" element={<ProvostDesk />} /> //Helmet done
+        <Route path="/president-desk" element={<PresidentDesk />} /> //Helmet done
+        <Route path="/associates" element={<People />} />//Helmet done
+        <Route path="/accreditation-and-ranking" element={<Accreditation />} /> //Helmet done
         <Route path="/announcements" element={<Announcements />} />
-        <Route path="/student-wellness-program" element={<WellnessProgram />} />
+        <Route path="/student-wellness-program" element={<WellnessProgram />} /> //Helmet done
         <Route path="/upcoming-events" element={<UpcomingEvents />} />
         <Route path="/edic" element={<Edic />} />
         <Route path="/scholarship" element={<Scholarship />} />

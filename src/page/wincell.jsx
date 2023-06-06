@@ -1,10 +1,10 @@
-import { Component, Fragment } from "react";
+import { Fragment } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import PageHeader from "../component/layout/pageheader";
+// import { Link } from "react-router-dom";
+// import PageHeader from "../component/layout/pageheader";
 import Contact from "../component/section/contact";
-import InquiryForm from "../files/InquiryForm.pdf";
-import IPRBroucher from "../files/iprBrochuer.jpg";
+// import InquiryForm from "../files/InquiryForm.pdf";
+// import IPRBroucher from "../files/iprBrochuer.jpg";
 
 const Wincell = () => {
   return (
