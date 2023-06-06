@@ -13,14 +13,16 @@ const CourseData = [
     title: "Surendra Patel",
     author: "assets/images/course/author/01.jpg",
     authorName: [
-      <strong>
-        President:</strong>, "Shri Charotar Moti Sattavis Patidar Kelavani Mandal",
+      <strong>President:</strong>, 
+      "Shri Charotar Moti Sattavis Patidar Kelavani Mandal",
       <br />,
-      <strong>Former Chairman:</strong>, "Ahmedabad Urban Development Authority", <br />,
+      <strong>Former Chairman:</strong>, 
+      "Ahmedabad Urban Development Authority", 
+      <br />,
       <strong>Former Member of Parliament:</strong>,
-      "Rajya Sabha", <br />,
-      <strong>A Renowned Technocrat</strong>
-
+      "Rajya Sabha", 
+      <br />,
+      <strong>A Renowned Technocrat</strong>,
     ],
     id: 1,
   },
@@ -110,7 +112,7 @@ const CourseData = [
       "University Research Cell(URC) - CSRTC,KRADLE,ICC,ADPICoE(AI)",
       <br />,
       <strong>Email:</strong>,
-      "director.urc@charusat.ac.in"
+      "director.urc@charusat.ac.in",
     ],
     id: 8,
   },
@@ -144,7 +146,8 @@ const CourseData = [
       <br />,
       "Principal: Ramanbhai Patel College of Pharmacy (RPCP)",
       <br />,
-      <strong>Email:</strong>, "principal.rpcp@charusat.ac.in"
+      <strong>Email:</strong>,
+      "principal.rpcp@charusat.ac.in",
     ],
     id: 7,
   },
@@ -154,9 +157,7 @@ const CourseData = [
     cate: ["Governing Body"],
     title: "Shri Hemal Patel",
     author: "assets/images/course/author/03.jpg",
-    authorName: ["Member", <br />, "Leading Entrepreneur in IT Industry",
-      <br />,
-      <strong>Email:</strong>, "hemal@hemal.com"],
+    authorName: ["Member", <br />, "Leading Entrepreneur in IT Industry",<br />,<strong>Email:</strong>, "hemal@hemal.com"],
     id: 10,
   },
   {
@@ -288,9 +289,11 @@ const CourseData = [
     authorName: [
       "Member",
       <br />,
-      <strong>Registrar:</strong>, "CHARUSAT",
+      <strong>Registrar:</strong>,
+      "CHARUSAT",
       <br />,
-      <strong>Email:</strong>, "registrar@charusat.ac.in"
+      <strong>Email:</strong>,
+      "registrar@charusat.ac.in",
     ],
     id: 19,
   },
@@ -341,7 +344,7 @@ const CourseData = [
       "Faculty of Humanities",
       <br />,
       <strong>Head:</strong>, "Dept. of Humanities", <br />,
-      <strong>Email:</strong>, "dean.foh@charusat.ac.in"
+      <strong>Email:</strong>, "dean.foh@charusat.ac.in",
     ],
     id: 22,
   },
@@ -600,10 +603,14 @@ const CourseData = [
     title: "Dr. Ashwin Makwana",
     author: "assets/images/course/author/03.jpg",
     authorName: [
+
       <strong>Head:</strong>, "Career Development and Placement Cell (CDPC)",
+
       <br />,
       <strong>Contact For:</strong>,
-      "Training, Internship, Campus Placement, Career Guidance",
+      "Training, Internship, ",
+      <br />,
+      "Campus Placement, Career Guidance",
       <br />,
       "tnp@charusat.ac.in",
       <br />,

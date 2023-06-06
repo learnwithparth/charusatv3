@@ -102,6 +102,9 @@ const HeaderThree = () => {
               >
                 Pay Fees
               </a>
+              <Link to="/contact-us" className="signup">
+                Contact Us
+              </Link>
 
               <Link to="/donation">
                 <span className="support-btn">Support CHARUSAT</span>
