@@ -2,6 +2,8 @@ import { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
 import PageHeader from "../component/layout/pageheader";
 import Contact from "../component/section/contact";
+import { colors } from "@mui/material";
+import { Helmet } from "react-helmet";
 
 const transporterList = [
   {
@@ -72,6 +74,23 @@ const transporterList = [
 const Transport = () => {
   return (
     <Fragment>
+      <Helmet>
+        <title>Transportation</title>
+        <meta http-equiv="Content-Type" content=" text/html; charset=utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Career " />
+        <meta name="keywords" content="" />
+        <meta name="robots" content="index" />
+        <meta name="robots" content="follow" />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="google" content="translate" />
+        <meta name="google" content="nopagereadaloud" />
+        <meta property="og:type" content="homepage" />
+        <meta property="og:title" content="CSPIT Homepage" />
+        <meta property="og:description" content="CSPIT - best engineering college to study in Gujarat." />
+        <meta name="author" content="CHARUSAT Web Team" />
+      </Helmet>
       {/* <PageHeader title={'4 Results found for: Business'} curPage={'Search Result'} /> */}
       <div className="blog-section padding-tb section-bg">
         <div className="container">
@@ -87,7 +106,7 @@ const Transport = () => {
                             <h3>Transportation Facilities</h3>
                             <div className="meta-post">
                               <ul className="lab-ul">
-                              At CHARUSAT, we understand that transportation is a crucial aspect of student life. To ensure that our students have easy access to our campus, we have partnered with reliable transport providers to offer daily bus services from Ahmedabad, Nadiad, Anand, and Vadodara. In addition, we have our own vehicles that are used for internal transportation needs.
+                                At CHARUSAT, we understand that transportation is a crucial aspect of student life. To ensure that our students have easy access to our campus, we have partnered with reliable transport providers to offer daily bus services from Ahmedabad, Nadiad, Anand, and Vadodara. In addition, we have our own vehicles that are used for internal transportation needs.
                               </ul>
                             </div>
                             {/* <Link to="/blog-single" className="lab-btn"><span>Operator's Detail <i className="icofont-external-link"></i></span></Link> */}
@@ -140,17 +159,17 @@ const Transport = () => {
           <div className="row justify-content-center">
             <div className="col">
               <div className="shop-cart padding-tb">
-                <div className="container">
+                <div className="container" >
                   <div className="section-wrapper">
-                    <div className="cart-top">
-                      <table>
-                        <thead>
+                    <div className="cart-top" >
+                      <table style={{ 'background-color': '#bfd6de' }}>
+                        <thead >
                           <tr>
-                            <th className="cat-product">Sr No.</th>
-                            <th className="cat-product">Route</th>
-                            <th className="cat-price">Transporters' Name</th>
-                            <th className="cat-toprice">Contact Person</th>
-                            <th className="cat-edit">Contact No.</th>
+                            <th className="cat-product" style={{ 'background-color': '#5b7b86' }}>Sr No.</th>
+                            <th className="cat-product" style={{ 'background-color': '#5b7b86' }}>Route</th>
+                            <th className="cat-price" style={{ 'background-color': '#5b7b86' }}>Transporters' Name</th>
+                            <th className="cat-toprice" style={{ 'background-color': '#5b7b86' }}>Contact Person</th>
+                            <th className="cat-edit" style={{ 'background-color': '#5b7b86' }}>Contact No.</th>
                           </tr>
                         </thead>
                         <tbody>

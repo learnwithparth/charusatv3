@@ -1,9 +1,10 @@
+import { Helmet } from "react-helmet";
 //const subTitle = "Why Choose Us, Take courses on your any device with our app & learn all time what you want. Just download & install & start to learn, Take courses on your any device with our app & learn all time what you want. Just download & install & start to learn Take courses on your any device with our app & learn all time what you want. Just download & install & start to learn Take courses on your any device with our app & learn all time what you want. Just download & install & start to learn Take courses on your any device with our app & learn all time what you want. Just download & install & start to learnTake courses on your any device with our app & learn all time what you want. Just download & install & start to learnTake courses on your any device with our app & learn all time what you want. Just download & install & start to learn Take courses on your any device with our app & learn all time what you want. Just download & install & start to learn Take courses on your any device with our app & learn all time what you want. Just download & install & start to learn Take courses on your any device with our app & learn all time what you want. Just download & install & start to learn";
 // const title = "Become Online Instructor";
 const desc = [
   "Charotar University of Science and Technology (CHARUSAT) has been conceived by Shri Charotar Moti Sattavis Patidar Kelavani Mandal to put India on global education map by making Charotar – the Land of Sardar Patel, a Global Education Hub. The University fosters an aspiration of being a World Class University. It strives, initially, to be in the league of Top 20 Universities at National Level. ",
   "The exceptional vision of the President, CHARUSAT and Kelavani Mandal, Shri Surandrabhai Patel (fondly known as Kaka) strengthened by institutional values of Honesty, Integrity and transparency has enabled the university to realize the ambitious goal by 2025.",
-  
+
   <br />,
   <br />,
   "I am honored and privileged to be a Member of CHARUSAT Family during this very special time in its history. I believe that in these challenging times, CHARUSAT Fraternity needs to move forward together and succeed in its mission of preparing the students for global assignments by fostering attitude, building knowledge and sharpening skills so as to create a talent pool best fit not only for jobs but also for entrepreneurship with a spirit of service to the society.",
@@ -34,6 +35,23 @@ const title = "From the Provost's Desk";
 const ProvostDesk = () => {
   return (
     <div className="about-section style-3 padding-tb section-bg">
+      <Helmet>
+        <title>CHARUSAT Provost</title>
+        <meta http-equiv="Content-Type" content=" text/html; charset=utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Provost of CHARUSAT" />
+        <meta name="keywords" content="CHARUSAT Provost, R V Upadhyay, Provost, CHARUSAT" />
+        <meta name="robots" content="index" />
+        <meta name="robots" content="follow" />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="google" content="translate" />
+        <meta name="google" content="nopagereadaloud" />
+        <meta property="og:type" content="Provost page" />
+        <meta property="og:title" content="Provost Homepage" />
+        <meta property="og:description" content="Provost message" />
+        <meta name="author" content="CHARUSAT Web Team" />
+      </Helmet>
       <div className="container">
         <div className="row">
           <div className="col-sm-3">

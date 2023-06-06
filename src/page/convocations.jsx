@@ -15,10 +15,26 @@ import Convocation_09_Guest from "../assets/images/convocations/convocation9_1.j
 import Convocation_10_Guest from "../assets/images/convocations/convocation_10.jpg";
 import Convocation_11_Guest from "../assets/images/convocations/Dr_Bimal_Patel.webp";
 import Convocation_12_Guest from "../assets/images/convocations/Ashok-Patel.jpg";
+import { Helmet } from "react-helmet";
 
 const Convocations = () => {
   return (
     <Fragment>
+      <Helmet>
+        <title>Convocations @ CHARUSAT</title>
+        <meta http-equiv="Content-Type" content=" text/html; charset=utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="CHARUSAT Convocations"
+        />
+        <meta name="robots" content="index" />
+        <meta name="robots" content="follow" />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="keywords" content="CHARUSAT Convocations" />
+        <meta name="author" content="CHARUSAT" />
+      </Helmet>
       {/* <PageHeader title={'4 Results found for: Business'} curPage={'Search Result'} /> */}
       <div className="blog-section padding-tb section-bg ">
         <div className="container">
@@ -90,8 +106,8 @@ const Convocations = () => {
                                 </Col>
                                 <Col md={10}>
                                   <p>
-                                  The 12th Convocation of CHARUSAT was held on 13th January, 2023. In all, 2558 students from 6 different faculties of CHARUSAT namely, Faculty of Technology and Engineering, Faculty of Computer Science and Applications, Faculty of Pharmacy, Faculty of Management Studies, Faculty of Applied Sciences, and Faculty of Medical Sciences were awarded with the degrees including 27 PhD Scholars. Importantly, 45 students with academic excellence were awarded with different Gold Medals.
-                                  The occasion was graced by the presence of Shri Ashok Patel, US based Technopreneur and Industrialist.
+                                    The 12th Convocation of CHARUSAT was held on 13th January, 2023. In all, 2558 students from 6 different faculties of CHARUSAT namely, Faculty of Technology and Engineering, Faculty of Computer Science and Applications, Faculty of Pharmacy, Faculty of Management Studies, Faculty of Applied Sciences, and Faculty of Medical Sciences were awarded with the degrees including 27 PhD Scholars. Importantly, 45 students with academic excellence were awarded with different Gold Medals.
+                                    The occasion was graced by the presence of Shri Ashok Patel, US based Technopreneur and Industrialist.
                                   </p>
                                 </Col>
                               </Row>

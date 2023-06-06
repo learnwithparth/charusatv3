@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 //const subTitle = "Why Choose Us, Take courses on your any device with our app & learn all time what you want. Just download & install & start to learn, Take courses on your any device with our app & learn all time what you want. Just download & install & start to learn Take courses on your any device with our app & learn all time what you want. Just download & install & start to learn Take courses on your any device with our app & learn all time what you want. Just download & install & start to learn Take courses on your any device with our app & learn all time what you want. Just download & install & start to learnTake courses on your any device with our app & learn all time what you want. Just download & install & start to learnTake courses on your any device with our app & learn all time what you want. Just download & install & start to learn Take courses on your any device with our app & learn all time what you want. Just download & install & start to learn Take courses on your any device with our app & learn all time what you want. Just download & install & start to learn Take courses on your any device with our app & learn all time what you want. Just download & install & start to learn";
 // const title = "Become Online Instructor";
 
@@ -8,6 +9,23 @@ const title = "President's Welcome";
 const PresidentDesk = () => {
   return (
     <div className="blog-section padding-tb section-bg">
+
+      <Helmet>
+        <title>CHARUSAT President</title>
+        <meta http-equiv="Content-Type" content=" text/html; charset=utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="CHARUSAT President" />
+        <meta name="robots" content="index" />
+        <meta name="robots" content="follow" />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="google" content="translate" />
+        <meta name="google" content="nopagereadaloud" />
+        <meta property="og:type" content="President Message" />
+        <meta property="og:title" content="President of CHARUSAT" />
+        <meta property="og:description" content="Message from president of CHARUSAT" />
+        <meta name="author" content="CHARUSAT Web Team" />
+      </Helmet>
       <div className="container">
         <div className="row">
           <div className="col-sm-3">
@@ -37,7 +55,7 @@ const PresidentDesk = () => {
               <div className="section-header">
                 {/* <span className="subtitle">{subTitle}</span> */}
                 <h2 className="title">{title}</h2>
-                <p style={{ textAlign: "justify", lineHeight:"1.8rem" }}>
+                <p style={{ textAlign: "justify", lineHeight: "1.8rem" }}>
                   Intelligence with Character is the true goal of Education.{" "}
                   <strong>
                     Knowledge gives humility, from humility, one attains
@@ -54,7 +72,7 @@ const PresidentDesk = () => {
                   through education. Importantly, CHARUSAT continually strives
                   to focus on the future with an entrepreneurial spirit.
                 </p>
-                <p style={{ textAlign: "justify", lineHeight:"1.8rem" }}>
+                <p style={{ textAlign: "justify", lineHeight: "1.8rem" }}>
                   As a University, CHARUSAT is emerging with a thrust on
                   socially relevant Research & Development. For the purpose, a{' '}
                   <strong>Research and Development Centre</strong> has been
@@ -63,7 +81,7 @@ const PresidentDesk = () => {
                   established to initiate and foster research in Space
                   Technology.
                 </p>
-                <p style={{ textAlign: "justify", lineHeight:"1.8rem" }}>
+                <p style={{ textAlign: "justify", lineHeight: "1.8rem" }}>
                   Efforts are also made for education amelioration in rural
                   schools through a{" "}
                   <strong>Rural Education Development Program.</strong>
@@ -76,7 +94,7 @@ const PresidentDesk = () => {
             </div>
           </div>
           <div>
-            <p style={{ textAlign: "justify", lineHeight:"1.8rem" }}>
+            <p style={{ textAlign: "justify", lineHeight: "1.8rem" }}>
               Through these initiatives and practices, CHARUSAT focuses on
               converting eyes into sight and vision; information into knowledge
               and wisdom; and students / individuals into citizens and harmonious living.
@@ -89,20 +107,20 @@ const PresidentDesk = () => {
               aims to make its students{" "}
               <strong>Job Creators and not Job Seekers.</strong>
             </p>
-            <p style={{ textAlign: "justify", lineHeight:"1.8rem" }}>
+            <p style={{ textAlign: "justify", lineHeight: "1.8rem" }}>
               In order to inculcate values in the students, CHARUSAT has been
               established as a University fostering{" "}
               <strong>High Moral Values.</strong> Honesty, Integrity, and
               Transparency have been the benchmarks of CHARUSAT in both – word
               and action.
             </p>
-            <p style={{ textAlign: "justify", lineHeight:"1.8rem" }}>
+            <p style={{ textAlign: "justify", lineHeight: "1.8rem" }}>
               In the journey, CHARUSAT fosters a niche for a world-class
               education at the rural base. It aspires to be a{" "}
               <strong>World Class University.</strong> Primarily, it strives to
               be among <strong>Top 20 Universities at National Level.</strong>
             </p>
-            <p style={{ textAlign: "justify", lineHeight:"1.8rem" }}>
+            <p style={{ textAlign: "justify", lineHeight: "1.8rem" }}>
               I, earnestly, request you all to join hands with CHARUSAT and work
               towards the realization of this aspiration. Many have already
               volunteered in this <strong>Seva Yagna</strong> through their
@@ -110,7 +128,7 @@ const PresidentDesk = () => {
               their association with CHARUSAT either as a Faculty, Staff or
               Student.
             </p>
-            <p style={{ textAlign: "justify", lineHeight:"1.8rem" }}>
+            <p style={{ textAlign: "justify", lineHeight: "1.8rem" }}>
               On behalf of CHARUSAT Family, I extend a word of gratitude to all
               and also invite all to visit the Campus, witness the development
               and be a part of the Journey.

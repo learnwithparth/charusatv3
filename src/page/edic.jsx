@@ -1,6 +1,12 @@
 import { Fragment } from "react";
 import Contact from "../component/section/contact";
 import Image from "react-bootstrap/Image";
+import servicesOffered from '../files/edic/services offered.png'
+import edicModel from '../files/edic/edic model.png'
+import incubationSummary from '../files/edic/incubation summary.png'
+import activitySummary from '../files/edic/activity summary.png'
+import Card from 'react-bootstrap/Card';
+import Row from 'react-bootstrap/Row';
 
 const Edic = () => {
   return (
@@ -25,11 +31,60 @@ const Edic = () => {
                               {/* <Image src="./assets/images/CDPC_banner.jpg" /> */}
                               <Image src="https://placehold.co/800x400?text=EDIC" />
                               <br />
+                              <hr />
+                              <br />
+{/* <Row xs={1} md={2}>
+
+      <Card className="m-3">
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>Develop Spirit of Entrepreneurial Culture in Students & Faculty Members</Card.Title>
+      </Card.Body>
+    </Card>
+
+    <Card className="m-3">
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>Encourage Dynamic Start-ups</Card.Title>
+      </Card.Body>
+    </Card>
+
+    <Card className="m-3">
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>To facilitate science and technology-based innovations</Card.Title>
+      </Card.Body>
+    </Card>
+
+    <Card className="m-3">
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>To train rural poor as entrepreneurs</Card.Title>
+      </Card.Body>
+    </Card>
+
+    </Row> */}
+
+                              <p>
+                                <Image src={servicesOffered} alt="service" />
+                              </p>
+                              <br />
+                              <hr />
                               <br />
                               <p>
-                                The Motive of Charotar University of Science and
-                                Technology, Changa (CHARUSAT) is to help society
-                                to develop towards a better future.
+                                <Image src={edicModel} alt="service" />
+                              </p>
+                              <br />
+                              <hr />
+                              <br />
+                              <p>
+                                <Image src={activitySummary} alt="service" />
+                              </p>
+                              <br />
+                              <hr />
+                              <br />
+                              <p>
+                                <Image src={incubationSummary} alt="service" />
                               </p>
                               <p style={{ color: "#3db166" }}>
                                 The cell is sensitized to function all through
@@ -37,7 +92,7 @@ const Edic = () => {
                                 training opportunities for the students.
                               </p>
                               <br />
-                              <p style={{ "text-align": "justify" }}>
+                              {/* <p style={{ "text-align": "justify" }}>
                                 CHARUSAT aims to make its students Job Creators and not Job Seekers. In the context of the same, the University has established an eco-system for innovations including Incubation center and other initiatives for creation and transfer of knowledge named Entrepreneurship Development and Incubation Cell (EDIC) (2014).
                                 <br />
                                 <br />
@@ -56,7 +111,7 @@ const Edic = () => {
                                 With the help and support of the Government of Gujarat, CHARUSAT EDIC has established CHARUSAT STARTUP AND INNOVATION CENTRE on December 16, 2020.
                                 <br />
 
-                              </p>
+                              </p> */}
                             </div>
                           </div>
                         </div>
@@ -68,9 +123,9 @@ const Edic = () => {
             </div>
 
             <Contact
-              name="Dr. Jaimin Undavia, Head, CSIC"
-              email="jaiminundavia.mca@charusat.ac.in"
-              phone="+91-2697-265256"
+              name="Coordinator: Mr. Pranav Desai"
+              email="edic@charusat.ac.in"
+              phone="+91-2697265171/5133/5134"
             />
           </div>
         </div>
