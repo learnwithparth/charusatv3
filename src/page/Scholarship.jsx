@@ -8,8 +8,56 @@ const Scholarship = () => {
       data: "Benificiaries: All students of SC, ST and SEBC category, Free ship card for SC students, Chief Minister Scholarship Scheme, Mukhyamantri Yuva Swavalamban Yojna (MYSY) Click here for More Details..",
     },
     {
-      title: "Academic Year: 2023-24 Government Scholarship (MYSY & Others)",
-      data: "Benificiaries: All students of SC, ST and SEBC category, Free ship card for SC students, Chief Minister Scholarship Scheme, Mukhyamantri Yuva Swavalamban Yojna (MYSY) Click here for More Details..",
+      title: "Late Maniben Shankarbhai Patel Scholarship",
+      data: "Benificiaries: 1st Rank of 2nd, 3rd & 4th year student of B.Sc Nursing Program.",
+    },
+    {
+      title: "Late Shankarbhai Chhaganbhai Patel Scholarship",
+      data: "Benificiaries: 1st Rank of 2nd, 3rd & 4th year student of B.Pharm Program.",
+    },
+    {
+      title: "Late Dahiben Ravjibhai Patel & Dineshbhai Ravjibhai Patel Merit Cum Means Scholarship",
+      data: "Benificiaries: Meritorious & Economically Constrained Students of IT branch of CSPIT (Maximum 2 Students)",
+    },
+    {
+      title: "Prof. S G Shah Scholarship",
+      data: "Benificiaries: Meritorious & Economically Constrained Students of CSPIT (Other than First Year and Maximum 1 Student)",
+    },
+    {
+      title: "Urmil & Mayuri Desai Family Trust Scholarship",
+      data: "Benificiaries: Meritorious & Economically Constrained Students of Engineering of CSPIT (Twice in a Year: 50% Odd sem, 50% Even Sem - Maximum 4 Students)",
+    },
+    {
+      title: "Umedbhai Dharamdas Patel (Nar) Charitable Trust Scholarship",
+      data: "Benificiaries: Meritorious & Economically Constrained Students of Selected Course (Only for Girls)",
+    },
+    {
+      title: "Late Kamlaben Ambalal bin Becharbhai, Bakrol and Mrs. Pushpaben Dinesh Patel Merit Cum Means Scholarship",
+      data: "Benificiaries: Meritorious & Economically Constrained Students of DEPSTAR (Maximum 1 student)",
+    },
+    {
+      title: "CSPIT - Alumni Association Scholarship",
+      data: "Benificiaries: Meritorious & Economically Constrained Students of CSPIT (Maximum 2 students)",
+    },
+    {
+      title: "Late Shri Chunibhai Hathibhai Patel, Changa Scholarship",
+      data: "Benificiaries: Meritorious & Economically Constrained Students of ARIP (Maximum 6 students)",
+    },
+    {
+      title: "CHARUSAT Merit Scholarships",
+      data: `CHARUSAT University believes that money should not be a road block for a student with innovative ideas and passion.The merit scholarships help meritorious students to pursue their career goals. Link:https://drive.google.com/file/d/1zzlAVorLJXqcde1JAKHlMyBc8sJuvUov/view`,
+    },
+    {
+      title: "CHARUSAT Sports Category Scholarships",
+      data: "The students who have excelled in sporting activities at National level & State level will be eligible for Sports Scholarship. For updated & detailed information on the nature of sports and the eligibility criteria you may personally visit CHARUSAT.",
+    },
+    {
+      title: "Kanubhai and Kamlakshi Patel Scholarship",
+      data: "Meritorious & Economically Constrained Students of CSPIT(For Each Year 3 Students) and Meritorious & Economically Constrained Students of RPCP(For Each Year 1 Student) from Charotar Moti Sattavis patidar samaj only.",
+    },
+    {
+      title: "Shri R.V. & Jayaben Patel Merit-cum-Means Scholarship Scheme",
+      data: "Benificiaries: One Meritorious & Economically Constrained Student of B.Tech.(DEPSTAR), B.Pharm(RPCP), BBA(IIIM), BCA(CMPICA), BPT(ARIP), B.Sc.(PDPIAS), B.Sc.(MTIN) & B.Sc.(CIPS). AND Two Meritorious & Economically Constrained Students of B.Tech.(CSPIT)",
     },
   ];
 
