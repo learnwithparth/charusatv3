@@ -84,6 +84,7 @@ const Donation = () => {
                                 students.
                                 {/* </strong> */}
                                 {" "}
+                              </li>
 
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
