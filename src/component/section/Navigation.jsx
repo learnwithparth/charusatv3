@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { HashRouter, Link, Redirect } from "react-router-dom";
 import Container from "react-bootstrap/Container";
-import AdmissionEligibilityCriteria from '../../files/navigation/AdmissionsEligibility.pdf'
-import EligibilityCriteria from '../../files/navigation/Eligibility_criteria.pdf'
-import InterNationalFees from '../../files/navigation/International_Fee.pdf';
-
+import AdmissionEligibilityCriteria from "../../files/navigation/AdmissionsEligibility.pdf";
+import EligibilityCriteria from "../../files/navigation/Eligibility_criteria.pdf";
+import InterNationalFees from "../../files/navigation/International_Fee.pdf";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
@@ -406,10 +405,7 @@ const Header = () => {
                 >
                   Eligibility Criteria
                 </a>
-                <a
-                  href={InterNationalFees}
-                  className="menu-link"
-                >
+                <a href={InterNationalFees} className="menu-link">
                   Fees
                 </a>
                 <a href="#" className="menu-link">
@@ -672,7 +668,6 @@ const Header = () => {
                   href="https://charusat.irins.org/faculty/index/International+Centre+for+Cosmology+ICC"
                   className="menu-link"
                 >
-
                   International Center for Cosmology (ICC)
                 </a>
                 <Link to="/ipr" className="menu-link">
@@ -969,6 +964,12 @@ const Header = () => {
                   <Link to="/annual-report" className="menu-link">
                     Annual Report
                   </Link>
+                  <a
+                    href="https://charusat.ac.in/Downloads/"
+                    className="menu-link"
+                  >
+                    Downloads
+                  </a>
                 </div>
               </div>
             </div>
@@ -1518,20 +1519,11 @@ const Header = () => {
                       <Dropdown.Item href="https://www.charusat.ac.in/documents-access/">
                         Finance Reports
                       </Dropdown.Item>
-                      <Dropdown.Item href="/files/CHARUSAT_12thAnnualReport.pdf">
-                        Annual Report 2020-21
+                      <Dropdown.Item>
+                        <Link to="/annual-report">Annual Reports</Link>
                       </Dropdown.Item>
-                      <Dropdown.Item href="/files/CHARUSAT_11thAnnualReport.pdf">
-                        Annual Report 2019-20
-                      </Dropdown.Item>
-                      <Dropdown.Item href="/files/CHARUSAT_10thAnnualReport.pdf">
-                        Annual Report 2018-19
-                      </Dropdown.Item>
-                      <Dropdown.Item href="/files/CHARUSAT_9thAnnualReport.pdf">
-                        Annual Report 2017-18
-                      </Dropdown.Item>
-                      <Dropdown.Item href="/files/CHARUSAT_8thAnnualReport.pdf">
-                        Annual Report 2016-17
+                      <Dropdown.Item href="https://charusat.ac.in/Downloads/">
+                        Downloads
                       </Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
