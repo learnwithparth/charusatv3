@@ -85,9 +85,11 @@ const Donation = () => {
                                 <i className="icofont-tick-mark"></i>{" "}
                                 {/* <strong> */}
                                 CHARUSAT seeks support to facilitate the
+
                                 education of economically constrained students.
                                 {/* </strong> */}{" "}
                               </li>
+
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
                                 {/* <strong> */}
