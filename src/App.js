@@ -74,7 +74,9 @@ import AnnualReport from "./page/annual-report";
 import { Helmet } from "react-helmet";
 
 import UIIC from "./page/UIIC";
-
+import AntiRagging from "./page/AntiRagging";
+import GRC from "./page/GRC";
+import CREDP from "./page/CREDP";
 
 function App() {
   // const basename = document.querySelector('base')?.getAttribute('href') ?? '/'    ;
@@ -121,13 +123,24 @@ function App() {
         <Route path="/ethics" element={<Ethics />} />
         <Route path="/research" element={<ResearchPage />} />
         <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/student-development-initiatives" element={<SDI />} /> //Helmet done
+        <Route path="/student-development-initiatives" element={<SDI />} />{" "}
+        //Helmet done
         <Route path="/provost-desk" element={<ProvostDesk />} /> //Helmet done
-        <Route path="/president-desk" element={<PresidentDesk />} /> //Helmet done
-        <Route path="/associates" element={<People />} />//Helmet done
-        <Route path="/accreditation-and-ranking" element={<Accreditation />} /> //Helmet done
+        <Route path="/president-desk" element={<PresidentDesk />} /> //Helmet
+        done
+        <Route path="/associates" element={<People />} />
+        //Helmet done
+        <Route
+          path="/accreditation-and-ranking"
+          element={<Accreditation />}
+        />{" "}
+        //Helmet done
         <Route path="/announcements" element={<Announcements />} />
-        <Route path="/student-wellness-program" element={<WellnessProgram />} /> //Helmet done
+        <Route
+          path="/student-wellness-program"
+          element={<WellnessProgram />}
+        />{" "}
+        //Helmet done
         <Route path="/upcoming-events" element={<UpcomingEvents />} />
         <Route path="/edic" element={<Edic />} />
         <Route path="/scholarship" element={<Scholarship />} />
@@ -136,13 +149,14 @@ function App() {
         <Route exact path="/ph-d-programs" element={<PhDPrograms />} />
         <Route path="/annual-report" element={<AnnualReport />} />
         <Route path="university-industry-interaction-cell" element={<UIIC />} />
-
+        <Route path="/anti-ragging" element={<AntiRagging />} />
+        <Route path="/GRC" element={<GRC />} />
+        <Route path="/CREDP" element={<CREDP />} />
+        {/*  */}
         <Route path="/coming-soon" element={<ComingSoon />} />
         <Route path="/error" element={<ErrorPage />} />
         <Route path="*" element={<Home />} />
-
         {/* http://preview.themeforest.net/item/edukon-education-and-lms-react-js-template/full_screen_preview/38286924?_ga=2.76967702.264634929.1671012406-1346785869.1667801964 */}
-
         {/* <Route path="/announcements" element={<Announcements />} /> */}
         {/* <Route path="/accreditation" element={<Accreditation />} /> */}
       </Routes>
