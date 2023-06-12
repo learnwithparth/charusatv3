@@ -832,7 +832,7 @@ const Header = () => {
               <h5 className="menu-head">Centers & Cells</h5>
               <div className="menu-items">
                 <a
-                  href="https://charusat.ac.in/centers_and_cells.php#1554362166908-0b671f03-4fa1"
+                  href="/anti-ragging"
                   className="menu-link"
                 >
                   Anti-Ragging Committee
@@ -850,7 +850,7 @@ const Header = () => {
                   Energy Conservation Cell
                 </a>
                 <Link
-                  href="https://charusat.ac.in/centers_and_cells.php#1554362110799-38894aa1-5bd0"
+                  href="/GRC"
                   className="menu-link"
                 >
                   Grievance Redressal Cell
@@ -889,7 +889,7 @@ const Header = () => {
                   Internal Quality Assurance Cell (IQAC)
                 </a> */}
                 <a
-                  href="https://charusat.ac.in/centers_and_cells.php#1543642621602-5e7edef6-54cb"
+                  href="/CREDP"
                   className="menu-link"
                 >
                   Charusat Rural Education Development Program
@@ -1450,7 +1450,7 @@ const Header = () => {
                       Centers & Cells
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="https://charusat.ac.in/centers_and_cells.php#1554362166908-0b671f03-4fa1">
+                      <Dropdown.Item href="/anti-ragging">
                         Anti-Ragging Committee
                       </Dropdown.Item>
                       <Dropdown.Item href="./eoc">
@@ -1459,7 +1459,7 @@ const Header = () => {
                       <Dropdown.Item href="./ecc">
                         Energy Conservation Cell
                       </Dropdown.Item>
-                      <Dropdown.Item href="/home">
+                      <Dropdown.Item href="/GRC">
                         Grievance Redressal Cell
                       </Dropdown.Item>
                       <Dropdown.Item href="/edic">
@@ -1480,7 +1480,7 @@ const Header = () => {
                       <Dropdown.Item href="./cpsh">
                         Cell for Prevention of Sexual Harassment
                       </Dropdown.Item>
-                      <Dropdown.Item href="https://charusat.ac.in/centers_and_cells.php#1543642621602-5e7edef6-54cb">
+                      <Dropdown.Item href="/CREDP">
                         Charusat Rural Education Development Program
                       </Dropdown.Item>
                       <Dropdown.Item href="./student-wellness-program">
