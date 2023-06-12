@@ -16,7 +16,10 @@ const Donation = () => {
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="CHRUSAT Donations" />
-        <meta name="keywords" content="CHARUSAT Donations, Donation Details, Donate to CHARUSAT, Support CHARUSAT, Recognition, best university of gujarat" />
+        <meta
+          name="keywords"
+          content="CHARUSAT Donations, Donation Details, Donate to CHARUSAT, Support CHARUSAT, Recognition, best university of gujarat"
+        />
         <meta name="robots" content="index" />
         <meta name="robots" content="follow" />
         <meta name="googlebot" content="index, follow" />
@@ -24,7 +27,10 @@ const Donation = () => {
         <meta name="google" content="nopagereadaloud" />
         <meta property="og:type" content="homepage" />
         <meta property="og:title" content="CHARUSAT Donation Homepage" />
-        <meta property="og:description" content="CHARUSAT Donation details page, Why support CHARUSAT, Recognition of CHARUSAT" />
+        <meta
+          property="og:description"
+          content="CHARUSAT Donation details page, Why support CHARUSAT, Recognition of CHARUSAT"
+        />
         <meta name="author" content="CHARUSAT Web Team" />
       </Helmet>
       {/* <PageHeader title={'4 Results found for: Business'} curPage={'Search Result'} /> */}
@@ -65,10 +71,9 @@ const Donation = () => {
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
                                 {/* <strong> */}
-                                CHARUSAT is an “A+” Grade University
-                                accredited by NAAC (Govt. of India).
-                                {/* </strong> */}
-                                {" "}
+                                CHARUSAT is an “A+” Grade University accredited
+                                by NAAC (Govt. of India).
+                                {/* </strong> */}{" "}
                               </li>
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
@@ -80,10 +85,9 @@ const Donation = () => {
                                 <i className="icofont-tick-mark"></i>{" "}
                                 {/* <strong> */}
                                 CHARUSAT seeks support to facilitate the
-                                education of economically constrained
-                                students.
-                                {/* </strong> */}
-                                {" "}
+
+                                education of economically constrained students.
+                                {/* </strong> */}{" "}
                               </li>
 
                               <li>
@@ -91,15 +95,12 @@ const Donation = () => {
                                 {/* <strong> */}
                                 CHARUSAT also works for many more social
                                 development goals.
-
                               </li>
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
                                 {/* <strong> */}
-
-                                CHARUSAT practices values of Honesty,
-                                Integrity & Transparency.
-
+                                CHARUSAT practices values of Honesty, Integrity
+                                & Transparency.
                                 {/* </strong> */}
                               </li>
                             </ul>
@@ -1162,23 +1163,18 @@ const Donation = () => {
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
                                 {/* <strong> */}
-
-                                Donation to CHARUSAT are Tax exempted under
-                                80G of Income Tax Act.(Indian Donors)
-                                {/* </strong> */}
-                                {" "}
-
+                                Donation to CHARUSAT are Tax exempted under 80G
+                                of Income Tax Act.(Indian Donors)
+                                {/* </strong> */}{" "}
                               </li>
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
                                 {/* <strong> */}
                                 USA donors can route their donation through
                                 CHARUSAT Education Foundation. Inc., and avail
-                                Income tax exemption under IRS section 501(c)
-                                3 Tax fin ID 46-3603014
-                                {/* </strong> */}
-                                {" "}
-
+                                Income tax exemption under IRS section 501(c) 3
+                                Tax fin ID 46-3603014
+                                {/* </strong> */}{" "}
                               </li>
                             </ul>
                             <br />
@@ -1195,24 +1191,19 @@ const Donation = () => {
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
                                 {/* <strong> */}
-                                Ashok and Rita Patel Institute of
-                                Physiotherapy
-                                {/* </strong> */}
-                                {" "}
-
+                                Ashok and Rita Patel Institute of Physiotherapy
+                                {/* </strong> */}{" "}
                               </li>
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
                                 {/* <strong> */}
                                 Ramanbhai Patel College of Pharmacy
-
                               </li>
 
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
                                 {/* <strong> */}
                                 Anil & Asha Patel Endowment Fund
-
                               </li>
                             </ul>
                           </div>
