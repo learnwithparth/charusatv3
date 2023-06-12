@@ -75,8 +75,6 @@ const Donation = () => {
                                 {/* <strong> */}
                                 CHARUSAT’S Mission is social service through
                                 Education and Research.
-                                {/* </strong> */}
-                                {" "}
                               </li>
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
@@ -87,19 +85,21 @@ const Donation = () => {
                                 {/* </strong> */}
                                 {" "}
                               </li>
+
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
                                 {/* <strong> */}
                                 CHARUSAT also works for many more social
                                 development goals.
-                                {/* </strong> */}
-                                {" "}
+
                               </li>
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
                                 {/* <strong> */}
+
                                 CHARUSAT practices values of Honesty,
                                 Integrity & Transparency.
+
                                 {/* </strong> */}
                               </li>
                             </ul>
@@ -133,8 +133,10 @@ const Donation = () => {
                                                   aria-expanded="true"
                                                   aria-controls="videolist1"
                                                 >
-                                                  <span>SCHOLARSHIPS</span>{" "}
-                                                  <span>
+                                                  <span className="text-white">
+                                                    SCHOLARSHIPS
+                                                  </span>{" "}
+                                                  <span className="text-white">
                                                     <i class="icofont-square-down"></i>
                                                   </span>{" "}
                                                 </button>
@@ -185,10 +187,10 @@ const Donation = () => {
                                                   aria-controls="videolist2"
                                                 >
                                                   {" "}
-                                                  <span>
+                                                  <span className="text-white">
                                                     GOLD MEDAL - SPONSORSHIP
                                                   </span>{" "}
-                                                  <span>
+                                                  <span className="text-white">
                                                     <i class="icofont-square-down"></i>
                                                   </span>{" "}
                                                 </button>
@@ -234,10 +236,10 @@ const Donation = () => {
                                                   aria-expanded="true"
                                                   aria-controls="videolist3"
                                                 >
-                                                  <span>
+                                                  <span className="text-white">
                                                     BOOKS,JOURNALS, EQUIPMENTS
                                                   </span>{" "}
-                                                  <span>
+                                                  <span className="text-white">
                                                     <i class="icofont-square-down"></i>
                                                   </span>{" "}
                                                 </button>
@@ -301,12 +303,12 @@ const Donation = () => {
                                                   aria-controls="videolist4"
                                                 >
                                                   {" "}
-                                                  <span>
+                                                  <span className="text-white">
                                                     RESEARCH FELLOWSHIP
                                                     FUNDS(For PhD & PostDoc
                                                     Study)
                                                   </span>{" "}
-                                                  <span>
+                                                  <span className="text-white">
                                                     <i class="icofont-square-down"></i>
                                                   </span>{" "}
                                                 </button>
@@ -351,10 +353,10 @@ const Donation = () => {
                                                   aria-controls="videolist5"
                                                 >
                                                   {" "}
-                                                  <span>
+                                                  <span className="text-white">
                                                     ENDOWMENT CHAIR
                                                   </span>{" "}
-                                                  <span>
+                                                  <span className="text-white">
                                                     <i class="icofont-square-down"></i>
                                                   </span>{" "}
                                                 </button>
@@ -397,10 +399,10 @@ const Donation = () => {
                                                   aria-controls="videolist6"
                                                 >
                                                   {" "}
-                                                  <span>
+                                                  <span className="text-white">
                                                     INFRASTRUCTURE DEVELOPMENT
                                                   </span>{" "}
-                                                  <span>
+                                                  <span className="text-white">
                                                     <i class="icofont-square-down"></i>
                                                   </span>{" "}
                                                 </button>
@@ -1003,17 +1005,17 @@ const Donation = () => {
                                                 id="accordion07"
                                               >
                                                 <button
-                                                  className="d-flex flex-wrap justify-content-between"
+                                                  className="d-flex flex-wrap justify-content-between text-white"
                                                   data-bs-toggle="collapse"
                                                   data-bs-target="#videolist7"
                                                   aria-expanded="true"
                                                   aria-controls="videolist7"
                                                 >
                                                   {" "}
-                                                  <span>
+                                                  <span className="text-white">
                                                     EXPERTISE SHARING
                                                   </span>{" "}
-                                                  <span>
+                                                  <span className="text-white">
                                                     <i class="icofont-square-down"></i>
                                                   </span>{" "}
                                                 </button>
@@ -1160,10 +1162,12 @@ const Donation = () => {
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
                                 {/* <strong> */}
+
                                 Donation to CHARUSAT are Tax exempted under
                                 80G of Income Tax Act.(Indian Donors)
                                 {/* </strong> */}
                                 {" "}
+
                               </li>
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
@@ -1174,6 +1178,7 @@ const Donation = () => {
                                 3 Tax fin ID 46-3603014
                                 {/* </strong> */}
                                 {" "}
+
                               </li>
                             </ul>
                             <br />
@@ -1194,21 +1199,20 @@ const Donation = () => {
                                 Physiotherapy
                                 {/* </strong> */}
                                 {" "}
+
                               </li>
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
                                 {/* <strong> */}
                                 Ramanbhai Patel College of Pharmacy
-                                {/* </strong> */}
-                                {" "}
+
                               </li>
 
                               <li>
                                 <i className="icofont-tick-mark"></i>{" "}
                                 {/* <strong> */}
                                 Anil & Asha Patel Endowment Fund
-                                {/* </strong> */}
-                                {" "}
+
                               </li>
                             </ul>
                           </div>
