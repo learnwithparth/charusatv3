@@ -417,11 +417,11 @@ const CourseData = [
     id: 33,
   },
   {
-    imgUrl: "assets/images/People/user.png",
+    imgUrl: "assets/images/People/Amit_Nayak.png",
     imgAlt: "Dr. Amit Nayak",
     cate: ["DeansNPrincipals"],
     title: "Dr. Amit Nayak",
-    author: "assets/images/People/user.png",
+    author: "assets/images/People/Amit_Nayak.png",
     authorName: [
       "Ph.D.",
       <br />,
@@ -451,11 +451,11 @@ const CourseData = [
     id: 35,
   },
   {
-    imgUrl: "assets/images/People/user.png",
+    imgUrl: "assets/images/People/Dharmendra_Patel.png",
     imgAlt: "Dr. Dharmendra Patel",
     cate: ["DeansNPrincipals"],
     title: "Dr. Dharmendra Patel",
-    author: "assets/images/People/user.png",
+    author: "assets/images/People/Dharmendra_Patel.png",
     authorName: [
       "Ph.D.",
       <br />,

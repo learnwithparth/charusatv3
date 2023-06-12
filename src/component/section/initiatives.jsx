@@ -60,7 +60,7 @@ const eventSliderList = [
     imgAlt: "UIIC image",
     title: "University Industry Interaction Cell",
     btnText: "Read More",
-    url: "https://charusat.ac.in/centers_and_cells.php#1543642618187-ee214d9c-cbcd",
+    url: "./university-industry-interaction-cell",
   },
   {
     imgUrl: "assets/images/initiative/NABL & TESTING LAB.jpg",

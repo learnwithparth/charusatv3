@@ -838,13 +838,13 @@ const Header = () => {
                   Anti-Ragging Committee
                 </a>
                 <a
-                  href="https://charusat.ac.in/centers_and_cells.php#1554362045144-400387d3-6442"
+                  href="./eoc"
                   className="menu-link"
                 >
                   Equal Opportunity Cell
                 </a>
                 <a
-                  href="https://charusat.ac.in/centers_and_cells.php#1554362194011-f9e0c138-01d9"
+                  href="./ecc"
                   className="menu-link"
                 >
                   Energy Conservation Cell
@@ -859,19 +859,19 @@ const Header = () => {
                   Enterpreneurship Development & Incubation Cell
                 </Link>
                 <Link
-                  to="https://charusat.ac.in/centers_and_cells.php#1543642618187-ee214d9c-cbcd"
+                  to="./university-industry-interaction-cell"
                   className="menu-link"
                 >
                   University Industry Interaction Cell
                 </Link>
                 <a
-                  href="https://charusat.ac.in/centers_and_cells.php#1554362037016-55a33e41-7d90"
+                  href="./wdc"
                   className="menu-link"
                 >
                   Womens' Development Cell
                 </a>
                 <a
-                  href="https://charusat.ac.in/centers_and_cells.php#1543642622193-b288c9ef-6e1a"
+                  href="./hrdc"
                   className="menu-link"
                 >
                   Pri. B I Patel Human Resource Development Center
@@ -880,7 +880,7 @@ const Header = () => {
                   International Students' Cell
                 </a>
                 <a
-                  href="https://charusat.ac.in/centers_and_cells.php#1554362142242-fdc7c869-c0cf"
+                  href="./cpsh"
                   className="menu-link"
                 >
                   Cell for Prevention of Sexual Harassment
@@ -1453,10 +1453,10 @@ const Header = () => {
                       <Dropdown.Item href="https://charusat.ac.in/centers_and_cells.php#1554362166908-0b671f03-4fa1">
                         Anti-Ragging Committee
                       </Dropdown.Item>
-                      <Dropdown.Item href="https://charusat.ac.in/centers_and_cells.php#1554362045144-400387d3-6442">
+                      <Dropdown.Item href="./eoc">
                         Equal Opportunity Cell
                       </Dropdown.Item>
-                      <Dropdown.Item href="https://charusat.ac.in/centers_and_cells.php#1554362194011-f9e0c138-01d9">
+                      <Dropdown.Item href="./ecc">
                         Energy Conservation Cell
                       </Dropdown.Item>
                       <Dropdown.Item href="/home">
@@ -1465,19 +1465,19 @@ const Header = () => {
                       <Dropdown.Item href="/edic">
                         Enterpreneurship Development & Incubation Cell
                       </Dropdown.Item>
-                      <Dropdown.Item href="/https:/charusat.ac.in/centers_and_cells.php#1543642618187-ee214d9c-cbcd">
+                      <Dropdown.Item href="./university-industry-interaction-cell">
                         University Industry Interaction Cell
                       </Dropdown.Item>
-                      <Dropdown.Item href="https://charusat.ac.in/centers_and_cells.php#1554362037016-55a33e41-7d90">
+                      <Dropdown.Item href="./wdc">
                         Womens' Development Cell
                       </Dropdown.Item>
-                      <Dropdown.Item href="https://charusat.ac.in/centers_and_cells.php#1543642622193-b288c9ef-6e1a">
+                      <Dropdown.Item href="./hrdc">
                         Pri. B I Patel Human Resource Development Center
                       </Dropdown.Item>
                       <Dropdown.Item href="https://isc.charusat.ac.in/">
                         International Students' Cell
                       </Dropdown.Item>
-                      <Dropdown.Item href="https://charusat.ac.in/centers_and_cells.php#1554362142242-fdc7c869-c0cf">
+                      <Dropdown.Item href="./cpsh">
                         Cell for Prevention of Sexual Harassment
                       </Dropdown.Item>
                       <Dropdown.Item href="https://charusat.ac.in/centers_and_cells.php#1543642621602-5e7edef6-54cb">

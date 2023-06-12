@@ -8,9 +8,9 @@ const ECC = () => {
         <h3>Energy Conservation Cell (ECC)</h3>
         <br />
         <Contact
-              name="Coordinator: Mr. Pranav Desai"
-              email="edic@charusat.ac.in"
-              phone="+91-2697265171/5133/5134"
+              name="Contact Person: Dr. Nilay Patel"
+              email="nilaypatel.cem@charusat.ac.in"
+              phone="Ext: 5041"
               />
               <br />
               </center>
