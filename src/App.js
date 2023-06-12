@@ -77,6 +77,8 @@ import UIIC from "./page/UIIC";
 import AntiRagging from "./page/AntiRagging";
 import GRC from "./page/GRC";
 import CREDP from "./page/CREDP";
+import HRDC from "./page/HRDC";
+import CPSH from "./page/CPSH";
 
 function App() {
   // const basename = document.querySelector('base')?.getAttribute('href') ?? '/'    ;
@@ -152,6 +154,8 @@ function App() {
         <Route path="/anti-ragging" element={<AntiRagging />} />
         <Route path="/GRC" element={<GRC />} />
         <Route path="/CREDP" element={<CREDP />} />
+        <Route path="/hrdc" element={<HRDC />} />
+        <Route path="/cpsh" element={<CPSH />} />
         {/*  */}
         <Route path="/coming-soon" element={<ComingSoon />} />
         <Route path="/error" element={<ErrorPage />} />
