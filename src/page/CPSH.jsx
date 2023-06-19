@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import EOCcontact from "../component/section/EOCcontact";
+import Contact from "../component/section/contact";
 import { color } from "@mui/system";
 import "../assets/css/EOC.css";
 
@@ -64,10 +64,10 @@ const CPSH = () => {
                 </div>
               </article>
             </div>
-            <EOCcontact
+            <Contact
               name="Contact Person: Dr. Hiteshri Shashtri"
               email="hiteshrishastri.cv@charusat.ac.in"
-              EXT="EXT:5092"
+              phone=" 5092"
             />
           </div>
         </div>
