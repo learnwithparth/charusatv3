@@ -289,7 +289,7 @@ const CourseData = [
     authorName: [
       "Member",
       <br />,
-      <strong>Registrar:</strong>,
+      <strong>Registrar,</strong>,
       "CHARUSAT",
       <br />,
       <strong>Email:</strong>,
@@ -752,7 +752,7 @@ export default function People() {
                         className="course-content"
                         style={{ background: "", height: "100%" }}
                       >
-                        <Link to="/course-single">
+                        {/* <Link to="/course-single"> */}
                           <h5 style={{ wordWrap: "break-word" }}>{title}</h5>
                           <h6
                             style={{
@@ -763,7 +763,7 @@ export default function People() {
                           >
                             {authorName}
                           </h6>
-                        </Link>
+                        {/* </Link> */}
                         {/* <div className="course-footer">
                                                     <div className="course-author">
                                                         <img src={author} alt={imgAlt} />
