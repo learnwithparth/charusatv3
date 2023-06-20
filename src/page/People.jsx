@@ -13,14 +13,14 @@ const CourseData = [
     title: "Surendra Patel",
     author: "assets/images/course/author/01.jpg",
     authorName: [
-      <strong>President:</strong>, 
+      <strong>President:</strong>,
       "Shri Charotar Moti Sattavis Patidar Kelavani Mandal",
       <br />,
-      <strong>Former Chairman:</strong>, 
-      "Ahmedabad Urban Development Authority", 
+      <strong>Former Chairman:</strong>,
+      "Ahmedabad Urban Development Authority",
       <br />,
       <strong>Former Member of Parliament:</strong>,
-      "Rajya Sabha", 
+      "Rajya Sabha",
       <br />,
       <strong>A Renowned Technocrat</strong>,
     ],
@@ -33,7 +33,10 @@ const CourseData = [
     title: "Dr. R V Upadhyay",
     author: "assets/images/course/author/01.jpg",
     authorName: [
-      "Provost:Charotar University of Science and Technology (CHARUSAT)",
+      <strong>
+        Provost:
+      </strong>,
+      "Charotar University of Science and Technology (CHARUSAT)",
     ],
     id: 2,
   },
@@ -44,13 +47,16 @@ const CourseData = [
     title: "Shri Virendra S Patel",
     author: "assets/images/course/author/02.jpg",
     authorName: [
-      "Member",
+      <strong>
+        Member
+      </strong>
+      ,
       <br />,
-      "Trustee: Shri Charotar Moti Sattavis Patidar Kelavani Mandal",
+      <strong>Trustee:</strong>, "Shri Charotar Moti Sattavis Patidar Kelavani Mandal",
       <br />,
-      "Treasurer: CHRF",
+      <strong>Treasurer:</strong>, " CHRF",
       <br />,
-      "Founder: Charusat Educational Foundation",
+      <strong>Founder:</strong>, " Charusat Educational Foundation",
     ],
     price: "$199.00",
     id: 3,
@@ -62,13 +68,19 @@ const CourseData = [
     title: "Dr. M. I. Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      "Member",
+      <strong>
+        Member
+      </strong>,
       <br />,
       "Former Sheriff of Mumbai",
       <br />,
       "Renowned Technocrat and Industrialist based at Mumbai",
       <br />,
-      "Chief Patron : Smt. Chandaben Mohanbhai Patel Institute of Computer Applications, CHARUSAT",
+      <strong>
+        Chief Patron :
+      </strong>
+      ,
+      "Smt. Chandaben Mohanbhai Patel Institute of Computer Applications, CHARUSAT",
     ],
     id: 4,
   },
@@ -79,9 +91,14 @@ const CourseData = [
     title: "Shri Naginbhai M. Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      "Member",
+      <strong>
+        Member
+      </strong>,
       <br />,
-      "President : Shri Charotar Moti Sattavis Leuva Patidar Samaj – Mathrusanstha",
+      <strong>
+        President:
+      </strong>,
+      "Shri Charotar Moti Sattavis Leuva Patidar Samaj – Mathrusanstha",
     ],
     id: 5,
   },
@@ -92,11 +109,19 @@ const CourseData = [
     title: "Dr. Bimal Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      "Member",
+      <strong>
+        Member
+      </strong>,
       <br />,
-      "Vice-Chancellor : Rashtriya Raksha University",
+      <strong>
+        Vice-Chancellor :
+      </strong>,
+      " Rashtriya Raksha University",
       <br />,
-      "Member : International Law Commission, UN",
+      <strong>
+        Member :
+      </strong>,
+      " International Law Commission, UN",
     ],
     id: 6,
   },
@@ -111,8 +136,10 @@ const CourseData = [
       <strong>Director:</strong>,
       "University Research Cell(URC) - CSRTC,KRADLE,ICC,ADPICoE(AI)",
       <br />,
-      <strong>Email:</strong>,
-      "director.urc@charusat.ac.in",
+      <strong>
+        Email:
+      </strong>
+      , "director.urc@charusat.ac.in",
     ],
     id: 8,
   },
@@ -123,13 +150,21 @@ const CourseData = [
     title: "Shri Manubhai Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      "Member",
+      <strong>
+        Member
+      </strong>,
       <br />,
       "Prominent Industrialist",
       <br />,
-      "Managing Director: Sigil India Ltd., Vadodara",
+      <strong>
+        Managing Director:
+      </strong>,
+      " Sigil India Ltd., Vadodara",
       <br />,
-      "Patron: P. D. Patel Institute of Applied Science (PDPIAS)",
+      <strong>
+        Patron:
+      </strong>,
+      " P. D. Patel Institute of Applied Science (PDPIAS)",
     ],
     id: 9,
   },
@@ -140,11 +175,19 @@ const CourseData = [
     title: "Dr. Manan Raval",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      "Member",
+      <strong>
+        Member
+      </strong>,
       <br />,
-      "Dean: Faculty of Pharmacy",
+      <strong>
+        Dean:
+      </strong>,
+      " Faculty of Pharmacy",
       <br />,
-      "Principal: Ramanbhai Patel College of Pharmacy (RPCP)",
+      <strong>
+        Principal:
+      </strong>,
+      " Ramanbhai Patel College of Pharmacy (RPCP)",
       <br />,
       <strong>Email:</strong>,
       "principal.rpcp@charusat.ac.in",
@@ -157,7 +200,9 @@ const CourseData = [
     cate: ["Governing Body"],
     title: "Shri Hemal Patel",
     author: "assets/images/course/author/03.jpg",
-    authorName: ["Member", <br />, "Leading Entrepreneur in IT Industry",<br />,<strong>Email:</strong>, "hemal@hemal.com"],
+    authorName: [<strong>
+      Member
+    </strong>, <br />, "Leading Entrepreneur in IT Industry", <br />, <strong>Email:</strong>, "hemal@hemal.com"],
     id: 10,
   },
   {
@@ -167,13 +212,24 @@ const CourseData = [
     title: "Shri Pankaj R Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      "Member",
+      <strong>
+        Member
+      </strong>,
       <br />,
-      "Chairman & Managing Director: Cadila Healthcare Ltd",
+      <strong>
+        Chairman & Managing Director:
+      </strong>,
+      " Cadila Healthcare Ltd",
       <br />,
-      "Chief Patron: Ramanbhai Patel College of Pharmacy, CHARUSAT",
+      <strong>
+        Chief Patron:
+      </strong>,
+      " Ramanbhai Patel College of Pharmacy, CHARUSAT",
       <br />,
-      "Chairman: Ahmedabad Management Association",
+      <strong>
+        Chairman:
+      </strong>,
+      "Ahmedabad Management Association",
     ],
     id: 11,
   },
@@ -184,11 +240,19 @@ const CourseData = [
     title: "Shri Devang Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      "Member",
+      <strong>
+        Member
+      </strong>,
       <br />,
-      "Chief Executive: IPCO Industries & Business Operated at USA",
+      <strong>
+        Chief Executive:
+      </strong>,
+      " IPCO Industries & Business Operated at USA",
       <br />,
-      "Chief Patron: Indukaka Ipcowala Institute of Management, CHARUSAT",
+      <strong>
+        Chief Patron:
+      </strong>,
+      " Indukaka Ipcowala Institute of Management, CHARUSAT",
       <br />,
       "A Philanthrope of repute",
     ],
@@ -201,11 +265,16 @@ const CourseData = [
     title: "Dr. Harish Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      "Member",
+      <strong>
+        Member
+      </strong>,
       <br />,
       "Prominent Technocrate, USA",
       <br />,
-      "Chief Patron: Manikaka Topawala Institute of Nursing, CHARUSAT",
+      <strong>
+        Chief Patron:
+      </strong>,
+      " Manikaka Topawala Institute of Nursing, CHARUSAT",
       <br />,
       "A Philanthrope of repute",
     ],
@@ -218,7 +287,9 @@ const CourseData = [
     title: "Shri S J Haider, IAS",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      "Member",
+      <strong>
+        Member
+      </strong>,
       <br />,
       "Additional Chief Secretary, Education Department, Govt.of Gujarat",
     ],
@@ -239,7 +310,9 @@ const CourseData = [
     cate: ["BOM"],
     title: "Shri Nayan Patel",
     author: "assets/images/course/author/03.jpg",
-    authorName: ["Member", <br />, "Industrialist, Mumbai"],
+    authorName: [<strong>
+      Member
+    </strong>, <br />, "Industrialist, Mumbai"],
     id: 30,
   },
   {
@@ -248,7 +321,9 @@ const CourseData = [
     cate: ["BOM"],
     title: "Shri Dipenbhai Patel",
     author: "assets/images/course/author/03.jpg",
-    authorName: ["Member", <br />, ""],
+    authorName: [<strong>
+      Member
+    </strong>, <br />, ""],
     id: 16,
   },
   {
@@ -258,9 +333,14 @@ const CourseData = [
     title: "Shri H T Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      "Member",
+      <strong>
+        Member
+      </strong>,
       <br />,
-      "Former President: API Business, Zydus Cadila Healthcare Ltd",
+      <strong>
+        Former President:
+      </strong>,
+      " API Business, Zydus Cadila Healthcare Ltd",
     ],
     id: 17,
   },
@@ -271,9 +351,14 @@ const CourseData = [
     title: "Dr. Darshan Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      "Ph.D.",
+      <strong>
+        Ph.D.
+      </strong>,
       <br />,
-      "Principal : P D Patel Institute of Applied Sciences (PDPIAS)",
+      <strong>
+        Principal :
+      </strong>,
+      " P D Patel Institute of Applied Sciences (PDPIAS)",
       <br />,
       <strong>Email:</strong>,
       "principal.pdpias@charusat.ac.in",
@@ -287,9 +372,11 @@ const CourseData = [
     title: "Dr. Atul Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      "Member",
+      <strong>
+        Member
+      </strong>,
       <br />,
-      <strong>Registrar:</strong>,
+      <strong>Registrar,</strong>,
       "CHARUSAT",
       <br />,
       <strong>Email:</strong>,
@@ -304,9 +391,14 @@ const CourseData = [
     title: "Dr. M Balaganapathy",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      "Ph. D.",
+      <strong>
+        Ph.D.
+      </strong>,
       <br />,
-      "Principal : Ashok & Rita Patel Institute of Physiotherapy (ARIP)",
+      <strong>
+        Principal :
+      </strong>,
+      " Ashok & Rita Patel Institute of Physiotherapy (ARIP)",
       <br />,
       <strong>Email:</strong>,
       "principal.arip@charusat.ac.in",
@@ -320,11 +412,19 @@ const CourseData = [
     title: "Dr. Vijay Chaudhary",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      "Ph.D.",
+      <strong>
+        Ph.D.
+      </strong>,
       <br />,
-      "I/C Dean: Faculty of Technology & Engineering",
+      <strong>
+        I/C Dean:
+      </strong>,
+      " Faculty of Technology & Engineering",
       <br />,
-      "Head: CHAMOS Matrusanstha Department of Mechanical Engineering",
+      <strong>
+        Head:
+      </strong>,
+      " CHAMOS Matrusanstha Department of Mechanical Engineering",
       <br />,
       <strong>Email:</strong>,
       "hod.me@charusat.ac.in",
@@ -338,7 +438,9 @@ const CourseData = [
     title: "Dr. Bhaskar Pandya",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      "Ph.D.",
+      <strong>
+        Ph.D.
+      </strong>,
       <br />,
       <strong>Dean:</strong>,
       "Faculty of Humanities",
@@ -355,9 +457,14 @@ const CourseData = [
     title: "Dr. Gayatri Dave",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      "Ph.D.",
+      <strong>
+        Ph.D.
+      </strong>,
       <br />,
-      "Dean : Faculty of Sciences",
+      <strong>
+        Dean :
+      </strong>,
+      " Faculty of Sciences",
       <br />,
       <strong>Email:</strong>,
       "dean.fas@charusat.ac.in",
@@ -373,9 +480,14 @@ const CourseData = [
     author:
       "https://charusat.ac.in/wp-content/uploads/Deans_Principal/Dhruv-Dave.webp",
     authorName: [
-      "Ph.D.",
+      <strong>
+        Ph.D.
+      </strong>,
       <br />,
-      "Dean : Faculty of Medical Sciences",
+      <strong>
+        Dean :
+      </strong>,
+      "Faculty of Medical Sciences",
       <br />,
       <strong>Email:</strong>,
       "dean.fmd@charusat.ac.in",
@@ -391,9 +503,14 @@ const CourseData = [
     author:
       "https://charusat.ac.in/wp-content/uploads/Deans_Principal/TKU.webp",
     authorName: [
-      "Ph.D.",
+      <strong>
+        Ph.D.
+      </strong>,
       <br />,
-      "Principal : Chandubhai S Patel Institute of Technology(CSPIT)",
+      <strong>
+        Principal :
+      </strong>,
+      " Chandubhai S Patel Institute of Technology(CSPIT)",
       <br />,
       <strong>Email:</strong>,
       "principal.cspit@charusat.ac.in",
@@ -407,9 +524,14 @@ const CourseData = [
     title: "Dr. Samir Patel",
     author: "assets/images/People/user.png",
     authorName: [
-      "Ph.D.",
+      <strong>
+        Ph.D.
+      </strong>,
       <br />,
-      "Dean : Faculty of Pharmacy",
+      <strong>
+        Dean :
+      </strong>,
+      " Faculty of Pharmacy",
       <br />,
       <strong>Email:</strong>,
       "dean.fph@charusat.ac.in",
@@ -423,9 +545,14 @@ const CourseData = [
     title: "Dr. Amit Nayak",
     author: "assets/images/People/Amit_Nayak.png",
     authorName: [
-      "Ph.D.",
+      <strong>
+        Ph.D.
+      </strong>,
       <br />,
-      "Principal : Devang Patel Institute of Advance Technology and Research (DEPSTAR)",
+      <strong>
+        Principal :
+      </strong>,
+      " Devang Patel Institute of Advance Technology and Research (DEPSTAR)",
       <br />,
       <strong>Email:</strong>,
       "principal.depstar@charusat.ac.in",
@@ -441,9 +568,14 @@ const CourseData = [
     author:
       "https://charusat.ac.in/wp-content/uploads/Deans_Principal/sanskruti_patel.jpg",
     authorName: [
-      "Ph.D.",
+      <strong>
+        Ph.D.
+      </strong>,
       <br />,
-      "Dean :  Faculty of Computer Science & Applications",
+      <strong>
+        Dean :
+      </strong>,
+      "  Faculty of Computer Science & Applications",
       <br />,
       <strong>Email:</strong>,
       "dean.fca@charusat.ac.in",
@@ -457,9 +589,14 @@ const CourseData = [
     title: "Dr. Dharmendra Patel",
     author: "assets/images/People/Dharmendra_Patel.png",
     authorName: [
-      "Ph.D.",
+      <strong>
+        Ph.D.
+      </strong>,
       <br />,
-      "Principal : Smt. Chandaben Mohanbhai Patel Intitute of Computer Applications (CMPICA)",
+      <strong>
+        Principal :
+      </strong>,
+      "Smt. Chandaben Mohanbhai Patel Intitute of Computer Applications (CMPICA)",
       <br />,
       <strong>Email:</strong>,
       "principal.cmpica@charusat.ac.in",
@@ -475,9 +612,14 @@ const CourseData = [
     author:
       "https://charusat.ac.in/wp-content/uploads/Deans_Principal/Reshma.webp",
     authorName: [
-      "Ph.D.",
+      <strong>
+        Ph.D.
+      </strong>,
       <br />,
-      "Dean : Faculty of Management Studies",
+      <strong>
+        Dean :
+      </strong>,
+      " Faculty of Management Studies",
       <br />,
       <strong>Email:</strong>,
       "dean.fms@charusat.ac.in",
@@ -493,9 +635,14 @@ const CourseData = [
     author:
       "https://charusat.ac.in/wp-content/uploads/Deans_Principal/Binit-Patel.webp",
     authorName: [
-      "Ph.D.",
+      <strong>
+        Ph.D.
+      </strong>,
       <br />,
-      "Principal : Indukaka Ipcowala Institute of Management(I2IM)",
+      <strong>
+        Principal :
+      </strong>,
+      " Indukaka Ipcowala Institute of Management(I2IM)",
       <br />,
       <strong>Email:</strong>,
       "principal.iiim@charusat.ac.in",
@@ -509,9 +656,14 @@ const CourseData = [
     title: "Dr. Hemant Kumar",
     author: "assets/images/People/user.png",
     authorName: [
-      "Ph.D.",
+      <strong>
+        Ph.D.
+      </strong>,
       <br />,
-      "Principal : Bapubhai Desaibhai Patel Institute of Paramedical Sciences(BDPIPS)",
+      <strong>
+        Principal :
+      </strong>,
+      " Bapubhai Desaibhai Patel Institute of Paramedical Sciences(BDPIPS)",
       <br />,
       <strong>Email:</strong>,
       "principal.cips@charusat.ac.in",
@@ -525,7 +677,9 @@ const CourseData = [
   //   title: "Dr. Palash Mandal",
   //   author: "assets/images/course/author/03.jpg",
   //   authorName: [
-  //     "Ph.D.",
+  //     <strong>
+      //   Ph.D.
+      // </strong>,
   //     <br />,
   //     "Principal In Charge : P D Patel Institute of Applied Sciences (PDPIAS)",
   //     <br />,
@@ -540,9 +694,14 @@ const CourseData = [
     title: "Dr. Anil Sharma",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      "Ph. D.",
+      <strong>
+        Ph.D.
+      </strong>,
       <br />,
-      "Principal : Manikaka Topawala Institute of Nursing (MTIN)",
+      <strong>
+        Principal :
+      </strong>,
+      " Manikaka Topawala Institute of Nursing (MTIN)",
       <br />,
       <strong>Email:</strong>,
       "principal.mtin@charusat.ac.in",
@@ -573,7 +732,10 @@ const CourseData = [
     authorName: [
       "Deputy Account Officer",
       <br />,
-      "Contact for: Fees, Payments, Receipts and Accounts Related Information",
+      <strong>
+        Contact for:
+      </strong>,
+      " Fees, Payments, Receipts and Accounts Related Information",
       <br />,
       <strong>Email:</strong>,
       "bhavdippatel.adm@charusat.ac.in",
@@ -589,7 +751,10 @@ const CourseData = [
     authorName: [
       "Corporate Communication Officer",
       <br />,
-      "Contact For: School Visit, Sponsorships, Workshops, Seminars, News and General Inquiries, etc.",
+      <strong>
+        Contact For:
+      </strong>,
+      " School Visit, Sponsorships, Workshops, Seminars, News and General Inquiries, etc.",
       <br />,
       <strong>Email:</strong>,
       "dilipgosai.pr@charusat.ac.in",
@@ -752,18 +917,18 @@ export default function People() {
                         className="course-content"
                         style={{ background: "", height: "100%" }}
                       >
-                        <Link to="/course-single">
-                          <h5 style={{ wordWrap: "break-word" }}>{title}</h5>
-                          <h6
-                            style={{
-                              wordWrap: "break-word",
-                              fontSize: "0.9rem",
-                              fontWeight: "400",
-                            }}
-                          >
-                            {authorName}
-                          </h6>
-                        </Link>
+                        {/* <Link to="/course-single"> */}
+                        <h5 style={{ wordWrap: "break-word" }}>{title}</h5>
+                        <h6
+                          style={{
+                            wordWrap: "break-word",
+                            fontSize: "0.9rem",
+                            fontWeight: "400",
+                          }}
+                        >
+                          {authorName}
+                        </h6>
+                        {/* </Link> */}
                         {/* <div className="course-footer">
                                                     <div className="course-author">
                                                         <img src={author} alt={imgAlt} />
