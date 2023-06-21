@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import EOCcontact from "../component/section/EOCcontact";
+import Contact from "../component/section/contact";
 import { color } from "@mui/system";
 import "../assets/css/EOC.css";
 
@@ -82,10 +82,10 @@ const HRDC = () => {
                 </div>
               </article>
             </div>
-            <EOCcontact
+            <Contact
       name="Contact Person: Dr. Ashwin Makwana"
       email="head.hrdc@charusat.ac.in"
-      EXT="Ext:5181"
+      phone=" 5181"
       />
           </div>
         </div>

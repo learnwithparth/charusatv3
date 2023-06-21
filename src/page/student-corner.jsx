@@ -141,7 +141,7 @@ const StudentCorner = () => {
                                     </a>
                                   </div>
                                   <hr />
-                                  <div className="gdlr-core-course-item-list">
+                                  {/* <div className="gdlr-core-course-item-list">
                                     <a
                                       className="gdlr-core-course-item-link"
                                       href="./files/kya.pdf"
@@ -167,7 +167,7 @@ const StudentCorner = () => {
                                       <i className="icofont-long-arrow-right"></i>
                                     </a>
                                   </div>
-                                  <hr />
+                                  <hr /> */}
                                   <div className="gdlr-core-course-item-list">
                                     <a
                                       className="gdlr-core-course-item-link"

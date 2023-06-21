@@ -77,10 +77,10 @@ const HeaderThree = () => {
               </Link>
               <Link to="./accreditation-and-ranking">NIRF</Link>
               <Link to="./placement">Placement</Link>
-              <a href="https://charusat.ac.in/admission/scholarship.html">
+              <a href="./scholarship">
                 Scholarships
               </a>
-              <a href="https://www.charusat.ac.in/admission/scholarship.html">
+              <a href="./scholarship">
                 Samaj Scholarships
               </a>
               <Link to="./student-corner">Student Corner</Link>

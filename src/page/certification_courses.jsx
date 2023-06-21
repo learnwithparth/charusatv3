@@ -55,7 +55,7 @@ const Certification_Courses = () => {
                                     </div>
                                   </div>
                                 </Col>
-                                <Col className="p-2">
+                                {/* <Col className="p-2">
                                   <div>
                                     <div className=" style-4">
                                       <div className="course-inner pb-2">
@@ -78,7 +78,7 @@ const Certification_Courses = () => {
                                                   AWS Student Club (ASC)
                                                 </a>
                                               </div>
-                                            </div> */}
+                                            </div> }
                                             <h6>Get More Details</h6>
                                           </div>
                                         </a>
@@ -109,7 +109,7 @@ const Certification_Courses = () => {
                                                   AWS Student Club (ASC)
                                                 </a>
                                               </div>
-                                            </div> */}
+                                            </div> }
                                             <h6>Get More Details</h6>
                                           </div>
                                         </a>
@@ -140,14 +140,14 @@ const Certification_Courses = () => {
                                                   AWS Student Club (ASC)
                                                 </a>
                                               </div>
-                                            </div> */}
+                                            </div> }
                                             <h6>Get More Details</h6>
                                           </div>
                                         </a>
                                       </div>
                                     </div>
                                   </div>
-                                </Col>
+                                </Col> */}
                               </Row>
                             </Container>
                             <br />

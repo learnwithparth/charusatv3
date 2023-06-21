@@ -25,13 +25,13 @@ const WDC = () => {
                               In pursuance to the directions issued by the UGC and Ministry of Human Resource Development, Government of India, CHARUSAT set up the Women Development Cell (WDC) in the year 2016.
                               <br />
                               <br />
-                              <a className="pdfLink" href="https://charusat.ac.in/documents/pdfs/wdc/01.Womens-Development-Cell-Policy-1.pdf">WOMEN DEVELOPMENT CELL Policy</a>
+                              <a className="pdfLink" href="https://charusat.ac.in/documents/pdfs/wdc/01.Womens-Development-Cell-Policy-1.pdf"><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i> WOMEN DEVELOPMENT CELL Policy</a>
                               <br />
-                              <a className="pdfLink" href="https://charusat.ac.in/files/wdc/WOMEN%20DEVELOPMENT%20CELL%20Structure_2021-2024.pdf">WOMEN DEVELOPMENT CELL Structure</a>
+                              <a className="pdfLink" href="https://charusat.ac.in/files/wdc/WOMEN%20DEVELOPMENT%20CELL%20Structure_2021-2024.pdf"><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i> WOMEN DEVELOPMENT CELL Structure</a>
                               <br />
-                              <a className="pdfLink" href="https://charusat.ac.in/files/wdc/Women%20Development%20Cell%20Ciruclar.pdf">Woman's Development Cell Circular</a>
+                              <a className="pdfLink" href="https://charusat.ac.in/files/wdc/Women%20Development%20Cell%20Ciruclar.pdf"><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i> Woman's Development Cell Circular</a>
                               <br />
-                              <a className="pdfLink" href="https://charusat.ac.in/files/wdc/WOMEN%20DEVELOPMENT%20CELL%20Structure_2021-2024.pdf">WDC Structure 2021-2024</a>
+                              <a className="pdfLink" href="https://charusat.ac.in/files/wdc/WOMEN%20DEVELOPMENT%20CELL%20Structure_2021-2024.pdf"><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i> WDC Structure 2021-2024</a>
                               <br />
                                </p>
                             </div>
@@ -53,15 +53,15 @@ const WDC = () => {
                             <div className="meta-post" >
                               <h4>WDC EVENTS</h4>
                               <div>
-                                <a className="pdfLink" href="https://charusat.ac.in/files/wdc/Summary%20of%20WDC%20Event%20(2020-21).pdf">Sumamry of WDC Event ( 2020-21)</a>
+                                <a className="pdfLink" href="https://charusat.ac.in/files/wdc/Summary%20of%20WDC%20Event%20(2020-21).pdf"><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i> Sumamry of WDC Event ( 2020-21)</a>
                                 <br />
-                                <a className="pdfLink" href="https://charusat.ac.in/files/wdc/Sumamry%20of%20WDC%20Event%20(2019-20).pdf">Sumamry of WDC Event ( 2019-20)</a>
+                                <a className="pdfLink" href="https://charusat.ac.in/files/wdc/Sumamry%20of%20WDC%20Event%20(2019-20).pdf"><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i> Sumamry of WDC Event ( 2019-20)</a>
                                 <br />
-                                <a className="pdfLink" href="https://charusat.ac.in/files/wdc/Sumamry%20of%20WDC%20Event%20(2018-19).pdf">Sumamry of WDC Event ( 2018-19)</a>
+                                <a className="pdfLink" href="https://charusat.ac.in/files/wdc/Sumamry%20of%20WDC%20Event%20(2018-19).pdf"><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i> Sumamry of WDC Event ( 2018-19)</a>
                                 <br />
-                                <a className="pdfLink" href="https://charusat.ac.in/files/wdc/Sumamry%20of%20WDC%20Event%20(2017-18).pdf">Sumamry of WDC Event ( 2017-18)</a>
+                                <a className="pdfLink" href="https://charusat.ac.in/files/wdc/Sumamry%20of%20WDC%20Event%20(2017-18).pdf"><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i> Sumamry of WDC Event ( 2017-18)</a>
                                 <br />
-                                <a className="pdfLink" href="https://charusat.ac.in/files/wdc/Sumamry%20of%20WDC%20Event%20(2016-17).pdf">Sumamry of WDC Event ( 2016-17)</a>
+                                <a className="pdfLink" href="https://charusat.ac.in/files/wdc/Sumamry%20of%20WDC%20Event%20(2016-17).pdf"><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i> Sumamry of WDC Event ( 2016-17)</a>
                               </div>
                             </div>
                           </div>
@@ -75,7 +75,6 @@ const WDC = () => {
             <EOCcontact
       name="Contact Person: Dr. Gayatri Dave"
       email="gayatridave.bt@charusat.ac.in"
-      EXT=""
       />
           </div>
         </div>

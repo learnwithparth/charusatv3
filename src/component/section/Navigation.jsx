@@ -39,7 +39,7 @@ const Header = () => {
         >
           <nav className="nav">
             <div className="logo">
-              <Link to="/home" class="charusat-main">
+              <Link to="./home" class="charusat-main">
                 <img
                   src={logo}
                   alt="CHARUSAT"
@@ -197,7 +197,7 @@ const Header = () => {
                   <Link to="./course-single#6303" className="menu-link">
                     Post Graduation Diploma in Clinical Hypnosis (PGDCH)
                   </Link>
-                  <Link href="./course-single#6304" className="menu-link">
+                  <Link to="./course-single#6304" className="menu-link">
                     Post Graduation Diploma in Cyber Security (PGDCS)
                   </Link>
                   <Link to="./course-single#PGDMLT" className="menu-link">
@@ -299,7 +299,7 @@ const Header = () => {
               <div className="menu-d">
                 <h5 className="menu-head">Ph D Programs</h5>
                 <div className="menu-items">
-                  <Link to="/ph-d-programs" className="menu-link">
+                  <Link to="./ph-d-programs" className="menu-link">
                     General Information
                   </Link>
                 </div>
@@ -367,7 +367,7 @@ const Header = () => {
                   Apply Now
                 </a>
                 <a
-                  href="../../files/navigation/AdmissionsEligibility.pdf"
+                  href={AdmissionEligibilityCriteria}
                   target="_blank"
                   className="menu-link"
                   rel="noopener noreferrer"
@@ -426,7 +426,7 @@ const Header = () => {
                 >
                   Admission Login
                 </a>
-                <Link to="/admission-reprentatives" className="menu-link">
+                <Link to="./admission-reprentatives" className="menu-link">
                   Have a query? Contact Admission Representatives
                 </Link>
 
@@ -455,12 +455,12 @@ const Header = () => {
                   Post Doctoral Fellowship Programme
                 </a>
                 <a
-                  href="https://www.charusat.ac.in/admission/scholarship.html"
+                  href="./scholarship"
                   className="menu-link"
                 >
                   Scholarship
                 </a>
-                <Link to="/hostels" className="menu-link">
+                <Link to="./hostels" className="menu-link">
                   Hostels
                 </Link>
                 <Link to="./transport" className="menu-link">
@@ -591,10 +591,10 @@ const Header = () => {
             <div className="menu-div">
               <h5 className="menu-head">Activity & Events</h5>
               <div className="menu-items">
-                <Link to="/coming-soon" className="menu-link">
+                <Link to="./coming-soon" className="menu-link">
                   Student Activities & Events
                 </Link>
-                <Link to="/coming-soon" className="menu-link">
+                <Link to="./coming-soon" className="menu-link">
                   Student Clubs
                 </Link>
               </div>
@@ -602,19 +602,19 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">Residencies & Amenities</h5>
               <div className="menu-items">
-                <Link to="/coming-soon" className="menu-link">
+                <Link to="./coming-soon" className="menu-link">
                   Boy's Hostel
                 </Link>
-                <Link to="/coming-soon" className="menu-link">
+                <Link to="./coming-soon" className="menu-link">
                   Staff Quarters
                 </Link>
-                <Link to="/coming-soon" className="menu-link">
+                <Link to="./coming-soon" className="menu-link">
                   Food / Canteen
                 </Link>
-                <Link to="/coming-soon" className="menu-link">
+                <Link to="./coming-soon" className="menu-link">
                   Transportation
                 </Link>
-                <Link to="/coming-soon" className="menu-link">
+                <Link to="./coming-soon" className="menu-link">
                   Recreation
                 </Link>
               </div>
@@ -622,7 +622,7 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">Student Helpline</h5>
               <div className="menu-items">
-                <Link to="/coming-soon" className="menu-link">
+                <Link to="./coming-soon" className="menu-link">
                   Helpline Contacts
                 </Link>
               </div>
@@ -657,7 +657,7 @@ const Header = () => {
                 >
                   CHARUSAT Journal
                 </a>
-                <Link to="/edic" className="menu-link">
+                <Link to="./edic" className="menu-link">
                   Enterpreneurship Development & Incubation Cell (EDIC)
                 </Link>
                 <a href="http://kradle.charusat.ac.in/" className="menu-link">
@@ -670,7 +670,7 @@ const Header = () => {
                 >
                   International Center for Cosmology (ICC)
                 </a>
-                <Link to="/ipr" className="menu-link">
+                <Link to="./ipr" className="menu-link">
                   IPR Cell
                 </Link>
                 <Link to="./research" className="menu-link">
@@ -679,7 +679,7 @@ const Header = () => {
                 <Link to="./csrtc" className="menu-link">
                   CHARUSAT Space Research Center
                 </Link>
-                <Link to="/coming-soon" className="menu-link">
+                <Link to="./coming-soon" className="menu-link">
                   Research Ethics Committee
                 </Link>
               </div>
@@ -754,13 +754,13 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">Outcomes</h5>
               <div className="menu-items">
-                <Link to="/coming-soon" className="menu-link">
+                <Link to="./coming-soon" className="menu-link">
                   Publications
                 </Link>
-                <Link to="/coming-soon" className="menu-link">
+                <Link to="./coming-soon" className="menu-link">
                   Project Grants
                 </Link>
-                <Link to="/coming-soon" className="menu-link">
+                <Link to="./coming-soon" className="menu-link">
                   Patents
                 </Link>
               </div>
@@ -782,40 +782,40 @@ const Header = () => {
               <div className="menu-d ">
                 <h5 className="menu-head">About University</h5>
                 <div className="menu-items">
-                  {/* <Link to="/about" className="menu-link">
+                  {/* <Link to="./about" className="menu-link">
                     About University
                   </Link> */}
-                  <Link to="/about" className="menu-link">
+                  <Link to="./about" className="menu-link">
                     Vision
                   </Link>
-                  <Link to="/about" className="menu-link">
+                  <Link to="./about" className="menu-link">
                     Mission
                   </Link>
-                  <Link to="/about" className="menu-link">
+                  <Link to="./about" className="menu-link">
                     Torchbearers
                   </Link>
-                  <Link to="/president-desk" className="menu-link">
+                  <Link to="./president-desk" className="menu-link">
                     From President's Desk
                   </Link>
-                  <Link to="/provost-desk" className="menu-link">
+                  <Link to="./provost-desk" className="menu-link">
                     From Provost's Desk
                   </Link>
-                  {/* <Link to="/coming-soon" className="menu-link">
+                  {/* <Link to="./coming-soon" className="menu-link">
                     Students' Reviews
                   </Link> */}
-                  <Link to="/convocations" className="menu-link">
+                  <Link to="./convocations" className="menu-link">
                     Convocations
                   </Link>
-                  <Link to="/associates" className="menu-link">
+                  <Link to="./associates" className="menu-link">
                     Governing Body
                   </Link>
-                  <Link to="/associates" className="menu-link">
+                  <Link to="./associates" className="menu-link">
                     Board of Management
                   </Link>
-                  <Link to="/associates" className="menu-link">
+                  <Link to="./associates" className="menu-link">
                     Deans, Principals & Heads
                   </Link>
-                  <Link to="/associates" className="menu-link">
+                  <Link to="./associates" className="menu-link">
                     University Officers
                   </Link>
                 </div>
@@ -827,7 +827,7 @@ const Header = () => {
               <h5 className="menu-head">Centers & Cells</h5>
               <div className="menu-items">
                 <a
-                  href="/anti-ragging"
+                  href="./anti-ragging"
                   className="menu-link"
                 >
                   Anti-Ragging Committee
@@ -838,19 +838,19 @@ const Header = () => {
                 >
                   Equal Opportunity Cell
                 </a>
-                <a
+                {/* <a
                   href="./ecc"
                   className="menu-link"
                 >
                   Energy Conservation Cell
-                </a>
+                </a> */}
                 <Link
-                  href="/GRC"
+                  to="./GRC"
                   className="menu-link"
                 >
                   Grievance Redressal Cell
                 </Link>
-                <Link to="/edic" className="menu-link">
+                <Link to="./edic" className="menu-link">
                   Enterpreneurship Development & Incubation Cell
                 </Link>
                 <Link
@@ -884,7 +884,7 @@ const Header = () => {
                   Internal Quality Assurance Cell (IQAC)
                 </a> */}
                 <a
-                  href="/CREDP"
+                  href="./CREDP"
                   className="menu-link"
                 >
                   Charusat Rural Education Development Program
@@ -892,7 +892,7 @@ const Header = () => {
                 <a href="./student-wellness-program" className="menu-link">
                   Student Wellness Programme
                 </a>
-                <Link to="/wincell" className="menu-link">
+                <Link to="./wincell" className="menu-link">
                   Data Center @ CHARUSAT - WINCELL
                 </Link>
               </div>
@@ -903,7 +903,7 @@ const Header = () => {
               {/* <div className="menu-d border-b">
                 <h5 className="menu-head">Visit</h5>
                 <div className="menu-items">
-                  <Link to="/coming-soon" className="menu-link">
+                  <Link to="./coming-soon" className="menu-link">
                     360 Campus Tour
                   </Link>
                 </div>
@@ -912,13 +912,13 @@ const Header = () => {
               {/* <div className="menu-d border-b">
                 <h5 className="menu-head">Reach US</h5>
                 <div className="menu-items">
-                  <Link to="/contact-us" className="menu-link">
+                  <Link to="./contact-us" className="menu-link">
                     Connect with CHARUSAT
                   </Link>
-                  <Link to="/coming-soon" className="menu-link">
+                  <Link to="./coming-soon" className="menu-link">
                     Lodge Complaint
                   </Link>
-                  <Link to="/coming-soon" className="menu-link">
+                  <Link to="./coming-soon" className="menu-link">
                     Faculty & Staff Directory
                   </Link>
                 </div>
@@ -927,12 +927,12 @@ const Header = () => {
               <div className="menu-d">
                 <h5 className="menu-head">Infrastructure & Resources</h5>
                 <div className="menu-items border-b">
-                  {/* <Link to="/coming-soon" className="menu-link">
+                  {/* <Link to="./coming-soon" className="menu-link">
                   Auditoria & Lectures Halls
                 </Link> */}
-                  <Link to="/coming-soon" className="menu-link">
+                  <a href="https://youtu.be/Og4NMqI3q5M" className="menu-link">
                     Laboratories
-                  </Link>
+                  </a>
 
                   <a
                     href="https://scpit.new.knimbus.com/user#/home"
@@ -940,10 +940,10 @@ const Header = () => {
                   >
                     Knowledge Resource Center
                   </a>
-                  {/* <Link to="/coming-soon" className="menu-link">
+                  {/* <Link to="./coming-soon" className="menu-link">
                   Sports & Gym
                 </Link> */}
-                  <Link to="/coming-soon" className="menu-link">
+                  <Link to="./coming-soon" className="menu-link">
                     Herbal Garden
                   </Link>
                 </div>
@@ -951,7 +951,7 @@ const Header = () => {
                   Others
                 </h5>
                 <div className="menu-items">
-                  <Link to="/donation" className="menu-link">
+                  <Link to="./donation" className="menu-link">
                     Give & Support
                   </Link>
                   <a
@@ -961,7 +961,7 @@ const Header = () => {
                   >
                     Finance Reports
                   </a>
-                  <Link to="/annual-report" className="menu-link">
+                  <Link to="./annual-report" className="menu-link">
                     Annual Report
                   </Link>
                   <a
@@ -981,7 +981,7 @@ const Header = () => {
         {/* <Navbar bg="white" expand="lg" className="nav">
           <Container>
             <Navbar.Brand href="#home">
-              <a href="/" class="charusat">
+              <a href="./" class="charusat">
                 CHARUSAT
               </a>
             </Navbar.Brand>
@@ -1010,7 +1010,7 @@ const Header = () => {
         <Navbar bg="white" expand="lg" className="nav">
           <Container>
             <Navbar.Brand href="#home">
-              <a href="/" class="charusat">
+              <a href="./" class="charusat">
                 <img
                   src={logo}
                   alt="CHARUSAT"
@@ -1204,7 +1204,7 @@ const Header = () => {
                       <Dropdown.Item href={AdmissionEligibilityCriteria}>
                         Eligibility criteria
                       </Dropdown.Item>
-                      <Dropdown.Item href="#/action-3">Fees</Dropdown.Item>
+                      <Dropdown.Item href="https://drive.google.com/file/d/1zzlAVorLJXqcde1JAKHlMyBc8sJuvUov/view">Fees</Dropdown.Item>
                       <Dropdown.Item>+91 8905500500</Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
@@ -1339,7 +1339,7 @@ const Header = () => {
                       <Dropdown.Item href="https://charusat.ac.in/charusatjournal/">
                         CHARUSAT Journal
                       </Dropdown.Item>
-                      <Dropdown.Item href="/edic">
+                      <Dropdown.Item href="./edic">
                         Enterpreneurship Development & Incubation Cell (EDIC)
                       </Dropdown.Item>
                       <Dropdown.Item href="http://kradle.charusat.ac.in/">
@@ -1348,14 +1348,14 @@ const Header = () => {
                       <Dropdown.Item href="https://charusat.irins.org/faculty/index/International+Centre+for+Cosmology+ICC">
                         International Center for Cosmology (ICC)
                       </Dropdown.Item>
-                      <Dropdown.Item href="/ipr">IPR Cell</Dropdown.Item>
-                      <Dropdown.Item href="/research">
+                      <Dropdown.Item href="./ipr">IPR Cell</Dropdown.Item>
+                      <Dropdown.Item href="./research">
                         Research Facilitation
                       </Dropdown.Item>
-                      <Dropdown.Item href="">
+                      <Dropdown.Item href="./csrtc">
                         CHARUSAT Space Research Center
                       </Dropdown.Item>
-                      <Dropdown.Item href="/coming-soon">
+                      <Dropdown.Item href="./coming-soon">
                         Research Ethics Committee
                       </Dropdown.Item>
                     </Dropdown.Menu>
@@ -1402,13 +1402,13 @@ const Header = () => {
                       Outcomes
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="/coming-soon">
+                      <Dropdown.Item href="./coming-soon">
                         Publications
                       </Dropdown.Item>
-                      <Dropdown.Item href="/coming-soon">
+                      <Dropdown.Item href="./coming-soon">
                         Project Grants
                       </Dropdown.Item>
-                      <Dropdown.Item href="/coming-soon">Patents</Dropdown.Item>
+                      <Dropdown.Item href="./coming-soon">Patents</Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
                 </NavDropdown>
@@ -1420,28 +1420,28 @@ const Header = () => {
                       About University
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="/about">Vision</Dropdown.Item>
-                      <Dropdown.Item href="/about">Mission</Dropdown.Item>
-                      <Dropdown.Item href="/about">Torchbearers</Dropdown.Item>
-                      <Dropdown.Item href="/president-desk">
+                      <Dropdown.Item href="./about">Vision</Dropdown.Item>
+                      <Dropdown.Item href="./about">Mission</Dropdown.Item>
+                      <Dropdown.Item href="./about">Torchbearers</Dropdown.Item>
+                      <Dropdown.Item href="./president-desk">
                         From President's Desk
                       </Dropdown.Item>
-                      <Dropdown.Item href="/provost-desk">
+                      <Dropdown.Item href="./provost-desk">
                         From Provost's Desk
                       </Dropdown.Item>
-                      <Dropdown.Item href="/convocations">
+                      <Dropdown.Item href="./convocations">
                         Convocations
                       </Dropdown.Item>
-                      <Dropdown.Item href="/associates">
+                      <Dropdown.Item href="./associates">
                         Governing Body
                       </Dropdown.Item>
-                      <Dropdown.Item href="/associates">
+                      <Dropdown.Item href="./associates">
                         Board of Management
                       </Dropdown.Item>
-                      <Dropdown.Item href="/associates">
+                      <Dropdown.Item href="./associates">
                         Deans, Principals & Heads
                       </Dropdown.Item>
-                      <Dropdown.Item href="/associates">
+                      <Dropdown.Item href="./associates">
                         University Officers
                       </Dropdown.Item>
                     </Dropdown.Menu>
@@ -1451,19 +1451,19 @@ const Header = () => {
                       Centers & Cells
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="/anti-ragging">
+                      <Dropdown.Item href="./anti-ragging">
                         Anti-Ragging Committee
                       </Dropdown.Item>
                       <Dropdown.Item href="./eoc">
                         Equal Opportunity Cell
                       </Dropdown.Item>
-                      <Dropdown.Item href="./ecc">
+                      {/* <Dropdown.Item href="./ecc">
                         Energy Conservation Cell
-                      </Dropdown.Item>
-                      <Dropdown.Item href="/GRC">
+                      </Dropdown.Item> */}
+                      <Dropdown.Item href="./GRC">
                         Grievance Redressal Cell
                       </Dropdown.Item>
-                      <Dropdown.Item href="/edic">
+                      <Dropdown.Item href="./edic">
                         Enterpreneurship Development & Incubation Cell
                       </Dropdown.Item>
                       <Dropdown.Item href="./university-industry-interaction-cell">
@@ -1481,13 +1481,13 @@ const Header = () => {
                       <Dropdown.Item href="./cpsh">
                         Cell for Prevention of Sexual Harassment
                       </Dropdown.Item>
-                      <Dropdown.Item href="/CREDP">
+                      <Dropdown.Item href="./CREDP">
                         Charusat Rural Education Development Program
                       </Dropdown.Item>
                       <Dropdown.Item href="./student-wellness-program">
                         Student Wellness Programme
                       </Dropdown.Item>
-                      <Dropdown.Item href="/wincell">
+                      <Dropdown.Item href="./wincell">
                         Data Center @ CHARUSAT - WINCELL
                       </Dropdown.Item>
                     </Dropdown.Menu>
@@ -1497,13 +1497,13 @@ const Header = () => {
                       Infrastructure & Resources
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="/coming-soon">
+                      <Dropdown.Item href="https://youtu.be/Og4NMqI3q5M">
                         Laboratories
                       </Dropdown.Item>
                       <Dropdown.Item href="https://scpit.new.knimbus.com/user#/home">
                         Knowledge Resource Center
                       </Dropdown.Item>
-                      <Dropdown.Item href="/coming-soon">
+                      <Dropdown.Item href="./coming-soon">
                         Herbal Garden
                       </Dropdown.Item>
                     </Dropdown.Menu>
@@ -1513,14 +1513,14 @@ const Header = () => {
                       Others
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="/donation">
+                      <Dropdown.Item href="./donation">
                         Give & Support
                       </Dropdown.Item>
                       <Dropdown.Item href="https://www.charusat.ac.in/documents-access/">
                         Finance Reports
                       </Dropdown.Item>
                       <Dropdown.Item>
-                        <Link to="/annual-report">Annual Reports</Link>
+                        <Link to="./annual-report">Annual Reports</Link>
                       </Dropdown.Item>
                       <Dropdown.Item href="https://charusat.ac.in/Downloads/">
                         Downloads
