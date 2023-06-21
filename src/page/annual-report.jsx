@@ -62,9 +62,9 @@ const AnnualReport = () => {
   return (
     <>
       <div className="blog-section padding-tb section-bg">
-        <h1 className="inner-title text-center mb-5">
+        <h3 className="inner-title text-center mb-5">
           Annual Reports of the Institute
-        </h1>
+        </h3>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 col-12">
@@ -77,7 +77,7 @@ const AnnualReport = () => {
                           <div className="post-inner">
                             <div className="post-content">
                               <Link to={val.link}>
-                                <h3>{val.title}</h3>
+                                <h4>{val.title}</h4>
                               </Link>
                               <div className="meta-post">
                                 <ul className="lab-ul">
