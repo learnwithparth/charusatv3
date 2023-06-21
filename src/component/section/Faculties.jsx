@@ -184,7 +184,12 @@ export default function Faculties() {
                         <div className="course-thumb">
                           <img src={imgUrl} alt={imgAlt} style={imageStyle} />
                           <div className="course-category">
-                            <div className="course-cate">
+                            <div
+                              className="course-cate"
+                              style={{
+                                height: "68px",
+                              }}
+                            >
                               <a href="#">{cate}</a>
                               <p
                                 style={{
