@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import GoogleMap from "../sidebar/googlemap";
-import TheActFirstStatutes from '../../files/Footer-3/CHARUSAT-STATUTES HANDBOOK.pdf'
+import TheActFirstStatutes from "../../files/Footer-3/CHARUSAT-STATUTES HANDBOOK.pdf";
 
 const title = "Contact";
 //const desc =  "Eduaid theme numb  er one world class university in the world There are student are studing always in this university for all time.";
@@ -125,7 +125,6 @@ const quickList = [
     text: "Code of Conduct",
     link: "./code-of-conduct",
   },
-  
 ];
 
 const footerbottomList = [
@@ -210,13 +209,37 @@ const FooterThree = () => {
                                 </a>
                               </li>
                             ))}
-                            <li  style={{ color: "#fff" }}>
-                                            NAD/ABC Videos --
-                                            <a href="https://charusat-aqar.s3.ap-south-1.amazonaws.com/charusat/nad/1.mp4" target="_blank" style={{ color: "#fff" }}>1</a>{" "}
-                                            <a href="https://charusat-aqar.s3.ap-south-1.amazonaws.com/charusat/nad/2.mp4" target="_blank" style={{ color: "#fff" }}>2</a>{" "}
-                                            <a href="https://charusat-aqar.s3.ap-south-1.amazonaws.com/charusat/nad/3.mp4" target="_blank" style={{ color: "#fff" }}>3</a>{" "}
-                                            <a href="https://charusat-aqar.s3.ap-south-1.amazonaws.com/charusat/nad/4.mp4" target="_blank" style={{ color: "#fff" }}>4</a>{" "}
-                                        </li>
+                            <li style={{ color: "#fff" }}>
+                              NAD/ABC Videos --
+                              <a
+                                href="https://charusat-aqar.s3.ap-south-1.amazonaws.com/charusat/nad/1.mp4"
+                                target="_blank"
+                                style={{ color: "#fff" }}
+                              >
+                                1
+                              </a>{" "}
+                              <a
+                                href="https://charusat-aqar.s3.ap-south-1.amazonaws.com/charusat/nad/2.mp4"
+                                target="_blank"
+                                style={{ color: "#fff" }}
+                              >
+                                2
+                              </a>{" "}
+                              <a
+                                href="https://charusat-aqar.s3.ap-south-1.amazonaws.com/charusat/nad/3.mp4"
+                                target="_blank"
+                                style={{ color: "#fff" }}
+                              >
+                                3
+                              </a>{" "}
+                              <a
+                                href="https://charusat-aqar.s3.ap-south-1.amazonaws.com/charusat/nad/4.mp4"
+                                target="_blank"
+                                style={{ color: "#fff" }}
+                              >
+                                4
+                              </a>{" "}
+                            </li>
                           </ul>
                         </div>
                       </div>

@@ -17,10 +17,6 @@ const ScrollLink = Scroll.ScrollLink;
 const Header = () => {
   const [activeLink, setActiveLink] = useState("");
 
-  useEffect(() => {
-    console.log(activeLink);
-  }, [activeLink]);
-
   return (
     <>
       <div className="bg-white">
@@ -454,10 +450,7 @@ const Header = () => {
                 >
                   Post Doctoral Fellowship Programme
                 </a>
-                <a
-                  href="./scholarship"
-                  className="menu-link"
-                >
+                <a href="./scholarship" className="menu-link">
                   Scholarship
                 </a>
                 <Link to="./hostels" className="menu-link">
@@ -679,7 +672,7 @@ const Header = () => {
                 <Link to="./csrtc" className="menu-link">
                   CHARUSAT Space Research Center
                 </Link>
-                <Link to="./coming-soon" className="menu-link">
+                <Link to="./IEC" className="menu-link">
                   Research Ethics Committee
                 </Link>
               </div>
@@ -826,16 +819,10 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">Centers & Cells</h5>
               <div className="menu-items">
-                <a
-                  href="./anti-ragging"
-                  className="menu-link"
-                >
+                <a href="./anti-ragging" className="menu-link">
                   Anti-Ragging Committee
                 </a>
-                <a
-                  href="./eoc"
-                  className="menu-link"
-                >
+                <a href="./eoc" className="menu-link">
                   Equal Opportunity Cell
                 </a>
                 {/* <a
@@ -844,10 +831,7 @@ const Header = () => {
                 >
                   Energy Conservation Cell
                 </a> */}
-                <Link
-                  to="./GRC"
-                  className="menu-link"
-                >
+                <Link to="./GRC" className="menu-link">
                   Grievance Redressal Cell
                 </Link>
                 <Link to="./edic" className="menu-link">
@@ -859,34 +843,22 @@ const Header = () => {
                 >
                   University Industry Interaction Cell
                 </Link>
-                <a
-                  href="./wdc"
-                  className="menu-link"
-                >
+                <a href="./wdc" className="menu-link">
                   Womens' Development Cell
                 </a>
-                <a
-                  href="./hrdc"
-                  className="menu-link"
-                >
+                <a href="./hrdc" className="menu-link">
                   Pri. B I Patel Human Resource Development Center
                 </a>
                 <a href="https://isc.charusat.ac.in/" className="menu-link">
                   International Students' Cell
                 </a>
-                <a
-                  href="./cpsh"
-                  className="menu-link"
-                >
+                <a href="./cpsh" className="menu-link">
                   Cell for Prevention of Sexual Harassment
                 </a>
                 {/* <a href="" className="menu-link">
                   Internal Quality Assurance Cell (IQAC)
                 </a> */}
-                <a
-                  href="./CREDP"
-                  className="menu-link"
-                >
+                <a href="./CREDP" className="menu-link">
                   Charusat Rural Education Development Program
                 </a>
                 <a href="./student-wellness-program" className="menu-link">
@@ -1204,7 +1176,9 @@ const Header = () => {
                       <Dropdown.Item href={AdmissionEligibilityCriteria}>
                         Eligibility criteria
                       </Dropdown.Item>
-                      <Dropdown.Item href="https://drive.google.com/file/d/1zzlAVorLJXqcde1JAKHlMyBc8sJuvUov/view">Fees</Dropdown.Item>
+                      <Dropdown.Item href="https://drive.google.com/file/d/1zzlAVorLJXqcde1JAKHlMyBc8sJuvUov/view">
+                        Fees
+                      </Dropdown.Item>
                       <Dropdown.Item>+91 8905500500</Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
@@ -1355,7 +1329,7 @@ const Header = () => {
                       <Dropdown.Item href="./csrtc">
                         CHARUSAT Space Research Center
                       </Dropdown.Item>
-                      <Dropdown.Item href="./coming-soon">
+                      <Dropdown.Item href="./IEC">
                         Research Ethics Committee
                       </Dropdown.Item>
                     </Dropdown.Menu>
@@ -1408,7 +1382,9 @@ const Header = () => {
                       <Dropdown.Item href="./coming-soon">
                         Project Grants
                       </Dropdown.Item>
-                      <Dropdown.Item href="./coming-soon">Patents</Dropdown.Item>
+                      <Dropdown.Item href="./coming-soon">
+                        Patents
+                      </Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
                 </NavDropdown>
