@@ -19,7 +19,7 @@ const searchList = [
     ],
   },
   {
-    title: "PhD Latest Guidelines",
+    title: "PhD Guidelines",
     btnText: "Read More",
     link: Regulations,
     metaList: [

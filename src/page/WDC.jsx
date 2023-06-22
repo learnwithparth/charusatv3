@@ -37,7 +37,7 @@ const WDC = () => {
                             </div>
                             <br />
                             <div className="meta-post" >
-                              <h4>WDC AT CHARUSAT IS COMMITTED</h4>
+                              <h5>WDC AT CHARUSAT IS COMMITTED</h5>
                               <ul>
                                 <li>To build a gender-sensitive campus</li>
                                 <li> To nurture the strength of girl students as well as to create a sensitized environment leading to gender equality</li>
@@ -51,7 +51,7 @@ const WDC = () => {
                               </ul>
                             </div>
                             <div className="meta-post" >
-                              <h4>WDC EVENTS</h4>
+                              <h5>WDC EVENTS</h5>
                               <div>
                                 <a className="pdfLink" href="https://charusat.ac.in/files/wdc/Summary%20of%20WDC%20Event%20(2020-21).pdf"><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i> Sumamry of WDC Event ( 2020-21)</a>
                                 <br />
