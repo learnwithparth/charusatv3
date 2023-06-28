@@ -21,14 +21,17 @@ const UIIC = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="main-part">
+                
                 {/*  */}
                 <div className="row g-4 row-cols-1 justify-content-center bg-white p-4">
-                  <h2 className="opps">OBJECTIVE</h2>
-                  <h4 className="not-ruselt">
+                <h3>University Industry Interaction Cell</h3>
+                <hr />
+                  <h5 className="opps">OBJECTIVE</h5>
+                  <p className="not-ruselt">
                     UIIC has been established to facilitate collaboration
                     amongst academicians, scientists, and industry.
-                  </h4>
-                  <h3>UIIC ACTIVITIES</h3>
+                  </p>
+                  <h5>UIIC ACTIVITIES</h5>
                   <ol>
                     {featureList.map((val, i) => (
                       <li key={i} className="mx-4 mb-3">
