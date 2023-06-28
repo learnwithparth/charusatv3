@@ -719,7 +719,7 @@ const IEC = () => {
                                   }}
                                 >
                                   <i className="icofont-ui-user"></i>
-                                  Dr. Atul Patel
+                                  Member Secretary, IEC-CHARUSAT
                                 </li>
                                 <li
                                   style={{
@@ -727,7 +727,15 @@ const IEC = () => {
                                   }}
                                 >
                                   <i className="icofont-email"></i>
-                                  atulpatel.mca@charusat.ac.in
+                                  iec.coordinator@charusat.ac.in
+                                </li>
+                                <li
+                                  style={{
+                                    marginBottom: "10px",
+                                  }}
+                                >
+                                  <i className="icofont-phone"></i>
+                                  +91-02697-265204 / 70
                                 </li>
                               </ul>
                             </div>
