@@ -181,8 +181,8 @@ const IEC = () => {
                               (IEC-CHARUSAT)
                             </h3>
                             <hr />
-                            <p>
-                              <p>
+                            <p style={{ fontSize: "1rem" }}>
+                              <p style={{ fontSize: "1rem" }}>
                                 The Institutional Ethic Committee-CHARUSAT
                                 (IEC-CHARUSAT) is a formally designated
                                 independent entity which reviews, approves and
@@ -193,7 +193,7 @@ const IEC = () => {
                                 biomedical /clinical research.
                               </p>
                               <br />
-                              <p>
+                              <p style={{ fontSize: "1rem" }}>
                                 The mandate of IEC-CHARUSAT is to ensure
                                 participants be exposed to minimum risk or no
                                 risk i.e which may be anticipated as harm or
@@ -204,7 +204,7 @@ const IEC = () => {
                                 or tests.
                               </p>
                               <br />
-                              <p>
+                              <p style={{ fontSize: "1rem" }}>
                                 The mandate of IEC-CHARUSAT is to ensure the
                                 volunteer participation, dignity, rights, safety
                                 and well being of participants during the
@@ -220,7 +220,7 @@ const IEC = () => {
                                 IEC-CHARUSAT.
                               </p>
                               <br />
-                              <p>
+                              <p style={{ fontSize: "1rem" }}>
                                 Ethical Clinical research and practice must
                                 respect all four of the basic prima facie moral
                                 commitments: autonomy, justice, beneficence and
@@ -231,7 +231,7 @@ const IEC = () => {
                                 ethical issues.
                               </p>
                               <br />
-                              <p>
+                              <p style={{ fontSize: "1rem" }}>
                                 IEC-CHARUSAT is constituted in line of ICMR
                                 guideline 2017 for National Ethical Guidelines
                                 for Biomedical and Health Research involving
@@ -504,7 +504,11 @@ const IEC = () => {
                                                 >
                                                   <div className="col">
                                                     <div>
-                                                      <p>
+                                                      <p
+                                                        style={{
+                                                          fontSize: "1rem",
+                                                        }}
+                                                      >
                                                         Year 2020 Proposals -{" "}
                                                         <a
                                                           style={{
@@ -516,7 +520,11 @@ const IEC = () => {
                                                           Click Here
                                                         </a>
                                                       </p>
-                                                      <p>
+                                                      <p
+                                                        style={{
+                                                          fontSize: "1rem",
+                                                        }}
+                                                      >
                                                         Year 2021 Proposals -{" "}
                                                         <a
                                                           style={{
@@ -528,7 +536,11 @@ const IEC = () => {
                                                           Click Here
                                                         </a>
                                                       </p>
-                                                      <p>
+                                                      <p
+                                                        style={{
+                                                          fontSize: "1rem",
+                                                        }}
+                                                      >
                                                         Year 2022 Proposals -{" "}
                                                         <a
                                                           style={{
@@ -592,7 +604,11 @@ const IEC = () => {
                                                     </strong>
                                                     <br />
                                                     <br />
-                                                    <p>
+                                                    <p
+                                                      style={{
+                                                        fontSize: "1rem",
+                                                      }}
+                                                    >
                                                       For New Proposal
                                                       Submission after
                                                       August-2022 -{" "}
@@ -606,7 +622,11 @@ const IEC = () => {
                                                         Click Here
                                                       </a>
                                                     </p>
-                                                    <p>
+                                                    <p
+                                                      style={{
+                                                        fontSize: "1rem",
+                                                      }}
+                                                    >
                                                       To Acess/Edit/Update older
                                                       proposals (submitted till
                                                       July-2022):{" "}
