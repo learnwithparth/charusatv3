@@ -102,8 +102,8 @@ const AboutPage = () => {
         </div>
       </div>
 
-      <VisionMission />
-      <Torchbearers />
+      {/* <VisionMission />
+      <Torchbearers /> */}
       <AppSection />
 
       {/* <Skill />

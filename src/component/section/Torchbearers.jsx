@@ -1,4 +1,3 @@
-
 // const subTitle = "Who Illuminated the Growth-path";
 // const title = "Our Torchbearers";
 // const title1 = "Incumbent Doyens";
@@ -51,22 +50,20 @@
 //     },
 // ]
 
-
 const Torchbearers = () => {
-    return (
-        <div className="instructor-section padding-tb section-bg">
-            <div className="container">
-                {/* <div className="section-header text-center">
+  return (
+    <div className="instructor-section padding-tb section-bg">
+      <div className="container">
+        {/* <div className="section-header text-center">
                     <span className="subtitle">{subTitle}</span>
                     <h2 className="title">{title}</h2>
                 </div> */}
-                <div class="section-wrapper">
-                  <img src="assets/images/about/Torchbearers.jpg"  alt="Torchbearers"/>
-                </div>
-
-            </div>
+        <div class="section-wrapper">
+          <img src="assets/images/about/Torchbearers.jpg" alt="Torchbearers" />
         </div>
-    );
-}
- 
+      </div>
+    </div>
+  );
+};
+
 export default Torchbearers;
