@@ -242,6 +242,10 @@ const Header = () => {
                 <Link to="./course-single#6404" className="menu-link">
                   B.Sc (Operation Theatre & Anesthesia Technology)
                 </Link>
+
+                <Link to="./course-single#5401" className="menu-link">
+                  B.Sc (Microbiology, Biotechnology, Biochemistry)
+                </Link>
               </div>
             </div>
             <div className="menu-div border-left">
@@ -288,6 +292,9 @@ const Header = () => {
                 </Link>
                 <Link to="./course-single#6513" className="menu-link">
                   M.Sc (Medical Laboratory Technology)
+                </Link>
+                <Link to="./course-single#6513" className="menu-link">
+                  M.Sc (Maths)
                 </Link>
               </div>
             </div>

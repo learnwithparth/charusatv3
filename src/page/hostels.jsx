@@ -24,7 +24,10 @@ const Hostels = () => {
         <meta name="google" content="nopagereadaloud" />
         <meta property="og:type" content="homepage" />
         <meta property="og:title" content="CSPIT Homepage" />
-        <meta property="og:description" content="CSPIT - best engineering college to study in Gujarat." />
+        <meta
+          property="og:description"
+          content="CSPIT - best engineering college to study in Gujarat."
+        />
         <meta name="author" content="CHARUSAT Web Team" />
       </Helmet>
       {/* <PageHeader title={'4 Results found for: Business'} curPage={'Search Result'} /> */}
@@ -86,7 +89,16 @@ const Hostels = () => {
 
                               <h5>Capacity</h5>
                               <p>
-                                At CHARUSAT, we understand the importance of providing safe and comfortable living accommodations for our female students. That's why we have four well-equipped girls' hostels on campus, with a total housing capacity of 1100 students. Our hostels offer both AC and non-AC rooms, with AC accommodations available upon request. We strive to provide our students with a supportive and secure environment where they can focus on their studies and personal growth.
+                                At CHARUSAT, we understand the importance of
+                                providing safe and comfortable living
+                                accommodations for our female students. That's
+                                why we have four well-equipped girls' hostels on
+                                campus, with a total housing capacity of 1100
+                                students. Our hostels offer both AC and non-AC
+                                rooms, with AC accommodations available upon
+                                request. We strive to provide our students with
+                                a supportive and secure environment where they
+                                can focus on their studies and personal growth.
                                 <br />
                               </p>
                               <h5>Fee Structure</h5>
@@ -95,10 +107,10 @@ const Hostels = () => {
                                   Rs. 5,000/- Security Deposit (Refundable)
                                 </li>
                                 <li>Rs. 28,000/- per Year (AC)</li>
+                                <li>Rs. 22,000/- per Year (Non-AC)</li>
                                 <li>
-                                  Rs. 22,000/- per Year (Non-AC)
+                                  Rs. 2,500/- to 3000/- per Month Food bill
                                 </li>
-                                <li>Rs. 2,500/- to 3000/- per Month Food bill</li>
                               </ul>
                             </div>
                             <h4>Facilities</h4>
@@ -248,7 +260,7 @@ const Hostels = () => {
 
             <Contact
               title="Boys' Hostel Contact"
-              name="Anonymous"
+              name="Jignesh Patel"
               email="info@charusat.ac.in"
               phone="+91-98794 38045"
             />

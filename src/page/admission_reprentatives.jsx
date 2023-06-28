@@ -35,7 +35,7 @@ const Admission_Reprentatives = () => {
                                     <p>BPT / MPT</p>
                                     <p>Dr.Ratan Khuman, Assistant Professor</p>
                                     <p>
-                                      <i className="icofont-email"></i>{" "}
+                                      <i className="icofont-email mr-2"></i>
                                       admission_arip@charusat.ac.in
                                     </p>
                                     <p>
@@ -55,7 +55,7 @@ const Admission_Reprentatives = () => {
                                       Dr. Jaimin N Undavia, Assistant Professor
                                     </p>
                                     <p>
-                                      <i className="icofont-email"></i>{" "}
+                                      <i className="icofont-email mr-2"></i>
                                       admission_cmpica@charusat.ac.in
                                     </p>
                                     <p>
@@ -73,7 +73,7 @@ const Admission_Reprentatives = () => {
                                     <p>Computer Engineering</p>
                                     <p>Mrs Mayuri Popat, Assistant Professor</p>
                                     <p>
-                                      <i className="icofont-email"></i>{" "}
+                                      <i className="icofont-email mr-2"></i>
                                       admission_cspit_ce@charusat.ac.in
                                     </p>
                                     <p>
@@ -96,7 +96,7 @@ const Admission_Reprentatives = () => {
                                       Ms Rekha Karangiya, Assistant Professor
                                     </p>
                                     <p>
-                                      <i className="icofont-email"></i>{" "}
+                                      <i className="icofont-email mr-2"></i>
                                       admission_cspit_it@charusat.ac.in
                                     </p>
                                     <p>
@@ -114,7 +114,7 @@ const Admission_Reprentatives = () => {
                                     <p>Electronics & Communication Engg.</p>
                                     <p>Ms Poonam Thanki, Assistant Professor</p>
                                     <p>
-                                      <i className="icofont-email"></i>{" "}
+                                      <i className="icofont-email mr-2"></i>
                                       admission_cspit_ec@charusat.ac.in
                                     </p>
                                     <p>
@@ -133,7 +133,7 @@ const Admission_Reprentatives = () => {
                                     <p>Electrical Engineering</p>
                                     <p>Mr. Pratik Mochi, Assistant Professor</p>
                                     <p>
-                                      <i className="icofont-email"></i>{" "}
+                                      <i className="icofont-email mr-2"></i>
                                       admission_cspit_ee@charusat.ac.in
                                     </p>
                                     <p>
@@ -156,7 +156,7 @@ const Admission_Reprentatives = () => {
                                       Mr. Ankit Wankawala, Assistant Professor
                                     </p>
                                     <p>
-                                      <i className="icofont-email"></i>{" "}
+                                      <i className="icofont-email mr-2"></i>
                                       admission_cspit_cl@charusat.ac.in
                                     </p>
                                     <p>
@@ -176,7 +176,7 @@ const Admission_Reprentatives = () => {
                                       Mr. Sagar Chokshi, Assistant Professor
                                     </p>
                                     <p>
-                                      <i className="icofont-email"></i>{" "}
+                                      <i className="icofont-email mr-2"></i>
                                       admission_cspit_me@charusat.ac.in
                                     </p>
                                     <p>
@@ -188,15 +188,15 @@ const Admission_Reprentatives = () => {
                                 <Col>
                                   <div className="card p-2">
                                     <h6>
-                                      Bapubhai Desaibhai Patel Institute of Paramedical Sciences
-
+                                      Bapubhai Desaibhai Patel Institute of
+                                      Paramedical Sciences
                                     </h6>
                                     <p>B Sc & M Sc</p>
                                     <p>
                                       Mr. Yogesh Chauhan, Assistant Professor
                                     </p>
                                     <p>
-                                      <i className="icofont-email"></i>{" "}
+                                      <i className="icofont-email mr-2"></i>
                                       admission_cips@charusat.ac.in
                                     </p>
                                     <p>
@@ -218,7 +218,7 @@ const Admission_Reprentatives = () => {
                                       Mr. Hardik Jayswal, Assistant Professor
                                     </p>
                                     <p>
-                                      <i className="icofont-email"></i>{" "}
+                                      <i className="icofont-email mr-2"></i>
                                       admission_depstar@charusat.ac.in
                                     </p>
                                     <p>
@@ -236,7 +236,7 @@ const Admission_Reprentatives = () => {
                                     <p>BBA / MBA / PGDM</p>
                                     <p>Dr. Pramod Patel, Librarian</p>
                                     <p>
-                                      <i className="icofont-email"></i>{" "}
+                                      <i className="icofont-email mr-2"></i>
                                       admission_i2im@charusat.ac.in
                                     </p>
                                     <p>
@@ -256,7 +256,7 @@ const Admission_Reprentatives = () => {
                                       Mr. Jamin Chauhan, Assistant Professor
                                     </p>
                                     <p>
-                                      <i className="icofont-email"></i>{" "}
+                                      <i className="icofont-email mr-2"></i>
                                       admission_mtin@charusat.ac.in
                                     </p>
                                     <p>
@@ -276,7 +276,7 @@ const Admission_Reprentatives = () => {
                                     <p>B Sc & M Sc</p>
                                     <p>Mr. Rakesh Dave, Assistant Registrar</p>
                                     <p>
-                                      <i className="icofont-email"></i>{" "}
+                                      <i className="icofont-email mr-2"></i>
                                       admission_pdpias@charusat.ac.in
                                     </p>
                                     <p>
@@ -294,7 +294,7 @@ const Admission_Reprentatives = () => {
                                     <p>B.Pharm. / M.Pharm.</p>
                                     <p>Dr. Ashish Patel, Assistant Professor</p>
                                     <p>
-                                      <i className="icofont-email"></i>{" "}
+                                      <i className="icofont-email mr-2"></i>
                                       admission_rpcp@charusat.ac.in
                                     </p>
                                     <p>

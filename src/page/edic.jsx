@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 import Contact from "../component/section/contact";
 import Image from "react-bootstrap/Image";
-import servicesOffered from '../files/edic/services offered.png'
-import edicModel from '../files/edic/edic model.png'
-import incubationSummary from '../files/edic/incubation summary.png'
-import activitySummary from '../files/edic/activity summary.png'
-import Card from 'react-bootstrap/Card';
-import Row from 'react-bootstrap/Row';
+import servicesOffered from "../files/edic/services offered.png";
+import edicModel from "../files/edic/edic model.png";
+import incubationSummary from "../files/edic/incubation summary.png";
+import activitySummary from "../files/edic/activity summary.png";
+import Card from "react-bootstrap/Card";
+import Row from "react-bootstrap/Row";
 
 const Edic = () => {
   return (
@@ -29,11 +29,10 @@ const Edic = () => {
                             </h3>
                             <div className="meta-post">
                               {/* <Image src="./assets/images/CDPC_banner.jpg" /> */}
-                              <Image src="https://placehold.co/800x400?text=EDIC" />
+                              {/* <Image src="https://placehold.co/800x400?text=EDIC" /> */}
                               <br />
-                              <hr />
                               <br />
-{/* <Row xs={1} md={2}>
+                              {/* <Row xs={1} md={2}>
 
       <Card className="m-3">
       <Card.Img variant="top" src="holder.js/100px180" />

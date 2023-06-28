@@ -1,12 +1,7 @@
-import { Component, Fragment } from "react";
-import { Link } from "react-router-dom";
-import PageHeader from "../component/layout/pageheader";
+import { Fragment } from "react";
 import Contact from "../component/section/contact";
 import InquiryForm from "../files/InquiryForm.pdf";
-import IPRBroucher from "../files/iprBrochuer.jpg"
-
-
-
+import IPRBroucher from "../files/iprBrochuer.jpg";
 
 const IPR = () => {
   return (
@@ -33,8 +28,13 @@ const IPR = () => {
                                 innovators within and outside CHARUSAT.
                               </ul>
                               <br />
-                              <a class="lab-btn" href={IPRBroucher}><span>Brochure</span></a>{"    "}
-                              <a class="lab-btn" href={InquiryForm}><span>Inquiry Form</span></a>
+                              <a class="lab-btn" href={IPRBroucher}>
+                                <span>Brochure</span>
+                              </a>
+                              {"    "}
+                              <a class="lab-btn" href={InquiryForm}>
+                                <span>Inquiry Form</span>
+                              </a>
                             </div>
                             <h4>
                               Unique Features of CHARUSAT IPR Facilitation
@@ -125,56 +125,122 @@ const IPR = () => {
                             <hr />
                             <ul className="lab-ul">
                               <li>
+                                {" "}
+                                <strong
+                                  style={{
+                                    fontSize: "1.2rem",
+                                  }}
+                                >
+                                  Patent
+                                </strong>{" "}
+                                <br />
+                                <br />
                                 <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Patent</strong> <br /><br />
-                                <strong>Prior Art Search</strong> - Patentability search for the
-                                novelty of invention in various databases
-                                including patent and non-patent literature.
-                                <br /><br /><strong>Patent Landscape Analysis</strong> - It is a comprehensive
-                                report of the state-of-art search for the
-                                relevant technology with client customization.
-                                <br /><br /><strong>Freedom to Operate Search</strong> - A Freedom to Operate
-                                (FTO) analysis invariably begins by searching
-                                patent literature for issued or pending patents
-                                and obtaining a legal opinion as to whether a
-                                product, process or service may be considered to
-                                infringe any patent(s) owned by others. <br /><br /><strong>Patent
-                                  Drafting</strong> - Techno-legal drafting of complete
-                                specification with claims. <br /><br /><strong>Patent Filing</strong> -
-                                Preparation and submission of Patent Application
-                                at Indian Patent Office. <br /><br /><strong>PCT Application</strong> -
-                                Preparation and submission of PCT Application
-                                for foreign filing. <br /><br /><strong>First Examination Report</strong> -
+                                <strong>Prior Art Search</strong> -
+                                Patentability search for the novelty of
+                                invention in various databases including patent
+                                and non-patent literature.
+                                <br />
+                                <br />
+                                <i className="icofont-tick-mark"></i>{" "}
+                                <strong>Patent Landscape Analysis</strong> - It
+                                is a comprehensive report of the state-of-art
+                                search for the relevant technology with client
+                                customization.
+                                <br />
+                                <br />
+                                <i className="icofont-tick-mark"></i>{" "}
+                                <strong>Freedom to Operate Search</strong> - A
+                                Freedom to Operate (FTO) analysis invariably
+                                begins by searching patent literature for issued
+                                or pending patents and obtaining a legal opinion
+                                as to whether a product, process or service may
+                                be considered to infringe any patent(s) owned by
+                                others. <br />
+                                <br />
+                                <i className="icofont-tick-mark"></i>{" "}
+                                <strong>Patent Drafting</strong> - Techno-legal
+                                drafting of complete specification with claims.{" "}
+                                <br />
+                                <br />
+                                <i className="icofont-tick-mark"></i>{" "}
+                                <strong>Patent Filing</strong> - Preparation and
+                                submission of Patent Application at Indian
+                                Patent Office. <br />
+                                <br />
+                                <i className="icofont-tick-mark"></i>{" "}
+                                <strong>PCT Application</strong> - Preparation
+                                and submission of PCT Application for foreign
+                                filing. <br />
+                                <br />
+                                <i className="icofont-tick-mark"></i>{" "}
+                                <strong>First Examination Report</strong> -
                                 (FER) To construe the FER for inventor/applicant
                                 and prepare the best response to FER
-                                <br /><br /><strong>Communication and hearing with IPO/IPAB</strong> - To
-                                provide legal support for hearing at the
+                                <br />
+                                <br />
+                                <i className="icofont-tick-mark"></i>{" "}
+                                <strong>
+                                  Communication and hearing with IPO/IPAB
+                                </strong>{" "}
+                                - To provide legal support for hearing at the
                                 Intellectual Property Appellate Board.
                               </li>
                               <br />
                               <li>
+                                {" "}
+                                <strong style={{ fontSize: "1.2rem" }}>
+                                  Copyright
+                                </strong>
+                                <br />
+                                <br />
                                 <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Copyright</strong>
-                                <br /><br /><strong>Software </strong>
-                                Copyright filing at the Indian Copyright Office for software related innovation.
-                                <br /><br /><strong>Literature and art </strong>
-                                Copyright filing at the Indian Copyright Office for literature and art-related innovation.
+                                <strong>Software </strong>
+                                Copyright filing at the Indian Copyright Office
+                                for software related innovation.
+                                <br />
+                                <br />
+                                <i className="icofont-tick-mark"></i>{" "}
+                                <strong>Literature and art </strong>
+                                Copyright filing at the Indian Copyright Office
+                                for literature and art-related innovation.
                               </li>
                               <br />
                               <li>
+                                <strong
+                                  style={{
+                                    fontSize: "1.2rem",
+                                  }}
+                                >
+                                  Trademark
+                                </strong>{" "}
+                                <br />
+                                <br />
                                 <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Trademark</strong> <br /><br />
-                                Registration of Trademark at the Trademark office
+                                Registration of Trademark at the Trademark
+                                office
                               </li>
                               <br />
                               <li>
+                                <strong
+                                  style={{
+                                    fontSize: "1.2rem",
+                                  }}
+                                >
+                                  Industrial Design
+                                </strong>
+                                <br />
+                                <br />
                                 <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Industrial Design</strong>
-                                <br /><br /><strong>Design Search </strong>
-                                Search for anticipation/existence of similar design before application.
-                                <br /><br /><strong>Design Registration </strong>
-                                Preparation of documents and application for the Indian Patent Office.
-                                idea.
+                                <strong>Design Search </strong>
+                                Search for anticipation/existence of similar
+                                design before application.
+                                <br />
+                                <br />
+                                <i className="icofont-tick-mark"></i>{" "}
+                                <strong>Design Registration </strong>
+                                Preparation of documents and application for the
+                                Indian Patent Office. idea.
                               </li>
                             </ul>
                           </div>
@@ -191,10 +257,6 @@ const IPR = () => {
               email="swayamprakash.patel@charusat.ac.in"
               phone="+91-8780034097"
             />
-
-
-
-
           </div>
         </div>
       </div>
