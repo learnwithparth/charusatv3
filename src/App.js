@@ -86,6 +86,8 @@ import EOC from "./page/EOC";
 import WDC from "./page/WDC";
 import DvvClarifications from "./page/dvv_clarifications";
 import IEC from "./page/IEC";
+import VisionMission from "./component/section/Vision_Mission";
+import Torchbearers from "./component/section/Torchbearers";
 
 function App() {
   // const basename = document.querySelector('base')?.getAttribute('href') ?? '/'    ;
@@ -172,6 +174,8 @@ function App() {
         <Route path="/eoc" element={<EOC />} />
         <Route path="/wdc" element={<WDC />} />
         <Route path="/IEC" element={<IEC />} />
+        <Route path="/mission-vision" element={<VisionMission />} />
+        <Route path="/torchbearers" element={<Torchbearers />} />
         {/* http://preview.themeforest.net/item/edukon-education-and-lms-react-js-template/full_screen_preview/38286924?_ga=2.76967702.264634929.1671012406-1346785869.1667801964 */}
         {/* <Route path="/announcements" element={<Announcements />} /> */}
         {/* <Route path="/accreditation" element={<Accreditation />} /> */}
