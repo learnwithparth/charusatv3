@@ -8,7 +8,7 @@ const title = "President's Welcome";
 
 const PresidentDesk = () => {
   return (
-    <div className="blog-section padding-tb section-bg">
+    <div className="about-section style-3 padding-tb section-bg">
 
       <Helmet>
         <title>CHARUSAT President</title>
@@ -26,10 +26,10 @@ const PresidentDesk = () => {
         <meta property="og:description" content="Message from president of CHARUSAT" />
         <meta name="author" content="CHARUSAT Web Team" />
       </Helmet>
-      <div className="container">
+      <div className="container post-item style-2">
         <div className="row">
           <div className="col-sm-3">
-            <div className="about-left mt-5">
+            <div className="about-left mt-1">
               <div
                 className="about-thumb"
                 style={{
@@ -40,7 +40,7 @@ const PresidentDesk = () => {
               >
                 <img
                   src="assets/images/about/President_sir.png"
-                  alt="about"
+                  alt="Presindent"
                   style={{ margin: "0 auto" }}
                 />
               </div>
@@ -52,9 +52,12 @@ const PresidentDesk = () => {
           </div>
           <div className="col-sm-9">
             <div className="about-right">
-              <div className="section-header">
+              
                 {/* <span className="subtitle">{subTitle}</span> */}
-                <h2 className="title">{title}</h2>
+                <div className="post-inner">
+                <div className="post-content">
+                <center><h2 className="title">{title}</h2></center>
+                <hr/>
                 <p style={{ textAlign: "justify", lineHeight: "1.8rem" }}>
                   Intelligence with Character is the true goal of Education.{" "}
                   <strong>
@@ -132,6 +135,9 @@ const PresidentDesk = () => {
             <p className="">
               <strong>- Mr. Surendra M. Patel</strong>
             </p>
+            </div>
+          
+
               </div>
             </div>
           </div>
