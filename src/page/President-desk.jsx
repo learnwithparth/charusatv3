@@ -90,11 +90,7 @@ const PresidentDesk = () => {
                   <strong>Human Resource Development Centre</strong> hones
                   competencies of Faculty and Staff on Campus.
                 </p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <p style={{ textAlign: "justify", lineHeight: "1.8rem" }}>
+                <p style={{ textAlign: "justify", lineHeight: "1.8rem" }}>
               Through these initiatives and practices, CHARUSAT focuses on
               converting eyes into sight and vision; information into knowledge
               and wisdom; and students / individuals into citizens and harmonious living.
@@ -136,6 +132,11 @@ const PresidentDesk = () => {
             <p className="">
               <strong>- Mr. Surendra M. Patel</strong>
             </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            
           </div>
         </div>
       </div>
