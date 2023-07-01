@@ -100,16 +100,16 @@ const CDPC = () => {
                             </div>
                             <h4>The Cell Works For</h4>
 
-                            <ul className="lab-ul">
+                            <ul>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 {/* <strong> */}
                                   Building your careers
                                   {/* </strong> */}
                                   {" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 {/* <strong> */}
                                   Preparing you for jobs, higher education,
                                   entrepreneurship, and other career options
@@ -120,9 +120,9 @@ const CDPC = () => {
                             <br />
                             <h4>CDPC Offers</h4>
 
-                            <ul className="lab-ul">
+                            <ul>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 {/* <strong> */}
                                   Extensive resources to support your connection
                                   to a career
@@ -130,11 +130,11 @@ const CDPC = () => {
                                 {" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 Expert counselling{" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 Training and Guidance{" "}
                               </li>
                             </ul>
@@ -144,39 +144,39 @@ const CDPC = () => {
                               Assistance!
                             </h4>
 
-                            <ul className="lab-ul">
+                            <ul>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 Internship Support{" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 Aptitude Training{" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 Mock Interview{" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 
                                   Higher Education / Foreign Education Guidance
                                 {" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 
                                   Soft Skills / Personality Development
                                 {" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 
                                   On-Campus and Off-Campus Recruitment
                                 {" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 
                                   Training for IELTS, TOEFL, GRE, GMAT, CAT,
                                   GPSC, UPSC and more
@@ -186,9 +186,9 @@ const CDPC = () => {
                             <br />
                             <h4>Activities of CDPC</h4>
 
-                            <ul className="lab-ul">
+                            <ul>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 
                                   Training Activities and Interview Preparation
                                 {" "}
@@ -198,7 +198,7 @@ const CDPC = () => {
                                 R&D and NGOs.
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 Mock Placement Drive - Be it
                                 resume building, aptitude training, preparing
                                 for group discussion and interview; we will
@@ -206,7 +206,7 @@ const CDPC = () => {
                                 placement.
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 Placement Activities - CHARUSAT
                                 has a history of not only higher placement
                                 percentage but also placement in leading
@@ -217,14 +217,14 @@ const CDPC = () => {
                                 job through on-campus/off-campus recruitments.
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 Training Activities - The
                                 training programs offered include Behavioral
                                 Skills, Technical Skills, Personality
                                 Development, and Communication Skills.
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 Higher Education Helpdesk - At
                                 CHARUSAT, we organize USA/UK Education fair to
                                 help you connect directly to the foreign
@@ -237,7 +237,7 @@ const CDPC = () => {
                                 all required assistance.
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 Career Guidance - We will
                                 prepare you for various career avenues and
                                 options like jobs in PSU by offering you

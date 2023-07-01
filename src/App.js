@@ -95,86 +95,86 @@ function App() {
       <ScrollToTop />
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} /> //Helmet done
-        <Route path="/home" element={<Home />} /> //Helmet done
+        <Route path="./" element={<Home />} /> //Helmet done
+        <Route path="./home" element={<Home />} /> //Helmet done
         <Route
-          path="/undergraduate-courses"
+          path="./undergraduate-courses"
           element={<UndergraduateCourses />}
         />
-        <Route path="/postgraduate-courses" element={<PostgraduateCourses />} />
-        <Route path="/ug-courses-list" element={<Course />} />
-        <Route path="/transport" element={<Transport />} /> //Helmet done
-        <Route path="/donation" element={<Donation />} /> //Helmet done
-        <Route path="/ipr" element={<IPR />} />
-        <Route path="/csrtc" element={<CSRTC />} />
-        <Route path="/hostels" element={<Hostels />} /> //Helmet done
+        <Route path="./postgraduate-courses" element={<PostgraduateCourses />} />
+        <Route path="./ug-courses-list" element={<Course />} />
+        <Route path="./transport" element={<Transport />} /> //Helmet done
+        <Route path="./donation" element={<Donation />} /> //Helmet done
+        <Route path="./ipr" element={<IPR />} />
+        <Route path="./csrtc" element={<CSRTC />} />
+        <Route path="./hostels" element={<Hostels />} /> //Helmet done
         <Route
-          path="/admission-reprentatives"
+          path="./admission-reprentatives"
           element={<Admission_Reprentatives />}
         />
         <Route
-          path="/certification-courses"
+          path="./certification-courses"
           element={<Certification_Courses />}
         />
-        <Route path="/course-single" element={<Course />} />
-        <Route path="/wincell" element={<Wincell />} />
-        <Route path="/convocations" element={<Convocations />} /> //Helmet done
-        <Route path="/campus-map" element={<Campus_Map />} /> //Helmet done
-        <Route path="/careers" element={<Careers />} /> //Helmet done
-        <Route path="/policies_terms" element={<PoliciesTerms />} />
-        <Route path="/code-of-conduct" element={<CodeOfConduct />} />
-        <Route path="/placement" element={<Placement />} /> //Helmet done
-        <Route path="/library" element={<Library />} /> //Helmet done
-        <Route path="/about" element={<About_us />} />
-        <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/ipr-facilitation" element={<IPR />} />
-        <Route path="/cdpc" element={<CDPC />} /> //Helmet done
-        <Route path="/ethics" element={<Ethics />} />
-        <Route path="/research" element={<ResearchPage />} />
-        <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/student-development-initiatives" element={<SDI />} />{" "}
+        <Route path="./course-single" element={<Course />} />
+        <Route path="./wincell" element={<Wincell />} />
+        <Route path="./convocations" element={<Convocations />} /> //Helmet done
+        <Route path="./campus-map" element={<Campus_Map />} /> //Helmet done
+        <Route path="./careers" element={<Careers />} /> //Helmet done
+        <Route path="./policies_terms" element={<PoliciesTerms />} />
+        <Route path="./code-of-conduct" element={<CodeOfConduct />} />
+        <Route path="./placement" element={<Placement />} /> //Helmet done
+        <Route path="./library" element={<Library />} /> //Helmet done
+        <Route path="./about" element={<About_us />} />
+        <Route path="./about-us" element={<AboutUs />} />
+        <Route path="./ipr-facilitation" element={<IPR />} />
+        <Route path="./cdpc" element={<CDPC />} /> //Helmet done
+        <Route path="./ethics" element={<Ethics />} />
+        <Route path="./research" element={<ResearchPage />} />
+        <Route path="./contact-us" element={<ContactUs />} />
+        <Route path="./student-development-initiatives" element={<SDI />} />{" "}
         //Helmet done
-        <Route path="/provost-desk" element={<ProvostDesk />} /> //Helmet done
-        <Route path="/president-desk" element={<PresidentDesk />} /> //Helmet
+        <Route path="./provost-desk" element={<ProvostDesk />} /> //Helmet done
+        <Route path="./president-desk" element={<PresidentDesk />} /> //Helmet
         done
-        <Route path="/associates" element={<People />} />
+        <Route path="./associates" element={<People />} />
         //Helmet done
         <Route
-          path="/accreditation-and-ranking"
+          path="./accreditation-and-ranking"
           element={<Accreditation />}
         />{" "}
         //Helmet done
-        <Route path="/announcements" element={<Announcements />} />
+        <Route path="./announcements" element={<Announcements />} />
         <Route
-          path="/student-wellness-program"
+          path="./student-wellness-program"
           element={<WellnessProgram />}
         />{" "}
         //Helmet done
-        <Route path="/upcoming-events" element={<UpcomingEvents />} />
-        <Route path="/edic" element={<Edic />} />
-        <Route path="/scholarship" element={<Scholarship />} />
-        <Route path="/student-corner" element={<StudentCorner />} />
-        <Route path="/crtc" element={<CSRTC />} />
-        <Route exact path="/ph-d-programs" element={<PhDPrograms />} />
-        <Route path="/annual-report" element={<AnnualReport />} />
-        <Route path="university-industry-interaction-cell" element={<UIIC />} />
-        <Route path="/anti-ragging" element={<AntiRagging />} />
-        <Route path="/GRC" element={<GRC />} />
-        <Route path="/CREDP" element={<CREDP />} />
-        <Route path="/hrdc" element={<HRDC />} />
-        <Route path="/cpsh" element={<CPSH />} />
-        <Route path="/dvv_clarifications" element={<DvvClarifications />} />
+        <Route path="./upcoming-events" element={<UpcomingEvents />} />
+        <Route path="./edic" element={<Edic />} />
+        <Route path="./scholarship" element={<Scholarship />} />
+        <Route path="./student-corner" element={<StudentCorner />} />
+        <Route path="./crtc" element={<CSRTC />} />
+        <Route exact path="./ph-d-programs" element={<PhDPrograms />} />
+        <Route path="./annual-report" element={<AnnualReport />} />
+        <Route path=".university-industry-interaction-cell" element={<UIIC />} />
+        <Route path="./anti-ragging" element={<AntiRagging />} />
+        <Route path="./GRC" element={<GRC />} />
+        <Route path="./CREDP" element={<CREDP />} />
+        <Route path="./hrdc" element={<HRDC />} />
+        <Route path="./cpsh" element={<CPSH />} />
+        <Route path="./dvv_clarifications" element={<DvvClarifications />} />
         {/*  */}
-        <Route path="/coming-soon" element={<ComingSoon />} />
-        <Route path="/error" element={<ErrorPage />} />
+        <Route path="./coming-soon" element={<ComingSoon />} />
+        <Route path="./error" element={<ErrorPage />} />
         <Route path="*" element={<Home />} />
-        <Route path="/ecc" element={<ECC />} />
-        <Route path="/eoc" element={<EOC />} />
-        <Route path="/wdc" element={<WDC />} />
-        <Route path="/IEC" element={<IEC />} />
+        <Route path="./ecc" element={<ECC />} />
+        <Route path="./eoc" element={<EOC />} />
+        <Route path="./wdc" element={<WDC />} />
+        <Route path="./IEC" element={<IEC />} />
         {/* http://preview.themeforest.net/item/edukon-education-and-lms-react-js-template/full_screen_preview/38286924?_ga=2.76967702.264634929.1671012406-1346785869.1667801964 */}
-        {/* <Route path="/announcements" element={<Announcements />} /> */}
-        {/* <Route path="/accreditation" element={<Accreditation />} /> */}
+        {/* <Route path="./announcements" element={<Announcements />} /> */}
+        {/* <Route path="./accreditation" element={<Accreditation />} /> */}
       </Routes>
       <Footer />
     </BrowserRouter>
