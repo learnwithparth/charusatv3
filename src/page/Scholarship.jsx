@@ -115,65 +115,20 @@ const Scholarship = () => {
                                         aria-labelledby="accordion01"
                                         data-bs-parent="#accordionExample"
                                       >
-                                        <ul className="lab-ul video-item-list p-3">
-                                          <li className=" d-flex flex-wrap justify-content-between">
-                                            <h5>
-                                              Scholarships available for
-                                              Domestic students Academic Year:
-                                              2023-24
-                                            </h5>
-                                          </li>
-                                          <li
-                                            className="d-flex"
-                                            style={{
-                                              width: "100%",
-                                              flexDirection: "column",
-                                            }}
-                                          >
-                                            {/*  */}
-                                            {innerData1.map((item, index) => (
-                                              <div
-                                                className="accordion "
-                                                id={`accordionExampleInner${index}`}
-                                                style={{
-                                                  width: "100%",
-                                                }}
-                                              >
-                                                <div className="accordion-item">
-                                                  <div
-                                                    className="accordion-header"
-                                                    id={`accordion01Inner${index}`}
-                                                  >
-                                                    <button
-                                                      className="d-flex flex-wrap justify-content-between text-white"
-                                                      style={{ width: "100%" }}
-                                                      data-bs-toggle="collapse"
-                                                      data-bs-target={`#videolist1Inner${index}`}
-                                                      aria-expanded="true"
-                                                      aria-controls={`videolist1Inner${index}`}
-                                                    >
-                                                      {item.title}
-                                                    </button>
-                                                  </div>
-                                                  <div
-                                                    id={`videolist1Inner${index}`}
-                                                    className="accordion-collapse collapse show"
-                                                    aria-labelledby="accordion01Inner"
-                                                    data-bs-parent="#accordionExampleInner"
-                                                  >
-                                                    <ul className="lab-ul video-item-list p-3">
-                                                      <li className=" d-flex flex-wrap justify-content-between">
-                                                        {item.data}
-                                                      </li>
-                                                    </ul>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            ))}
+                                        {/*  */}
+                                        {innerData1.map((item, index) => (
+                                          <ul className="my-5 mx-4 lab-ul">
+                                            <li>
+                                              <h5>
+                                                <i className="icofont-tick-mark"></i>{" "}
+                                                {item.title}
+                                              </h5>
+                                              <p>{item.data}</p>
+                                            </li>
+                                          </ul>
+                                        ))}
 
-                                            {/*  */}
-                                          </li>
-                                        </ul>
+                                        {/*  */}
                                       </div>
                                     </div>
                                   </div>

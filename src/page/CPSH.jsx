@@ -1,6 +1,5 @@
 import { Fragment } from "react";
 import Contact from "../component/section/contact";
-import { color } from "@mui/system";
 import "../assets/css/EOC.css";
 
 const CPSH = () => {
@@ -24,19 +23,22 @@ const CPSH = () => {
                             <div className="meta-post">
                               <h4>Objective</h4>
                               The objectives of the Cell and its policy are:
-                              <ul>
+                              <ul className="lab-ul">
                                 <li>
-                                  To create a healthy working environment for
-                                  both the genders by establishing guidelines to
+                                  <i className="icofont-tick-mark"></i> To
+                                  create a healthy working environment for both
+                                  the genders by establishing guidelines to
                                   deter any Sexual Harassment
                                 </li>
                                 <li>
-                                  To encourage raising of awareness about gender
+                                  <i className="icofont-tick-mark"></i> To
+                                  encourage raising of awareness about gender
                                   sensitivity and gender equality at campus
                                 </li>
                                 <li>
-                                  To set a process of accepting grievances on
-                                  sexual harassment, gender dignity, their fair
+                                  <i className="icofont-tick-mark"></i> To set a
+                                  process of accepting grievances on sexual
+                                  harassment, gender dignity, their fair
                                   investigation and appropriate action on the
                                   findings of the enquiries
                                 </li>
@@ -50,6 +52,7 @@ const CPSH = () => {
                               in authority, whether either directly or by
                               implications, such as following:
                               <ul
+                                className="lab-ul"
                                 style={{
                                   display: "flex",
                                   flexDirection: "column",
@@ -57,46 +60,72 @@ const CPSH = () => {
                                   justifyContent: "flex-start",
                                 }}
                               >
-                                <li>Eve teasing</li>
                                 <li>
-                                  Jokes causing or likely to cause awkwardness
-                                  or embarrassment
+                                  <i className="icofont-tick-mark"></i> Eve
+                                  teasing
                                 </li>
-                                <li>Unsavory remarks </li>
-                                <li>Gender Based insults or sexiest remarks</li>
-                                <li>Innuendos and taunts </li>
                                 <li>
+                                  <i className="icofont-tick-mark"></i> Jokes
+                                  causing or likely to cause awkwardness or
+                                  embarrassment
+                                </li>
+                                <li>
+                                  <i className="icofont-tick-mark"></i> Unsavory
+                                  remarks{" "}
+                                </li>
+                                <li>
+                                  <i className="icofont-tick-mark"></i> Gender
+                                  Based insults or sexiest remarks
+                                </li>
+                                <li>
+                                  <i className="icofont-tick-mark"></i>{" "}
+                                  Innuendos and taunts{" "}
+                                </li>
+                                <li>
+                                  <i className="icofont-tick-mark"></i>{" "}
                                   Unwelcome sexual overtone in any manner such
                                   as over telephone (Obnoxious telephone calls)
                                   and the like
                                 </li>
                                 <li>
-                                  Touching or brushing against any part of the
-                                  body and the like
+                                  <i className="icofont-tick-mark"></i> Touching
+                                  or brushing against any part of the body and
+                                  the like
                                 </li>
                                 <li>
-                                  Display of pornographic or other offensive or
+                                  <i className="icofont-tick-mark"></i> Display
+                                  of pornographic or other offensive or
                                   derogatory pictures, cartoons pamphlets or
                                   sayings
                                 </li>
-                                <li>Forcible physical touch or molestation </li>
                                 <li>
-                                  Physical confinement against one’s will and
-                                  any other act likely to violate one’s privacy
+                                  <i className="icofont-tick-mark"></i> Forcible
+                                  physical touch or molestation{" "}
                                 </li>
                                 <li>
+                                  <i className="icofont-tick-mark"></i> Physical
+                                  confinement against one’s will and any other
+                                  act likely to violate one’s privacy
+                                </li>
+                                <li>
+                                  <i className="icofont-tick-mark"></i>{" "}
                                   Unwelcomed physical contacts and advances
                                 </li>
-                                <li>A communication for sexual favors </li>
                                 <li>
-                                  Any other unwelcome, physical, verbal or
+                                  <i className="icofont-tick-mark"></i> A
+                                  communication for sexual favors{" "}
+                                </li>
+                                <li>
+                                  <i className="icofont-tick-mark"></i> Any
+                                  other unwelcome, physical, verbal or
                                   non-verbal conduct of sexual nature directly,
                                   indirectly, or through electronic media like
                                   SMS, MMS, Social Networking sites etc.
                                 </li>
                                 <li>
-                                  Any act of Gender Discrimination such as
-                                  denial of employment to women due to women’s
+                                  <i className="icofont-tick-mark"></i> Any act
+                                  of Gender Discrimination such as denial of
+                                  employment to women due to women’s
                                   reproductive role, or rigidity in attitude,
                                   which hinders the reproductive role of women
                                   (for example, non-flexible work hours and
