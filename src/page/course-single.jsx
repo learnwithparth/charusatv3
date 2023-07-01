@@ -735,6 +735,28 @@ const CourseList = [
     programCode: "1407",
   },
   {
+    courseName:
+      "Bachelor of Technology (Computer Science and Engineering Artificial Intelligence and Machine Learning)",
+    faculty: "Faculty of Technology and Engineering",
+    Institute:
+      "Chandubhai S. Patel Insitute of Technology(CSPIT) | Devang Patel Institute of Advance Technology and Research (DEPSTAR)",
+    CourseDuration: "04 Years",
+    Intake: "CSPIT-60 | DEPSTAR-120",
+    Fees: "CSPIT-Rs 1,35,000/- | DEPSTAR-Rs 1,0,000/-",
+    Eligibility:
+      "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
+    syllabusBtn: "View Syllabus",
+    syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/CSE/",
+    brochureBtn: "Download Brochure",
+    brochureLink: "",
+    websiteBtn: "Visit CSPIT",
+    websiteLink: "https://charusat.ac.in/cspit/ce/",
+    txtBtn4: "Visit DEPSTAR",
+    linkbtn4: "https://charusat.ac.in/depstar/cse/",
+    showLinkBtn4: true,
+    programCode: "14075",
+  },
+  {
     courseName: "Bachelor of Technology (Electrical Engineering)",
     faculty: "Faculty of Technology and Engineering",
     Institute: "Chandubhai S. Patel Insitute of Technology(CSPIT)",

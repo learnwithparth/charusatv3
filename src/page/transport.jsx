@@ -4,6 +4,7 @@ import PageHeader from "../component/layout/pageheader";
 import Contact from "../component/section/contact";
 import { colors } from "@mui/material";
 import { Helmet } from "react-helmet";
+import { Table } from "react-bootstrap";
 
 const transporterList = [
   {
@@ -88,7 +89,10 @@ const Transport = () => {
         <meta name="google" content="nopagereadaloud" />
         <meta property="og:type" content="homepage" />
         <meta property="og:title" content="CSPIT Homepage" />
-        <meta property="og:description" content="CSPIT - best engineering college to study in Gujarat." />
+        <meta
+          property="og:description"
+          content="CSPIT - best engineering college to study in Gujarat."
+        />
         <meta name="author" content="CHARUSAT Web Team" />
       </Helmet>
       {/* <PageHeader title={'4 Results found for: Business'} curPage={'Search Result'} /> */}
@@ -106,8 +110,39 @@ const Transport = () => {
                             <h3>Transportation Facilities</h3>
                             <div className="meta-post">
                               <ul className="lab-ul">
-                                At CHARUSAT, we understand that transportation is a crucial aspect of student life. To ensure that our students have easy access to our campus, we have partnered with reliable transport providers to offer daily bus services from Ahmedabad, Nadiad, Anand, and Vadodara. In addition, we have our own vehicles that are used for internal transportation needs.
+                                At CHARUSAT, we understand that transportation
+                                is a crucial aspect of student life. To ensure
+                                that our students have easy access to our
+                                campus, we have partnered with reliable
+                                transport providers to offer daily bus services
+                                from Ahmedabad, Nadiad, Anand, and Vadodara. In
+                                addition, we have our own vehicles that are used
+                                for internal transportation needs.
                               </ul>
+                              <Table striped bordered hover className="my-3">
+                                <thead>
+                                  <tr>
+                                    <th>Sr No.</th>
+                                    <th>Route</th>
+                                    <th>Transporters' Name</th>
+                                    <th>Contact Person</th>
+                                    <th>Contact No.</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  {transporterList.map((val, i) => (
+                                    <tr key={i}>
+                                      <td className="product-item cat-product">
+                                        {val.srNo}
+                                      </td>
+                                      <td>{val.route}</td>
+                                      <td>{val.transporterName}</td>
+                                      <td>{val.contactPerson}</td>
+                                      <td>{val.contactNo}</td>
+                                    </tr>
+                                  ))}
+                                </tbody>
+                              </Table>
                             </div>
                             {/* <Link to="/blog-single" className="lab-btn"><span>Operator's Detail <i className="icofont-external-link"></i></span></Link> */}
                           </div>
@@ -159,17 +194,17 @@ const Transport = () => {
           <div className="row justify-content-center">
             <div className="col">
               <div className="shop-cart padding-tb">
-                <div className="container" >
+                <div className="container">
                   <div className="section-wrapper">
-                    <div className="cart-top" >
-                      <table style={{ 'background-color': '#bfd6de' }}>
-                        <thead >
+                    <div>
+                      {/* <Table striped bordered hover>
+                        <thead>
                           <tr>
-                            <th className="cat-product" style={{ 'background-color': '#5b7b86' }}>Sr No.</th>
-                            <th className="cat-product" style={{ 'background-color': '#5b7b86' }}>Route</th>
-                            <th className="cat-price" style={{ 'background-color': '#5b7b86' }}>Transporters' Name</th>
-                            <th className="cat-toprice" style={{ 'background-color': '#5b7b86' }}>Contact Person</th>
-                            <th className="cat-edit" style={{ 'background-color': '#5b7b86' }}>Contact No.</th>
+                            <th>Sr No.</th>
+                            <th>Route</th>
+                            <th>Transporters' Name</th>
+                            <th>Contact Person</th>
+                            <th>Contact No.</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -178,18 +213,14 @@ const Transport = () => {
                               <td className="product-item cat-product">
                                 {val.srNo}
                               </td>
-                              <td className="cat-product">{val.route}</td>
-                              <td className="cat-price">
-                                {val.transporterName}
-                              </td>
-                              <td className="cat-toprice">
-                                {val.contactPerson}
-                              </td>
-                              <td className="cat-edit">{val.contactNo}</td>
+                              <td>{val.route}</td>
+                              <td>{val.transporterName}</td>
+                              <td>{val.contactPerson}</td>
+                              <td>{val.contactNo}</td>
                             </tr>
                           ))}
                         </tbody>
-                      </table>
+                      </Table> */}
                     </div>
                   </div>
                 </div>

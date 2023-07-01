@@ -785,14 +785,17 @@ const Header = () => {
                   {/* <Link to="./about" className="menu-link">
                     About University
                   </Link> */}
-                  <Link to="./about" className="menu-link">
+                  <Link to="./mission-vision" className="menu-link">
                     Vision
                   </Link>
-                  <Link to="./about" className="menu-link">
+                  <Link to="./mission-vision" className="menu-link">
                     Mission
                   </Link>
-                  <Link to="./about" className="menu-link">
+                  <Link to="./torchbearers" className="menu-link">
                     Torchbearers
+                  </Link>
+                  <Link to="./about" className="menu-link">
+                    About
                   </Link>
                   <Link to="./president-desk" className="menu-link">
                     From President's Desk
@@ -1403,9 +1406,16 @@ const Header = () => {
                       About University
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="./about">Vision</Dropdown.Item>
-                      <Dropdown.Item href="./about">Mission</Dropdown.Item>
-                      <Dropdown.Item href="./about">Torchbearers</Dropdown.Item>
+                      <Dropdown.Item href="./mission-vision">
+                        Vision
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./mission-vision">
+                        Mission
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./torchbearers">
+                        Torchbearers
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./about">About</Dropdown.Item>
                       <Dropdown.Item href="./president-desk">
                         From President's Desk
                       </Dropdown.Item>

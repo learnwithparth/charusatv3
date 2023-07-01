@@ -52,10 +52,10 @@ const ProvostDesk = () => {
         <meta property="og:description" content="Provost message" />
         <meta name="author" content="CHARUSAT Web Team" />
       </Helmet>
-      <div className="container">
+      <div className="container post-item style-2">
         <div className="row">
           <div className="col-sm-3">
-            <div className="about-left mt-5">
+            <div className="about-left mt-1">
               <div
                 className="about-thumb"
                 style={{
@@ -66,7 +66,7 @@ const ProvostDesk = () => {
               >
                 <img
                   src="assets/images/about/Provost_RVU.webp"
-                  alt="about"
+                  alt="Provost"
                   style={{ margin: "0 auto" }}
                 />
               </div>
@@ -80,7 +80,10 @@ const ProvostDesk = () => {
             <div className="about-right">
             <div className="section-header">
                 {/* <span className="subtitle">{subTitle}</span> */}
-                <h2 className="title">{title}</h2>
+                <div className="post-inner">
+                <div className="post-content">
+                <center><h2 className="title">{title}</h2></center>
+                <hr/>
                 {/* <p style={{ textAlign: "justify" }}>{desc}</p> */}
                 <p style={{ textAlign: "justify", lineHeight: "1.8rem" }}>
                 Charotar University of Science and Technology (CHARUSAT) has been conceived by Shri Charotar Moti Sattavis Patidar Kelavani Mandal to put India on global education map by making Charotar – the Land of Sardar Patel, a Global Education Hub. The University fosters an aspiration of being a World Class University. It strives, initially, to be in the league of Top 20 Universities at National Level. 
@@ -92,12 +95,7 @@ const ProvostDesk = () => {
                 <p style={{ textAlign: "justify", lineHeight: "1.8rem" }}>
                 I am honored and privileged to be a Member of CHARUSAT Family during this very special time in its history. I believe that in these challenging times, CHARUSAT Fraternity needs to move forward together and succeed in its mission of preparing the students for global assignments by fostering attitude, building knowledge and sharpening skills so as to create a talent pool best fit not only for jobs but also for entrepreneurship with a spirit of service to the society.
                 </p>
-                
-              </div>
-            </div>
-          </div>
-          <div>
-          <p style={{ textAlign: "justify", lineHeight: "1.8rem" }}>
+                <p style={{ textAlign: "justify", lineHeight: "1.8rem" }}>
                 What distinguishes CHARUSAT from the rest of the universities is how it implements the strategy to achieve its goals. The strategy takes into consideration its own vision, its past accomplishments, its strengths and resources, and the challenges posed by the environment. Primarily, CHARUSAT Framework for Excellence focuses on the Core Performance Areas: Teaching, Learning and Assessment; Research Development and Innovation; and Extension and Community Services and Core Capacity Dimensions like Good Governance, Infrastructure, Faculty Competence, and Student Talent.
                 
                 </p>
@@ -123,10 +121,19 @@ const ProvostDesk = () => {
                 </p>
                 <p style={{ textAlign: "justify", lineHeight: "1.8rem" }}>
                 I look forward to your kind cooperation and support.
-                </p>
+                </p><br/>
             <p className="">
               <strong>- Dr. R. V. Upadhyay</strong>
             </p>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+          <div>
+          
+
+          
           </div>
         </div>
       </div>

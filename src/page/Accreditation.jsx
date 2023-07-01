@@ -1,5 +1,5 @@
-import { Component, Fragment } from "react";
-import React, { useState } from "react";
+import { Fragment } from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
 // import CourseSideCetagory from "../component/sidebar/contact_";
 import Cycle1 from "../component/sidebar/NAAC-Cycle-1";
@@ -7,7 +7,6 @@ import Cycle2 from "../component/sidebar/NAAC-Cycle-2";
 import Contact from "../component/section/contact";
 import NIRF from "../component/sidebar/NIRF";
 import GSIRF from "../component/sidebar/GSIRF";
-import CoeNotification from "../files/Accreditation/CoE-Notification.pdf";
 
 const Accreditation = () => {
   // const [isActive, setIsActive] = useState(null);
@@ -28,7 +27,10 @@ const Accreditation = () => {
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Accreditation earned by CHARUSAT" />
-        <meta name="keywords" content="NAAC Accreditation, NBA Accreditated, Accreditation, CHARUSAT Accreditated A grade by NAAC, CHARUSAT Accreditated A grade by GSIRF and KCG" />
+        <meta
+          name="keywords"
+          content="NAAC Accreditation, NBA Accreditated, Accreditation, CHARUSAT Accreditated A grade by NAAC, CHARUSAT Accreditated A grade by GSIRF and KCG"
+        />
         <meta name="robots" content="index" />
         <meta name="robots" content="follow" />
         <meta name="googlebot" content="index, follow" />
@@ -36,7 +38,10 @@ const Accreditation = () => {
         <meta name="google" content="nopagereadaloud" />
         <meta property="og:type" content="homepage" />
         <meta property="og:title" content="Accreditatiron Homepage" />
-        <meta property="og:description" content="Accreditation - CHARUSAT accreditated with A grade by NAAC" />
+        <meta
+          property="og:description"
+          content="Accreditation - CHARUSAT accreditated with A grade by NAAC"
+        />
         <meta name="author" content="CHARUSAT Web Team" />
       </Helmet>
       <div className="course-single-section padding-tb section-bg">
@@ -178,7 +183,10 @@ const Accreditation = () => {
                             <span>CoE Notification</span>
                           </a>
                           <br/><br/> */}
-                          <img src="assets/images/achive/COE-Certificate.jpg" alt="" />
+                          <img
+                            src="assets/images/achive/COE-Certificate.jpg"
+                            alt=""
+                          />
                         </div>
                       </div>
                     </div>

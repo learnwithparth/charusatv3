@@ -16,7 +16,8 @@ const Scholarship = () => {
       data: "Benificiaries: 1st Rank of 2nd, 3rd & 4th year student of B.Pharm Program.",
     },
     {
-      title: "Late Dahiben Ravjibhai Patel & Dineshbhai Ravjibhai Patel Merit Cum Means Scholarship",
+      title:
+        "Late Dahiben Ravjibhai Patel & Dineshbhai Ravjibhai Patel Merit Cum Means Scholarship",
       data: "Benificiaries: Meritorious & Economically Constrained Students of IT branch of CSPIT (Maximum 2 Students)",
     },
     {
@@ -32,7 +33,8 @@ const Scholarship = () => {
       data: "Benificiaries: Meritorious & Economically Constrained Students of Selected Course (Only for Girls)",
     },
     {
-      title: "Late Kamlaben Ambalal bin Becharbhai, Bakrol and Mrs. Pushpaben Dinesh Patel Merit Cum Means Scholarship",
+      title:
+        "Late Kamlaben Ambalal bin Becharbhai, Bakrol and Mrs. Pushpaben Dinesh Patel Merit Cum Means Scholarship",
       data: "Benificiaries: Meritorious & Economically Constrained Students of DEPSTAR (Maximum 1 student)",
     },
     {
@@ -78,92 +80,102 @@ const Scholarship = () => {
                             <h3>Scholarships @CHARUSAT</h3>
                             <div className="meta-post">
                               {/*  */}
-
-                              <div className="accordion" id="accordionExample">
-                                <div className="accordion-item">
+                              <div className="course-video">
+                                <div className="course-video-content">
                                   <div
-                                    className="accordion-header"
-                                    id="accordion01"
+                                    className="accordion"
+                                    id="accordionExample"
                                   >
-                                    <button
-                                      className="d-flex flex-wrap justify-content-between text-white"
-                                      style={{
-                                        width: "100%",
-                                        fontSize: "1.2rem",
-                                        fontWeight: "bold",
-                                      }}
-                                      data-bs-toggle="collapse"
-                                      data-bs-target="#videolist1"
-                                      aria-expanded="true"
-                                      aria-controls="videolist1"
-                                    >
-                                      Domestic Students
-                                    </button>
-                                  </div>
-                                  <div
-                                    id="videolist1"
-                                    className="accordion-collapse collapse show"
-                                    aria-labelledby="accordion01"
-                                    data-bs-parent="#accordionExample"
-                                  >
-                                    <ul className="lab-ul video-item-list p-3">
-                                      <li className=" d-flex flex-wrap justify-content-between">
-                                        <h5>
-                                          Scholarships available for Domestic
-                                          students Academic Year: 2023-24
-                                        </h5>
-                                      </li>
-                                      <li
-                                        className="d-flex"
-                                        style={{
-                                          width: "100%",
-                                          flexDirection: "column",
-                                        }}
+                                    <div className="accordion-item">
+                                      <div
+                                        className="accordion-header"
+                                        id="accordion01"
                                       >
-                                        {/*  */}
-                                        {innerData1.map((item, index) => (
-                                          <div
-                                            className="accordion "
-                                            id={`accordionExampleInner${index}`}
+                                        <button
+                                          className="d-flex flex-wrap justify-content-between text-white"
+                                          style={{
+                                            width: "100%",
+                                            fontSize: "1.2rem",
+                                            fontWeight: "bold",
+                                          }}
+                                          data-bs-toggle="collapse"
+                                          data-bs-target="#videolist1"
+                                          aria-expanded="true"
+                                          aria-controls="videolist1"
+                                        >
+                                          Domestic Students
+                                          <span>
+                                            <i class="icofont-square-down"></i>
+                                          </span>
+                                        </button>
+                                      </div>
+                                      <div
+                                        id="videolist1"
+                                        className="accordion-collapse collapse show"
+                                        aria-labelledby="accordion01"
+                                        data-bs-parent="#accordionExample"
+                                      >
+                                        <ul className="lab-ul video-item-list p-3">
+                                          <li className=" d-flex flex-wrap justify-content-between">
+                                            <h5>
+                                              Scholarships available for
+                                              Domestic students Academic Year:
+                                              2023-24
+                                            </h5>
+                                          </li>
+                                          <li
+                                            className="d-flex"
                                             style={{
                                               width: "100%",
+                                              flexDirection: "column",
                                             }}
                                           >
-                                            <div className="accordion-item">
+                                            {/*  */}
+                                            {innerData1.map((item, index) => (
                                               <div
-                                                className="accordion-header"
-                                                id={`accordion01Inner${index}`}
+                                                className="accordion "
+                                                id={`accordionExampleInner${index}`}
+                                                style={{
+                                                  width: "100%",
+                                                }}
                                               >
-                                                <button
-                                                  className="d-flex flex-wrap justify-content-between text-white"
-                                                  style={{ width: "100%" }}
-                                                  data-bs-toggle="collapse"
-                                                  data-bs-target={`#videolist1Inner${index}`}
-                                                  aria-expanded="true"
-                                                  aria-controls={`videolist1Inner${index}`}
-                                                >
-                                                  {item.title}
-                                                </button>
+                                                <div className="accordion-item">
+                                                  <div
+                                                    className="accordion-header"
+                                                    id={`accordion01Inner${index}`}
+                                                  >
+                                                    <button
+                                                      className="d-flex flex-wrap justify-content-between text-white"
+                                                      style={{ width: "100%" }}
+                                                      data-bs-toggle="collapse"
+                                                      data-bs-target={`#videolist1Inner${index}`}
+                                                      aria-expanded="true"
+                                                      aria-controls={`videolist1Inner${index}`}
+                                                    >
+                                                      {item.title}
+                                                    </button>
+                                                  </div>
+                                                  <div
+                                                    id={`videolist1Inner${index}`}
+                                                    className="accordion-collapse collapse show"
+                                                    aria-labelledby="accordion01Inner"
+                                                    data-bs-parent="#accordionExampleInner"
+                                                  >
+                                                    <ul className="lab-ul video-item-list p-3">
+                                                      <li className=" d-flex flex-wrap justify-content-between">
+                                                        {item.data}
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
                                               </div>
-                                              <div
-                                                id={`videolist1Inner${index}`}
-                                                className="accordion-collapse collapse show"
-                                                aria-labelledby="accordion01Inner"
-                                                data-bs-parent="#accordionExampleInner"
-                                              >
-                                                <ul className="lab-ul video-item-list p-3">
-                                                  <li className=" d-flex flex-wrap justify-content-between">
-                                                    {item.data}
-                                                  </li>
-                                                </ul>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        ))}
+                                            ))}
 
-                                        {/*  */}
-                                      </li>
-                                    </ul>
+                                            {/*  */}
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
                                   </div>
                                 </div>
                               </div>
@@ -171,42 +183,52 @@ const Scholarship = () => {
                               {/*  */}
 
                               {/*  */}
-                              <div className="accordion" id="accordionExample">
-                                <div className="accordion-item">
+                              <div className="course-video">
+                                <div className="course-video-content">
                                   <div
-                                    className="accordion-header"
-                                    id="accordion01"
+                                    className="accordion"
+                                    id="accordionExample"
                                   >
-                                    <button
-                                      className="d-flex flex-wrap justify-content-between text-white"
-                                      style={{
-                                        width: "100%",
-                                        fontSize: "1.2rem",
-                                        fontWeight: "bold",
-                                      }}
-                                      data-bs-toggle="collapse"
-                                      data-bs-target="#videolist2"
-                                      aria-expanded="true"
-                                      aria-controls="videolist2"
-                                    >
-                                      International Students
-                                    </button>
-                                  </div>
-                                  <div
-                                    id="videolist2"
-                                    className="accordion-collapse collapse show"
-                                    aria-labelledby="accordion01"
-                                    data-bs-parent="#accordionExample"
-                                  >
-                                    <ul className="lab-ul video-item-list p-3">
-                                      <li className=" d-flex flex-wrap justify-content-between">
-                                        <h5>
-                                          Financial assistance available for
-                                          foregin studnets to be admitted in
-                                          Academic Year: 2021-22
-                                        </h5>
-                                      </li>
-                                    </ul>
+                                    <div className="accordion-item">
+                                      <div
+                                        className="accordion-header"
+                                        id="accordion01"
+                                      >
+                                        <button
+                                          className="d-flex flex-wrap justify-content-between text-white"
+                                          style={{
+                                            width: "100%",
+                                            fontSize: "1.2rem",
+                                            fontWeight: "bold",
+                                          }}
+                                          data-bs-toggle="collapse"
+                                          data-bs-target="#videolist2"
+                                          aria-expanded="true"
+                                          aria-controls="videolist2"
+                                        >
+                                          International Students
+                                          <span>
+                                            <i class="icofont-square-down"></i>
+                                          </span>
+                                        </button>
+                                      </div>
+                                      <div
+                                        id="videolist2"
+                                        className="accordion-collapse collapse show"
+                                        aria-labelledby="accordion01"
+                                        data-bs-parent="#accordionExample"
+                                      >
+                                        <ul className="lab-ul video-item-list p-3">
+                                          <li className=" d-flex flex-wrap justify-content-between">
+                                            <h5>
+                                              Financial assistance available for
+                                              foregin studnets to be admitted in
+                                              Academic Year: 2021-22
+                                            </h5>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
                                   </div>
                                 </div>
                               </div>

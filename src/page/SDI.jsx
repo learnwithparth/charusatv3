@@ -21,6 +21,7 @@ import att201617 from "../files/sdi/5.1.3_2016-17_ATT_R1.pdf";
 import att201718 from "../files/sdi/5.1.3_2017-18_ATT_R1.pdf";
 import att201819 from "../files/sdi/5.1.3_2018-19_ATT_R1.pdf";
 import att201920 from "../files/sdi/2019-20_ATT_R1.pdf";
+import { Table } from "react-bootstrap";
 
 const DocList = [
   {
@@ -107,7 +108,6 @@ const DocList = [
     Year: "2019-20",
     doc: att201920,
   },
-
 ];
 
 const SDI = () => {
@@ -127,7 +127,10 @@ const SDI = () => {
         <meta name="google" content="nopagereadaloud" />
         <meta property="og:type" content="homepage" />
         <meta property="og:title" content="CSPIT Homepage" />
-        <meta property="og:description" content="CSPIT - best engineering college to study in Gujarat." />
+        <meta
+          property="og:description"
+          content="CSPIT - best engineering college to study in Gujarat."
+        />
         <meta name="author" content="CHARUSAT Web Team" />
       </Helmet>
       {/* <PageHeader title={'4 Results found for: Business'} curPage={'Search Result'} /> */}
@@ -142,59 +145,126 @@ const SDI = () => {
                       <div className="post-item style-2">
                         <div className="post-inner">
                           <div className="post-content">
-                            <center><h3>Student Development Initiatives</h3></center><br />
-                            <div className="meta-post" style={{ textAlign: "justify" }}>
-                              CHARUSAT fosters holistic development of students, in addition to their academic enrichment and career development. The focus is on shaping up and contribute confident, progressive, skilful and enlightened individuals to the society.
+                            <center>
+                              <h3>Student Development Initiatives</h3>
+                            </center>
+                            <br />
+                            <div
+                              className="meta-post"
+                              style={{ textAlign: "justify" }}
+                            >
+                              CHARUSAT fosters holistic development of students,
+                              in addition to their academic enrichment and
+                              career development. The focus is on shaping up and
+                              contribute confident, progressive, skilful and
+                              enlightened individuals to the society.
                             </div>
                             <br />
-                            <h5>DIVERSE INITIATIVES UNDERTAKEN IN THIS DIRECTION ARE AS FOLLOWS:</h5>
+                            <h5>
+                              DIVERSE INITIATIVES UNDERTAKEN IN THIS DIRECTION
+                              ARE AS FOLLOWS:
+                            </h5>
                             <hr />
                             <ul>
-                              <li>CHARUSAT fosters holistic development of students, in addition to their academic enrichment and career development. The focus is on shaping up and contribute confident, progressive, skilful and enlightened individuals to the society.
-                                -At CHARUSAT, we are committed to nurturing well-rounded individuals who are not only academically competent but also confident, progressive, and skilled contributors to society. We believe in a holistic approach to development that prepares our students for success in all aspects of life.
+                              <li>
+                                CHARUSAT fosters holistic development of
+                                students, in addition to their academic
+                                enrichment and career development. The focus is
+                                on shaping up and contribute confident,
+                                progressive, skilful and enlightened individuals
+                                to the society. -At CHARUSAT, we are committed
+                                to nurturing well-rounded individuals who are
+                                not only academically competent but also
+                                confident, progressive, and skilled contributors
+                                to society. We believe in a holistic approach to
+                                development that prepares our students for
+                                success in all aspects of life.
                               </li>
                               <li>
-                                Courses on ‘Creativity, Problem solving and Innovation’ and ‘Liberal Arts’ to impart opportunities for multidimensional development to students
-
+                                Courses on ‘Creativity, Problem solving and
+                                Innovation’ and ‘Liberal Arts’ to impart
+                                opportunities for multidimensional development
+                                to students
                               </li>
-                              <li>Courses on ‘Creativity, Problem Solving, Innovation’ and ‘Liberal Arts’ for the multidimensional development of students.
-                              </li>
-
-                              <li>Expert sessions/Workshops/Webinars on technological and scientific advancements through a range of national and international experts involved as resource persons
-                              </li>
-                              <li>Expert sessions, workshops, and webinars on technological and scientific advancements by national and international experts as resource persons.
-                              </li>
-                              <li>Organize tech-fests and scientific events to develop leadership skills in students.
+                              <li>
+                                Courses on ‘Creativity, Problem Solving,
+                                Innovation’ and ‘Liberal Arts’ for the
+                                multidimensional development of students.
                               </li>
 
-                              <li>Tech-fests and scientific events to develop leadership skills in students</li>
+                              <li>
+                                Expert sessions/Workshops/Webinars on
+                                technological and scientific advancements
+                                through a range of national and international
+                                experts involved as resource persons
+                              </li>
+                              <li>
+                                Expert sessions, workshops, and webinars on
+                                technological and scientific advancements by
+                                national and international experts as resource
+                                persons.
+                              </li>
+                              <li>
+                                Organize tech-fests and scientific events to
+                                develop leadership skills in students.
+                              </li>
+
+                              <li>
+                                Tech-fests and scientific events to develop
+                                leadership skills in students
+                              </li>
                             </ul>
                             <br />
-                            <h5>The necessary documents to support the data can be accessed using the following links:</h5>
+                            <h5>
+                              The necessary documents to support the data can be
+                              accessed using the following links:
+                            </h5>
                             <hr />
                             <div className="shop-cart">
                               <div className="container-fluid">
                                 <div className="section-wrapper">
-                                  <div className="cart-top">
-
-                                    <table>
+                                  <div className="">
+                                    <Table striped bordered hover>
                                       <thead>
-                                        <tr >
+                                        <tr>
                                           <th>Category</th>
                                           <th>Year</th>
                                           <th>Document Links</th>
                                         </tr>
                                       </thead>
-                                      <tbody >
+                                      <tbody>
                                         {DocList.map((val, i) => (
-                                          <tr key={i} >
-                                            <td style={{ padding: "5px 20px 5px 20px" }}>{val.Category}</td>
-                                            <td style={{ padding: "5px 20px 5px git10px" }}>{val.Year}</td>
-                                            <td style={{ padding: "5px 60px 5px 60px" }}><a href={val.doc} target="_blank"><i class="icofont-file-pdf" style={{ fontSize: "30px" }}></i></a></td>
+                                          <tr key={i}>
+                                            <td
+                                              style={{
+                                                padding: "5px 20px 5px 20px",
+                                              }}
+                                            >
+                                              {val.Category}
+                                            </td>
+                                            <td
+                                              style={{
+                                                padding: "5px 20px 5px git10px",
+                                              }}
+                                            >
+                                              {val.Year}
+                                            </td>
+                                            <td
+                                              style={{
+                                                padding: "5px 60px 5px 60px",
+                                              }}
+                                            >
+                                              <a href={val.doc} target="_blank">
+                                                <i
+                                                  class="icofont-file-pdf"
+                                                  style={{ fontSize: "30px" }}
+                                                ></i>
+                                              </a>
+                                            </td>
                                           </tr>
                                         ))}
                                       </tbody>
-                                    </table>
+                                    </Table>
                                   </div>
                                 </div>
                               </div>
