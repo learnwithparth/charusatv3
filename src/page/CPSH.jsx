@@ -19,9 +19,10 @@ const CPSH = () => {
                           <div className="post-content">
                             <h3>
                               Cell for Prevention of Sexual Harassment (CPSH)
+                              <hr />
                             </h3>
                             <div className="meta-post">
-                              <h4>Objective</h4>
+                              <h5>Objective</h5>
                               The objectives of the Cell and its policy are:
                               <ul className="lab-ul">
                                 <li>
@@ -45,7 +46,7 @@ const CPSH = () => {
                               </ul>
                             </div>
                             <div className="meta-post">
-                              <h4>Definition</h4>
+                              <h5>Definition</h5>
                               Sexual Harassment includes such unwelcome sexually
                               determined behavior by any person individually or
                               in association with other persons or by any person

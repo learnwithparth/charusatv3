@@ -85,7 +85,10 @@ const Edic = () => {
                               <p>
                                 <Image src={incubationSummary} alt="service" />
                               </p>
-                              <p style={{ color: "#3db166" }}>
+                              <br />
+                              <p 
+                              // style={{ color: "#3db166" }}
+                              >
                                 The cell is sensitized to function all through
                                 the year towards generating placement and
                                 training opportunities for the students.
