@@ -53,7 +53,7 @@ const eventSliderList = [
     imgAlt: "EDIC image",
     title: "Entrepreneurship Development and Incubation Cell",
     btnText: "Read More",
-    url: "/edic",
+    url: "./edic",
   },
   {
     imgUrl: "assets/images/initiative/IIC_2.jpg",

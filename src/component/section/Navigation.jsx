@@ -1456,7 +1456,7 @@ const Header = () => {
                       <Dropdown.Item href="./GRC">
                         Grievance Redressal Cell
                       </Dropdown.Item>
-                      <Dropdown.Item href="./edic">
+                      <Dropdown.Item href="/edic">
                         Enterpreneurship Development & Incubation Cell
                       </Dropdown.Item>
                       <Dropdown.Item href="./university-industry-interaction-cell">
