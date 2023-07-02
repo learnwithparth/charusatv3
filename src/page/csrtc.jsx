@@ -31,23 +31,27 @@ const CSRTC = () => {
                             <br />
                             <h4>Objecctives of CSRTC</h4>
                             <hr />
-                            <ul>
+                            <ul className="lab-ul">
                               <li>
-                                To provide best possible educational facilities
-                                for training students for the careers in Space
+                                <i className="icofont-tick-mark"></i> To provide
+                                best possible educational facilities for
+                                training students for the careers in Space
                                 Technology
                               </li>
                               <li>
-                                To provide a healthy atmosphere to students and
-                                faculty for higher studies and research
+                                <i className="icofont-tick-mark"></i> To provide
+                                a healthy atmosphere to students and faculty for
+                                higher studies and research
                               </li>
                               <li>
-                                To provide research and development consultancy
+                                <i className="icofont-tick-mark"></i> To provide
+                                research and development consultancy
                               </li>
                               <li>
-                                To establish bridge between university and
-                                industry to provide services to industries and
-                                to community at large
+                                <i className="icofont-tick-mark"></i> To
+                                establish bridge between university and industry
+                                to provide services to industries and to
+                                community at large
                               </li>
                             </ul>
                             <br />

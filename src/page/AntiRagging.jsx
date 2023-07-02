@@ -114,8 +114,9 @@ const AntiRagging = () => {
                               CHARUSAT AIMS TO OFFER A SAFE LEARNING ENVIRONMENT
                               FOR ALL STUDENTS
                             </h5>
-                            <ul>
+                            <ul className="lab-ul">
                               <li>
+                                <i className="icofont-tick-mark"></i>{" "}
                                 Familiarize yourself with the most up-to-date
                                 information on
                                 <ul>
@@ -144,6 +145,7 @@ const AntiRagging = () => {
                                   ))}
                                 </ul>
                                 <li>
+                                  <i className="icofont-tick-mark"></i>{" "}
                                   Understand the student -{" "}
                                   <a
                                     style={{
@@ -156,6 +158,7 @@ const AntiRagging = () => {
                                   </a>
                                 </li>
                                 <li>
+                                  <i className="icofont-tick-mark"></i>{" "}
                                   <a
                                     style={{
                                       color: "#0066b3",
@@ -167,7 +170,8 @@ const AntiRagging = () => {
                                   </a>
                                 </li>
                                 <li>
-                                  Contact for Help -{" "}
+                                  <i className="icofont-tick-mark"></i> Contact
+                                  for Help -{" "}
                                   <a
                                     style={{
                                       color: "#0066b3",

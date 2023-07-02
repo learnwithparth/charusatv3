@@ -102,14 +102,22 @@ const Hostels = () => {
                                 <br />
                               </p>
                               <h5>Fee Structure</h5>
-                              <ul>
+                              <ul className="lab-ul">
                                 <li>
-                                  Rs. 5,000/- Security Deposit (Refundable)
+                                  <i className="icofont-tick-mark"></i> Rs.
+                                  5,000/- Security Deposit (Refundable)
                                 </li>
-                                <li>Rs. 28,000/- per Year (AC)</li>
-                                <li>Rs. 22,000/- per Year (Non-AC)</li>
                                 <li>
-                                  Rs. 2,500/- to 3000/- per Month Food bill
+                                  <i className="icofont-tick-mark"></i> Rs.
+                                  28,000/- per Year (AC)
+                                </li>
+                                <li>
+                                  <i className="icofont-tick-mark"></i> Rs.
+                                  22,000/- per Year (Non-AC)
+                                </li>
+                                <li>
+                                  <i className="icofont-tick-mark"></i> Rs.
+                                  2,500/- to 3000/- per Month Food bill
                                 </li>
                               </ul>
                             </div>

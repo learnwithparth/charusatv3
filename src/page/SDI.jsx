@@ -165,53 +165,59 @@ const SDI = () => {
                               ARE AS FOLLOWS:
                             </h5>
                             <hr />
-                            <ul>
+                            <ul className="lab-ul">
                               <li>
-                                CHARUSAT fosters holistic development of
-                                students, in addition to their academic
-                                enrichment and career development. The focus is
-                                on shaping up and contribute confident,
-                                progressive, skilful and enlightened individuals
-                                to the society. -At CHARUSAT, we are committed
-                                to nurturing well-rounded individuals who are
-                                not only academically competent but also
-                                confident, progressive, and skilled contributors
-                                to society. We believe in a holistic approach to
+                                <i className="icofont-tick-mark"></i> CHARUSAT
+                                fosters holistic development of students, in
+                                addition to their academic enrichment and career
+                                development. The focus is on shaping up and
+                                contribute confident, progressive, skilful and
+                                enlightened individuals to the society. -At
+                                CHARUSAT, we are committed to nurturing
+                                well-rounded individuals who are not only
+                                academically competent but also confident,
+                                progressive, and skilled contributors to
+                                society. We believe in a holistic approach to
                                 development that prepares our students for
                                 success in all aspects of life.
                               </li>
                               <li>
-                                Courses on ‘Creativity, Problem solving and
-                                Innovation’ and ‘Liberal Arts’ to impart
-                                opportunities for multidimensional development
-                                to students
+                                <i className="icofont-tick-mark"></i> Courses on
+                                ‘Creativity, Problem solving and Innovation’ and
+                                ‘Liberal Arts’ to impart opportunities for
+                                multidimensional development to students
                               </li>
                               <li>
-                                Courses on ‘Creativity, Problem Solving,
-                                Innovation’ and ‘Liberal Arts’ for the
-                                multidimensional development of students.
+                                <i className="icofont-tick-mark"></i> Courses on
+                                ‘Creativity, Problem Solving, Innovation’ and
+                                ‘Liberal Arts’ for the multidimensional
+                                development of students.
                               </li>
 
                               <li>
-                                Expert sessions/Workshops/Webinars on
-                                technological and scientific advancements
-                                through a range of national and international
-                                experts involved as resource persons
+                                <i className="icofont-tick-mark"></i> Expert
+                                sessions/Workshops/Webinars on technological and
+                                scientific advancements through a range of
+                                national and international experts involved as
+                                resource persons
                               </li>
                               <li>
-                                Expert sessions, workshops, and webinars on
+                                <i className="icofont-tick-mark"></i> Expert
+                                sessions, workshops, and webinars on
                                 technological and scientific advancements by
                                 national and international experts as resource
                                 persons.
                               </li>
                               <li>
-                                Organize tech-fests and scientific events to
-                                develop leadership skills in students.
+                                <i className="icofont-tick-mark"></i> Organize
+                                tech-fests and scientific events to develop
+                                leadership skills in students.
                               </li>
 
                               <li>
-                                Tech-fests and scientific events to develop
-                                leadership skills in students
+                                <i className="icofont-tick-mark"></i> Tech-fests
+                                and scientific events to develop leadership
+                                skills in students
                               </li>
                             </ul>
                             <br />
