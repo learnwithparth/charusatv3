@@ -72,16 +72,15 @@ const AnnualReport = () => {
                     <div className="post-item style-2">
                       <div className="post-inner">
                         <div className="post-content">
-                          <center>
                             <h3>
                               Annual Reports of the Institute
                             </h3>
-                          </center>
+                            <hr />
                           <br />
                           <div className="meta-post" >
                             {searchList.map((val) => (
                               <>
-                                <a className="pdfLink" href={val.link}><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i>{val.title} </a>
+                                <a className="pdfLink" href={val.link}>{val.title} <i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i></a>
                                 <br />
                               </>
                             ))}

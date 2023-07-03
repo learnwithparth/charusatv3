@@ -23,7 +23,7 @@ const Wincell = () => {
                           <div className="post-content">
                             <h3>About WINCell</h3>
                             <div className="meta-post">
-                              <ul className="lab-ul">
+                              <ul>
                                 Specialized Cell designed for centralized IT
                                 Infrastructure management and maintainance.
                               </ul>
@@ -48,23 +48,26 @@ const Wincell = () => {
                               EFFICIENTLY WITH{" "}
                             </h4>
                             <hr />
-                            <ul className="lab-ul">
+                            <ul>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 <strong>
                                   The utilization of CISCO and HP layer 3 and
                                   layer 2 manageable switches
                                 </strong>{" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 <strong>
                                   Fiber optic connectivity among all the
                                   buildings.
                                 </strong>{" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 <strong>
                                   Ring connectivity is established to provide
                                   uninterruptable network access with WiFi
@@ -78,7 +81,7 @@ const Wincell = () => {
                             <Container>
                               <Row>
                                 <Col>
-                                  <ul className="lab-ul">
+                                  <ul>
                                     <li>Web Servers</li>
                                     <li>Intranet Servers</li>
                                     <li>Mail Servers</li>
@@ -88,7 +91,7 @@ const Wincell = () => {
                                   </ul>
                                 </Col>
                                 <Col>
-                                  <ul className="lab-ul">
+                                  <ul>
                                     <li>Domain Server</li>
                                     <li>E-governance</li>
                                     <li>Application and Database Server</li>
@@ -98,7 +101,7 @@ const Wincell = () => {
                                   </ul>
                                 </Col>
                                 <Col>
-                                  <ul className="lab-ul">
+                                  <ul>
                                     <li>Account Server</li>
                                     <li>CCTV Console Server</li>
                                     <li>Networking Server</li>
@@ -112,7 +115,7 @@ const Wincell = () => {
                             <br />
                             <h4>WINCELL TEAM</h4>
                             <hr />
-                            <ul className="lab-ul">
+                            <ul>
                               <li>
                                 Mr. Ritesh Bhatt, Head Datacenter and University
                                 Network Engineer - Ext. No. 5106

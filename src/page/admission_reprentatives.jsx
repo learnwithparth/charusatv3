@@ -20,7 +20,8 @@ const Admission_Reprentatives = () => {
                         <div className="post-inner">
                           <div className="post-content">
                             <h3>Admission Representatives </h3>
-
+                            <hr />
+  
                             <br />
 
                             <Container>

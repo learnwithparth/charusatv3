@@ -49,7 +49,7 @@ const Donation = () => {
                             <hr />
                             <br />
                             {/* <div className="meta-post">
-                              <ul className="lab-ul">
+                              <ul>
                                 CHARUSAT IPR Facilitation provides services to
                                 all the innovators to protect intellectual
                                 property. It offers this facility to innovators,
@@ -67,22 +67,25 @@ const Donation = () => {
                             </div> */}
                             <h5>WHY SUPPORT CHARUSAT?</h5>
                             <hr />
-                            <ul className="lab-ul">
+                            <ul>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 {/* <strong> */}
                                 CHARUSAT is an “A+” Grade University accredited
                                 by NAAC (Govt. of India).
                                 {/* </strong> */}{" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 {/* <strong> */}
                                 CHARUSAT’S Mission is social service through
                                 Education and Research.
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 {/* <strong> */}
                                 CHARUSAT seeks support to facilitate the
 
@@ -91,13 +94,15 @@ const Donation = () => {
                               </li>
 
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 {/* <strong> */}
                                 CHARUSAT also works for many more social
                                 development goals.
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 {/* <strong> */}
                                 CHARUSAT practices values of Honesty, Integrity
                                 & Transparency.
@@ -1159,16 +1164,18 @@ const Donation = () => {
                             <br />
                             <h4>TAX BENEFIT</h4>
                             <hr />
-                            <ul className="lab-ul">
+                            <ul>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 {/* <strong> */}
                                 Donation to CHARUSAT are Tax exempted under 80G
                                 of Income Tax Act.(Indian Donors)
                                 {/* </strong> */}{" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 {/* <strong> */}
                                 USA donors can route their donation through
                                 CHARUSAT Education Foundation. Inc., and avail
@@ -1187,21 +1194,24 @@ const Donation = () => {
                               contributed carries donors name permanently. For
                               Eg.
                             </p>
-                            <ul className="lab-ul">
+                            <ul>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 {/* <strong> */}
                                 Ashok and Rita Patel Institute of Physiotherapy
                                 {/* </strong> */}{" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 {/* <strong> */}
                                 Ramanbhai Patel College of Pharmacy
                               </li>
 
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 {/* <strong> */}
                                 Anil & Asha Patel Endowment Fund
                               </li>

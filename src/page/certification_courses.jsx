@@ -141,6 +141,8 @@ const Certification_Courses = () => {
                         <div className="post-inner">
                           <div className="post-content">
                             <h3>Certification Courses </h3>
+                            <hr />
+                            <br />
                             <Container>
                               <Row className="p-2 text-center">
                                 <Table striped bordered hover>

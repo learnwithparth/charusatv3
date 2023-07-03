@@ -27,6 +27,8 @@ const Edic = () => {
                               Entrepreneurship Development and Incubation
                               Cell(EDIC)
                             </h3>
+                            <hr />
+                            <br />
                             <div className="meta-post">
                               {/* <Image src="./assets/images/CDPC_banner.jpg" /> */}
                               {/* <Image src="https://placehold.co/800x400?text=EDIC" /> */}

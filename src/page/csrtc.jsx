@@ -20,6 +20,8 @@ const CSRTC = () => {
                               Charusat Space Research and Technology Center
                               (CSRTC)
                             </h3>
+                            <hr />
+                            <br />
 
                             <p style={{ fontSize: "1rem" }}>
                               To initiate and foster research in Space
@@ -31,24 +33,28 @@ const CSRTC = () => {
                             <br />
                             <h4>Objecctives of CSRTC</h4>
                             <hr />
-                            <ul className="lab-ul">
+                            <ul>
                               <li>
-                                <i className="icofont-tick-mark"></i> To provide
+                                {/* <i className="icofont-tick-mark"></i> */}
+ To provide
                                 best possible educational facilities for
                                 training students for the careers in Space
                                 Technology
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i> To provide
+                                {/* <i className="icofont-tick-mark"></i> */}
+ To provide
                                 a healthy atmosphere to students and faculty for
                                 higher studies and research
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i> To provide
+                                {/* <i className="icofont-tick-mark"></i> */}
+ To provide
                                 research and development consultancy
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i> To
+                                {/* <i className="icofont-tick-mark"></i> */}
+ To
                                 establish bridge between university and industry
                                 to provide services to industries and to
                                 community at large

@@ -387,6 +387,7 @@ const DvvClarifications = () => {
                           <div className="post-content">
                             <h3>DVV Clarifications</h3>
                             <hr />
+                            <br />
                             {/*  */}
                             <div className="course-single-section">
                               <div className="container">

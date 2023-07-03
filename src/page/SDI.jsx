@@ -145,9 +145,7 @@ const SDI = () => {
                       <div className="post-item style-2">
                         <div className="post-inner">
                           <div className="post-content">
-                            <center>
                               <h3>Student Development Initiatives</h3>
-                            </center>
                             <br />
                             <div
                               className="meta-post"
@@ -165,9 +163,10 @@ const SDI = () => {
                               ARE AS FOLLOWS:
                             </h5>
                             <hr />
-                            <ul className="lab-ul">
+                            <ul>
                               <li>
-                                <i className="icofont-tick-mark"></i> CHARUSAT
+                                {/* <i className="icofont-tick-mark"></i> */}
+ CHARUSAT
                                 fosters holistic development of students, in
                                 addition to their academic enrichment and career
                                 development. The focus is on shaping up and
@@ -182,40 +181,46 @@ const SDI = () => {
                                 success in all aspects of life.
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i> Courses on
+                                {/* <i className="icofont-tick-mark"></i> */}
+ Courses on
                                 ‘Creativity, Problem solving and Innovation’ and
                                 ‘Liberal Arts’ to impart opportunities for
                                 multidimensional development to students
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i> Courses on
+                                {/* <i className="icofont-tick-mark"></i> */}
+ Courses on
                                 ‘Creativity, Problem Solving, Innovation’ and
                                 ‘Liberal Arts’ for the multidimensional
                                 development of students.
                               </li>
 
                               <li>
-                                <i className="icofont-tick-mark"></i> Expert
+                                {/* <i className="icofont-tick-mark"></i> */}
+ Expert
                                 sessions/Workshops/Webinars on technological and
                                 scientific advancements through a range of
                                 national and international experts involved as
                                 resource persons
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i> Expert
+                                {/* <i className="icofont-tick-mark"></i> */}
+ Expert
                                 sessions, workshops, and webinars on
                                 technological and scientific advancements by
                                 national and international experts as resource
                                 persons.
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i> Organize
+                                {/* <i className="icofont-tick-mark"></i> */}
+ Organize
                                 tech-fests and scientific events to develop
                                 leadership skills in students.
                               </li>
 
                               <li>
-                                <i className="icofont-tick-mark"></i> Tech-fests
+                                {/* <i className="icofont-tick-mark"></i> */}
+ Tech-fests
                                 and scientific events to develop leadership
                                 skills in students
                               </li>
@@ -299,7 +304,7 @@ const SDI = () => {
                                   <h3>{val.title}</h3>
                                 </Link>
                                 <div className="meta-post">
-                                  <ul className="lab-ul">
+                                  <ul>
                                     {val.metaList.map((val, i) => (
                                       <li key={i}>
                                         <i className={val.iconName}></i>

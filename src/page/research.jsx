@@ -79,14 +79,16 @@ const ResearchPage = () => {
                               style={{ display: "grid", gap: "10px" }}
                             >
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 <strong>
                                   CHARUSAT Research grant (seed money) for
                                   faculty members
                                 </strong>
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 <strong>
                                   International travel support to faculty
                                   members for participating in international
@@ -94,28 +96,32 @@ const ResearchPage = () => {
                                 </strong>{" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 <strong>
                                   Activities under Endowment Chair in each
                                   department/institute
                                 </strong>
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 <strong>
                                   Eminent professors/scientists are invited to
                                   promote quality research culture
                                 </strong>
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 <strong>
                                   Laboratory infrastructure to promote research
                                   activities
                                 </strong>
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 <strong>
                                   {" "}
                                   Research Paper Award to faculty members for
@@ -124,13 +130,15 @@ const ResearchPage = () => {
                                 </strong>
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 <strong>
                                   Fellowship to full-time research scholars
                                 </strong>
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 <strong>
                                   Post-doctoral fellowship program to promote
                                   exemplary research in uni-disciplinary,
@@ -139,45 +147,52 @@ const ResearchPage = () => {
                                 </strong>
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 <strong>
                                   Contingency amount of INR 30000/- or more
                                   allocated to a research scholar
                                 </strong>
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 <strong>
                                   Interim financial support for research work
                                 </strong>
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 <strong>
                                   Simplification of procedure for the purchase
                                   by investigators
                                 </strong>
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 <strong>
                                   Freedom to the principal investigator for
                                   utilizing part of the overhead charges
                                 </strong>
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 <strong>Timely release of the grant</strong>
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 <strong>
                                   Timely conduction of audit and preparation of
                                   Utilization Certificates
                                 </strong>
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 <strong>
                                   Encouragement and intellectual support are
                                   provided to faculty members to submit a
@@ -185,7 +200,8 @@ const ResearchPage = () => {
                                 </strong>
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                 <strong>
                                   Ethics Committee to monitor and approve
                                   healthcare projects

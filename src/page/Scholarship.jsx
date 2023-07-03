@@ -120,7 +120,8 @@ const Scholarship = () => {
                                           <ul className="my-5 mx-4 lab-ul">
                                             <li>
                                               <h5>
-                                                <i className="icofont-tick-mark"></i>{" "}
+                                                {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                                 {item.title}
                                               </h5>
                                               <p>{item.data}</p>
