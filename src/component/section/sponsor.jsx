@@ -68,6 +68,14 @@ const sponsorList = [
     imgUrl: "assets/images/recruiters/tcs.png",
     imgAlt: "sponsor rajibraj91 rajibraj",
   },
+  {
+    imgUrl: "assets/images/recruiters/motorola.png",
+    imgAlt: "sponsor rajibraj91 rajibraj",
+  },
+  {
+    imgUrl: "assets/images/recruiters/icici.jpeg",
+    imgAlt: "sponsor rajibraj91 rajibraj",
+  },
 ];
 
 const Sponsor = () => {

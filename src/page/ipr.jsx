@@ -40,9 +40,9 @@ const IPR = () => {
                               Unique Features of CHARUSAT IPR Facilitation
                             </h4>
                             <hr />
-                            <ul className="lab-ul">
-                              <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                            <ul>
+                              <li >
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 <strong>
                                   Onsite Pool of Technical experts
                                 </strong>{" "}
@@ -54,7 +54,7 @@ const IPR = () => {
                                 idea.
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 <strong>
                                   Availability of Sophisticated Technology
                                 </strong>{" "}
@@ -65,7 +65,7 @@ const IPR = () => {
                                 your innovations.
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 <strong>Onsite IPR Experts</strong> - CHARUSAT
                                 IPR Facilitation is equipped with the experts
                                 having rich experience in intellectual property
@@ -74,7 +74,7 @@ const IPR = () => {
                                 queries.
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 <strong>Cost-Effective</strong> - Minimal
                                 overheads result in lesser charges than
                                 professional firms. At CHARUSAT IPR Facilitation
@@ -82,7 +82,7 @@ const IPR = () => {
                                 charges than other professional IP Firms.
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 <strong>Diligence and Expertise</strong> - An
                                 “A+” grade university gives a satisfactory and
                                 trustworthy output in work. The honesty,
@@ -97,23 +97,23 @@ const IPR = () => {
                               Activities of CHARUSAT IPR Facilitation Cell
                             </h4>
                             <hr />
-                            <ul className="lab-ul">
+                            <ul>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 <strong>
                                   Creating IPR Awareness among Students,
                                   Faculties and Researchers
                                 </strong>{" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 <strong>
                                   Provide IPR related support (Patent Drafting,
                                   Filing and other Prosecution Related Tasks)
                                 </strong>{" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
                                 <strong>
                                   Technology Transfer and Commercialization of
                                   Intellectual Property of the University
@@ -123,7 +123,7 @@ const IPR = () => {
                             <br />
                             <h4>Facilities @ CHARUSAT IPR Facilitation</h4>
                             <hr />
-                            <ul className="lab-ul">
+                            <ul>
                               <li>
                                 {" "}
                                 <strong
@@ -135,57 +135,84 @@ const IPR = () => {
                                 </strong>{" "}
                                 <br />
                                 <br />
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Prior Art Search</strong> -
-                                Patentability search for the novelty of
-                                invention in various databases including patent
-                                and non-patent literature.
-                                <br />
-                                <br />
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Patent Landscape Analysis</strong> - It
-                                is a comprehensive report of the state-of-art
-                                search for the relevant technology with client
-                                customization.
-                                <br />
-                                <br />
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Freedom to Operate Search</strong> - A
-                                Freedom to Operate (FTO) analysis invariably
-                                begins by searching patent literature for issued
-                                or pending patents and obtaining a legal opinion
-                                as to whether a product, process or service may
-                                be considered to infringe any patent(s) owned by
-                                others. <br />
-                                <br />
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Patent Drafting</strong> - Techno-legal
-                                drafting of complete specification with claims.{" "}
-                                <br />
-                                <br />
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Patent Filing</strong> - Preparation and
-                                submission of Patent Application at Indian
-                                Patent Office. <br />
-                                <br />
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>PCT Application</strong> - Preparation
-                                and submission of PCT Application for foreign
-                                filing. <br />
-                                <br />
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>First Examination Report</strong> -
-                                (FER) To construe the FER for inventor/applicant
-                                and prepare the best response to FER
-                                <br />
-                                <br />
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>
-                                  Communication and hearing with IPO/IPAB
-                                </strong>{" "}
-                                - To provide legal support for hearing at the
-                                Intellectual Property Appellate Board.
+                                <ul>
+                                  {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                  <li>
+
+                                    <strong>Prior Art Search</strong> -
+                                    Patentability search for the novelty of
+                                    invention in various databases including patent
+                                    and non-patent literature.
+                                    <br />
+                                    <br />
+                                    {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                  </li>
+                                  <li>
+
+                                    <strong>Patent Landscape Analysis</strong> - It
+                                    is a comprehensive report of the state-of-art
+                                    search for the relevant technology with client
+                                    customization.
+                                    <br />
+                                    <br />
+                                  </li>
+                                  <li>
+
+                                    {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                    <strong>Freedom to Operate Search</strong> - A
+                                    Freedom to Operate (FTO) analysis invariably
+                                    begins by searching patent literature for issued
+                                    or pending patents and obtaining a legal opinion
+                                    as to whether a product, process or service may
+                                    be considered to infringe any patent(s) owned by
+                                    others. <br />
+                                    <br />
+                                    {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                  </li>
+                                  <li>
+
+                                    <strong>Patent Drafting</strong> - Techno-legal
+                                    drafting of complete specification with claims.{" "}
+                                    <br />
+                                    <br />
+                                  </li>
+                                  <li>
+
+                                    {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                    <strong>Patent Filing</strong> - Preparation and
+                                    submission of Patent Application at Indian
+                                    Patent Office. <br />
+                                    <br />
+                                  </li>
+                                  <li>
+
+                                    {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                    <strong>PCT Application</strong> - Preparation
+                                    and submission of PCT Application for foreign
+                                    filing. <br />
+                                    <br />
+                                  </li>
+                                  <li>
+
+                                    {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                    <strong>First Examination Report</strong> -
+                                    (FER) To construe the FER for inventor/applicant
+                                    and prepare the best response to FER
+                                    <br />
+                                    <br />
+                                  </li>
+                                  <li>
+
+                                    {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                    <strong>
+                                      Communication and hearing with IPO/IPAB
+                                    </strong>{" "}
+                                    - To provide legal support for hearing at the
+                                    Intellectual Property Appellate Board.
+                                  </li>
+                                </ul>
                               </li>
+
                               <br />
                               <li>
                                 {" "}
@@ -194,18 +221,28 @@ const IPR = () => {
                                 </strong>
                                 <br />
                                 <br />
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Software </strong>
-                                Copyright filing at the Indian Copyright Office
-                                for software related innovation.
-                                <br />
-                                <br />
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Literature and art </strong>
-                                Copyright filing at the Indian Copyright Office
-                                for literature and art-related innovation.
+                                <ul>
+
+                                  <li>
+
+                                    {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                    <strong>Software </strong>
+                                    Copyright filing at the Indian Copyright Office
+                                    for software related innovation.
+                                    <br />
+                                    <br />
+                                  </li>
+                                  <li>
+
+                                    {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                    <strong>Literature and art </strong>
+                                    Copyright filing at the Indian Copyright Office
+                                    for literature and art-related innovation.
+                                  </li>
+                                </ul>
                               </li>
                               <br />
+
                               <li>
                                 <strong
                                   style={{
@@ -216,9 +253,15 @@ const IPR = () => {
                                 </strong>{" "}
                                 <br />
                                 <br />
-                                <i className="icofont-tick-mark"></i>{" "}
-                                Registration of Trademark at the Trademark
-                                office
+                                <ul>
+
+                                  <li>
+
+                                    {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                    Registration of Trademark at the Trademark
+                                    office
+                                  </li>
+                                </ul>
                               </li>
                               <br />
                               <li>
@@ -231,16 +274,24 @@ const IPR = () => {
                                 </strong>
                                 <br />
                                 <br />
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Design Search </strong>
-                                Search for anticipation/existence of similar
-                                design before application.
-                                <br />
-                                <br />
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Design Registration </strong>
-                                Preparation of documents and application for the
-                                Indian Patent Office. idea.
+                                <ul>
+                                  <li>
+
+                                    {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                    <strong>Design Search </strong>
+                                    Search for anticipation/existence of similar
+                                    design before application.
+                                    <br />
+                                    <br />
+                                  </li>
+                                  <li>
+
+                                    {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                    <strong>Design Registration </strong>
+                                    Preparation of documents and application for the
+                                    Indian Patent Office. idea.
+                                  </li>
+                                </ul>
                               </li>
                             </ul>
                           </div>

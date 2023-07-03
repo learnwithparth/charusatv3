@@ -62,44 +62,33 @@ const AnnualReport = () => {
   return (
     <>
       <div className="blog-section padding-tb section-bg">
-        <h3 className="inner-title text-center mb-5">
-          Annual Reports of the Institute
-        </h3>
+
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 col-12">
               <article>
                 <div className="section-wrapper">
                   <div className="row row-cols-1 justify-content-center g-4">
-                    {searchList.map((val, i) => (
-                      <div className="col" key={i}>
-                        <div className="post-item style-2">
-                          <div className="post-inner">
-                            <div className="post-content">
-                              <Link to={val.link}>
-                                <h4>{val.title}</h4>
-                              </Link>
-                              <div className="meta-post">
-                                <ul className="lab-ul">
-                                  {val.metaList.map((val, i) => (
-                                    <li key={i}>
-                                      <i className={val.iconName}></i>
-                                      {val.text}
-                                    </li>
-                                  ))}
-                                </ul>
-                              </div>
-                              <Link to={val.link} className="lab-btn">
-                                <span>
-                                  {val.btnText}{" "}
-                                  <i className="icofont-external-link"></i>
-                                </span>
-                              </Link>
-                            </div>
+                    <div className="post-item style-2">
+                      <div className="post-inner">
+                        <div className="post-content">
+                          <center>
+                            <h3>
+                              Annual Reports of the Institute
+                            </h3>
+                          </center>
+                          <br />
+                          <div className="meta-post" >
+                            {searchList.map((val) => (
+                              <>
+                                <a className="pdfLink" href={val.link}><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i>{val.title} </a>
+                                <br />
+                              </>
+                            ))}
                           </div>
                         </div>
                       </div>
-                    ))}
+                    </div>
                   </div>
                 </div>
               </article>

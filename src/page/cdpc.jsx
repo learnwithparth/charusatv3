@@ -100,37 +100,42 @@ const CDPC = () => {
                             </div>
                             <h4>The Cell Works For</h4>
 
-                            <ul className="lab-ul">
+                            <ul>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Building your careers</strong>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                {/* <strong> */}
+                                  Building your careers
+                                  {/* </strong> */}
+                                  {" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                {/* <strong> */}
                                   Preparing you for jobs, higher education,
                                   entrepreneurship, and other career options
-                                </strong>{" "}
+                                {/* </strong> */}
+                                {" "}
                               </li>
                             </ul>
                             <br />
                             <h4>CDPC Offers</h4>
 
-                            <ul className="lab-ul">
+                            <ul>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                {/* <strong> */}
                                   Extensive resources to support your connection
                                   to a career
-                                </strong>{" "}
+                                {/* </strong> */}
+                                {" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Expert counselling</strong>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                Expert counselling{" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Training and Guidance</strong>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                Training and Guidance{" "}
                               </li>
                             </ul>
                             <br />
@@ -139,70 +144,70 @@ const CDPC = () => {
                               Assistance!
                             </h4>
 
-                            <ul className="lab-ul">
+                            <ul>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Internship Support</strong>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                Internship Support{" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Aptitude Training</strong>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                Aptitude Training{" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Mock Interview</strong>{" "}
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                Mock Interview{" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                
                                   Higher Education / Foreign Education Guidance
-                                </strong>{" "}
+                                {" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                
                                   Soft Skills / Personality Development
-                                </strong>{" "}
+                                {" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                
                                   On-Campus and Off-Campus Recruitment
-                                </strong>{" "}
+                                {" "}
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                
                                   Training for IELTS, TOEFL, GRE, GMAT, CAT,
                                   GPSC, UPSC and more
-                                </strong>{" "}
+                                {" "}
                               </li>
                             </ul>
                             <br />
                             <h4>Activities of CDPC</h4>
 
-                            <ul className="lab-ul">
+                            <ul>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                
                                   Training Activities and Interview Preparation
-                                </strong>{" "}
+                                {" "}
                                 - At CHARUSAT, you will get assistance for your
                                 summer internship and final year internship for
                                 in leading government or private organizations,
                                 R&D and NGOs.
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Mock Placement Drive</strong> - Be it
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                Mock Placement Drive - Be it
                                 resume building, aptitude training, preparing
                                 for group discussion and interview; we will
                                 leave no stone unturned to gear you up for the
                                 placement.
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Placement Activities</strong> - CHARUSAT
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                Placement Activities - CHARUSAT
                                 has a history of not only higher placement
                                 percentage but also placement in leading
                                 industries and organizations. With our
@@ -212,15 +217,15 @@ const CDPC = () => {
                                 job through on-campus/off-campus recruitments.
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Training Activities</strong> - The
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                Training Activities - The
                                 training programs offered include Behavioral
                                 Skills, Technical Skills, Personality
                                 Development, and Communication Skills.
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Higher Education Helpdesk</strong> - At
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                Higher Education Helpdesk - At
                                 CHARUSAT, we organize USA/UK Education fair to
                                 help you connect directly to the foreign
                                 university representatives and get the
@@ -232,8 +237,8 @@ const CDPC = () => {
                                 all required assistance.
                               </li>
                               <li>
-                                <i className="icofont-tick-mark"></i>{" "}
-                                <strong>Career Guidance</strong> - We will
+                                {/* <i className="icofont-tick-mark"></i>{" "} */}
+                                Career Guidance - We will
                                 prepare you for various career avenues and
                                 options like jobs in PSU by offering you
                                 training and guidance for UPSC, GPSC etc. We
