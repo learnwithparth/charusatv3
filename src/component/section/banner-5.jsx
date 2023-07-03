@@ -32,6 +32,14 @@ const content = [
     user: "Luan Gjokaj",
     userProfile: "https://i.imgur.com/JSW6mEk.png",
   },
+  // {
+  //   title: "Accreditations & Rankings",
+  //   description: "CHARUSAT-Accreditations & Rankings",
+  //   button: "Apply Now",
+  //   image: "assets/images/home/1.jpg",
+  //   user: "Luan Gjokaj",
+  //   userProfile: "https://i.imgur.com/JSW6mEk.png",
+  // },
   {
     title: "Laboratories",
     description:
