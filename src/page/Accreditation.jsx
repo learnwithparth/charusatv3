@@ -45,14 +45,19 @@ const Accreditation = () => {
         <meta name="author" content="CHARUSAT Web Team" />
       </Helmet>
       <div className="course-single-section padding-tb section-bg">
-        <div className="container">
+        <div className="container post-item style-2">
           <div className="row justify-content-center">
+            
             <div className="col-lg-8">
+            <div className="post-inner">
+                <div className="post-content">
               <div className="main-part">
                 <div className="course-item">
                   <div className="course-inner">
                     <div className="course-content">
+                    
                       <h3>Accreditation &amp; Ranking </h3>
+                      <hr/>
                       {/* <p>In this course take you from the fundamentals and concepts of data modeling all the way through anumber of best practices and techniques that you’ll need to build data models in your organization. You’ll find many By the end of the course, you’ll be all set to not only put these principles to works but also to maike the key data modeling and design decisions required by the info data modeling that transcend the nuts-and-bolts that clearly the key covered the course and design patterns.</p>
                                             <h4>What You'll Learn in This Course:</h4>
                                             <ul className="lab-ul">
@@ -67,6 +72,8 @@ const Accreditation = () => {
                     </div>
                   </div>
                 </div>
+                
+
 
                 <div className="course-video">
                   {/* <div className="course-video-title">
@@ -195,6 +202,10 @@ const Accreditation = () => {
 
                   {/* <Respond /> */}
                 </div>
+                
+                </div>
+                </div>
+                
               </div>
               {/* <div className="col-lg-4"> */}
 
@@ -204,6 +215,8 @@ const Accreditation = () => {
               {/* </div> */}
               {/* </div> */}
             </div>
+            
+            
             <Contact
               name="Dr Mayur Sutaria"
               email="coordinator.iqac@charusat.ac.in"
