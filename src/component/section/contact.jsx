@@ -37,14 +37,29 @@ export default function contact(props) {
                     <div className="meta-post">
                       <div>
                         <br />
-                        <i className="icofont-ui-user"></i>
+                        <i
+                          className="icofont-ui-user"
+                          style={{
+                            color: "#0066b3",
+                          }}
+                        ></i>
                         &nbsp;{props.name}
                         <br />
                         <br />
-                        <i className="icofont-email"></i>
+                        <i
+                          style={{
+                            color: "#0066b3",
+                          }}
+                          className="icofont-email"
+                        ></i>
                         &nbsp;{props.email} <br />
                         <br />
-                        <i className="icofont-phone"></i>
+                        <i
+                          style={{
+                            color: "#0066b3",
+                          }}
+                          className="icofont-phone"
+                        ></i>
                         {props.phone}
                       </div>
                       {/* <ul className="lab-ul">

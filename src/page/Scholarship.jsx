@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import Contact from "../component/section/contact";
+import { Table } from "react-bootstrap";
 
 const Scholarship = () => {
   const innerData1 = [
@@ -105,7 +106,10 @@ const Scholarship = () => {
                                         >
                                           Domestic Students
                                           <span>
-                                            <i class="icofont-square-down"></i>
+                                            <i
+                                              class="icofont-square-down"
+                                              style={{ color: "white" }}
+                                            ></i>
                                           </span>
                                         </button>
                                       </div>
@@ -120,8 +124,7 @@ const Scholarship = () => {
                                           <ul className="my-5 mx-4 lab-ul">
                                             <li>
                                               <h5>
-                                                {/* <i className="icofont-tick-mark"></i> */}
-{" "}
+                                                {/* <i className="icofont-tick-mark"></i> */}{" "}
                                                 {item.title}
                                               </h5>
                                               <p>{item.data}</p>
@@ -164,7 +167,10 @@ const Scholarship = () => {
                                         >
                                           International Students
                                           <span>
-                                            <i class="icofont-square-down"></i>
+                                            <i
+                                              class="icofont-square-down"
+                                              style={{ color: "white" }}
+                                            ></i>
                                           </span>
                                         </button>
                                       </div>
@@ -179,8 +185,80 @@ const Scholarship = () => {
                                             <h5>
                                               Financial assistance available for
                                               foregin studnets to be admitted in
-                                              Academic Year: 2021-22
                                             </h5>
+                                            <h6
+                                              style={{
+                                                width: "100%",
+                                                textAlign: "center",
+                                              }}
+                                            >
+                                              Academic Year: 2021-22
+                                            </h6>
+                                            <Table striped bordered hover>
+                                              <thead>
+                                                <tr>
+                                                  <th rowSpan="2">Sr No</th>
+                                                  <th rowSpan="2">
+                                                    Percentage of qualifying
+                                                    examination as per
+                                                    Transcript
+                                                  </th>
+                                                  <th rowSpan="2">
+                                                    First Year Scholarship
+                                                  </th>
+                                                  <th colSpan="3">
+                                                    Scholarship conditions for
+                                                    second year onwards as per
+                                                    CGPA of preceding year
+                                                  </th>
+                                                </tr>
+                                                <tr>
+                                                  <th>CGPA &gt;= 8.00</th>
+                                                  <th>CGPA 7.00 to 7.99</th>
+                                                  <th>CGPA 6.50 to 6.99</th>
+                                                </tr>
+                                              </thead>
+                                              <tbody>
+                                                <tr>
+                                                  <td>1</td>
+                                                  <td>90% and above</td>
+                                                  <td>50%</td>
+                                                  <td>50%</td>
+                                                  <td>35%</td>
+                                                  <td>25%</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>2</td>
+                                                  <td>70% to 89.99%</td>
+                                                  <td>35%</td>
+                                                  <td>50%</td>
+                                                  <td>35%</td>
+                                                  <td>25%</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>3</td>
+                                                  <td>55% to 69.99</td>
+                                                  <td>25%</td>
+                                                  <td>50%</td>
+                                                  <td>35%</td>
+                                                  <td>25%</td>
+                                                </tr>
+                                              </tbody>
+                                            </Table>
+                                            <p>
+                                              <p>Note:</p>
+                                              <p>
+                                                (i) Financial Assistance is
+                                                available only on applicable
+                                                University Tution fees.
+                                              </p>
+                                              <p>
+                                                (ii) Management will take
+                                                decision of additional
+                                                scholarship on case to case
+                                                basis
+                                              </p>
+                                            </p>
                                           </li>
                                         </ul>
                                       </div>
