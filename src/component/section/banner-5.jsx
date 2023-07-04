@@ -98,7 +98,7 @@ const content = [
     title: "Green Campus",
     description: "Creating a Sustainable and Eco-Friendly Campus Environment",
     button: "Apply Now",
-    image: "assets/images/home/s9.png",
+    image: "assets/images/home/s9.webp",
     user: "Bruno Vizovskyy",
     userProfile: "https://i.imgur.com/4KeKvtH.png",
   },
