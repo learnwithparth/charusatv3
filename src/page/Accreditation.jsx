@@ -45,16 +45,22 @@ const Accreditation = () => {
         <meta name="author" content="CHARUSAT Web Team" />
       </Helmet>
       <div className="course-single-section padding-tb section-bg">
-        <div className="container">
+        <div className="container post-item style-2">
           <div className="row justify-content-center">
+            
             <div className="col-lg-8">
+            <div className="post-inner">
+                <div className="post-content">
               <div className="main-part">
                 <div className="course-item">
                   <div className="course-inner">
                     <div className="course-content">
+                    
                       <h3>Accreditation &amp; Ranking </h3>
+
                       <hr />
                       <br />
+
                       {/* <p>In this course take you from the fundamentals and concepts of data modeling all the way through anumber of best practices and techniques that you’ll need to build data models in your organization. You’ll find many By the end of the course, you’ll be all set to not only put these principles to works but also to maike the key data modeling and design decisions required by the info data modeling that transcend the nuts-and-bolts that clearly the key covered the course and design patterns.</p>
                                             <h4>What You'll Learn in This Course:</h4>
                                             <ul>
@@ -74,12 +80,14 @@ Work with color and Gradients and Grids</li>
                     </div>
                   </div>
                 </div>
+                
+
 
                 <div className="course-video">
                   {/* <div className="course-video-title">
                                         <h4>Course Content</h4>
                                     </div> */}
-                  <div className="course-video-content">
+                  <div className="course-video-content" >
                     <div className="accordion" id="accordionExample">
                       <div className="accordion-item">
                         <div className="accordion-header" id="accordion01">
@@ -90,8 +98,8 @@ Work with color and Gradients and Grids</li>
                             aria-expanded="true"
                             aria-controls="videolist1"
                           >
-                            <span>Accreditation</span>{" "}
-                            <span>
+                            <span style={{color:"white"}} >Accreditation</span>{" "}
+                            <span style={{color:"white"}}>
                               <i class="icofont-square-down"></i>
                             </span>{" "}
                           </button>
@@ -101,6 +109,7 @@ Work with color and Gradients and Grids</li>
                           className="accordion-collapse collapse"
                           aria-labelledby="accordion01"
                           data-bs-parent="#accordionExample"
+                          
                         >
                           <div className="row">
                             <div className="col-lg-6">
@@ -124,8 +133,8 @@ Work with color and Gradients and Grids</li>
                             aria-controls="videolist2"
                           >
                             {" "}
-                            <span>Ranking</span>{" "}
-                            <span>
+                            <span style={{color:"white"}}>Ranking</span>{" "}
+                            <span style={{color:"white"}}>
                               <i class="icofont-square-down"></i>
                             </span>{" "}
                           </button>
@@ -157,8 +166,8 @@ Work with color and Gradients and Grids</li>
                             aria-expanded="true"
                             aria-controls="videolist3"
                           >
-                            <span>CoE, Government of Gujarat</span>{" "}
-                            <span>
+                            <span style={{color:"white"}}>CoE, Government of Gujarat</span>{" "}
+                            <span style={{color:"white"}}>
                               <i class="icofont-square-down"></i>
                             </span>{" "}
                           </button>
@@ -202,6 +211,10 @@ Work with color and Gradients and Grids</li>
 
                   {/* <Respond /> */}
                 </div>
+                
+                </div>
+                </div>
+                
               </div>
               {/* <div className="col-lg-4"> */}
 
@@ -211,6 +224,8 @@ Work with color and Gradients and Grids</li>
               {/* </div> */}
               {/* </div> */}
             </div>
+            
+            
             <Contact
               name="Dr Mayur Sutaria"
               email="coordinator.iqac@charusat.ac.in"

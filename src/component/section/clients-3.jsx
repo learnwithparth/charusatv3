@@ -31,7 +31,7 @@ const clientSliderList = [
     degi: "Padma Vibhushan, National Research Professor, National Chemical Laboratory",
   },
   {
-    imgUrl: "assets/images/clients/04.png",
+    imgUrl: "assets/images/clients/04.webp",
     imgAlt: "education thumb rajibraj91 rajibraj",
     iconNane: "icofont-quote-left",
     desc: "CHARUSAT is indeed a Golden Truth of Gujarat.",

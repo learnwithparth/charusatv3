@@ -26,6 +26,7 @@ import Library from "./page/library";
 import Placement from "./page/placement";
 import Donation from "./page/donation";
 import Scholarship from "./page/Scholarship";
+import AnnualReport from "./page/annual-report";
 /*
 import HomeTwo from "./page/home-2";
 import HomeThree from "./page/home-3";
@@ -176,6 +177,7 @@ function App() {
         <Route path="/IEC" element={<IEC />} />
         <Route path="/mission-vision" element={<VisionMission />} />
         <Route path="/torchbearers" element={<Torchbearers />} />
+
         {/* http://preview.themeforest.net/item/edukon-education-and-lms-react-js-template/full_screen_preview/38286924?_ga=2.76967702.264634929.1671012406-1346785869.1667801964 */}
         {/* <Route path="/announcements" element={<Announcements />} /> */}
         {/* <Route path="/accreditation" element={<Accreditation />} /> */}
