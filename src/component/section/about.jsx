@@ -118,8 +118,8 @@ const About = () => {
                   <div className="sfl-thumb">
                     <Iframe
                       overflow="hidden"
-                      width="615"
-                      height="340"
+                      // width="560"
+                      // height="340"
                       src="https://www.youtube.com/embed/MBym3IPnPlE"
                       title="YouTube video player"
                       frameborder="0"
