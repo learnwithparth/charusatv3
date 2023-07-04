@@ -180,11 +180,6 @@ const CourseData = [
       </strong>,
       <br />,
       <strong>
-        Dean:
-      </strong>,
-      " Faculty of Pharmacy",
-      <br />,
-      <strong>
         Principal:
       </strong>,
       " Ramanbhai Patel College of Pharmacy (RPCP)",
