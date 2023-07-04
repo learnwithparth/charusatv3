@@ -1,3 +1,6 @@
+import Iframe from "react-iframe";
+import { Link } from "react-router-dom";
+
 const subTitle = "About CHARUSAT ";
 const title = "|| अमृतं तु विद्या ||";
 const desc =
@@ -101,6 +104,36 @@ const About = () => {
       </div>
       <br />
       <br />
+      {/*  */}
+      <div className="student-feedbak-section padding-tb shape-img">
+        <div className="container">
+          <div className="section-header text-center">
+            <span className="subtitle">&nbsp;</span>
+            <h2 className="title">&nbsp;</h2>
+          </div>
+          <div className="section-wrapper">
+            <div className="row justify-content-center row-cols-lg-2 row-cols-1">
+              <div className="col">
+                <div className="sf-left">
+                  <div className="sfl-thumb">
+                    <Iframe
+                      overflow="hidden"
+                      width="615"
+                      height="340"
+                      src="https://www.youtube.com/embed/MBym3IPnPlE"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*  */}
     </div>
   );
 };
