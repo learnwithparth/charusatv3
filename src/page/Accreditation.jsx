@@ -79,7 +79,7 @@ const Accreditation = () => {
                   {/* <div className="course-video-title">
                                         <h4>Course Content</h4>
                                     </div> */}
-                  <div className="course-video-content">
+                  <div className="course-video-content" >
                     <div className="accordion" id="accordionExample">
                       <div className="accordion-item">
                         <div className="accordion-header" id="accordion01">
@@ -90,8 +90,8 @@ const Accreditation = () => {
                             aria-expanded="true"
                             aria-controls="videolist1"
                           >
-                            <span style={{color:"white"}}>Accreditation</span>{" "}
-                            <span>
+                            <span style={{color:"white"}} >Accreditation</span>{" "}
+                            <span style={{color:"white"}}>
                               <i class="icofont-square-down"></i>
                             </span>{" "}
                           </button>
@@ -101,6 +101,7 @@ const Accreditation = () => {
                           className="accordion-collapse collapse"
                           aria-labelledby="accordion01"
                           data-bs-parent="#accordionExample"
+                          
                         >
                           <div className="row">
                             <div className="col-lg-6">
@@ -124,8 +125,8 @@ const Accreditation = () => {
                             aria-controls="videolist2"
                           >
                             {" "}
-                            <span>Ranking</span>{" "}
-                            <span>
+                            <span style={{color:"white"}}>Ranking</span>{" "}
+                            <span style={{color:"white"}}>
                               <i class="icofont-square-down"></i>
                             </span>{" "}
                           </button>
@@ -157,8 +158,8 @@ const Accreditation = () => {
                             aria-expanded="true"
                             aria-controls="videolist3"
                           >
-                            <span>CoE, Government of Gujarat</span>{" "}
-                            <span>
+                            <span style={{color:"white"}}>CoE, Government of Gujarat</span>{" "}
+                            <span style={{color:"white"}}>
                               <i class="icofont-square-down"></i>
                             </span>{" "}
                           </button>
