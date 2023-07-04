@@ -109,7 +109,7 @@ const About = () => {
         <div className="container">
           <div className="section-header text-center">
             <span className="subtitle">&nbsp;</span>
-            <h2 className="title">&nbsp;</h2>
+            <h2 className="title">CHARUSAT At Glance</h2>
           </div>
           <div className="section-wrapper">
             <div className="row justify-content-center row-cols-lg-2 row-cols-1">

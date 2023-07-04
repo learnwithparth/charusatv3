@@ -32,7 +32,7 @@ const VisionMission = () => {
           <div className="row justify-content-center row-cols-lg-2 row-cols-1">
             <div className="col">
               <div className="sf-left">
-                <div className="sfl-thumb">
+                <div className="sfl-thumb" style={{ overflow: "hidden" }}>
                   <iframe
                     width="615"
                     height="340"
