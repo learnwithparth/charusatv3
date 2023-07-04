@@ -115,11 +115,11 @@ const About = () => {
             <div className="row justify-content-center row-cols-lg-2 row-cols-1">
               <div className="col">
                 <div className="sf-left">
-                  <div className="sfl-thumb">
+                  <div className="sfl-thumb" style={{ overflow: "hidden" }}>
                     <Iframe
                       overflow="hidden"
-                      // width="560"
-                      // height="340"
+                      width="615"
+                      height="340"
                       src="https://www.youtube.com/embed/MBym3IPnPlE"
                       title="YouTube video player"
                       frameborder="0"
