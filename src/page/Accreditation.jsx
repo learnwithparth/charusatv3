@@ -90,7 +90,7 @@ const Accreditation = () => {
                             aria-expanded="true"
                             aria-controls="videolist1"
                           >
-                            <span>Accreditation</span>{" "}
+                            <span style={{color:"white"}}>Accreditation</span>{" "}
                             <span>
                               <i class="icofont-square-down"></i>
                             </span>{" "}
