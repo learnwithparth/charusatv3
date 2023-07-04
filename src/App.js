@@ -26,7 +26,7 @@ import Library from "./page/library";
 import Placement from "./page/placement";
 import Donation from "./page/donation";
 import Scholarship from "./page/Scholarship";
-import AnnualReport from "./page/annual-report";
+// import AnnualReport from "./page/annual-report";
 /*
 import HomeTwo from "./page/home-2";
 import HomeThree from "./page/home-3";

@@ -185,8 +185,15 @@ const Scholarship = () => {
                                             <h5>
                                               Financial assistance available for
                                               foregin studnets to be admitted in
-                                              Academic Year: 2021-22
                                             </h5>
+                                            <h6
+                                              style={{
+                                                width: "100%",
+                                                textAlign: "center",
+                                              }}
+                                            >
+                                              Academic Year: 2021-22
+                                            </h6>
                                             <Table striped bordered hover>
                                               <thead>
                                                 <tr>
@@ -238,6 +245,20 @@ const Scholarship = () => {
                                                 </tr>
                                               </tbody>
                                             </Table>
+                                            <p>
+                                              <p>Note:</p>
+                                              <p>
+                                                (i) Financial Assistance is
+                                                available only on applicable
+                                                University Tution fees.
+                                              </p>
+                                              <p>
+                                                (ii) Management will take
+                                                decision of additional
+                                                scholarship on case to case
+                                                basis
+                                              </p>
+                                            </p>
                                           </li>
                                         </ul>
                                       </div>

@@ -19,7 +19,7 @@ export default function newsFrontPage() {
           <h2 className="title">{title}</h2>
         </div>
         <div className="row">
-          <div class="col-4">
+          <div class="col">
             <div class="course-item style-4">
               <div class="course-inner">
                 <div class="course-thumb">
@@ -37,7 +37,7 @@ export default function newsFrontPage() {
               </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col">
             <div class="course-item style-4">
               <div class="course-inner">
                 <div class="course-thumb">
@@ -55,7 +55,7 @@ export default function newsFrontPage() {
               </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col">
             <div class="course-item style-4">
               <div class="course-inner">
                 <div class="course-thumb">
