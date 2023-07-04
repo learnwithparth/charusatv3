@@ -181,6 +181,7 @@ const IEC = () => {
                               (IEC-CHARUSAT)
                             </h3>
                             <hr />
+                            <br />
                             <p style={{ fontSize: "1rem" }}>
                               <p style={{ fontSize: "1rem" }}>
                                 The Institutional Ethic Committee-CHARUSAT

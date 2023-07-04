@@ -19,6 +19,8 @@ const HRDC = () => {
                         <div className="post-inner">
                           <div className="post-content">
                             <h3>Pri. B I Patel Human Resource Development Center (HRDC)</h3>
+                            <hr />
+                            <br />
                             <div className="meta-post" >
                               In pursuance of the vision of CHARUSAT to emerge as a World Class University, Pri. B I Patel Human Resource Development Center (HRDC) has been established. It was inaugurated on April 14, 2011, in the august presence of Prof. Dinesh Awasty, Director, EDI as the Chief Guest and Mr Dangayach, MD, Sintex Plastics as the Guest of Honour.
                               <br />

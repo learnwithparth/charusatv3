@@ -43,6 +43,7 @@ const Hostels = () => {
                         <div className="post-inner">
                           <div className="post-content">
                             <h3>Girls' Hostels</h3>
+                            <hr />
                             <br />
                             <div>
                               <h5>Life @ Girls Hostel - CHARUSAT</h5>
@@ -102,21 +103,25 @@ const Hostels = () => {
                                 <br />
                               </p>
                               <h5>Fee Structure</h5>
-                              <ul className="lab-ul">
+                              <ul>
                                 <li>
-                                  <i className="icofont-tick-mark"></i> Rs.
+                                  {/* <i className="icofont-tick-mark"></i> */}
+ Rs.
                                   5,000/- Security Deposit (Refundable)
                                 </li>
                                 <li>
-                                  <i className="icofont-tick-mark"></i> Rs.
+                                  {/* <i className="icofont-tick-mark"></i> */}
+ Rs.
                                   28,000/- per Year (AC)
                                 </li>
                                 <li>
-                                  <i className="icofont-tick-mark"></i> Rs.
+                                  {/* <i className="icofont-tick-mark"></i> */}
+ Rs.
                                   22,000/- per Year (Non-AC)
                                 </li>
                                 <li>
-                                  <i className="icofont-tick-mark"></i> Rs.
+                                  {/* <i className="icofont-tick-mark"></i> */}
+ Rs.
                                   2,500/- to 3000/- per Month Food bill
                                 </li>
                               </ul>
@@ -211,6 +216,7 @@ const Hostels = () => {
                         <div className="post-inner">
                           <div className="post-content">
                             <h3>Boys' Hostels</h3>
+                            <hr />
                             <br />
                             <div>
                               <p>

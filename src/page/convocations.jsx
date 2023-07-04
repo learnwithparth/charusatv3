@@ -49,7 +49,7 @@ const Convocations = () => {
                           <div className="post-content">
                             <h3>Convocations </h3>
                             <hr />
-
+<br />
                             <Container style={{ "text-align": "justify" }}>
                               <Row>
                                 <Col>

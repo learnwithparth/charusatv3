@@ -21,6 +21,7 @@ const CREDP = () => {
                               (CREDP)
                             </h3>
                             <hr />
+                            <br />
                             <p>
                               Charusat Rural Education Development Program
                               (CREDP) has been launched with an aim to

@@ -5,6 +5,7 @@ const ECC = () => {
     <>
       <center>
         <h3>Energy Conservation Cell (ECC)</h3>
+        <hr />
         <br />
         <Contact
           name="Contact Person: Dr. Nilay Patel"

@@ -19,17 +19,19 @@ const EOC = () => {
                         <div className="post-inner">
                           <div className="post-content">
                             <h3>Equal Opportunity Cell (EOC)</h3>
+                            <hr />
+                            <br />
                             <div className="meta-post" >
                               
-                                <a className="pdfLink" href="https://charusat.ac.in/documents/pdfs/eoc/02.EQUAL-OPPORTUNITY-CELL.pdf"><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i> Equal Opportunity Cell Policy </a>
+                                <a className="pdfLink" href="https://charusat.ac.in/documents/pdfs/eoc/02.EQUAL-OPPORTUNITY-CELL.pdf"> Equal Opportunity Cell Policy <i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i></a>
                                 <br />
-                                <a className="pdfLink" href="https://charusat.ac.in/documents/pdfs/eoc/EOC_Circular-2016.pdf"><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i> Equal Opportunity Cell Circular</a>
+                                <a className="pdfLink" href="https://charusat.ac.in/documents/pdfs/eoc/EOC_Circular-2016.pdf"> Equal Opportunity Cell Circular <i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i></a>
                                 <br />
-                                <a className="pdfLink" href="https://charusat.ac.in/documents/pdfs/eoc/Reconstitution-of-EOC-CHARUSAT.pdf"><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i> Constitution of EOC at Charusat</a>
+                                <a className="pdfLink" href="https://charusat.ac.in/documents/pdfs/eoc/Reconstitution-of-EOC-CHARUSAT.pdf"> Constitution of EOC at Charusat <i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i></a>
                                 <br />
-                                <a className="pdfLink" href="https://charusat.ac.in/documents/pdfs/eoc/Contact%20Details%20of%20EOC%20members.pdf"><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i> Contact Details for any grievance related to Equal Opportunity matter</a>
+                                <a className="pdfLink" href="https://charusat.ac.in/documents/pdfs/eoc/Contact%20Details%20of%20EOC%20members.pdf"> Contact Details for any grievance related to Equal Opportunity matter <i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i></a>
                                 <br />
-                                <a className="pdfLink" href="https://charusat.ac.in/documents/pdfs/eoc/List-of-Activities-under-EOC-Conducted-and-Planned.pdf"><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i> List of Activities under EOC -Conducted /Planned</a>
+                                <a className="pdfLink" href="https://charusat.ac.in/documents/pdfs/eoc/List-of-Activities-under-EOC-Conducted-and-Planned.pdf"> List of Activities under EOC -Conducted /Planned <i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i></a>
                              
                             </div>
                             {/* <Link to="/blog-single" className="lab-btn"><span>Operator's Detail <i className="icofont-external-link"></i></span></Link> */}

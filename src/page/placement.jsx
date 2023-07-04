@@ -112,59 +112,68 @@ const Placement = () => {
                               <Row className="p-2">
                                 <Col>
                                   <h4>CDPC ACTIVITIES </h4>
-                                  <ul className="lab-ul">
+                                  <ul>
                                     <li>
-                                      <i className="icofont-tick-mark"></i> One
+                                      {/* <i className="icofont-tick-mark"></i> */}
+ One
                                       to one guidance to each student to help
                                       them achieve their desired career.
                                     </li>
                                     <li>
-                                      <i className="icofont-tick-mark"></i> Free
+                                      {/* <i className="icofont-tick-mark"></i> */}
+ Free
                                       training to improve soft skills, technical
                                       skills, and personality as per the
                                       industry requirement through expert
                                       workshops.
                                     </li>
                                     <li>
-                                      <i className="icofont-tick-mark"></i>{" "}
+                                      {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                       Feedback to each student by mock campus
                                       placement test which includes online test,
                                       Group discussion, and personal interview.
                                     </li>
                                     <li>
-                                      <i className="icofont-tick-mark"></i>{" "}
+                                      {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                       Conducting seminar series on career
                                       prospects in the industry, public sector,
                                       government (including defense), and
                                       self-employment.
                                     </li>
                                     <li>
-                                      <i className="icofont-tick-mark"></i>{" "}
+                                      {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                       Execute campus placements and job fairs by
                                       inviting all industrial sectors for
                                       students.
                                     </li>
                                     <li>
-                                      <i className="icofont-tick-mark"></i>{" "}
+                                      {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                       Guidance regarding the requirements and
                                       procedures for higher studies in India and
                                       Abroad via Higher studies help desk.
                                     </li>
                                     <li>
-                                      <i className="icofont-tick-mark"></i>{" "}
+                                      {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                       Encourage students by providing resources
                                       to participate and clear various national
                                       and international projects and technical
                                       competition.
                                     </li>
                                     <li>
-                                      <i className="icofont-tick-mark"></i>{" "}
+                                      {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                       Guidance to each student to prepare for
                                       national and international competitive
                                       exams.
                                     </li>
                                     <li>
-                                      <i className="icofont-tick-mark"></i>{" "}
+                                      {/* <i className="icofont-tick-mark"></i> */}
+{" "}
                                       Support for student start-up by
                                       Entrepreneurship and development cell.
                                     </li>

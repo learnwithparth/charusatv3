@@ -35,7 +35,7 @@ const Header = () => {
         >
           <nav className="nav">
             <div className="logo">
-              <Link to="./home" class="charusat-main">
+              <Link to="./home" className="charusat-main">
                 <img
                   src={logo}
                   alt="CHARUSAT"
@@ -997,7 +997,7 @@ const Header = () => {
                   src={logo}
                   alt="CHARUSAT"
                   style={{
-                    width: "22rem",
+                    width: "17rem",
                   }}
                 />
               </a>

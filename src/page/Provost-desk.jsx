@@ -82,7 +82,7 @@ const ProvostDesk = () => {
                 {/* <span className="subtitle">{subTitle}</span> */}
                 <div className="post-inner">
                 <div className="post-content">
-                <center><h2 className="title">{title}</h2></center>
+                <h2 className="title">{title}</h2>
                 <hr/>
                 {/* <p style={{ textAlign: "justify" }}>{desc}</p> */}
                 <p style={{ textAlign: "justify", lineHeight: "1.8rem" }}>

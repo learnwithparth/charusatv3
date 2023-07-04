@@ -48,6 +48,7 @@ const CDPC = () => {
                             <h3>
                               Career Development and Placement Cell (CDPC)
                             </h3>
+                            <hr />
                             <div className="meta-post">
                               {/* <Image src="./assets/images/CDPC_banner.jpg"/> */}
                               {/* <Image src="https://placehold.co/800x400?text=CDPC" /> */}

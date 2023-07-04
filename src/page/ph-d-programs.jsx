@@ -120,20 +120,17 @@ const PhDPrograms = () => {
                     <div className="post-item style-2">
                       <div className="post-inner">
                         <div className="post-content">
-                          <center>
-
                           <h3>PhD Programs</h3>
-                          </center>
                           <br />
                           <div className="meta-post" >
                             
-                              <a className="pdfLink" href={Fellowship}><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i> Equal Opportunity Cell Policy </a>
+                              <a className="pdfLink" href={Fellowship}> Equal Opportunity Cell Policy  <i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i></a>
                               <br />
-                              <a className="pdfLink" href={Regulations}><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i> Equal Opportunity Cell Circular</a>
+                              <a className="pdfLink" href={Regulations}> Equal Opportunity Cell Circular <i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i></a>
                               <br />
-                              <a className="pdfLink" href={Supervisors}><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i> Constitution of EOC at Charusat</a>
+                              <a className="pdfLink" href={Supervisors}> Constitution of EOC at Charusat <i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i></a>
                               <br />
-                              <a className="pdfLink" href={Scholar}><i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i> Contact Details for any grievance related to Equal Opportunity matter</a>
+                              <a className="pdfLink" href={Scholar}> Contact Details for any grievance related to Equal Opportunity matter <i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i></a>
                               <br />                           
                           </div>
                           {/* <Link to="/blog-single" className="lab-btn"><span>Operator's Detail <i className="icofont-external-link"></i></span></Link> */}

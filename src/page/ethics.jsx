@@ -41,6 +41,8 @@ const Ethics = () => {
                         <div className="post-inner">
                           <div className="post-content">
                             <h3>Ethics Committee</h3>
+                            <hr />
+                            <br />
                             <div className="meta-post">
                               <ul className="lab-ul">
                                 The Institutional Ethic Committee-CHARUSAT
