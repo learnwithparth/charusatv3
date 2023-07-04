@@ -21,12 +21,13 @@ const Wincell = () => {
                       <div className="post-item style-2">
                         <div className="post-inner">
                           <div className="post-content">
-                            <h3>About WINCell</h3>
+                            <h3>WINCell</h3>
+                            <hr />
                             <div className="meta-post">
-                              <ul>
+                              <p>
                                 Specialized Cell designed for centralized IT
                                 Infrastructure management and maintainance.
-                              </ul>
+                              </p>
                               <br />
                             </div>
                             <h4>IT INFRASTRUCTURE @CHARUSAT</h4>
@@ -50,24 +51,21 @@ const Wincell = () => {
                             <hr />
                             <ul>
                               <li>
-                                {/* <i className="icofont-tick-mark"></i> */}
-{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}{" "}
                                 <strong>
                                   The utilization of CISCO and HP layer 3 and
                                   layer 2 manageable switches
                                 </strong>{" "}
                               </li>
                               <li>
-                                {/* <i className="icofont-tick-mark"></i> */}
-{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}{" "}
                                 <strong>
                                   Fiber optic connectivity among all the
                                   buildings.
                                 </strong>{" "}
                               </li>
                               <li>
-                                {/* <i className="icofont-tick-mark"></i> */}
-{" "}
+                                {/* <i className="icofont-tick-mark"></i> */}{" "}
                                 <strong>
                                   Ring connectivity is established to provide
                                   uninterruptable network access with WiFi

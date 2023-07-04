@@ -19,7 +19,7 @@ const GRC = () => {
                             <h3>Grievance Redressal Cell (GRC)</h3>
                             <hr />
                             <br />
-                            <p>
+                            <p style={{ fontSize: "1rem" }}>
                               Vide the letter issued by the University Grant
                               Commission – New Delhi, dated June 18, 2013 – D.O.
                               No. 14-4/2012(CPP-II) regarding the establishment

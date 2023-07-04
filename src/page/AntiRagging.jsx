@@ -57,11 +57,11 @@ const AntiRagging = () => {
                             <br />
 
                             <h5>Ragging is a CRIME</h5>
-                            <p>
+                            <p style={{ fontSize: "1rem" }}>
                               Ragging can lead to Suspension, Rustication or
                               Police arrest
                             </p>
-                            <p>
+                            <p style={{ fontSize: "1rem" }}>
                               In pursuance to the UGC guidelines, CHARUSAT has
                               constituted an Anti-Ragging Committee. The
                               Committee is committed to eliminating ragging in
@@ -69,7 +69,7 @@ const AntiRagging = () => {
                             </p>
                             <hr />
                             <h5>Mechanism</h5>
-                            <p>
+                            <p style={{ fontSize: "1rem" }}>
                               CHARUSAT has zero-tolerance towards ragging in any
                               form. Any individual who is subjected to ragging
                               by any student or any other person can report the
@@ -98,7 +98,9 @@ const AntiRagging = () => {
                                           />
                                         </div>
                                         <div className="post-content">
-                                          <p>{item.title}</p>
+                                          <p style={{ fontSize: "1rem" }}>
+                                            {item.title}
+                                          </p>
                                         </div>
                                       </div>
                                     </div>
@@ -116,8 +118,7 @@ const AntiRagging = () => {
                             </h5>
                             <ul className="lab-ul">
                               <li>
-                                <i className="icofont-tick-mark"></i>
-{" "}
+                                <i className="icofont-tick-mark"></i>{" "}
                                 Familiarize yourself with the most up-to-date
                                 information on
                                 <ul>
@@ -146,8 +147,7 @@ const AntiRagging = () => {
                                   ))}
                                 </ul>
                                 <li>
-                                  <i className="icofont-tick-mark"></i>
-{" "}
+                                  <i className="icofont-tick-mark"></i>{" "}
                                   Understand the student -{" "}
                                   <a
                                     style={{
@@ -160,8 +160,7 @@ const AntiRagging = () => {
                                   </a>
                                 </li>
                                 <li>
-                                  <i className="icofont-tick-mark"></i>
-{" "}
+                                  <i className="icofont-tick-mark"></i>{" "}
                                   <a
                                     style={{
                                       color: "#0066b3",
@@ -174,8 +173,7 @@ const AntiRagging = () => {
                                 </li>
                                 <li>
                                   <i className="icofont-tick-mark"></i>
- Contact
-                                  for Help -{" "}
+                                  Contact for Help -{" "}
                                   <a
                                     style={{
                                       color: "#0066b3",
