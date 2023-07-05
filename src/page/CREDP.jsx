@@ -22,7 +22,7 @@ const CREDP = () => {
                             </h3>
                             <hr />
                             <br />
-                            <p>
+                            <p style={{ fontSize: "1rem" }}>
                               Charusat Rural Education Development Program
                               (CREDP) has been launched with an aim to
                               ameliorate the standards of school education in
@@ -30,14 +30,14 @@ const CREDP = () => {
                               expand it to the state of Gujarat.
                             </p>
                             <br />
-                            <p>
+                            <p style={{ fontSize: "1rem" }}>
                               The Program was launched on September 26, 2013 in
                               the august presence of Shri Bhupendrasinh
                               Chudasama, Hon’ble Minister of Education,
                               Government of Gujarat.
                             </p>
                             <br />
-                            <p>
+                            <p style={{ fontSize: "1rem" }}>
                               The program focuses on Strengthening of school
                               infrastructure facilities through guidance in: lab
                               development, library and other knowledge resource
@@ -112,7 +112,7 @@ const CREDP = () => {
                                                 >
                                                   <div className="col">
                                                     <h6>School Surveys</h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       With a view to know the
                                                       present status of the
                                                       schools of Charotar region
@@ -177,7 +177,7 @@ const CREDP = () => {
                                                       Teachers’ – Training
                                                       Program
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       A Pre – phase Teachers’
                                                       Training Program titled
                                                       Effective Classroom
@@ -198,7 +198,7 @@ const CREDP = () => {
                                                     <h6>
                                                       Teaching Aptitude Training
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       The CREDP Cellorganized
                                                       Teaching Aptitude Training
                                                       in collaboration with
@@ -226,7 +226,7 @@ const CREDP = () => {
                                                       Teachers of Primary
                                                       Schools
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       A One-day Workshop on Oral
                                                       Communication for English
                                                       Teachers of Primary
@@ -250,7 +250,7 @@ const CREDP = () => {
                                                       A One- Day Workshop on
                                                       Education for 21st Century
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       A One- Day Workshop on
                                                       Education for 21st Century
                                                       was organized for 48
@@ -283,7 +283,7 @@ const CREDP = () => {
                                                       Teaching – Learning Model
                                                       Exhibition
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       A Teaching- Learning Model
                                                       exhibition was organized
                                                       by CREDP Cell on April 12,
@@ -304,7 +304,7 @@ const CREDP = () => {
                                                       techniques into the
                                                       learning process.
                                                     </p>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       Total 25 schools
                                                       participated in the
                                                       exhibition and exhibited
@@ -318,7 +318,7 @@ const CREDP = () => {
                                                       in Spoken English and
                                                       Computer
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       The CREDP Cell organized
                                                       Vacation Training Program
                                                       in Spoken English and
@@ -356,7 +356,7 @@ const CREDP = () => {
                                                       Hospital. They were shown
                                                       a movie about CHARUSAT.
                                                     </p>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       Along with teaching of
                                                       English and computer,
                                                       students were motivated
@@ -386,7 +386,7 @@ const CREDP = () => {
                                                       on English and Computer
                                                     </h6>
 
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       Week-end Training Program
                                                       in Spoken English and
                                                       Computer for the students
@@ -410,7 +410,7 @@ const CREDP = () => {
                                                       Essay Writing Competition
                                                       – 2014
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       Essay Writing Competition-
                                                       14 was organized for the
                                                       students of standard 6 to
@@ -426,7 +426,7 @@ const CREDP = () => {
                                                       announced for the Essay
                                                       Competition.
                                                     </p>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       Total 175 students of
                                                       standard 5 to 9 from
                                                       nearby 19 villages,
@@ -446,7 +446,7 @@ const CREDP = () => {
                                                       Career Guidance and Life
                                                       skills at Umreth
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       A One- Day workshop on
                                                       Career Guidance and Life
                                                       skills was conducted at
@@ -467,7 +467,7 @@ const CREDP = () => {
                                                       Shikshan Program at
                                                       Vaghecha and Vyara
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       A One-Day intensive
                                                       training program on
                                                       Functional Use of English
@@ -479,7 +479,7 @@ const CREDP = () => {
                                                       Shikshan Sangh, Bardoli
                                                       December 12, 2014.
                                                     </p>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       The training was conducted
                                                       for around 2500 students
                                                       of standard 9 of the
@@ -534,7 +534,7 @@ const CREDP = () => {
                                                     <h6>
                                                       Campus visit by Schools
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       Every month different
                                                       schools are invited to
                                                       visit CHARUSAT Campus,
@@ -560,7 +560,7 @@ const CREDP = () => {
                                                     <h6>
                                                       Model Exhibition on Space
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       Charusat Rural Education
                                                       Development Program Cell
                                                       organize a Model
@@ -569,7 +569,7 @@ const CREDP = () => {
                                                       Ahmedabad and B A Patel
                                                       High School, Changa.
                                                     </p>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       Total 1963 from 32
                                                       Primary, Secondary and
                                                       Higher Secondary Schools
@@ -577,7 +577,7 @@ const CREDP = () => {
                                                       27-28 February, 2015.
                                                     </p>
                                                     <h6>Awareness Program</h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       Stepping forward in the
                                                       same direction, the CREDP
                                                       Cell initiated a General
@@ -624,7 +624,7 @@ const CREDP = () => {
                                                       Career Guidance Lecture
                                                       Seminars
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       The CREDP Cell organized
                                                       Career Guidance lectures
                                                       for the students of
@@ -634,7 +634,7 @@ const CREDP = () => {
                                                       were benefitted from the
                                                       lectures.
                                                     </p>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       The students were provided
                                                       with information regarding
                                                       various career
@@ -647,7 +647,7 @@ const CREDP = () => {
                                                       Visit to Liberal Arts
                                                       Exhibition
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       CREDP Cell arranged a
                                                       Visit to Liberal Arts
                                                       Exhibition organized by
@@ -657,7 +657,7 @@ const CREDP = () => {
                                                       students of 3 Schools
                                                       visited the exhibition.
                                                     </p>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       Students were happy to see
                                                       different models of Craft,
                                                       Pottery and Paintings.
@@ -668,7 +668,7 @@ const CREDP = () => {
                                                     <h6>
                                                       Health Awareness Program
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       CREDP Cell organized
                                                       Health Awareness Program
                                                       for 483 students of 17
@@ -725,7 +725,7 @@ const CREDP = () => {
                                                       Independence Day
                                                       Celebration
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       CREDP Cell organized
                                                       Independence Day
                                                       Celebration on August 15,
@@ -739,7 +739,7 @@ const CREDP = () => {
                                                       inspirational lecture on
                                                       Independence Day.
                                                     </p>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       Students participated in
                                                       the Flag hoisting
                                                       ceremony. Students
@@ -761,7 +761,7 @@ const CREDP = () => {
                                                       Participation in Run for
                                                       Unity
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       Students of nearby Schools
                                                       that have joined hands
                                                       with CHARUSAT participated
@@ -780,7 +780,7 @@ const CREDP = () => {
                                                       Celebration of Gandhi
                                                       Jayanti
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       CREDP Cell organized
                                                       Celebration of Gandhi
                                                       Jayanti on October 2, 2014
@@ -799,7 +799,7 @@ const CREDP = () => {
                                                       National Education Day
                                                       Celebration
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       CREDP Cell organized
                                                       National Education Day
                                                       celebration for the
@@ -823,7 +823,7 @@ const CREDP = () => {
                                                       celebration of National
                                                       Education Day.
                                                     </p>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       A career guidance lecture
                                                       for the students of
                                                       standard 11 and 12 was
@@ -838,7 +838,7 @@ const CREDP = () => {
                                                       An expert lecture on
                                                       Renewable Energy:
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       An expert lecture on
                                                       Renewable Energy was
                                                       organized for the students
@@ -852,7 +852,7 @@ const CREDP = () => {
                                                       inspired to work in such
                                                       stream.
                                                     </p>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       A Work shop on Decision
                                                       Making and Planning was
                                                       organized for the students
@@ -863,7 +863,7 @@ const CREDP = () => {
                                                       in students were
                                                       organized.
                                                     </p>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       An Awareness Program on
                                                       fostering familiarity with
                                                       Nature by team of
@@ -880,7 +880,7 @@ const CREDP = () => {
                                                     <h6>
                                                       Workshop on Dictation
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       Comprehension ability of
                                                       the students was evaluated
                                                       through a test.
@@ -889,7 +889,7 @@ const CREDP = () => {
                                                       Work shop on Picture
                                                       –Story and Story –Telling
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       A Work shop on Picture
                                                       –Story and Story –Telling
                                                       was organized for the
@@ -898,7 +898,7 @@ const CREDP = () => {
                                                       their group’s stories with
                                                       all the participants.
                                                     </p>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       In all, 123 students of
                                                       Standard 11 and 12; 176
                                                       students of Standard 9 and
@@ -911,7 +911,7 @@ const CREDP = () => {
                                                       Celebration of Republic
                                                       Day
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       Students of various rural
                                                       schools that have joined
                                                       hands with CREDP Cell
@@ -924,7 +924,7 @@ const CREDP = () => {
                                                       the celebration of
                                                       Republic Day.
                                                     </p>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       Students of different
                                                       Schools performed dance,
                                                       Skit, Solo song, Group
@@ -936,7 +936,7 @@ const CREDP = () => {
                                                       Gandhi Nirvan Din and
                                                       Martyrs’ Day
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       CREDP Cell facilitated and
                                                       organized State Level
                                                       Drawing Competition and
@@ -948,7 +948,7 @@ const CREDP = () => {
                                                       Martyrs’ Day on January
                                                       30, 2015.
                                                     </p>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       Total 201 students (Total
                                                       96 Boys and 105 Girls)
                                                       from different educational
@@ -1001,7 +1001,7 @@ const CREDP = () => {
                                                       Campus visit by Senior
                                                       Citizen Forum, Bakrol:
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       Senior Citizen Forum,
                                                       Bakrol visited CHARUSAT
                                                       Campus on Tuesday, 11th
@@ -1021,7 +1021,7 @@ const CREDP = () => {
                                                       Educational Resource
                                                       Development
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       CREDP Cell has facilitated
                                                       the establishment of
                                                       Training and Development
@@ -1037,7 +1037,7 @@ const CREDP = () => {
                                                       Distribution at Annual Day
                                                       at School
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       A presentation of
                                                       activities of CREDP and
                                                       felicitation of winner and
@@ -1052,7 +1052,7 @@ const CREDP = () => {
                                                       Meeting with Educational
                                                       Trust of Rural School
                                                     </h6>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       Convener of REES Mr.
                                                       Suryakantbhai Patel, Dr.
                                                       Sharad Patel, Mr.
@@ -1064,7 +1064,7 @@ const CREDP = () => {
                                                       Khandhali and Tranaja on
                                                       December 23 and 24, 2014.
                                                     </p>
-                                                    <p>
+                                                    <p style={{ fontSize: "1rem" }}>
                                                       The members of Kelavani
                                                       Mandals of the villages
                                                       were informed about the

@@ -8,7 +8,7 @@ const ECC = () => {
         <hr />
         <br />
         <Contact
-          name="Contact Person: Dr. Nilay Patel"
+          name="Dr. Nilay Patel"
           email="nilaypatel.cem@charusat.ac.in"
           phone="5041"
         />

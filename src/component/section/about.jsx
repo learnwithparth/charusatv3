@@ -118,8 +118,10 @@ const About = () => {
                   <div className="sfl-thumb" style={{ overflow: "hidden" }}>
                     <Iframe
                       overflow="hidden"
-                      width="615"
-                      height="340"
+                      styles={{
+                        aspectRatio: "16/9",
+                        width: "100%",
+                      }}
                       src="https://www.youtube.com/embed/MBym3IPnPlE"
                       title="YouTube video player"
                       frameborder="0"

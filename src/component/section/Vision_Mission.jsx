@@ -34,8 +34,10 @@ const VisionMission = () => {
               <div className="sf-left">
                 <div className="sfl-thumb" style={{ overflow: "hidden" }}>
                   <iframe
-                    width="615"
-                    height="340"
+                    style={{
+                      aspectRatio: "16/9",
+                      width: "100%",
+                    }}
                     src="https://www.youtube-nocookie.com/embed/tNv3Kx5nEsg"
                     title="YouTube video player"
                     frameborder="0"

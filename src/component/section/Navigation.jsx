@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { HashRouter, Link, Redirect } from "react-router-dom";
+import { HashRouter, Link, NavLink, Redirect } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import AdmissionEligibilityCriteria from "../../files/navigation/AdmissionsEligibility.pdf";
 import EligibilityCriteria from "../../files/navigation/Eligibility_criteria.pdf";
@@ -997,7 +997,7 @@ const Header = () => {
                   src={logo}
                   alt="CHARUSAT"
                   style={{
-                    width: "17rem",
+                    width: "15rem",
                   }}
                 />
               </a>
@@ -1398,7 +1398,9 @@ const Header = () => {
                     </Dropdown.Menu>
                   </Dropdown>
                 </NavDropdown>
-
+                <NavDropdown title="IQAC" id="basic-nav-dropdown">
+                  <Dropdown href="https://iqac.charusat.ac.in/0">IQAC</Dropdown>
+                </NavDropdown>
                 {/*  */}
                 <NavDropdown title="Know CHARUSAT" id="basic-nav-dropdown">
                   <Dropdown>
