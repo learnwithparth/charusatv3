@@ -1,0 +1,8 @@
+@media (max-width: 800px) {
+  .dropdown-menu {
+    overflow-y: scroll;
+    overflow-x: auto;
+  }
+}
+
+/*  Mega Menu CSS END - RVP  */

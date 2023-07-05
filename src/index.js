@@ -12,7 +12,7 @@ import "././assets/css/animate.css";
 import "././assets/css/style.css";
 
 // For megamenu style megaMenu.css is created
-// import "../src/assets/css/megaMenu.css";
+import "../src/assets/css/megaMenu.css";
 
 import "./App.css";
 
