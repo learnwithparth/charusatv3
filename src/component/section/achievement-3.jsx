@@ -3,12 +3,12 @@ import CountUp from "react-countup";
 const achievementList = [
   {
     iconName: "icofont-papers",
-    count: "600",
+    count: "2700",
     desc: "Publications",
   },
   {
     iconName: "icofont-molecule",
-    count: "30",
+    count: "50",
     desc: "Research Labs",
   },
   {

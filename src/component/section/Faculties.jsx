@@ -8,7 +8,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/institute/CSPIT.jpg",
     imgAlt: "CSPIT image",
-    cate: "Engineering",
+    cate: "Faculty of Engineering",
     programs: "B. Tech, M. Tech, Ph. D.",
     title: "Chandubhai S. Patel Institute of Technology",
     link: "https://www.charusat.ac.in/cspit/",
@@ -20,7 +20,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/institute/DEPSTAR.jpg",
     imgAlt: "Depstar image",
-    cate: "Engineering",
+    cate: "Faculty of Engineering",
     programs: "B. Tech, M. Tech, Ph. D.",
     title: "Devang Patel Institute of Advance Technology and Research",
     link: "https://www.charusat.ac.in/depstar/",
@@ -32,7 +32,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/institute/RPCP.jpg",
     imgAlt: "RPCP image",
-    cate: "Pharmacy",
+    cate: "Faculty of Pharmacy",
     programs: "B. Pharm., M. Pharm., Ph. D.",
     title: "Ramanbhai Patel College of Pharmacy",
     link: "https://www.charusat.ac.in/rpcp/",
@@ -44,7 +44,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/institute/CMPICA.jpg",
     imgAlt: "CMPICA image",
-    cate: "Computer Science and Application",
+    cate: "Faculty of Computer Science and Application",
     programs: "BCA, MCA, B.Sc. IT, M.Sc. IT, Ph. D.",
     title: "Chandaben Mohanbhai Patel Institute of Computer Application",
     link: "https://www.charusat.ac.in/cmpica/",
@@ -56,7 +56,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/institute/I2IM.jpg",
     imgAlt: "I2IM image",
-    cate: "Management Studies",
+    cate: "Faculty of Management Studies",
     programs: "BBA, MBA, Ph. D.",
     title: "Indukaka Ippcowala Institute of Management",
     link: "https://www.charusat.ac.in/i2im/",
@@ -68,7 +68,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/institute/PDPIAS.jpg",
     imgAlt: "PDPIAS image",
-    cate: "Sciences",
+    cate: "Faculty of Sciences",
     programs: "B. Sc., M. Sc., Ph. D.",
     title: "P. D. Patel Institute of Applied Science",
     link: "https://www.charusat.ac.in/pdpias/",
@@ -80,7 +80,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/institute/MTIN.jpg",
     imgAlt: "MTIN image",
-    cate: "Medical Sciences",
+    cate: "Faculty of Medical Sciences",
     programs: "GNM, B. Sc., M. Sc., Ph. D.",
     title: "Manikaka Topawala Institute of Nursing",
     link: "https://www.charusat.ac.in/mtin/",
@@ -92,7 +92,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/institute/ARIP.jpg",
     imgAlt: "ARIP image",
-    cate: "Medical Sciences",
+    cate: "Faculty of Medical Sciences",
     programs: "BPT, MPT, Ph. D.",
     title: "Ashok & Rita Patel Institute of Physiotherapy",
     link: "https://www.charusat.ac.in/arip/",
@@ -104,7 +104,7 @@ const CourseData = [
   {
     imgUrl: "assets/images/institute/ARIP.jpg",
     imgAlt: "BDIPS image",
-    cate: "Medical Sciences",
+    cate: "Faculty of Medical Sciences",
     programs: "B. Opto., B. Sc., M. Sc., Ph. D.",
     title: "Bapubhai Desaibhai Patel Institute of Paramedical Sciences",
     link: "https://www.charusat.ac.in/cips/",

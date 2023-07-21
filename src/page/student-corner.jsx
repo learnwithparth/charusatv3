@@ -89,7 +89,7 @@ const StudentCorner = () => {
                                   <div className="gdlr-core-course-item-list">
                                     <a
                                       className="gdlr-core-course-item-link"
-                                      href="https://charusat.edu.in:912/eGovernance/"
+                                      href="http://egov.charusat/"
                                       target="_blank"
                                     >
                                       <span className="gdlr-core-course-item-title gdlr-core-skin-title">

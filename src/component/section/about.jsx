@@ -22,7 +22,7 @@ const aboutList = [
     imgUrl: "assets/images/about/icon/02.jpg",
     imgAlt: "about icon rajibraj91 rajibraj",
     title: "Get Certificate",
-    desc: "Ranked among Top 3 Universities in Gujarat by GSIRF",
+    desc: "Ranked among Top Universities in Gujarat by GSIRF",
   },
   {
     imgUrl: "assets/images/about/icon/03.jpg",
