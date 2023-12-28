@@ -177,7 +177,7 @@ export default function Faculties() {
                 price,
               } = elem;
               return (
-                <a href={link} target="_blank">
+                <a href={link} target="_blank" data-aos="fade-up">
                   <div className="col" key={id}>
                     <div className="course-item style-4">
                       <div className="course-inner">

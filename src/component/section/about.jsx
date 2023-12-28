@@ -1,6 +1,8 @@
+import { useEffect } from "react";
 import Iframe from "react-iframe";
 import { Link } from "react-router-dom";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const subTitle = "About CHARUSAT ";
 const title = "|| अमृतं तु विद्या ||";
 const desc =
@@ -45,6 +47,9 @@ const aboutList = [
 ];
 
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="about-section ">
       <br />
@@ -78,7 +83,7 @@ const About = () => {
               <div className="section-wrapper">
                 <ul className="lab-ul">
                   {aboutList.map((val, i) => (
-                    <li key={i}>
+                    <li key={i} data-aos="fade-left">
                       <div className="sr-left">
                         <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} />
                       </div>
@@ -95,8 +100,8 @@ const About = () => {
           </div>
           <div className="col">
             <div className="about-left">
-              <div className="about-thumb">
-                <img src="assets/images/about/04.png" alt="about" />
+              <div className="about-thumb" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
+                <img src="assets/images/about/04.png" alt="about"/>
               </div>
             </div>
           </div>
@@ -115,8 +120,9 @@ const About = () => {
             <div className="row justify-content-center row-cols-lg-2 row-cols-1">
               <div className="col">
                 <div className="sf-left">
-                  <div className="sfl-thumb" style={{ overflow: "hidden" }}>
+                  <div className="sfl-thumb" style={{ overflow: "hidden" }} data-aos="zoom-out" data-aos-duration="2000">
                     <Iframe
+                    
                       overflow="hidden"
                       styles={{
                         aspectRatio: "16/9",
@@ -135,7 +141,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      {/*  */}
+      
     </div>
   );
 };

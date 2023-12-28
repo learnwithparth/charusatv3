@@ -1,27 +1,33 @@
 import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 // import NewsSlider from "../section/NewsSlider";
-
-import Slider from "react-animated-slider";
-import "react-animated-slider/build/horizontal.css";
-import "../../assets/css/slider-animations.css";
+import { TypeAnimation } from 'react-type-animation';
+// import Slider from "react-animated-slider";
+// import "react-animated-slider/build/horizontal.css";
+// import "../../assets/css/slider-animations.css";
 import "../../assets/css/slider-banner.css";
-import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  Navigation,
-  Autoplay,
-  Pagination,
-  EffectFade,
-  Scrollbar,
-  A11y,
-} from "swiper";
+import Slider from 'react-animated-slider';
+import "react-animated-slider/build/horizontal.css";
+import "normalize.css/normalize.css";
+import "../../assets/css/slider-animations.css";
+// import 'react-animated-slider/build/horizontal.css';
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import {
+//   Navigation,
+//   Autoplay,
+//   Pagination,
+//   EffectCoverflow,
+//   Scrollbar,
+//   A11y,
+//   EffectCards,
+// } from "swiper";
 
-import "swiper/swiper-bundle.min.css";
+// import "swiper/swiper-bundle.min.css";
 
-const slides = [
-  { title: "First item", description: "Lorem ipsum" },
-  { title: "Second item", description: "Lorem ipsum" },
-];
+// const slides = [
+//   { title: "First item", description: "Lorem ipsum" },
+//   { title: "Second item", description: "Lorem ipsum" },
+// ];
 
 const content = [
   {
@@ -143,15 +149,15 @@ const BannerFive = () => {
           </div>
         ))}
       </Slider> */}
-      <Swiper
+      {/* <Swiper
         slidesPerView={1}
         navigation
         autoplay={{
           delay: 5000,
           disableOnInteraction: false,
         }}
-        modules={[Autoplay, Pagination, Navigation, EffectFade]}
-        effect={"fade"}
+        modules={[Autoplay, Pagination, Navigation, EffectCoverflow]}
+        effect={"coverflow"}
         spaceBetween={30}
       >
         {content.map((item, index) => (
@@ -177,7 +183,18 @@ const BannerFive = () => {
                   fontweight: "700",
                 }}
               >
-                {item.title}
+              <TypeAnimation
+  sequence={[
+    // Same substring at the start will only be typed once, initially
+    item.title,
+    4500,
+    "",
+  ]}
+  speed={50}
+  repeat={Infinity}
+  omitDeletionAnimation={true}
+/>
+               
               </div>
               <br /> <br />
               <br />
@@ -185,7 +202,33 @@ const BannerFive = () => {
             </div>
           </SwiperSlide>
         ))}
-      </Swiper>
+      </Swiper> */}
+      <Slider 
+      autoplay = "4000"
+      
+      className="slider-wrapper"
+      >
+      {content.map((item, index) => (
+        <div
+          key={index}
+          className="slider-content"
+          style={{ background: `url('${item.image}') no-repeat center center` }}
+        >
+          <div className="inner">
+          <div  className="main-text-slider animated-text-front-page"
+                style={{
+                  fontFamily: "Playfair Display",
+                  fontweight: "700",
+                }}>
+            <h1> {item.title}</h1>
+          </div>
+            
+            <p className="subTitle-slider text_1"  style={{color:"black"}}>{item.description}</p>
+            
+          </div>
+        </div>
+      ))}
+    </Slider>
       <br />
       {/* <p className="text-center mt-1">
         <span

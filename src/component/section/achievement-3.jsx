@@ -33,7 +33,7 @@ const AchievementThree = () => {
               {achievementList.map((val, i) => (
                 <div className="col" key={i}>
                   <div className="count-item">
-                    <div className="count-inner">
+                    <div className="count-inner" data-aos="fade-down">
                       <div className="count-icon">
                         <i className={val.iconName}></i>
                       </div>

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Navigation from "../section/Navigation";
 import "../../assets/css/blink-text.css";
 import "../../assets/css/header.css";
+import { TypeAnimation } from 'react-type-animation';
 
 import {
   Nav,
@@ -23,7 +24,7 @@ const HeaderThree = () => {
   const [searchTrigger, setSearchTrigger] = useState(false);
 
   window.addEventListener("scroll", () => {
-    if (window.scrollY > 200) {
+    if (window.scrollY > 80) {
       setHeaderFiexd(true);
     } else {
       setHeaderFiexd(false);
@@ -107,7 +108,17 @@ const HeaderThree = () => {
               </Link>
 
               <Link to="/donation">
-                <span className="support-btn">Support CHARUSAT</span>
+                <span className="support-btn">Support <TypeAnimation
+  sequence={[
+    // Same substring at the start will only be typed once, initially
+    "CHARUSAT",
+    4500,
+    "",
+  ]}
+  speed={50}
+  repeat={Infinity}
+  
+/></span>
               </Link>
             </div>
           </div>

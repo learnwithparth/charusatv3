@@ -108,11 +108,11 @@ export default function initiatives() {
               modules={[Autoplay, Navigation]}
               breakpoints={{
                 0: {
-                  width: 0,
+                  width: 400,
                   slidesPerView: 1,
                 },
                 768: {
-                  width: 768,
+                  width: 700,
                   slidesPerView: 2,
                 },
                 1200: {
@@ -123,7 +123,7 @@ export default function initiatives() {
             >
               {eventSliderList.map((val, i) => (
                 <SwiperSlide key={i}>
-                  <div className="event-item style-2">
+                  <div className="event-item style-2 event_main">
                     <div className="event-inner">
                       <a href={val.url}>
                         <div className="event-thumb">

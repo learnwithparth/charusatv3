@@ -21,7 +21,7 @@ export default function newsFrontPage() {
         <div className="row">
           <div class="col">
             <div class="course-item style-4">
-              <div class="course-inner">
+              <div class="course-inner" data-aos="flip-left">
                 <div class="course-thumb">
                   <img
                     src="./assets/images/uni-news/cadets.webp"
@@ -39,7 +39,7 @@ export default function newsFrontPage() {
           </div>
           <div class="col">
             <div class="course-item style-4">
-              <div class="course-inner">
+              <div class="course-inner" data-aos="flip-left">
                 <div class="course-thumb">
                   <img
                     src="./assets/images/uni-news/ev3_tn.jpg"
@@ -57,7 +57,7 @@ export default function newsFrontPage() {
           </div>
           <div class="col">
             <div class="course-item style-4">
-              <div class="course-inner">
+              <div class="course-inner" data-aos="flip-left">
                 <div class="course-thumb">
                   <img
                     style={imageStyle}

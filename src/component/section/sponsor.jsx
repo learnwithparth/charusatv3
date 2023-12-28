@@ -89,9 +89,9 @@ const Sponsor = () => {
         </div>
 
         <div className="section-wrapper">
-          <div className="sponsor-slider row">
+          <div className="sponsor-slider row sponsor-main">
             {sponsorList.map((val, i) => (
-              <div key={i} className="col-md-2">
+              <div key={i} className="col-md-2" data-aos="flip-right">
                 <div className="sponsor-iten">
                   <div className="sponsor-thumb bg-white border p-3 m-2 rounded">
                     <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} />

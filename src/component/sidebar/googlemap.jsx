@@ -1,6 +1,6 @@
 const GoogleMap = () => {
   return (
-    <div className="map-area">
+    <div className="map-area" data-aos="zoom-in">
       <div className="maps" style={{
         width: "12rem",
       }}>
