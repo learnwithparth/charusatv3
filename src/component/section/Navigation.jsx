@@ -821,6 +821,9 @@ const Header = () => {
                   <Link to="./associates" className="menu-link">
                     University Officers
                   </Link>
+                  <Link to="./journey" className="menu-link">
+                   Journey of Charusat
+                  </Link>
                 </div>
               </div>
 
