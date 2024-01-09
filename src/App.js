@@ -26,6 +26,7 @@ import Library from "./page/library";
 import Placement from "./page/placement";
 import Donation from "./page/donation";
 import Scholarship from "./page/Scholarship";
+import Journey from "./page/journey"
 // import AnnualReport from "./page/annual-report";
 /*
 import HomeTwo from "./page/home-2";
@@ -129,6 +130,7 @@ function App() {
         <Route path="/placement" element={<Placement />} /> //Helmet done
         <Route path="/library" element={<Library />} /> //Helmet done
         <Route path="/about" element={<About_us />} />
+        <Route path="/journey" element={<Journey />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/ipr-facilitation" element={<IPR />} />
         <Route path="/cdpc" element={<CDPC />} /> //Helmet done

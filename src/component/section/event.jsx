@@ -81,9 +81,9 @@ const Event = () => {
                   <div className="event-item">
                     <div className="event-inner">
                       <div className="event-thumb">
-                        <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} />
+                        <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} data-aos="fade-right"/>
                       </div>
-                      <div className="event-content">
+                      <div className="event-content" data-aos="fade-right"  data-aos-duration="3000">
                         <div className="event-date-info">
                           <div className="edi-box">
                             <h4>{val.Date}</h4>
@@ -125,7 +125,7 @@ const Event = () => {
                 {eventListTwo.map((val, i) => (
                   <div className="event-item" key={i}>
                     <div className="event-inner">
-                      <div className="event-content">
+                      <div className="event-content" data-aos="fade-left">
                         <div className="event-date-info">
                           <div className="edi-box">
                             <h4>{val.Date}</h4>

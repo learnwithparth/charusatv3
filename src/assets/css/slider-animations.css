@@ -1,6 +1,6 @@
 .slide h1 {
   transition: all 0.3s ease;
-  -webkit-transform: translateY(-20px);
+  -webkit-transform: translateY(-50px);
   transform: translateY(-20px);
   opacity: 0;
 }

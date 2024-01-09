@@ -264,7 +264,7 @@ export default function collaboration() {
                   breakpoints={{
                     0: {
                       width: 0,
-                      slidesPerView: 1,
+                      slidesPerView: 5,
                     },
                     768: {
                       width: 768,
@@ -272,7 +272,7 @@ export default function collaboration() {
                     },
                     1200: {
                       width: 1200,
-                      slidesPerView: 5.7,
+                      slidesPerView: 5.5,
                     },
                   }}
                 >
