@@ -209,7 +209,7 @@ const Header = () => {
                 <Link to="./course-single#1406" className="menu-link">
                   B.Tech
                 </Link>
-                <Link to="./course-single#2401" className="menu-link">
+                <Link to="/ug-courses-list#2401" className="menu-link">
                   BCA
                 </Link>
                 <Link to="./course-single#2402" className="menu-link">
@@ -251,16 +251,16 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">Postgraduate Studies</h5>
               <div className="menu-items">
-                <Link to="./course-single#1406" className="menu-link">
+                <Link to="/course-single#1406" className="menu-link">
                   M.Tech
                 </Link>
-                <Link to="./course-single#2501" className="menu-link">
+                <Link to="/course-single#2501" className="menu-link">
                   MCA
                 </Link>
-                <Link to="./course-single#2502" className="menu-link">
+                <Link to="/course-single#2502" className="menu-link">
                   M.Sc(IT)
                 </Link>
-                <Link to="./course-single#3501" className="menu-link">
+                <Link to="/course-single#3501" className="menu-link">
                   M.Pharm
                 </Link>
                 <Link to="./course-single#4501" className="menu-link">

@@ -1,5 +1,5 @@
-import { Component, Fragment } from "react";
-import { Link } from "react-router-dom";
+import { Component, Fragment,useEffect } from "react";
+import { Link,useLocation } from "react-router-dom";
 import PageHeader from "../component/layout/pageheader";
 import Contact from "../component/section/contact";
 import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
@@ -1003,6 +1003,7 @@ const CourseList = [
 ];
 
 const Transport = () => {
+  
   return (
     <Fragment>
       {/* <PageHeader title={'4 Results found for: Business'} curPage={'Search Result'} /> */}
@@ -1129,7 +1130,9 @@ const Transport = () => {
                   </div>
                   <br />
                 </article>
-              ))}
+              )
+              )
+              }
             </div>
             {/* <Contact
                 name="Dr Swayamprakash Patel"
